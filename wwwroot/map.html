@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dynamic TLD Map</title>
+  <style>
+    svg { width: 100%; height: auto; border: 1px solid #ccc; }
+    .poi { cursor: pointer; fill: red; } /* Style for POI circles */
+  </style>
+</head>
+<body>
+  <svg id="map-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"> <!-- Adjust viewBox to your map size -->
+    <!-- Map image and POIs will be added dynamically -->
+  </svg>
+
+  <script>
+    const SERVER_URL = 'http://localhost:8080'; // Your mod's port
+
+    // Helper: Fetch current scene
+    async function getCurrentScene() {
+      try {
+        const res = await fetch(`${SERVER_URL}/current-scene`);
+        if (!res.ok) throw new Error('Failed to get scene');
+        const data = await res.json();
+        return data.scene;
+      } catch (err) {
+        alert('Server not responding: ' + err.message);
+        return null;
+      }
+    }
+
+    // Helper: Load map and POIs for a scene
+    async function loadMapForScene(scene) {
+      const svg = document.getElementById('map-svg');
+      svg.innerHTML = ''; // Clear existing content
+
+      // Load map image (assume images are in a local 'images/' folder)
+      const image = document.createElementNS('http://www.w3.org/2000/svg', 'image');
+      image.setAttribute('href', `images/${scene}.jpg`); // e.g., images/MiningRegionMine.jpg
+      image.setAttribute('width', '800'); // Match viewBox
+      image.setAttribute('height', '600');
+      svg.appendChild(image);
+
+      // Fetch POIs (or load from local JSON if not server-side)
+      const pois = await fetchPoisForScene(scene);
+      pois.forEach(poi => {
+        const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+        circle.setAttribute('cx', poi.svgX); // Map game coords to SVG coords if needed
+        circle.setAttribute('cy', poi.svgY);
+        circle.setAttribute('r', '5');
+        circle.classList.add('poi');
+        circle.onclick = () => teleport(poi.scene, poi.x, poi.y, poi.z);
+        svg.appendChild(circle);
+      });
+    }
+
+    // Helper: Fetch POIs (extend your server to provide this)
+    async function fetchPoisForScene(scene) {
+      const res = await fetch(`${SERVER_URL}/pois?scene=${encodeURIComponent(scene)}`);
+      if (!res.ok) throw new Error('Failed to get POIs');
+      return await res.json(); // e.g., [{ scene: '...', x: 123, y: 456, z: 789, svgX: 200, svgY: 300 }, ...]
+    }
+
+    // Teleport function (your existing logic)
+    function teleport(scene, x, y, z) {
+      fetch(`${SERVER_URL}/teleport?scene=${encodeURIComponent(scene)}&x=${x}&y=${y}&z=${z}`)
+        .then(res => {
+          if (!res.ok) return res.text().then(text => { throw new Error(text); });
+          return res.text();
+        })
+        .then(text => alert('Success: ' + text))
+        .catch(async err => {
+          alert('Teleport failed: ' + err.message);
+          if (err.message.includes('Wrong region')) {
+            // Auto-refresh to current scene on mismatch
+            const current = await getCurrentScene();
+            if (current) loadMapForScene(current);
+          }
+        });
+    }
+
+    // On load: Get scene and render
+    (async () => {
+      const scene = await getCurrentScene();
+      if (scene) loadMapForScene(scene);
+    })();
+  </script>
+</body>
+</html>

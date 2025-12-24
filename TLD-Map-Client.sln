@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36811.4 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TLD-Map-Client", "TLD-Map-Client.csproj", "{C6C37FCD-1CE5-4C92-BF4A-9CD6AF009A28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6C37FCD-1CE5-4C92-BF4A-9CD6AF009A28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6C37FCD-1CE5-4C92-BF4A-9CD6AF009A28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6C37FCD-1CE5-4C92-BF4A-9CD6AF009A28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6C37FCD-1CE5-4C92-BF4A-9CD6AF009A28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14AA780D-875D-4515-BBD6-C861997F3CFB}
+	EndGlobalSection
+EndGlobal

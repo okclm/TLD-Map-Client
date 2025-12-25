@@ -1,88 +1,135 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Dynamic TLD Map</title>
-  <style>
-    svg { width: 100%; height: auto; border: 1px solid #ccc; }
-    .poi { cursor: pointer; fill: red; } /* Style for POI circles */
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TLD Dynamic Map</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+        }
+
+        #map-svg {
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .poi {
+            cursor: pointer;
+            fill: red;
+            stroke: white;
+            stroke-width: 1;
+        }
+
+        #status {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: rgba(255,255,255,0.8);
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
-  <svg id="map-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"> <!-- Adjust viewBox to your map size -->
-    <!-- Map image and POIs will be added dynamically -->
-  </svg>
+    <div id="status">Loading map...</div>
+    <svg id="map-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+        <!-- Image and POIs added dynamically -->
+    </svg>
 
-  <script>
-    const SERVER_URL = 'http://localhost:8080'; // Your mod's port
+    <script>
+        const SERVER_URL = 'http://localhost:8080'; // Change to your mod's port
+        const REGIONS_JSON_URL = 'https://raw.githubusercontent.com/YOURUSERNAME/YOURREPO/main/regions.json';
+        const POIS_BASE_URL = 'https://raw.githubusercontent.com/YOURUSERNAME/YOURREPO/main/pois/';
 
-    // Helper: Fetch current scene
-    async function getCurrentScene() {
-      try {
-        const res = await fetch(`${SERVER_URL}/current-scene`);
-        if (!res.ok) throw new Error('Failed to get scene');
-        const data = await res.json();
-        return data.scene;
-      } catch (err) {
-        alert('Server not responding: ' + err.message);
-        return null;
-      }
-    }
+        let currentScene = null;
 
-    // Helper: Load map and POIs for a scene
-    async function loadMapForScene(scene) {
-      const svg = document.getElementById('map-svg');
-      svg.innerHTML = ''; // Clear existing content
+        // Fetch current scene from mod server
+        async function getCurrentScene() {
+            try {
+                const res = await fetch(`${SERVER_URL}/current-scene`);
+                if (!res.ok) throw new Error('Server offline or error');
+                const data = await res.json();
+                return data.scene;
+            } catch (err) {
+                document.getElementById('status').textContent = 'Cannot connect to game. Is it running?';
+                console.error(err);
+                return null;
+            }
+        }
 
-      // Load map image (assume images are in a local 'images/' folder)
-      const image = document.createElementNS('http://www.w3.org/2000/svg', 'image');
-      image.setAttribute('href', `images/${scene}.jpg`); // e.g., images/MiningRegionMine.jpg
-      image.setAttribute('width', '800'); // Match viewBox
-      image.setAttribute('height', '600');
-      svg.appendChild(image);
+        // Load map image and POIs for a scene
+        async function loadMap(scene) {
+            if (!scene) return;
 
-      // Fetch POIs (or load from local JSON if not server-side)
-      const pois = await fetchPoisForScene(scene);
-      pois.forEach(poi => {
-        const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
-        circle.setAttribute('cx', poi.svgX); // Map game coords to SVG coords if needed
-        circle.setAttribute('cy', poi.svgY);
-        circle.setAttribute('r', '5');
-        circle.classList.add('poi');
-        circle.onclick = () => teleport(poi.scene, poi.x, poi.y, poi.z);
-        svg.appendChild(circle);
-      });
-    }
+            document.getElementById('status').textContent = `Loading ${scene}...`;
 
-    // Helper: Fetch POIs (extend your server to provide this)
-    async function fetchPoisForScene(scene) {
-      const res = await fetch(`${SERVER_URL}/pois?scene=${encodeURIComponent(scene)}`);
-      if (!res.ok) throw new Error('Failed to get POIs');
-      return await res.json(); // e.g., [{ scene: '...', x: 123, y: 456, z: 789, svgX: 200, svgY: 300 }, ...]
-    }
+            const svg = document.getElementById('map-svg');
+            svg.innerHTML = ''; // Clear previous
 
-    // Teleport function (your existing logic)
-    function teleport(scene, x, y, z) {
-      fetch(`${SERVER_URL}/teleport?scene=${encodeURIComponent(scene)}&x=${x}&y=${y}&z=${z}`)
-        .then(res => {
-          if (!res.ok) return res.text().then(text => { throw new Error(text); });
-          return res.text();
-        })
-        .then(text => alert('Success: ' + text))
-        .catch(async err => {
-          alert('Teleport failed: ' + err.message);
-          if (err.message.includes('Wrong region')) {
-            // Auto-refresh to current scene on mismatch
-            const current = await getCurrentScene();
-            if (current) loadMapForScene(current);
-          }
-        });
-    }
+            // Load regions.json to get map URL
+            const regions = await fetch(REGIONS_JSON_URL).then(r => r.json());
+            const mapUrl = regions[scene];
+            if (!mapUrl) {
+                document.getElementById('status').textContent = `No map found for ${scene}`;
+                return;
+            }
 
-    // On load: Get scene and render
-    (async () => {
-      const scene = await getCurrentScene();
-      if (scene) loadMapForScene(scene);
-    })();
-  </script>
+            // Add image
+            const image = document.createElementNS('http://www.w3.org/2000/svg', 'image');
+            image.setAttribute('href', mapUrl);
+            image.setAttribute('width', '800');
+            image.setAttribute('height', '600');
+            svg.appendChild(image);
+
+            // Load POIs
+            const poisUrl = `${POIS_BASE_URL}${scene}.json`;
+            try {
+                const pois = await fetch(poisUrl).then(r => r.json());
+                pois.forEach(poi => {
+                    const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+                    circle.setAttribute('cx', poi.svgX || '100'); // Fallback if missing
+                    circle.setAttribute('cy', poi.svgY || '100');
+                    circle.setAttribute('r', '8');
+                    circle.classList.add('poi');
+                    circle.onclick = () => teleport(poi.scene, poi.x, poi.y, poi.z);
+                    circle.title = poi.label || 'POI'; // Tooltip
+                    svg.appendChild(circle);
+                });
+                document.getElementById('status').textContent = `Map: ${scene} (${pois.length} POIs)`;
+            } catch (err) {
+                document.getElementById('status').textContent = `POIs not found for ${scene}`;
+            }
+        }
+
+        // Teleport request
+        function teleport(scene, x, y, z) {
+            fetch(`${SERVER_URL}/teleport?scene=${encodeURIComponent(scene)}&x=${x}&y=${y}&z=${z}`)
+                .then(res => {
+                    if (!res.ok) return res.text().then(text => { throw new Error(text); });
+                    return res.text();
+                })
+                .then(text => alert('Success: ' + text))
+                .catch(err => {
+                    alert('Teleport failed: ' + err.message);
+                    if (err.message.includes('Wrong region')) {
+                        // Auto-refresh to current scene
+                        loadCurrentMap();
+                    }
+                });
+        }
+
+        // Initial load
+        async function loadCurrentMap() {
+            currentScene = await getCurrentScene();
+            if (currentScene) loadMap(currentScene);
+        }
+
+        loadCurrentMap();
+    </script>
 </body>
 </html>

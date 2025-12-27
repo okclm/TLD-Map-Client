@@ -1,135 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TLD Dynamic Map</title>
-    <style>
-        html, body {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            overflow: hidden;
-            font-family: Arial, sans-serif;
-        }
-
-        #map-svg {
-            width: 100vw;
-            height: 100vh;
-        }
-
-        .poi {
-            cursor: pointer;
-            fill: red;
-            stroke: white;
-            stroke-width: 1;
-        }
-
-        #status {
-            position: absolute;
-            top: 10px;
-            left: 10px;
-            background: rgba(255,255,255,0.8);
-            padding: 10px;
-            border-radius: 5px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TLD Dynamic Map</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #111;
+      color: #eee;
+    }
+    #map-container {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #000;
+    }
+    #map-svg {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+    }
+    .poi {
+      cursor: pointer;
+      fill: #ff4444;
+      stroke: white;
+      stroke-width: 1.5;
+      opacity: 0.85;
+    }
+    .poi:hover {
+      fill: #ff7777;
+      opacity: 1;
+    }
+    #status {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: rgba(0,0,0,0.7);
+      color: white;
+      padding: 10px 15px;
+      border-radius: 6px;
+      font-size: 14px;
+      z-index: 10;
+      max-width: 400px;
+    }
+  </style>
 </head>
 <body>
-    <div id="status">Loading map...</div>
-    <svg id="map-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
-        <!-- Image and POIs added dynamically -->
+  <div id="status">Loading map from game...</div>
+
+  <div id="map-container">
+    <svg id="map-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+      <!-- Map image and POIs will be dynamically inserted here -->
     </svg>
+  </div>
 
-    <script>
-        const SERVER_URL = 'http://localhost:8080'; // Change to your mod's port
-        const REGIONS_JSON_URL = 'https://raw.githubusercontent.com/YOURUSERNAME/YOURREPO/main/regions.json';
-        const POIS_BASE_URL = 'https://raw.githubusercontent.com/YOURUSERNAME/YOURREPO/main/pois/';
+  <script>
+    // === CONFIG ===
+    const SERVER_URL = 'http://localhost:8080';
+    const REGIONS_JSON_URL = 'https://raw.githubusercontent.com/okclm/TLD-Map-Client/main/regions-to-mapURL.json';
+    const POIS_BASE_URL = 'https://raw.githubusercontent.com/okclm/TLD-Map-Client/main/pois/';
 
-        let currentScene = null;
+    let currentScene = null;
+    let currentDifficulty = 'easy';
 
-        // Fetch current scene from mod server
-        async function getCurrentScene() {
-            try {
-                const res = await fetch(`${SERVER_URL}/current-scene`);
-                if (!res.ok) throw new Error('Server offline or error');
-                const data = await res.json();
-                return data.scene;
-            } catch (err) {
-                document.getElementById('status').textContent = 'Cannot connect to game. Is it running?';
-                console.error(err);
-                return null;
-            }
-        }
+    // Fetch current scene + difficulty from mod server
+	async function getCurrentGameState() {
+	  try {
+		const res = await fetch(`${SERVER_URL}/scene`);  // ← Changed from /current-scene
+		if (!res.ok) throw new Error(`Server returned ${res.status}`);
+		const data = await res.json();
 
-        // Load map image and POIs for a scene
-        async function loadMap(scene) {
-            if (!scene) return;
+		currentScene = data.sceneName;
+		currentDifficulty = data.experienceMode || 'easy';
 
-            document.getElementById('status').textContent = `Loading ${scene}...`;
+		if (!currentScene) throw new Error('No scene name received');
 
-            const svg = document.getElementById('map-svg');
-            svg.innerHTML = ''; // Clear previous
+		document.getElementById('status').textContent =
+		  `Connected → ${currentScene} (${currentDifficulty})`;
+		return true;
+	  } catch (err) {
+		document.getElementById('status').textContent =
+		  `Cannot connect to game (${err.message}). Is the mod running?`;
+		console.error(err);
+		return false;
+	  }
+	}
 
-            // Load regions.json to get map URL
-            const regions = await fetch(REGIONS_JSON_URL).then(r => r.json());
-            const mapUrl = regions[scene];
-            if (!mapUrl) {
-                document.getElementById('status').textContent = `No map found for ${scene}`;
-                return;
-            }
+    // === Load map + POIs ===
+    async function loadMapAndPois() {
+      if (!currentScene) return;
 
-            // Add image
-            const image = document.createElementNS('http://www.w3.org/2000/svg', 'image');
-            image.setAttribute('href', mapUrl);
-            image.setAttribute('width', '800');
-            image.setAttribute('height', '600');
-            svg.appendChild(image);
+      const svg = document.getElementById('map-svg');
+      svg.innerHTML = ''; // Clear previous content
 
-            // Load POIs
-            const poisUrl = `${POIS_BASE_URL}${scene}.json`;
-            try {
-                const pois = await fetch(poisUrl).then(r => r.json());
-                pois.forEach(poi => {
-                    const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
-                    circle.setAttribute('cx', poi.svgX || '100'); // Fallback if missing
-                    circle.setAttribute('cy', poi.svgY || '100');
-                    circle.setAttribute('r', '8');
-                    circle.classList.add('poi');
-                    circle.onclick = () => teleport(poi.scene, poi.x, poi.y, poi.z);
-                    circle.title = poi.label || 'POI'; // Tooltip
-                    svg.appendChild(circle);
-                });
-                document.getElementById('status').textContent = `Map: ${scene} (${pois.length} POIs)`;
-            } catch (err) {
-                document.getElementById('status').textContent = `POIs not found for ${scene}`;
-            }
-        }
+      // 1. Load region-to-map mapping
+      let regions;
+      try {
+        regions = await fetch(REGIONS_JSON_URL).then(r => r.json());
+      } catch (err) {
+        document.getElementById('status').textContent = 'Failed to load region map database';
+        return;
+      }
 
-        // Teleport request
-        function teleport(scene, x, y, z) {
-            fetch(`${SERVER_URL}/teleport?scene=${encodeURIComponent(scene)}&x=${x}&y=${y}&z=${z}`)
-                .then(res => {
-                    if (!res.ok) return res.text().then(text => { throw new Error(text); });
-                    return res.text();
-                })
-                .then(text => alert('Success: ' + text))
-                .catch(err => {
-                    alert('Teleport failed: ' + err.message);
-                    if (err.message.includes('Wrong region')) {
-                        // Auto-refresh to current scene
-                        loadCurrentMap();
-                    }
-                });
-        }
+      const mapUrl = regions[currentScene]?.[currentDifficulty];
+      if (!mapUrl) {
+        document.getElementById('status').textContent =
+          `No map URL found for ${currentScene} (${currentDifficulty})`;
+        return;
+      }
 
-        // Initial load
-        async function loadCurrentMap() {
-            currentScene = await getCurrentScene();
-            if (currentScene) loadMap(currentScene);
-        }
+      // 2. Add map image
+      const image = document.createElementNS('http://www.w3.org/2000/svg', 'image');
+      image.setAttribute('href', mapUrl);
+      image.setAttribute('width', '1920');
+      image.setAttribute('height', '1080');
+      image.setAttribute('preserveAspectRatio', 'xMidYMid meet');
+      svg.appendChild(image);
 
-        loadCurrentMap();
-    </script>
+      // 3. Load POIs for this scene
+      const poisUrl = `${POIS_BASE_URL}${currentScene}.json`;
+      try {
+        const pois = await fetch(poisUrl).then(r => r.json());
+
+        pois.forEach(poi => {
+          const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+          circle.setAttribute('cx', poi.svgX || '100');
+          circle.setAttribute('cy', poi.svgY || '100');
+          circle.setAttribute('r', '8');
+          circle.classList.add('poi');
+          circle.onclick = () => teleport(poi.scene || currentScene, poi.x, poi.y, poi.z);
+          circle.title = poi.label || `${poi.x}, ${poi.y}, ${poi.z}`;
+          svg.appendChild(circle);
+        });
+
+        document.getElementById('status').textContent =
+          `Loaded: ${currentScene} (${currentDifficulty}) — ${pois.length} POIs`;
+      } catch (err) {
+        document.getElementById('status').textContent =
+          `POIs not found for ${currentScene}. Using map only.`;
+        console.warn('POI load failed:', err);
+      }
+    }
+
+    // === Teleport request ===
+    function teleport(scene, x, y, z) {
+      const url = `${SERVER_URL}/teleport?scene=${encodeURIComponent(scene)}&x=${x}&y=${y}&z=${z}`;
+      fetch(url)
+        .then(res => {
+          if (!res.ok) return res.text().then(text => { throw new Error(text); });
+          return res.text();
+        })
+        .then(text => alert('Success: ' + text))
+        .catch(err => {
+          alert('Teleport failed: ' + err.message);
+          if (err.message.includes('Wrong region')) {
+            // Auto-refresh game state
+            loadCurrentGameStateAndMap();
+          }
+        });
+    }
+
+    // === Main entry point ===
+    async function loadCurrentGameStateAndMap() {
+      const connected = await getCurrentGameState();
+      if (connected) {
+        await loadMapAndPois();
+      }
+    }
+
+    // Initial load
+    loadCurrentGameStateAndMap();
+
+    // Optional: Refresh every 30 seconds if you want live updates
+    // setInterval(loadCurrentGameStateAndMap, 30000);
+  </script>
 </body>
 </html>

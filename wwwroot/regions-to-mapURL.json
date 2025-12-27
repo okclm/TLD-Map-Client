@@ -1,8 +1,13 @@
 {
-    "MiningRegion": "https://images.steamusercontent.com/ugc/37819645141443980/C1060111670249C94042AA5BE058BAD4827D71AB/",
-    "MiningRegionMine": "https://images.steamusercontent.com/ugc/37819645141443980/C1060111670249C94042AA5BE058BAD4827D71AB/",
-    "ZoneOfContamination": "https://images.steamusercontent.com/ugc/37819645141443980/C1060111670249C94042AA5BE058BAD4827D71AB/", // Your example
-    "AnotherRegion": "https://steamcommunity.com/sharedfiles/filedetails/?id=123456789" // Hypothetical
+    "MiningRegionMine": {
+        "easy": "https://images.steamusercontent.com/ugc/2298590116010964948/CD7B37AC9443188805A8F319C7F6808109379138/",
+        "hard": "https://images.steamusercontent.com/ugc/2298590116010964948/CD7B37AC9443188805A8F319C7F6808109379138/"
+    },
+    "MiningRegion": {
+        "easy": "https://images.steamusercontent.com/ugc/37819645141443776/DCC196C8BAF3E7515277D91039497F901BC54955/",
+        "hard": "https://images.steamusercontent.com/ugc/37819645141443980/C1060111670249C94042AA5BE058BAD4827D71AB/"
+    }
+    // Add more regions as needed
 }
 
 /*

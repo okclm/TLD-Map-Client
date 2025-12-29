@@ -4,17 +4,26 @@
 		"x": 524.90,
 		"y": 304.14,
 		"z": -1106.87,
-		"svgX": 200,
-		"svgY": 150,
+		"svgX": 1491.8884,
+		"svgY": 1870.0631,
 		"label": "Welkin's Window cave"
 	},
 	{
 		"scene": "MiningRegion",
 		"x": 476.74,
 		"y": 242.39,
-		"z": 190.46,
-		"svgX": 320,
-		"svgY": 280,
+		"z": 188.78,
+		"svgX": 1480.6041,
+		"svgY": 626.28101,
 		"label": "Idle Camp Mess Hall"
+	},
+	{
+		"scene": "MiningRegion",
+		"x": -316.42,
+		"y": 150.34,
+		"z": -74.17,
+		"svgX": 137.73929,
+		"svgY": 1360.9852,
+		"label": "Smoker's cave'"
 	}
 ]

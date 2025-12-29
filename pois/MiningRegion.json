@@ -6,7 +6,7 @@
         "z": 241.86,
         "svgX": 200,
         "svgY": 150,
-        "label": "Miner's Path Exit" // used as tooltip/title
+        "label": "Miner's Path Exit"
     },
     {
         "scene": "MiningRegion",
@@ -17,5 +17,4 @@
         "svgY": 280,
         "label": "Main Camp Entrance"
     }
-    // ... more entries
 ]

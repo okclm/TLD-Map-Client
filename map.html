@@ -94,6 +94,34 @@
         let currentScene = null;
         let currentDifficulty = 'easy';
 
+        // === CALIBRATION DATA (add one block per scene as you get more maps) ===
+        const calibration = {
+            "MiningRegion": {
+                // Two anchor points: game coords → SVG pixel coords
+                game1: { x: -316.42, y: 150.34 }, svg1: { x: 137.74, y: 1360.99 },
+                game2: { x: 524.90, y: 304.14 }, svg2: { x: 1491.89, y: 1870.06 }
+            }
+            // Add more scenes later, e.g.:
+            // "MiningRegionMine": { game1: {...}, svg1: {...}, game2: {...}, svg2: {...} }
+        };
+
+        // Compute scale & offset for a given scene
+        function getCoordinateTransform(scene) {
+            const cal = calibration[scene];
+            if (!cal) {
+                console.warn(`No calibration data for scene: ${scene}. Using raw svgX/svgY.`);
+                return { scaleX: 1, scaleY: 1, offsetX: 0, offsetY: 0 };
+            }
+
+            const scaleX = (cal.svg2.x - cal.svg1.x) / (cal.game2.x - cal.game1.x);
+            const scaleY = (cal.svg2.y - cal.svg1.y) / (cal.game2.y - cal.game1.y);
+
+            const offsetX = cal.svg1.x - cal.game1.x * scaleX;
+            const offsetY = cal.svg1.y - cal.game1.y * scaleY;
+
+            return { scaleX, scaleY, offsetX, offsetY };
+        }
+
         // Add this function to handle zoom/pan
         function updateTransform() {
             const svg = document.getElementById('map-svg');
@@ -271,21 +299,29 @@
             try {
                 const pois = await fetch(poisUrl).then(r => r.json());
 
+                // Get transform for this scene
+                const transform = getCoordinateTransform(currentScene);
+
                 pois.forEach(poi => {
                     const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
-                    circle.setAttribute('cx', poi.svgX || '100');
-                    circle.setAttribute('cy', poi.svgY || '100');
+
+                    // Convert game coordinates to SVG coordinates using the calibration transform
+                    const svgX = (poi.x * transform.scaleX) + transform.offsetX;
+                    const svgY = (poi.y * transform.scaleY) + transform.offsetY;
+
+                    circle.setAttribute('cx', svgX);
+                    circle.setAttribute('cy', svgY);
                     circle.setAttribute('r', '8');
                     circle.classList.add('poi');
 
-                    // SVG <desc> for tooltip/description (shows on hover in many viewers)
+                    // SVG description (tooltip)
                     const desc = document.createElementNS('http://www.w3.org/2000/svg', 'desc');
                     desc.textContent = poi.label
                         ? `${poi.label} - ${poi.x.toFixed(2)}, ${poi.y.toFixed(2)}, ${poi.z.toFixed(2)}`
                         : `POI at ${poi.x.toFixed(2)}, ${poi.y.toFixed(2)}, ${poi.z.toFixed(2)}`;
                     circle.appendChild(desc);
 
-                    // Browser-native title attribute (hover tooltip fallback)
+                    // Browser hover title fallback
                     circle.setAttribute('title', desc.textContent);
 
                     circle.onclick = () => teleport(poi.scene || currentScene, poi.x, poi.y, poi.z);

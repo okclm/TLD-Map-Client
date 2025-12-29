@@ -77,6 +77,7 @@
         const SERVER_URL = 'http://localhost:8080';
         const REGIONS_JSON_URL = 'https://okclm.github.io/TLD-Map-Client/regions-to-mapURL.json';
         const POIS_BASE_URL = 'https://okclm.github.io/TLD-Map-Client/pois/';
+        const version = '1.0.0';
 
         // Add these variables near the top of <script>
         let scale = 1.0;
@@ -350,7 +351,7 @@
                 });
 
                 document.getElementById('status').textContent =
-                    `Loaded: ${currentScene} (${currentDifficulty}) — ${pois.length} POIs`;
+                    `Version ${version} Loaded: ${currentScene} (${currentDifficulty}) — ${pois.length} POIs`;
             } catch (err) {
                 document.getElementById('status').textContent =
                     `POIs not found for ${currentScene}. Using map only.`;

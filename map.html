@@ -301,6 +301,7 @@
 
                 // Get transform for this scene
                 const transform = getCoordinateTransform(currentScene);
+                console.log('Transform for', currentScene, ':', transform);
 
                 pois.forEach(poi => {
                     const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
@@ -326,6 +327,8 @@
 
                     circle.onclick = () => teleport(poi.scene || currentScene, poi.x, poi.y, poi.z);
                     svg.appendChild(circle);
+
+                    console.log(`POI "${poi.label}": game(${poi.x}, ${poi.y}) → svg(${svgX.toFixed(1)}, ${svgY.toFixed(1)})`);
                 });
 
                 document.getElementById('status').textContent =

@@ -20,7 +20,7 @@ BlackrockPrisonSurvivalZone
 * BlackrockRegion
 BlackrockSteamTunnelsASurvival
 BlackRockTrailerB
-BlackrockTransitionZone
+* BlackrockTransitionZone
 BunkerA
 BunkerB
 BunkerC
@@ -30,7 +30,7 @@ CanneryMarshTransitionCave
 * CanneryRegion
 CanneryTrailerA
 CanyonRoadCave
-CanyonRoadTransitionZone
+* CanyonRoadTransitionZone
 CaveB
 CaveC
 CaveD
@@ -49,7 +49,7 @@ ConvenienceStoreA
 * CrashMountainRegion
 Dam
 DamCaveTransitionZone
-DamRiverTransitionZoneB
+* DamRiverTransitionZoneB
 DamTrailerB
 DamTransitionZone
 FarmHouseA
@@ -64,7 +64,7 @@ HighwayMineTransitionZone
 HouseBasementC
 HouseBasementPV
 HubCave
-HubRegion
+* HubRegion
 HuntingLodgeA
 IceCaveA
 IceCaveB
@@ -76,7 +76,7 @@ LakeCabinE
 LakeCabinF
 * LakeRegion
 LighthouseA
-LongRailTransitionZone
+* LongRailTransitionZone
 LongTransitionCave
 MaintenanceShedA
 MaintenanceShedB

@@ -43,10 +43,10 @@ CoastalHouseD
 CoastalHouseE
 CoastalHouseF
 CoastalHouseH
-CoastalRegion
+* CoastalRegion
 CommunityHallA
 ConvenienceStoreA
-CrashMountainRegion
+* CrashMountainRegion
 Dam
 DamCaveTransitionZone
 DamRiverTransitionZoneB
@@ -59,7 +59,7 @@ FishingCabinA
 FishingCabinC
 FishingCabinD
 GreyMothersHouseA
-HighwayMineTransitionZone
+* HighwayMineTransitionZone
 HighwayTransitionZone
 HouseBasementC
 HouseBasementPV

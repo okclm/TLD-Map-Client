@@ -59,8 +59,8 @@ FishingCabinA
 FishingCabinC
 FishingCabinD
 GreyMothersHouseA
-* HighwayMineTransitionZone
-HighwayTransitionZone
+HighwayMineTransitionZone
+* HighwayTransitionZone
 HouseBasementC
 HouseBasementPV
 HubCave

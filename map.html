@@ -72,7 +72,7 @@
     <div id="status">Loading map from game...</div>
 
     <div id="map-container">
-        <svg id="map-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+        <svg id="map-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3203 3803">
             <!-- Map image and POIs will be dynamically inserted here -->
         </svg>
     </div>
@@ -93,6 +93,29 @@
 
         let currentScene = null;
         let currentDifficulty = 'easy';
+
+        // === GAME-TO-SVG BOUNDS (update per scene as you get more data) ===
+        const sceneBounds = {
+            "MiningRegion": {
+                minX: -400, maxX: 600,    // approximate from your 3 points (-316 to 524)
+                minY: 0, maxY: 350     // (150 to 304)
+            }
+            // Add more scenes later, e.g. MiningRegionMine: { minX: ..., maxX: ... }
+        };
+
+        // Function to convert game → SVG pixel coords
+        function gameToSvgCoords(poi, scene) {
+            const bounds = sceneBounds[scene] || { minX: -500, maxX: 500, minY: -100, maxY: 500 }; // fallback
+
+            const relX = (poi.x - bounds.minX) / (bounds.maxX - bounds.minX);
+            const relY = (poi.y - bounds.minY) / (bounds.maxY - bounds.minY);
+
+            // Scale to actual image pixels (Inkscape size)
+            const svgX = relX * 3203;
+            const svgY = relY * 3803;
+
+            return { svgX, svgY };
+        }
 
         // === CALIBRATION DATA (add one block per scene as you get more maps) ===
         const calibration = {
@@ -304,12 +327,9 @@
                 console.log('Transform for', currentScene, ':', transform);
 
                 pois.forEach(poi => {
+                    const { svgX, svgY } = gameToSvgCoords(poi, currentScene);
+
                     const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
-
-                    // Convert game coordinates to SVG coordinates using the calibration transform
-                    const svgX = (poi.x * transform.scaleX) + transform.offsetX;
-                    const svgY = (poi.y * transform.scaleY) + transform.offsetY;
-
                     circle.setAttribute('cx', svgX);
                     circle.setAttribute('cy', svgY);
                     circle.setAttribute('r', '8');
@@ -328,7 +348,7 @@
                     circle.onclick = () => teleport(poi.scene || currentScene, poi.x, poi.y, poi.z);
                     svg.appendChild(circle);
 
-                    console.log(`POI "${poi.label}": game(${poi.x}, ${poi.y}) → svg(${svgX.toFixed(1)}, ${svgY.toFixed(1)})`);
+                    console.log(`POI "${poi.label}": game(${poi.x.toFixed(2)}, ${poi.y.toFixed(2)}) → svg(${svgX.toFixed(1)}, ${svgY.toFixed(1)})`);
                 });
 
                 document.getElementById('status').textContent =

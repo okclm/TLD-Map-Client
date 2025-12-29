@@ -22,9 +22,13 @@
             justify-content: center;
             align-items: center;
             background: #000;
+            overflow: hidden; /* No scrollbars by default */
+            touch-action: none; /* Improves touch zoom/pan */
         }
 
         #map-svg {
+            transform-origin: center center; /* Zoom from center */
+            transition: transform 0.1s ease-out; /* Smooth zoom */
             max-width: 100%;
             max-height: 100%;
             object-fit: contain;
@@ -73,12 +77,53 @@
         const REGIONS_JSON_URL = 'https://okclm.github.io/TLD-Map-Client/regions-to-mapURL.json';
         const POIS_BASE_URL = 'https://okclm.github.io/TLD-Map-Client/pois/';
 
-        //const REGIONS_JSON_URL = 'https://raw.githubusercontent.com/okclm/TLD-Map-Client/main/regions-to-mapURL.json';
-        //const POIS_BASE_URL = 'https://raw.githubusercontent.com/okclm/TLD-Map-Client/main/pois/';
-        //const POIS_BASE_URL = 'https://okclm.github.io/TLD-Map-Client/wwwroot/MiningRegionMine.json';
+        // Add these variables near the top of <script>
+        let scale = 1.0;
+        let translateX = 0;
+        let translateY = 0;
+        const zoomSpeed = 0.1; // Adjust for faster/slower zoom
+        const minScale = 0.5;
+        const maxScale = 5.0;
 
         let currentScene = null;
         let currentDifficulty = 'easy';
+
+        // Add this function to handle zoom/pan
+        function updateTransform() {
+            const svg = document.getElementById('map-svg');
+            svg.style.transform = `translate(${translateX}px, ${translateY}px) scale(${scale})`;
+        }
+
+        // Mouse wheel zoom (add after loadMapAndPois or in init)
+        document.addEventListener('wheel', (e) => {
+            e.preventDefault();
+
+            const svg = document.getElementById('map-svg');
+            const rect = svg.getBoundingClientRect();
+            const mouseX = e.clientX - rect.left;
+            const mouseY = e.clientY - rect.top;
+
+            // Zoom in/out
+            const direction = e.deltaY > 0 ? -1 : 1;
+            const newScale = scale + direction * zoomSpeed * scale;
+            scale = Math.max(minScale, Math.min(maxScale, newScale));
+
+            // Adjust translate to zoom toward mouse position
+            const offsetX = mouseX - rect.width / 2;
+            const offsetY = mouseY - rect.height / 2;
+            translateX -= offsetX * (newScale - scale);
+            translateY -= offsetY * (newScale - scale);
+
+            updateTransform();
+        }, { passive: false });
+
+        // Reset zoom on double-click (optional)
+        document.getElementById('map-container').addEventListener('dblclick', () => {
+            scale = 1.0;
+            translateX = 0;
+            translateY = 0;
+            updateTransform();
+        });
 
         // === Fetch current scene + difficulty from mod ===
         async function getCurrentGameState() {

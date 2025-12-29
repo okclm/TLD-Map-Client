@@ -1,20 +1,20 @@
 [
 	{
 		"scene": "MiningRegion",
-		"x": 10.14,
-		"y": 1.31,
-		"z": 241.86,
+		"x": 524.90,
+		"y": 304.14,
+		"z": -1106.87,
 		"svgX": 200,
 		"svgY": 150,
-		"label": "Miner's Path Exit"
+		"label": "Welkin's Window cave"
 	},
 	{
 		"scene": "MiningRegion",
-		"x": 476.19,
-		"y": 242.40,
-		"z": 188.78,
+		"x": 476.74,
+		"y": 242.39,
+		"z": 190.46,
 		"svgX": 320,
 		"svgY": 280,
-		"label": "Main Camp Entrance"
+		"label": "Idle Camp Mess Hall"
 	}
 ]

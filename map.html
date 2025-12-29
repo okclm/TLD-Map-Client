@@ -203,6 +203,11 @@
                 currentScene = data.sceneName;
                 currentDifficulty = data.experienceMode || 'easy';
 
+                // This is where you can hardcode for testing:
+                currentScene = 'LakeRegion';
+                currentDifficulty = 'easy';
+                // currentDifficulty = 'hard';
+
                 if (!currentScene) throw new Error('No scene name received');
 
                 document.getElementById('status').textContent =

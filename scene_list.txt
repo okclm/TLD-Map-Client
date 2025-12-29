@@ -1,5 +1,5 @@
 AFHangar
-AirfieldRegion
+* AirfieldRegion
 AirfieldTrailerB
 AirfieldWoodCabinA
 AshCabinD
@@ -17,7 +17,7 @@ BlackrockInteriorASurvival
 BlackrockMineA
 BlackrockPowerplantA
 BlackrockPrisonSurvivalZone
-BlackrockRegion
+* BlackrockRegion
 BlackrockSteamTunnelsASurvival
 BlackRockTrailerB
 BlackrockTransitionZone
@@ -27,7 +27,7 @@ BunkerC
 BunkerXL
 CampOffice
 CanneryMarshTransitionCave
-CanneryRegion
+* CanneryRegion
 CanneryTrailerA
 CanyonRoadCave
 CanyonRoadTransitionZone
@@ -74,7 +74,7 @@ LakeCabinC
 LakeCabinD
 LakeCabinE
 LakeCabinF
-LakeRegion
+* LakeRegion
 LighthouseA
 LongRailTransitionZone
 LongTransitionCave
@@ -93,8 +93,8 @@ MiltonHouseH3
 MiltonTrailerB
 MineConcentratorBuilding
 MineTransitionZone
-MiningRegion
-MiningRegionMine
+* MiningRegion
+* MiningRegionMine
 MountainCaveA
 MountainCaveB
 MountainPassBasement

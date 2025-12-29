@@ -1,7 +1,27 @@
 {
+    "AirfieldRegion": {
+        "easy": "https://images.steamusercontent.com/ugc/16913663260970933264/FB109BD04EA8ED996F248F237F7DDD07BB98CF4B/",
+        "hard": "https://images.steamusercontent.com/ugc/10851226945735149924/44743CB450B469D5596D322623AAC3DF36CAAC04/"
+    },
+    "AshCanyonRegion": {
+        "easy": "https://images.steamusercontent.com/ugc/12423718121825641694/1436C3EE25819AC99F2765E65FF87EB91FEE82C7/",
+        "hard": "https://images.steamusercontent.com/ugc/11775972934425462577/06F5B6240C384475FA96DE6B3D656E9B51CB5D38/"
+    },
+    "BlackrockRegion": {
+        "easy": "https://images.steamusercontent.com/ugc/13725529750150141786/377C02F990FA45DF8EBAC15FFFA435457554996A/",
+        "hard": "https://images.steamusercontent.com/ugc/13819165643333898105/D35F9682041D607CC43CEF91ECBF28A57F5F2098/"
+    },
+    "CanneryRegion": {
+        "easy": "https://images.steamusercontent.com/ugc/15963475340427975657/8F8932D34BDB1AEECBD81F0DF0D4FF0A8F9B895F/",
+        "hard": "https://images.steamusercontent.com/ugc/12747202571525077315/F6C8FEC4B25C2DCD7FF82D5D8E0DC38C35D43C68/"
+    },
     "MiningRegionMine": {
         "easy": "https://images.steamusercontent.com/ugc/2298590116010964948/CD7B37AC9443188805A8F319C7F6808109379138/",
         "hard": "https://images.steamusercontent.com/ugc/2298590116010964948/CD7B37AC9443188805A8F319C7F6808109379138/"
+    },
+    "LakeRegion": {
+        "easy": "https://images.steamusercontent.com/ugc/15476628118068146896/964E7DB3A8CF5601A727E12FAC153C8DEB0884AC/",
+        "hard": "https://images.steamusercontent.com/ugc/12181171108607855328/BB9FA07418F10BAE5DA9748A27FD9CB8E1C9AE02/"
     },
     "MiningRegion": {
         "easy": "https://images.steamusercontent.com/ugc/37819645141443776/DCC196C8BAF3E7515277D91039497F901BC54955/",

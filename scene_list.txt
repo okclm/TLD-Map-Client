@@ -80,7 +80,7 @@ LighthouseA
 LongTransitionCave
 MaintenanceShedA
 MaintenanceShedB
-MarshRegion
+* MarshRegion
 MiltonHouseA
 MiltonHouseC
 MiltonHouseD
@@ -102,10 +102,10 @@ MountainPassBuriedCabin
 MountainPassCabinA
 MountainPassCaveA
 MountainPassCaveB
-MountainPassRegion
+* MountainPassRegion
 MountainTownCaveA
 MountainTownCaveB
-MountainTownRegion
+* MountainTownRegion
 PostOfficeA
 PrepperCacheA
 PrepperCacheAEmpty
@@ -127,13 +127,13 @@ RadarBuilding
 RadioControlHut
 RadioControlHutB
 RadioControlHutC
-RavineTransitionZone
-RiverValleyRegion
+* RavineTransitionZone
+* RiverValleyRegion
 RiverValleyTransitionCave
-RuralRegion
+* RuralRegion
 RuralStoreA
 SafeHouseA
-TracksRegion
+* TracksRegion
 TrailerA
 TrailerB
 TrailerC
@@ -142,7 +142,7 @@ TrailerE
 TrailerSShape
 WhalingMine
 WhalingShipA
-WhalingStationRegion
+* WhalingStationRegion
 WhalingWarehouseA
 WoodCabinA
 WoodCabinB

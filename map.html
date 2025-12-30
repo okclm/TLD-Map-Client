@@ -80,7 +80,7 @@
         const SERVER_URL = 'http://localhost:8080';
         const REGIONS_JSON_URL = 'https://okclm.github.io/TLD-Map-Client/regions-to-mapURL.json';
         const POIS_BASE_URL = 'https://okclm.github.io/TLD-Map-Client/pois/';
-        const version = '1.0.7';
+        const version = '1.0.9';
 
         // Add these variables near the top of <script>
         let scale = 1.0;
@@ -263,16 +263,16 @@
                 currentDifficulty = 'hard';
 
                 // Prompt user for scene/difficulty override for testing
-                const userInputScene = prompt(`Current scene detected: ${currentScene}.\nPress OK to use this scene, or enter a different scene name for testing:`, currentScene);
-                if (userInputScene && userInputScene.trim() !== '') {
-                    currentScene = userInputScene.trim();
-                }
-                if (!currentScene) throw new Error('No scene name received');
+                //const userInputScene = prompt(`Current scene detected: ${currentScene}.\nPress OK to use this scene, or enter a different scene name for testing:`, currentScene);
+                //if (userInputScene && userInputScene.trim() !== '') {
+                //    currentScene = userInputScene.trim();
+                //}
+                //if (!currentScene) throw new Error('No scene name received');
 
-                const userInputDifficulty = prompt(`Current difficulty detected: ${currentDifficulty}.\nPress OK to use this difficulty, or enter a different difficulty for testing:`, currentDifficulty);
-                if (userInputDifficulty && userInputDifficulty.trim() !== '') {
-                    currentDifficulty = userInputDifficulty.trim();
-                }
+                //const userInputDifficulty = prompt(`Current difficulty detected: ${currentDifficulty}.\nPress OK to use this difficulty, or enter a different difficulty for testing:`, currentDifficulty);
+                //if (userInputDifficulty && userInputDifficulty.trim() !== '') {
+                //    currentDifficulty = userInputDifficulty.trim();
+                //}
                 if (!currentDifficulty) throw new Error('No difficulty name received');
                 if ((currentDifficulty != 'easy') && (currentDifficulty != 'hard')) throw new Error('Invalid difficulty name received (' + currentDifficulty + ')');
 
@@ -330,7 +330,8 @@
 
                 pois.forEach(poi => {
                     const { svgX, svgY } = gameToSvgCoords(poi, currentScene);
-                    poi.fill = poi.fill || 'cyan';
+                    //poi.fill = poi.fill || 'cyan';
+                    poi.fill = 'cyan';
 
                     const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
                     circle.setAttribute('cx', svgX);

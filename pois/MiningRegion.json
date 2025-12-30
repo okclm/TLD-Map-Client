@@ -6,16 +6,16 @@
 		"z": 190.46,
 		"svgX": 471.42709,
 		"svgY": -78.663315,
-		"label": "The mess hall building contains a mess hall with several wooden tables and a kitchen containing several Fridges, Freezers, a Vegetable Drawer, and an invaluable Stove."
+		"label": "The Idle Camp mess hall building contains several wooden tables and a kitchen containing several Fridges, Freezers, a Vegetable Drawer, and an invaluable 6-top stove."
 	},
 	{
 		"scene": "MiningRegion",
-		"x": -316.42,
-		"y": 150.34,
-		"z": -74.17,
+		"x": -947.04,
+		"y": 255.4,
+		"z": -571.05,
 		"svgX": -86.788963,
 		"svgY": 221.58186,
-		"label": "The cave provides a warmth bonus, and is a good source of Coal. There is no other loot present. The cave is home to a Bear, caution is advised when exploring the cave. Poisoned Wolves often patrol the area.\nMiner\u0027s Footpath is to the north, while Desperate Elevation is to the south. Craggy Passage is even farther to the south."
+		"label": "The Smoker\u0027s cave provides a warmth bonus, and is a good source of Coal. There is no other loot present. The cave is home to a Bear, caution is advised when exploring the cave. Poisoned Wolves often patrol the area.\nMiner\u0027s Footpath is to the north, while Desperate Elevation is to the south. Craggy Passage is even farther to the south."
 	},
 	{
 		"scene": "MiningRegion",
@@ -25,5 +25,14 @@
 		"svgX": 476.80328,
 		"svgY": 437.05759,
 		"label": "Welkin\u0027s Window is a small cave in the Zone of Contamination, located high up in a cliff wall near the transition cave from Forsaken Airfield. It is close to Dubious Overlook."
+	},
+	{
+		"scene": "MiningRegion",
+		"x": -316.42,
+		"y": 150.34,
+		"z": -74.17,
+		"svgX": 156.99745,
+		"svgY": 28.911959,
+		"label": "An entrance to level 3 of the Langston Mine in the open pit mine"
 	}
 ]

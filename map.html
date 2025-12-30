@@ -330,11 +330,11 @@
                 console.log('Transform for', currentScene, ':', transform);
 
                 pois.forEach(poi => {
-                    const { svgX, svgY } = gameToSvgCoords(poi, currentScene);
+                    let { svgX, svgY } = gameToSvgCoords(poi, currentScene);  // Use 'let' instead of 'const' for mutable vars
 
                     // TEMPORARY DEBUG OVERRIDE - comment out after testing
                     if (poi.label.includes("Welkin's Window cave")) {
-                        svgX = 1491.89;  // From your harvested data
+                        svgX = 1491.89;  // Now assignable because 'let'
                         svgY = 1870.06;
                     }
                     if (poi.label.includes("Idle Camp Mess Hall")) {
@@ -349,24 +349,31 @@
                     const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
                     circle.setAttribute('cx', svgX);
                     circle.setAttribute('cy', svgY);
-                    circle.setAttribute('r', '24');
-                    // circle.setAttribute('fill', 'cyan');           // or '#00FFFF' or 'rgb(0, 255, 255)'
+                    circle.setAttribute('r', '12'); // bigger for visibility during testing
                     circle.classList.add('poi');
 
-                    // SVG description (tooltip)
-                    const desc = document.createElementNS('http://www.w3.org/2000/svg', 'desc');
-                    desc.textContent = poi.label
+                    // Tooltip text
+                    const tooltipText = poi.label
                         ? `${poi.label} - ${poi.x.toFixed(2)}, ${poi.y.toFixed(2)}, ${poi.z.toFixed(2)}`
                         : `POI at ${poi.x.toFixed(2)}, ${poi.y.toFixed(2)}, ${poi.z.toFixed(2)}`;
-                    circle.appendChild(desc);
 
-                    // Browser hover title fallback
-                    circle.setAttribute('title', desc.textContent);
+                    // Use <title> element for native SVG tooltip
+                    const titleElem = document.createElementNS('http://www.w3.org/2000/svg', 'title');
+                    titleElem.textContent = tooltipText;
+                    circle.appendChild(titleElem);
+
+                    // Fallback: Set 'title' attribute directly on circle (more consistent in browsers)
+                    circle.setAttribute('title', tooltipText);
+
+                    // SVG <desc> for accessibility (optional but good)
+                    const desc = document.createElementNS('http://www.w3.org/2000/svg', 'desc');
+                    desc.textContent = tooltipText;
+                    circle.appendChild(desc);
 
                     circle.onclick = () => teleport(poi.scene || currentScene, poi.x, poi.y, poi.z);
                     svg.appendChild(circle);
 
-                    console.log(`POI "${poi.label}": game(${poi.x.toFixed(2)}, ${poi.y.toFixed(2)}) → svg(${svgX.toFixed(1)}, ${svgY.toFixed(1)}) fill=${poi.fill}`);
+                    console.log(`POI "${poi.label}": game(${poi.x.toFixed(2)}, ${poi.y.toFixed(2)}) → svg(${svgX.toFixed(1)}, ${svgY.toFixed(1)})`);
                 });
 
                 document.getElementById('status').textContent =

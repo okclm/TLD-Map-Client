@@ -81,7 +81,7 @@
         const SERVER_URL = 'http://localhost:8080';
         const REGIONS_JSON_URL = 'https://okclm.github.io/TLD-Map-Client/regions-to-mapURL.json';
         const POIS_BASE_URL = 'https://okclm.github.io/TLD-Map-Client/pois/';
-        const version = '1.0.15';
+        const version = '1.0.16';
 
         // Add these variables near the top of <script>
         let scale = 1.0;
@@ -292,6 +292,7 @@
             if (!currentScene) return;
 
             document.getElementById('status').textContent = `Loading ${currentScene} (${currentDifficulty})...`;
+            console.log(`Loading map and POIs for ${currentScene} (${currentDifficulty})`);
 
             const svg = document.getElementById('map-svg');
             svg.innerHTML = ''; // Clear previous content
@@ -311,6 +312,7 @@
                     `No map URL found for ${currentScene} (${currentDifficulty})`;
                 return;
             }
+            console.log(`Map URL for ${currentScene} (${currentDifficulty}): ${mapUrl}`);
 
             // Add map image
             const image = document.createElementNS('http://www.w3.org/2000/svg', 'image');
@@ -333,18 +335,18 @@
                     let { svgX, svgY } = gameToSvgCoords(poi, currentScene);  // Use 'let' instead of 'const' for mutable vars
 
                     // TEMPORARY DEBUG OVERRIDE - comment out after testing
-                    if (poi.label.includes("Welkin's Window cave")) {
-                        svgX = 1491.89;  // Now assignable because 'let'
-                        svgY = 1870.06;
-                    }
-                    if (poi.label.includes("Idle Camp Mess Hall")) {
-                        svgX = 1480.60;
-                        svgY = 626.28;
-                    }
-                    if (poi.label.includes("Smoker's cave")) {
-                        svgX = 137.74;
-                        svgY = 1360.99;
-                    }
+                    //if (poi.label.includes("Welkin's Window cave")) {
+                    //    svgX = 1491.89;  // Now assignable because 'let'
+                    //    svgY = 1870.06;
+                    //}
+                    //if (poi.label.includes("Idle Camp Mess Hall")) {
+                    //    svgX = 1480.60;
+                    //    svgY = 626.28;
+                    //}
+                    //if (poi.label.includes("Smoker's cave")) {
+                    //    svgX = 137.74;
+                    //    svgY = 1360.99;
+                    //}
 
                     const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
                     circle.setAttribute('cx', svgX);
@@ -378,6 +380,7 @@
 
                 document.getElementById('status').textContent =
                     `Version ${version} Loaded: ${currentScene} (${currentDifficulty}) — ${pois.length} POIs`;
+                console.log(`Loaded ${pois.length} POIs for ${currentScene}`);  
             } catch (err) {
                 document.getElementById('status').textContent =
                     `POIs not found for ${currentScene}. Using map only.`;

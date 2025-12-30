@@ -70,7 +70,7 @@
     </div>
 
     <script>
-        const version = '1.0.18';
+        const version = '1.0.19';
         const SERVER_URL = 'http://localhost:8080';
         const REGIONS_JSON_URL = 'https://okclm.github.io/TLD-Map-Client/regions-to-mapURL.json';
         const POIS_BASE_URL = 'https://okclm.github.io/TLD-Map-Client/pois/';
@@ -118,15 +118,15 @@
         }
 
         // === Convert game coords to SVG coords using bounds ===
-        function gameToSvgCoords(poi, bounds, imgWidth, imgHeight) {
-            const relX = (poi.x - bounds.minX) / (bounds.maxX - bounds.minX);
-            const relY = 1 - (poi.y - bounds.minY) / (bounds.maxY - bounds.minY); // Invert Y
+        //function gameToSvgCoords(poi, bounds, imgWidth, imgHeight) {
+        //    const relX = (poi.x - bounds.minX) / (bounds.maxX - bounds.minX);
+        //    const relY = 1 - (poi.y - bounds.minY) / (bounds.maxY - bounds.minY); // Invert Y
 
-            const svgX = relX * imgWidth;
-            const svgY = relY * imgHeight;
+        //    const svgX = relX * imgWidth;
+        //    const svgY = relY * imgHeight;
 
-            return { svgX, svgY };
-        }
+        //    return { svgX, svgY };
+        //}
 
         // === Load map image + POIs ===
         async function loadMapAndPois() {
@@ -178,14 +178,10 @@
                 const pois = await fetch(poisUrl).then(r => r.json());
 
                 pois.forEach(poi => {
-                    const { svgX, svgY } = gameToSvgCoords(poi, bounds, mapWidth, mapHeight);
-
-                    console.log(`POI "${poi.label}": game(${poi.x.toFixed(2)}, ${poi.y.toFixed(2)}) → svg(${svgX.toFixed(1)}, ${svgY.toFixed(1)})`);
-
                     const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
-                    circle.setAttribute('cx', svgX);
-                    circle.setAttribute('cy', svgY);
-                    circle.setAttribute('r', '12');
+                    circle.setAttribute('cx', poi.svgX);  // Use harvested svgX directly
+                    circle.setAttribute('cy', poi.svgY);  // Use harvested svgY directly
+                    circle.setAttribute('r', '12');       // Bigger for visibility
                     circle.classList.add('poi');
 
                     // Tooltip text
@@ -208,6 +204,8 @@
 
                     circle.onclick = () => teleport(poi.scene || currentScene, poi.x, poi.y, poi.z);
                     svg.appendChild(circle);
+
+                    console.log(`POI "${poi.label}": game(${poi.x.toFixed(2)}, ${poi.y.toFixed(2)}) → svg(${poi.svgX.toFixed(1)}, ${poi.svgY.toFixed(1)})`);
                 });
 
                 document.getElementById('status').textContent =

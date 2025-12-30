@@ -8,47 +8,39 @@
         html, body {
             margin: 0;
             padding: 0;
-            width: 100%;
             height: 100%;
             overflow: hidden;
-            background: #000;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #111;
+            color: #eee;
         }
 
         #map-container {
-            position: relative;
             width: 100vw;
             height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             background: #000;
         }
 
         #map-svg {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            min-width: 100%;
-            min-height: 100%;
+            max-width: 100%;
+            max-height: 100%;
             object-fit: contain;
             image-rendering: pixelated;
-            background: #000;
-        }
-
-        #map-container:active {
-            cursor: grabbing; /* When dragging */
         }
 
         .poi {
             cursor: pointer;
-            /*fill: #ff4444;*/
             fill: cyan;
             stroke: white;
-            stroke-width: 1.5px; /* add px for validator happiness */
+            stroke-width: 1.5px;
             opacity: 0.85;
         }
 
             .poi:hover {
-                fill: #ff7777;
+                fill: #00ffff;
                 opacity: 1;
             }
 
@@ -68,186 +60,28 @@
     </style>
 </head>
 <body>
-    <div id="status">Loading map from game...</div>
+    <div id="status">Version 1.0.18: Loading map from game...</div>
 
     <div id="map-container">
-        <svg id="map-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3203 3803">
+        <svg id="map-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">
+            <!-- Temporary viewBox, updated dynamically -->
             <!-- Map image and POIs will be dynamically inserted here -->
         </svg>
     </div>
 
     <script>
-        // === CONFIG ===
+        const version = '1.0.18';
         const SERVER_URL = 'http://localhost:8080';
         const REGIONS_JSON_URL = 'https://okclm.github.io/TLD-Map-Client/regions-to-mapURL.json';
         const POIS_BASE_URL = 'https://okclm.github.io/TLD-Map-Client/pois/';
-        const version = '1.0.17';
-
-        // Add these variables near the top of <script>
-        let scale = 1.0;
-        let translateX = 0;
-        let translateY = 0;
-        const zoomSpeed = 0.1; // Adjust for faster/slower zoom
-        const minScale = 0.5;
-        const maxScale = 5.0;
+        const CALIBRATION_BASE_URL = 'https://okclm.github.io/TLD-Map-Client/calibration/';
 
         let currentScene = null;
         let currentDifficulty = 'easy';
+        let mapWidth = 3203; // Fallback if detection fails
+        let mapHeight = 3803;
 
-        // === GAME-TO-SVG BOUNDS (update per scene as you get more data) ===
-        const sceneBounds = {
-            "MiningRegion": {
-                minX: -400, maxX: 600,    // approximate from your 3 points (-316 to 524)
-                minY: 0, maxY: 350     // (150 to 304)
-            }
-            // Add more scenes later, e.g. MiningRegionMine: { minX: ..., maxX: ... }
-        };
-
-        // Function to convert game → SVG pixel coords
-        function gameToSvgCoords(poi, scene) {
-            const bounds = sceneBounds[scene] || { minX: -500, maxX: 500, minY: -100, maxY: 500 };
-
-            // Normalize X (left-right stays the same)
-            const relX = (poi.x - bounds.minX) / (bounds.maxX - bounds.minX);
-
-            // Invert Y: flip min/max and normalize so higher game Y → lower SVG Y
-            const relY = 1 - (poi.y - bounds.minY) / (bounds.maxY - bounds.minY);
-
-            // Scale to image pixels
-            const svgX = relX * 3203;
-            const svgY = relY * 3803;
-
-            return { svgX, svgY };
-        }
-
-        // === CALIBRATION DATA (add one block per scene as you get more maps) ===
-        const calibration = {
-            "MiningRegion": {
-                // Two anchor points: game coords → SVG pixel coords
-                game1: { x: -316.42, y: 150.34 }, svg1: { x: 137.74, y: 1360.99 },
-                game2: { x: 524.90, y: 304.14 }, svg2: { x: 1491.89, y: 1870.06 }
-            }
-            // Add more scenes later, e.g.:
-            // "MiningRegionMine": { game1: {...}, svg1: {...}, game2: {...}, svg2: {...} }
-        };
-
-        // Compute scale & offset for a given scene
-        function getCoordinateTransform(scene) {
-            const cal = calibration[scene];
-            if (!cal) {
-                console.warn(`No calibration data for scene: ${scene}. Using raw svgX/svgY.`);
-                return { scaleX: 1, scaleY: 1, offsetX: 0, offsetY: 0 };
-            }
-
-            const scaleX = (cal.svg2.x - cal.svg1.x) / (cal.game2.x - cal.game1.x);
-            const scaleY = (cal.svg2.y - cal.svg1.y) / (cal.game2.y - cal.game1.y);
-
-            const offsetX = cal.svg1.x - cal.game1.x * scaleX;
-            const offsetY = cal.svg1.y - cal.game1.y * scaleY;
-
-            return { scaleX, scaleY, offsetX, offsetY };
-        }
-
-        // Add this function to handle zoom/pan
-        function updateTransform() {
-            const svg = document.getElementById('map-svg');
-            svg.style.transform = `translate(${translateX}px, ${translateY}px) scale(${scale})`;
-        }
-
-        // Mouse wheel zoom (add after loadMapAndPois or in init)
-        document.addEventListener('wheel', (e) => {
-            e.preventDefault();
-
-            const svg = document.getElementById('map-svg');
-            const rect = svg.getBoundingClientRect();
-            const mouseX = e.clientX - rect.left;
-            const mouseY = e.clientY - rect.top;
-
-            // Zoom in/out
-            const direction = e.deltaY > 0 ? -1 : 1;
-            const newScale = scale + direction * zoomSpeed * scale;
-            scale = Math.max(minScale, Math.min(maxScale, newScale));
-
-            // Adjust translate to zoom toward mouse position
-            const offsetX = mouseX - rect.width / 2;
-            const offsetY = mouseY - rect.height / 2;
-            translateX -= offsetX * (newScale - scale);
-            translateY -= offsetY * (newScale - scale);
-
-            updateTransform();
-        }, { passive: false });
-
-        // Reset zoom on double-click (optional)
-        document.getElementById('map-container').addEventListener('dblclick', () => {
-            scale = 1.0;
-            translateX = 0;
-            translateY = 0;
-            updateTransform();
-        });
-
-        // === DRAG-TO-PAN SUPPORT ===
-        let isDragging = false;
-        let startX = 0;
-        let startY = 0;
-
-        const container = document.getElementById('map-container');
-        const svg = document.getElementById('map-svg');
-
-        // Start drag
-        container.addEventListener('mousedown', (e) => {
-            if (e.button !== 0) return; // Only left button
-            isDragging = true;
-            startX = e.clientX - translateX;
-            startY = e.clientY - translateY;
-            container.style.cursor = 'grabbing';
-            e.preventDefault();
-        });
-
-        // Move while dragging
-        container.addEventListener('mousemove', (e) => {
-            if (!isDragging) return;
-            translateX = e.clientX - startX;
-            translateY = e.clientY - startY;
-            updateTransform();
-            e.preventDefault();
-        });
-
-        // Stop drag
-        document.addEventListener('mouseup', () => {
-            if (isDragging) {
-                isDragging = false;
-                container.style.cursor = 'grab';
-            }
-        });
-        document.addEventListener('mouseleave', () => {
-            if (isDragging) {
-                isDragging = false;
-                container.style.cursor = 'grab';
-            }
-        });
-
-        // Optional: Touch support (basic drag on mobile)
-        container.addEventListener('touchstart', (e) => {
-            if (e.touches.length !== 1) return;
-            isDragging = true;
-            startX = e.touches[0].clientX - translateX;
-            startY = e.touches[0].clientY - translateY;
-            e.preventDefault();
-        });
-
-        container.addEventListener('touchmove', (e) => {
-            if (!isDragging || e.touches.length !== 1) return;
-            translateX = e.touches[0].clientX - startX;
-            translateY = e.touches[0].clientY - startY;
-            updateTransform();
-            e.preventDefault();
-        });
-
-        container.addEventListener('touchend', () => {
-            isDragging = false;
-        });
-
-        // === Fetch current scene + difficulty from mod ===
+        // === Fetch current scene + difficulty ===
         async function getCurrentGameState() {
             try {
                 const res = await fetch(`${SERVER_URL}/scene`);
@@ -257,101 +91,101 @@
                 currentScene = data.sceneName;
                 currentDifficulty = data.experienceMode || 'easy';
 
-                // This is where you can hardcode for testing:
-                //currentScene = 'LakeRegion';
-                currentScene = 'MiningRegion';
-                //currentDifficulty = 'easy';
-                currentDifficulty = 'hard';
+                if (!currentScene) throw new Error('No scene name received');
 
-                // Prompt user for scene/difficulty override for testing
-                //const userInputScene = prompt(`Current scene detected: ${currentScene}.\nPress OK to use this scene, or enter a different scene name for testing:`, currentScene);
-                //if (userInputScene && userInputScene.trim() !== '') {
-                //    currentScene = userInputScene.trim();
-                //}
-                //if (!currentScene) throw new Error('No scene name received');
-
-                //const userInputDifficulty = prompt(`Current difficulty detected: ${currentDifficulty}.\nPress OK to use this difficulty, or enter a different difficulty for testing:`, currentDifficulty);
-                //if (userInputDifficulty && userInputDifficulty.trim() !== '') {
-                //    currentDifficulty = userInputDifficulty.trim();
-                //}
-                if (!currentDifficulty) throw new Error('No difficulty name received');
-                if ((currentDifficulty != 'easy') && (currentDifficulty != 'hard')) throw new Error('Invalid difficulty name received (' + currentDifficulty + ')');
-
-                document.getElementById('status').textContent = `Connected → ${currentScene} (${currentDifficulty})`;
+                document.getElementById('status').textContent =
+                    `${version}: Connected → ${currentScene} (${currentDifficulty})`;
                 return true;
-
             } catch (err) {
-                document.getElementById('status').textContent = `Cannot connect to game (${err.message}). Is the mod running?`;
+                document.getElementById('status').textContent =
+                    `${version}: Cannot connect to game (${err.message}). Is the mod running?`;
                 console.error(err);
                 return false;
             }
         }
 
-        // === Load map image + POIs for current scene/difficulty ===
+        // === Load calibration bounds from JSON ===
+        async function loadCalibrationForScene(scene) {
+            const calUrl = `${CALIBRATION_BASE_URL}${scene}.json`;
+            try {
+                const res = await fetch(calUrl);
+                if (!res.ok) throw new Error('Calibration not found');
+                return await res.json();
+            } catch (err) {
+                console.warn(`Calibration load failed for ${scene}: ${err.message}. Using defaults.`);
+                return { minX: -500, maxX: 500, minY: 0, maxY: 500 }; // Default bounds
+            }
+        }
+
+        // === Convert game coords to SVG coords using bounds ===
+        function gameToSvgCoords(poi, bounds, imgWidth, imgHeight) {
+            const relX = (poi.x - bounds.minX) / (bounds.maxX - bounds.minX);
+            const relY = 1 - (poi.y - bounds.minY) / (bounds.maxY - bounds.minY); // Invert Y
+
+            const svgX = relX * imgWidth;
+            const svgY = relY * imgHeight;
+
+            return { svgX, svgY };
+        }
+
+        // === Load map image + POIs ===
         async function loadMapAndPois() {
             if (!currentScene) return;
 
-            document.getElementById('status').textContent = `Loading ${currentScene} (${currentDifficulty})...`;
-            console.log(`Loading map and POIs for ${currentScene} (${currentDifficulty})`);
+            document.getElementById('status').textContent = `${version}: Loading ${currentScene} (${currentDifficulty})...`;
 
             const svg = document.getElementById('map-svg');
-            svg.innerHTML = ''; // Clear previous content
+            svg.innerHTML = ''; // Clear previous
 
             // Load region-to-map mapping
             let regions;
             try {
                 regions = await fetch(REGIONS_JSON_URL).then(r => r.json());
             } catch (err) {
-                document.getElementById('status').textContent = 'Failed to load region map database';
+                document.getElementById('status').textContent = `${version}: Failed to load region map database`;
                 return;
             }
 
             const mapUrl = regions[currentScene]?.[currentDifficulty];
             if (!mapUrl) {
                 document.getElementById('status').textContent =
-                    `No map URL found for ${currentScene} (${currentDifficulty})`;
+                    `${version}: No map URL found for ${currentScene} (${currentDifficulty})`;
                 return;
             }
-            console.log(`Map URL for ${currentScene} (${currentDifficulty}): ${mapUrl}`);
+
+            // Dynamically detect image size
+            try {
+                const { width, height } = await getImageDimensions(mapUrl);
+                mapWidth = width;
+                mapHeight = height;
+                svg.setAttribute('viewBox', `0 0 ${width} ${height}`);
+            } catch (err) {
+                console.warn(`Image dimension detection failed: ${err}. Using fallback.`);
+            }
 
             // Add map image
             const image = document.createElementNS('http://www.w3.org/2000/svg', 'image');
             image.setAttribute('href', mapUrl);
-            // image.setAttribute('width', '1920');
-            // image.setAttribute('height', '1080');
             image.setAttribute('preserveAspectRatio', 'xMidYMid meet');
             svg.appendChild(image);
+
+            // Load calibration bounds for this scene
+            const bounds = await loadCalibrationForScene(currentScene);
 
             // Load POIs
             const poisUrl = `${POIS_BASE_URL}${currentScene}.json`;
             try {
                 const pois = await fetch(poisUrl).then(r => r.json());
 
-                // Get transform for this scene
-                const transform = getCoordinateTransform(currentScene);
-                console.log('Transform for', currentScene, ':', transform);
-
                 pois.forEach(poi => {
-                    let { svgX, svgY } = gameToSvgCoords(poi, currentScene);  // Use 'let' instead of 'const' for mutable vars
+                    const { svgX, svgY } = gameToSvgCoords(poi, bounds, mapWidth, mapHeight);
 
-                    // TEMPORARY DEBUG OVERRIDE - comment out after testing
-                    //if (poi.label.includes("Welkin's Window cave")) {
-                    //    svgX = 1491.89;  // Now assignable because 'let'
-                    //    svgY = 1870.06;
-                    //}
-                    //if (poi.label.includes("Idle Camp Mess Hall")) {
-                    //    svgX = 1480.60;
-                    //    svgY = 626.28;
-                    //}
-                    //if (poi.label.includes("Smoker's cave")) {
-                    //    svgX = 137.74;
-                    //    svgY = 1360.99;
-                    //}
+                    console.log(`POI "${poi.label}": game(${poi.x.toFixed(2)}, ${poi.y.toFixed(2)}) → svg(${svgX.toFixed(1)}, ${svgY.toFixed(1)})`);
 
                     const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
                     circle.setAttribute('cx', svgX);
                     circle.setAttribute('cy', svgY);
-                    circle.setAttribute('r', '12'); // bigger for visibility during testing
+                    circle.setAttribute('r', '12');
                     circle.classList.add('poi');
 
                     // Tooltip text
@@ -359,33 +193,40 @@
                         ? `${poi.label} - ${poi.x.toFixed(2)}, ${poi.y.toFixed(2)}, ${poi.z.toFixed(2)}`
                         : `POI at ${poi.x.toFixed(2)}, ${poi.y.toFixed(2)}, ${poi.z.toFixed(2)}`;
 
-                    // Use <title> element for native SVG tooltip
+                    // <title> for native tooltip
                     const titleElem = document.createElementNS('http://www.w3.org/2000/svg', 'title');
                     titleElem.textContent = tooltipText;
                     circle.appendChild(titleElem);
 
-                    // Fallback: Set 'title' attribute directly on circle (more consistent in browsers)
+                    // 'title' attribute fallback
                     circle.setAttribute('title', tooltipText);
 
-                    // SVG <desc> for accessibility (optional but good)
+                    // <desc> for accessibility
                     const desc = document.createElementNS('http://www.w3.org/2000/svg', 'desc');
                     desc.textContent = tooltipText;
                     circle.appendChild(desc);
 
                     circle.onclick = () => teleport(poi.scene || currentScene, poi.x, poi.y, poi.z);
                     svg.appendChild(circle);
-
-                    console.log(`POI "${poi.label}": game(${poi.x.toFixed(2)}, ${poi.y.toFixed(2)}) → svg(${svgX.toFixed(1)}, ${svgY.toFixed(1)})`);
                 });
 
                 document.getElementById('status').textContent =
-                    `Version ${version} Loaded: ${currentScene} (${currentDifficulty}) — ${pois.length} POIs`;
-                console.log(`Loaded ${pois.length} POIs for ${currentScene}`);  
+                    `${version}: Loaded: ${currentScene} (${currentDifficulty}) — ${pois.length} POIs`;
             } catch (err) {
                 document.getElementById('status').textContent =
-                    `POIs not found for ${currentScene}. Using map only.`;
+                    `${version}: POIs not found for ${currentScene}. Using map only.`;
                 console.warn('POI load failed:', err);
             }
+        }
+
+        // === Detect image dimensions dynamically ===
+        async function getImageDimensions(url) {
+            return new Promise((resolve, reject) => {
+                const img = new Image();
+                img.onload = () => resolve({ width: img.naturalWidth, height: img.naturalHeight });
+                img.onerror = reject;
+                img.src = url;
+            });
         }
 
         // === Send teleport request ===
@@ -400,7 +241,6 @@
                 .catch(err => {
                     alert('Teleport failed: ' + err.message);
                     if (err.message.includes('Wrong region')) {
-                        // Auto-refresh game state on mismatch
                         loadCurrentGameStateAndMap();
                     }
                 });
@@ -417,7 +257,7 @@
         // Initial load
         loadCurrentGameStateAndMap();
 
-        // Optional: Refresh every 30 seconds for live updates (uncomment if desired)
+        // Optional: Refresh every 30 seconds
         // setInterval(loadCurrentGameStateAndMap, 30000);
     </script>
 </body>

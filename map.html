@@ -40,7 +40,8 @@
 
         .poi {
             cursor: pointer;
-            fill: #ff4444;
+            /*fill: #ff4444;*/
+            fill: cyan;
             stroke: white;
             stroke-width: 1.5px; /* add px for validator happiness */
             opacity: 0.85;
@@ -80,7 +81,7 @@
         const SERVER_URL = 'http://localhost:8080';
         const REGIONS_JSON_URL = 'https://okclm.github.io/TLD-Map-Client/regions-to-mapURL.json';
         const POIS_BASE_URL = 'https://okclm.github.io/TLD-Map-Client/pois/';
-        const version = '1.0.10';
+        const version = '1.0.11';
 
         // Add these variables near the top of <script>
         let scale = 1.0;
@@ -331,7 +332,7 @@
                 pois.forEach(poi => {
                     const { svgX, svgY } = gameToSvgCoords(poi, currentScene);
                     //poi.fill = poi.fill || 'cyan';
-                    poi.fill = '#00FFFF';
+                    //poi.fill = '#00FFFF';
 
                     const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
                     circle.setAttribute('cx', svgX);

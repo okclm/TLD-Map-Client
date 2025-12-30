@@ -22,6 +22,13 @@
             justify-content: center;
             align-items: center;
             background: #000;
+            overflow: hidden;
+            touch-action: none; /* Better touch handling */
+            cursor: grab;
+        }
+
+        #map-container:active {
+            cursor: grabbing;
         }
 
         #map-svg {
@@ -29,6 +36,9 @@
             max-height: 100%;
             object-fit: contain;
             image-rendering: pixelated;
+            transform-origin: center center; /* Zoom from center */
+            transition: transform 0.1s ease-out; /* Smooth */
+            user-select: none; /* Prevent selection while dragging */
         }
 
         .poi {
@@ -70,7 +80,7 @@
     </div>
 
     <script>
-        const version = '1.0.22';
+        const version = '1.0.23';
         const SERVER_URL = 'http://localhost:8080';
         const REGIONS_JSON_URL = 'https://okclm.github.io/TLD-Map-Client/regions-to-mapURL.json';
         const POIS_BASE_URL = 'https://okclm.github.io/TLD-Map-Client/pois/';
@@ -251,6 +261,85 @@
                 await loadMapAndPois();
             }
         }
+
+        // === INTERACTIVE ZOOM & PAN ===
+        let scale = 1.0;
+        let translateX = 0;
+        let translateY = 0;
+        const zoomSpeed = 0.15; // Adjust for feel
+        const minScale = 0.5;
+        const maxScale = 6.0;
+
+        const container = document.getElementById('map-container');
+        const svg = document.getElementById('map-svg');
+
+        // Update transform
+        function updateTransform() {
+            svg.style.transform = `translate(${translateX}px, ${translateY}px) scale(${scale})`;
+        }
+
+        // Mouse wheel zoom
+        container.addEventListener('wheel', (e) => {
+            e.preventDefault();
+
+            const rect = svg.getBoundingClientRect();
+            const mouseX = e.clientX - rect.left;
+            const mouseY = e.clientY - rect.top;
+
+            const direction = e.deltaY > 0 ? -1 : 1;
+            const newScale = scale + direction * zoomSpeed * scale;
+            scale = Math.max(minScale, Math.min(maxScale, newScale));
+
+            // Zoom toward mouse
+            translateX -= mouseX * (newScale - scale);
+            translateY -= mouseY * (newScale - scale);
+
+            updateTransform();
+        }, { passive: false });
+
+        // Drag panning (left mouse button)
+        let isDragging = false;
+        let startX = 0;
+        let startY = 0;
+
+        container.addEventListener('mousedown', (e) => {
+            if (e.button !== 0) return; // Left button only
+            isDragging = true;
+            startX = e.clientX - translateX;
+            startY = e.clientY - translateY;
+            container.style.cursor = 'grabbing';
+            e.preventDefault();
+        });
+
+        container.addEventListener('mousemove', (e) => {
+            if (!isDragging) return;
+            translateX = e.clientX - startX;
+            translateY = e.clientY - startY;
+            updateTransform();
+            e.preventDefault();
+        });
+
+        document.addEventListener('mouseup', () => {
+            if (isDragging) {
+                isDragging = false;
+                container.style.cursor = 'grab';
+            }
+        });
+
+        document.addEventListener('mouseleave', () => {
+            if (isDragging) {
+                isDragging = false;
+                container.style.cursor = 'grab';
+            }
+        });
+
+        // Optional: Reset on double-click
+        container.addEventListener('dblclick', () => {
+            scale = 1.0;
+            translateX = 0;
+            translateY = 0;
+            updateTransform();
+        });
 
         // Initial load
         loadCurrentGameStateAndMap();

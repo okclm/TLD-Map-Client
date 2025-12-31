@@ -80,7 +80,7 @@
     </div>
 
     <script>
-        const version = '1.0.23';
+        const version = '1.0.24';
         const SERVER_URL = 'http://localhost:8080';
         const REGIONS_JSON_URL = 'https://okclm.github.io/TLD-Map-Client/regions-to-mapURL.json';
         const POIS_BASE_URL = 'https://okclm.github.io/TLD-Map-Client/pois/';
@@ -100,6 +100,25 @@
 
                 currentScene = data.sceneName;
                 currentDifficulty = data.experienceMode || 'easy';
+
+                // This is where you can hardcode for testing:
+                //currentScene = 'LakeRegion';
+                //currentScene = 'MiningRegion';
+                currentScene = 'RavineTransitionZone';
+                //currentDifficulty = 'easy';
+                currentDifficulty = 'hard';
+
+                // Prompt user for scene/difficulty override for testing
+                //const userInputScene = prompt(`Current scene detected: ${currentScene}.\nPress OK to use this scene, or enter a different scene name for testing:`, currentScene);
+                //if (userInputScene && userInputScene.trim() !== '') {
+                //    currentScene = userInputScene.trim();
+                //}
+                //if (!currentScene) throw new Error('No scene name received');
+
+                //const userInputDifficulty = prompt(`Current difficulty detected: ${currentDifficulty}.\nPress OK to use this difficulty, or enter a different difficulty for testing:`, currentDifficulty);
+                //if (userInputDifficulty && userInputDifficulty.trim() !== '') {
+                //    currentDifficulty = userInputDifficulty.trim();
+                //}
 
                 if (!currentScene) throw new Error('No scene name received');
 

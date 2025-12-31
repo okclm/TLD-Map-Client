@@ -1,0 +1,65 @@
+[
+  {
+    "scene": "RavineTransitionZone",
+    "x": -441.92,
+    "y": 18.08,
+    "z": -193.13,
+    "svgX": 1280.6347048970974,
+    "svgY": 1193.76442206142,
+    "label": "Exit to Bleak Inlet"
+  },
+  {
+    "scene": "RavineTransitionZone",
+    "x": -1167.22,
+    "y": 134.24,
+    "z": -115.58,
+    "svgX": 169.537039372092,
+    "svgY": 987.798009460549,
+    "label": "Exit to Mystery Lake"
+  },
+  {
+    "scene": "RavineTransitionZone",
+    "x": 165.51,
+    "y": 133.96,
+    "z": -99.55,
+    "svgX": 2168.9523741989847,
+    "svgY": 999.0070677283987,
+    "label": "Exit to Coastal Highway"
+  },
+  {
+    "scene": "RavineTransitionZone",
+    "x": -485.44,
+    "y": 21.86,
+    "z": -217.61,
+    "svgX": 1182.5554733998697,
+    "svgY": 1105.493140170608,
+    "label": "Lower cave"
+  },
+  {
+    "scene": "RavineTransitionZone",
+    "x": -644.25,
+    "y": 142.07,
+    "z": 35.62,
+    "svgX": 952.7697978065898,
+    "svgY": 781.8316346549535,
+    "label": "Upper cave North"
+  },
+  {
+    "scene": "RavineTransitionZone",
+    "x": -768.42,
+    "y": 129.41,
+    "z": -131.41,
+    "svgX": 731.3909631582916,
+    "svgY": 989.1991937125341,
+    "label": "Train cart"
+  },
+  {
+    "scene": "RavineTransitionZone",
+    "x": -1032.87,
+    "y": 136.87,
+    "z": -291.68,
+    "svgX": 325.0626678463798,
+    "svgY": 1240.0018393848038,
+    "label": "Upper cave South"
+  }
+]

@@ -70,7 +70,8 @@
     </style>
 </head>
 <body>
-    <div id="status">Version 1.0.18: Loading map from game...</div>
+    <!--<div id="status">Version 1.0.18: Loading map from game...</div>-->
+    <div id="status">Starting...</div>
 
     <div id="map-container">
         <svg id="map-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">
@@ -80,7 +81,7 @@
     </div>
 
     <script>
-        const version = '1.0.26';
+        const version = '1.0.27';
         const SERVER_URL = 'http://localhost:8080';
         const REGIONS_JSON_URL = 'https://okclm.github.io/TLD-Map-Client/regions-to-mapURL.json';
         const POIS_BASE_URL = 'https://okclm.github.io/TLD-Map-Client/pois/';
@@ -133,30 +134,6 @@
             }
         }
 
-        // === Load calibration bounds from JSON ===
-        //async function loadCalibrationForScene(scene) {
-        //    const calUrl = `${CALIBRATION_BASE_URL}${scene}.json`;
-        //    try {
-        //        const res = await fetch(calUrl);
-        //        if (!res.ok) throw new Error('Calibration not found');
-        //        return await res.json();
-        //    } catch (err) {
-        //        console.warn(`Calibration load failed for ${scene}: ${err.message}. Using defaults.`);
-        //        return { minX: -500, maxX: 500, minY: 0, maxY: 500 }; // Default bounds
-        //    }
-        //}
-
-        // === Convert game coords to SVG coords using bounds ===
-        //function gameToSvgCoords(poi, bounds, imgWidth, imgHeight) {
-        //    const relX = (poi.x - bounds.minX) / (bounds.maxX - bounds.minX);
-        //    const relY = 1 - (poi.y - bounds.minY) / (bounds.maxY - bounds.minY); // Invert Y
-
-        //    const svgX = relX * imgWidth;
-        //    const svgY = relY * imgHeight;
-
-        //    return { svgX, svgY };
-        //}
-
         // === Load map image + POIs ===
         async function loadMapAndPois() {
             if (!currentScene) return;
@@ -197,9 +174,6 @@
             image.setAttribute('href', mapUrl);
             image.setAttribute('preserveAspectRatio', 'xMidYMid meet');
             svg.appendChild(image);
-
-            // Load calibration bounds for this scene
-            //const bounds = await loadCalibrationForScene(currentScene);
 
             // Load POIs
             const poisUrl = `${POIS_BASE_URL}${currentScene}.json`;

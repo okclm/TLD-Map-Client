@@ -80,7 +80,7 @@
     </div>
 
     <script>
-        const version = '1.0.25';
+        const version = '1.0.26';
         const SERVER_URL = 'http://localhost:8080';
         const REGIONS_JSON_URL = 'https://okclm.github.io/TLD-Map-Client/regions-to-mapURL.json';
         const POIS_BASE_URL = 'https://okclm.github.io/TLD-Map-Client/pois/';
@@ -134,17 +134,17 @@
         }
 
         // === Load calibration bounds from JSON ===
-        async function loadCalibrationForScene(scene) {
-            const calUrl = `${CALIBRATION_BASE_URL}${scene}.json`;
-            try {
-                const res = await fetch(calUrl);
-                if (!res.ok) throw new Error('Calibration not found');
-                return await res.json();
-            } catch (err) {
-                console.warn(`Calibration load failed for ${scene}: ${err.message}. Using defaults.`);
-                return { minX: -500, maxX: 500, minY: 0, maxY: 500 }; // Default bounds
-            }
-        }
+        //async function loadCalibrationForScene(scene) {
+        //    const calUrl = `${CALIBRATION_BASE_URL}${scene}.json`;
+        //    try {
+        //        const res = await fetch(calUrl);
+        //        if (!res.ok) throw new Error('Calibration not found');
+        //        return await res.json();
+        //    } catch (err) {
+        //        console.warn(`Calibration load failed for ${scene}: ${err.message}. Using defaults.`);
+        //        return { minX: -500, maxX: 500, minY: 0, maxY: 500 }; // Default bounds
+        //    }
+        //}
 
         // === Convert game coords to SVG coords using bounds ===
         //function gameToSvgCoords(poi, bounds, imgWidth, imgHeight) {
@@ -199,7 +199,7 @@
             svg.appendChild(image);
 
             // Load calibration bounds for this scene
-            const bounds = await loadCalibrationForScene(currentScene);
+            //const bounds = await loadCalibrationForScene(currentScene);
 
             // Load POIs
             const poisUrl = `${POIS_BASE_URL}${currentScene}.json`;

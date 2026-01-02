@@ -1,0 +1,281 @@
+[
+  {
+    "scene": "RuralRegion",
+    "x": 423.47,
+    "y": 178.01,
+    "z": 1458.18,
+    "svgX": 2387.467986170084,
+    "svgY": 487.48856693492286,
+    "label": "Prepper\u0027s Cache"
+  },
+  {
+    "scene": "RuralRegion",
+    "x": 518.65,
+    "y": 149.99,
+    "z": 1566.04,
+    "svgX": 2582.4009071172804,
+    "svgY": 653.8573228424102,
+    "label": "Burned Ridge Cave"
+  },
+  {
+    "scene": "RuralRegion",
+    "x": 2649.07,
+    "y": 198.75,
+    "z": 2766.79,
+    "svgX": 4399.467439422322,
+    "svgY": 3872.343382723149,
+    "label": "Exit to Coastal Highway (Cinder Hills Mine Cave)"
+  },
+  {
+    "scene": "RuralRegion",
+    "x": 172.53,
+    "y": 270.15,
+    "z": 2500.19,
+    "svgX": 3979.1079307559135,
+    "svgY": 115.56752126121495,
+    "label": "Exit to Timberwolf Mountain"
+  },
+  {
+    "scene": "RuralRegion",
+    "x": 1530.02,
+    "y": 45.07,
+    "z": 60.09,
+    "svgX": 304.9013669327546,
+    "svgY": 2170.0483275848246,
+    "label": "Exit to Keeper\u0027s Path South"
+  },
+  {
+    "scene": "RuralRegion",
+    "x": 2673.5,
+    "y": 151.67,
+    "z": 695.76,
+    "svgX": 1234.7901732430098,
+    "svgY": 3899.1306709124437,
+    "label": "Exit to Winding River cave"
+  },
+  {
+    "scene": "RuralRegion",
+    "x": 2374.69,
+    "y": 55.36,
+    "z": 2255.06,
+    "svgX": 3625.941354373767,
+    "svgY": 3454.501681930786,
+    "label": "Community Center Front Door"
+  },
+  {
+    "scene": "RuralRegion",
+    "x": 2778.37,
+    "y": 95.72,
+    "z": 2388.13,
+    "svgX": 3823.539666187137,
+    "svgY": 3968.4798236691727,
+    "label": "Cave Southeast (coal spawns)"
+  },
+  {
+    "scene": "RuralRegion",
+    "x": 1683.28,
+    "y": 41.91,
+    "z": 1840.08,
+    "svgX": 2968.0999937360334,
+    "svgY": 2387.0404535716534,
+    "label": "Outbuildings Barn porch door"
+  },
+  {
+    "scene": "RuralRegion",
+    "x": 1455,
+    "y": 48.76,
+    "z": 1032.37,
+    "svgX": 1755.4860926192716,
+    "svgY": 2042.8041222289828,
+    "label": "Farmhouse screened porch door (kitchen)"
+  },
+  {
+    "scene": "RuralRegion",
+    "x": 1917.91,
+    "y": 200,
+    "z": 632.13,
+    "svgX": 1150.3849322971255,
+    "svgY": 2715.957052000756,
+    "label": "Signal Hill Radio Control Hut door"
+  },
+  {
+    "scene": "RuralRegion",
+    "x": 2452.71,
+    "y": 192.39,
+    "z": 464.96,
+    "svgX": 948.39696379079,
+    "svgY": 3561.2210646092185,
+    "label": "Hilltop Cave"
+  },
+  {
+    "scene": "RuralRegion",
+    "x": 2507.46,
+    "y": 111.43,
+    "z": 1209.73,
+    "svgX": 2024.8735672681398,
+    "svgY": 3622.563061460341,
+    "label": "Fishing hut"
+  },
+  {
+    "scene": "RuralRegion",
+    "x": 1457.33,
+    "y": 63.21,
+    "z": 191.38,
+    "svgX": 545.6112755970305,
+    "svgY": 1995.963983645749,
+    "label": "West Bear Cave (safe)"
+  },
+  {
+    "scene": "RuralRegion",
+    "x": 604.54,
+    "y": 75.36,
+    "z": 257.95,
+    "svgX": 613.2581291411409,
+    "svgY": 778.1902866234143,
+    "label": "NorthWest cave near Three Strikes Farm"
+  },
+  {
+    "scene": "RuralRegion",
+    "x": 475.04,
+    "y": 62.39,
+    "z": 592.3,
+    "svgX": 1123.504138596019,
+    "svgY": 559.3968378019185,
+    "label": "Three Strikes Farmstead (safe)"
+  },
+  {
+    "scene": "RuralRegion",
+    "x": 196.96,
+    "y": 156.68,
+    "z": 1553.07,
+    "svgX": 2543.4229795577626,
+    "svgY": 181.77671811239492,
+    "label": "North bear cave (safe)"
+  },
+  {
+    "scene": "RuralRegion",
+    "x": 588.74,
+    "y": 159,
+    "z": 1803.96,
+    "svgX": 2944.821014208198,
+    "svgY": 725.0110110322315,
+    "label": "Airplane crash (safe)"
+  },
+  {
+    "scene": "RuralRegion",
+    "x": 689.26,
+    "y": 157.31,
+    "z": 1656.54,
+    "svgX": 2733.5474268041144,
+    "svgY": 866.3488252071382,
+    "label": "Skeeter\u0027s Ridge Basement entrance"
+  },
+  {
+    "scene": "RuralRegion",
+    "x": 397.15,
+    "y": 149.53,
+    "z": 2056.81,
+    "svgX": 3315.963363818905,
+    "svgY": 432.94182047758216,
+    "label": "Hunter\u0027s Blind North"
+  },
+  {
+    "scene": "RuralRegion",
+    "x": 1243.64,
+    "y": 55.27,
+    "z": 2112.78,
+    "svgX": 3378.1117228747607,
+    "svgY": 1693.0631130909712,
+    "label": "Bear cave birch forest (safe)"
+  },
+  {
+    "scene": "RuralRegion",
+    "x": 943.83,
+    "y": 37.32,
+    "z": 1668.83,
+    "svgX": 2700.5352567249824,
+    "svgY": 1282.787640960115,
+    "label": "Draft Dodger\u0027s Cabin"
+  },
+  {
+    "scene": "RuralRegion",
+    "x": 313.17,
+    "y": 140.56,
+    "z": 2605.25,
+    "svgX": 4102.338784300684,
+    "svgY": 329.7532724448608,
+    "label": "Cave Misty Falls"
+  },
+  {
+    "scene": "RuralRegion",
+    "x": 956.45,
+    "y": 116.83,
+    "z": 2729.61,
+    "svgX": 4365.813165406174,
+    "svgY": 1275.5165858419184,
+    "label": "Bear cave East (safe)"
+  },
+  {
+    "scene": "RuralRegion",
+    "x": 1507.22,
+    "y": 45.43,
+    "z": 2652.18,
+    "svgX": 4171.131288238509,
+    "svgY": 2172.9480189234414,
+    "label": "Cave with bed East along creek"
+  },
+  {
+    "scene": "RuralRegion",
+    "x": 1112.72,
+    "y": 97.27,
+    "z": 141.71,
+    "svgX": 466.83730394255167,
+    "svgY": 1558.5989556090594,
+    "label": "Bunker Beta"
+  },
+  {
+    "scene": "RuralRegion",
+    "x": 1666.52,
+    "y": 43.35,
+    "z": 173.02,
+    "svgX": 514.4197039431168,
+    "svgY": 2375.7926929415985,
+    "label": "Memento in car at the Long Curve"
+  },
+  {
+    "scene": "RuralRegion",
+    "x": 513.32,
+    "y": 66.63,
+    "z": 502.06,
+    "svgX": 951.5122393813781,
+    "svgY": 636.3082582752727,
+    "label": "Rock cache at Three Strikes Farmstead contains bow and arrows"
+  },
+  {
+    "scene": "RuralRegion",
+    "x": 673.72,
+    "y": 141.54,
+    "z": 2275.71,
+    "svgX": 3658.671609492266,
+    "svgY": 830.4791433169486,
+    "label": "Memento in car at Point of Disagreement"
+  },
+  {
+    "scene": "RuralRegion",
+    "x": 1465.9,
+    "y": 48.72,
+    "z": 969.24,
+    "svgX": 1650.4947023818045,
+    "svgY": 2074.442989630933,
+    "label": "Memento in car at Farmstead (Describes cave to Winding River)"
+  },
+  {
+    "scene": "RuralRegion",
+    "x": 2438.6,
+    "y": 53.43,
+    "z": 2255.59,
+    "svgX": 3572.7217512235284,
+    "svgY": 3528.6512504356033,
+    "label": "Rural Store front door"
+  }
+]

@@ -27,9 +27,9 @@
             cursor: grab;
         }
 
-        #map-container:active {
-            cursor: grabbing;
-        }
+            #map-container:active {
+                cursor: grabbing;
+            }
 
         #map-svg {
             max-width: 100%;
@@ -41,26 +41,52 @@
             user-select: none; /* Prevent selection while dragging */
         }
 
+        /* Adds animation */
         .poi {
             cursor: pointer;
             fill: cyan;
-            /*stroke: white;*/
             stroke: black;
             stroke-width: 1.5px;
             opacity: 0.85;
+            animation: pulse 3s infinite ease-in-out; /* default speed */
         }
 
-        .poi:hover {
-            opacity: 1;
-        }
+            .poi:hover {
+                animation-play-state: paused; /* Pause animation on hover */
+                opacity: 1; /* Still full opacity on hover */
+            }
 
-        /* New: Danger version overrides fill color */
         .poi-danger {
-            fill: red; /* base danger color */
+            fill: red;
         }
 
-        .poi-danger:hover {
-            fill: #ff4444; /* brighter red on hover */
+            .poi-danger:hover {
+                animation-play-state: paused; /* Pause animation on hover */
+                fill: #ff4444;
+            }
+
+        /* Optional speed variations */
+        .poi-slow {
+            animation: pulse 6s infinite ease-in-out;
+        }
+
+        .poi-fast {
+            animation: pulse 1.5s infinite ease-in-out;
+        }
+
+        /* Define the animation once */
+        @keyframes pulse {
+            0% {
+                opacity: 0.85;
+            }
+
+            50% {
+                opacity: 1.0;
+            }
+
+            100% {
+                opacity: 0.85;
+            }
         }
 
         #status {
@@ -90,7 +116,7 @@
     </div>
 
     <script>
-        const version = '1.0.33';
+        const version = '1.0.34';
         const SERVER_URL = 'http://localhost:8080';
         //const REGIONS_JSON_URL = 'https://okclm.github.io/TLD-Map-Client/regions-to-mapURL.json';
         const REGIONS_JSON_URL = 'https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/regions-to-mapURL.json';

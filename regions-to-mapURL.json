@@ -1,11 +1,11 @@
 {
     "AirfieldRegion": {
-        "easy": "https://okclm.github.io/TLD-Map-Client/images/AirfieldRegion_easy.jpg",
-        "hard": "https://okclm.github.io/TLD-Map-Client/images/AirfieldRegion_hard.jpg"
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/AirfieldRegion_easy.jpg",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/AirfieldRegion_hard.jpg"
     },
     "AshCanyonRegion": {
-        "easy": "https://okclm.github.io/TLD-Map-Client/images/AshCanyonRegion_easy.jpg",
-        "hard": "https://okclm.github.io/TLD-Map-Client/images/AshCanyonRegion_hard.jpg"
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/AshCanyonRegion_easy.jpg",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/AshCanyonRegion_hard.jpg"
     },
     "BlackrockRegion": {
         "easy": "https://images.steamusercontent.com/ugc/13725529750150141786/377C02F990FA45DF8EBAC15FFFA435457554996A/",
@@ -56,12 +56,12 @@
         "hard": "https://images.steamusercontent.com/ugc/13120278709304539605/D8F929B355A896EBCA2F5EA01775F6B56A395D5E/"
     },
     "MiningRegionMine": {
-        "easy": "https://okclm.github.io/TLD-Map-Client/images/MiningRegionMine.jpg",
-        "hard": "https://okclm.github.io/TLD-Map-Client/images/MiningRegionMine.jpg"
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/MiningRegionMine.jpg",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/MiningRegionMine.jpg"
     },
     "MiningRegion": {
-        "easy": "https://okclm.github.io/TLD-Map-Client/images/MiningRegion_easy.jpg",
-        "hard": "https://okclm.github.io/TLD-Map-Client/images/MiningRegion_hard.jpg"
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/MiningRegion_easy.jpg",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/MiningRegion_hard.jpg"
     },
     "MountainPassRegion": {
         "easy": "https://images.steamusercontent.com/ugc/13234845787225905708/3CCD158148CAF4F6E5651269D63AA378F2C7B361/",
@@ -80,8 +80,8 @@
         "hard": "https://images.steamusercontent.com/ugc/11458033074726588907/497E67C51FD94E97E14086322E2DFDBC5E8BA64F/"
     },
     "RuralRegion": {
-        "easy": "https://okclm.github.io/TLD-Map-Client/images/RuralRegion_easy.jpg",
-        "hard": "https://okclm.github.io/TLD-Map-Client/images/RuralRegion_hard.jpg"
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/RuralRegion_easy.jpg",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/RuralRegion_hard.jpg"
     },
     "TracksRegion": {
         "easy": "https://images.steamusercontent.com/ugc/37819645136703055/8674195A3C3098E9878C83512BF03B9CF9488AA9/",

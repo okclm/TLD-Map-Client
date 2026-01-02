@@ -44,15 +44,24 @@
         .poi {
             cursor: pointer;
             fill: cyan;
-            stroke: white;
+            /*stroke: white;*/
+            stroke: black;
             stroke-width: 1.5px;
             opacity: 0.85;
         }
 
-            .poi:hover {
-                fill: #00ffff;
-                opacity: 1;
-            }
+        .poi:hover {
+            opacity: 1;
+        }
+
+        /* New: Danger version overrides fill color */
+        .poi-danger {
+            fill: red; /* base danger color */
+        }
+
+        .poi-danger:hover {
+            fill: #ff4444; /* brighter red on hover */
+        }
 
         #status {
             position: absolute;
@@ -81,7 +90,7 @@
     </div>
 
     <script>
-        const version = '1.0.32';
+        const version = '1.0.33';
         const SERVER_URL = 'http://localhost:8080';
         //const REGIONS_JSON_URL = 'https://okclm.github.io/TLD-Map-Client/regions-to-mapURL.json';
         const REGIONS_JSON_URL = 'https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/regions-to-mapURL.json';
@@ -115,7 +124,7 @@
                 if (!res.ok) throw new Error(`Server returned ${res.status}`);
                 const serverData = await res.json();
 
-                console.log(`Version ${version}: TLD Server reports scene (difficulty)=${serverData.sceneName} (${serverData.experienceMode})`);
+                console.log(`TLD Server reports scene (difficulty)=${serverData.sceneName} (${serverData.experienceMode})`);
 
                 // Use URL params if provided, otherwise use server values
                 // Example call with parameters: https://okclm.github.io/TLD-Map-Client/map.html?scene=RuralRegion&difficulty=hard
@@ -138,7 +147,7 @@
                 document.getElementById('status').textContent =
                     `${version}: Connected → ${currentScene} (${currentDifficulty})`;
 
-                console.log(`Version ${version}: Connected → ${currentScene} (${currentDifficulty})`);
+                console.log(`Final scene (difficulty): ${currentScene} (${currentDifficulty})`);
 
                 return true;
             } catch (err) {
@@ -224,7 +233,14 @@
                     circle.setAttribute('cx', poi.svgX);  // Use harvested svgX directly
                     circle.setAttribute('cy', poi.svgY);  // Use harvested svgY directly
                     circle.setAttribute('r', '12');       // Bigger for visibility
+
+                    // Always add base POI class
                     circle.classList.add('poi');
+
+                    // Add danger class if label contains "DANGER!"
+                    if (poi.label?.toUpperCase().includes('DANGER!')) {
+                        circle.classList.add('poi-danger');
+                    }
 
                     // Tooltip text
                     const tooltipText = poi.label

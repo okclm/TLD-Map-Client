@@ -39,6 +39,10 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/highwaytransitionzone.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/highwaytransitionzone.jpg"
     },
+    "HubCave": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/hubcave.jpg",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/hubcave.jpg"
+    },
     "HubRegion": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/hubregion_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/hubregion_hard.jpg"

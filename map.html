@@ -54,6 +54,7 @@
             .poi:hover {
                 animation-play-state: paused; /* Pause animation on hover */
                 opacity: 1; /* Still full opacity on hover */
+                filter: drop-shadow(0 0 4px cyan); /* Glow effect */
             }
 
         .poi-danger {
@@ -63,6 +64,7 @@
             .poi-danger:hover {
                 animation-play-state: paused; /* Pause animation on hover */
                 fill: #ff4444;
+                filter: drop-shadow(0 0 6px red); /* Stronger glow effect */
             }
 
         /* Optional speed variations */
@@ -105,7 +107,6 @@
     </style>
 </head>
 <body>
-    <!--<div id="status">Version 1.0.18: Loading map from game...</div>-->
     <div id="status">Starting...</div>
 
     <div id="map-container">
@@ -116,7 +117,7 @@
     </div>
 
     <script>
-        const version = '1.0.35';
+        const version = '1.0.36';
         const SERVER_URL = 'http://localhost:8080';
         //const REGIONS_JSON_URL = 'https://okclm.github.io/TLD-Map-Client/regions-to-mapURL.json';
         const REGIONS_JSON_URL = 'https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/regions-to-mapURL.json';

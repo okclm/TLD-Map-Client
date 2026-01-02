@@ -1,11 +1,11 @@
 {
     "AirfieldRegion": {
-        "easy": "https://images.steamusercontent.com/ugc/16913663260970933264/FB109BD04EA8ED996F248F237F7DDD07BB98CF4B/",
-        "hard": "https://images.steamusercontent.com/ugc/10851226945735149924/44743CB450B469D5596D322623AAC3DF36CAAC04/"
+        "easy": "https://okclm.github.io/TLD-Map-Client/images/AirfieldRegion_easy.jpg",
+        "hard": "https://okclm.github.io/TLD-Map-Client/images/AirfieldRegion_hard.jpg"
     },
     "AshCanyonRegion": {
-        "easy": "https://images.steamusercontent.com/ugc/12423718121825641694/1436C3EE25819AC99F2765E65FF87EB91FEE82C7/",
-        "hard": "https://images.steamusercontent.com/ugc/11775972934425462577/06F5B6240C384475FA96DE6B3D656E9B51CB5D38/"
+        "easy": "https://okclm.github.io/TLD-Map-Client/images/AshCanyonRegion_easy.jpg",
+        "hard": "https://okclm.github.io/TLD-Map-Client/images/AshCanyonRegion_hard.jpg"
     },
     "BlackrockRegion": {
         "easy": "https://images.steamusercontent.com/ugc/13725529750150141786/377C02F990FA45DF8EBAC15FFFA435457554996A/",

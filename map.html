@@ -81,7 +81,7 @@
     </div>
 
     <script>
-        const version = '1.0.29';
+        const version = '1.0.30';
         const SERVER_URL = 'http://localhost:8080';
         //const REGIONS_JSON_URL = 'https://okclm.github.io/TLD-Map-Client/regions-to-mapURL.json';
         const REGIONS_JSON_URL = 'https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/regions-to-mapURL.json';
@@ -113,6 +113,49 @@
             try {
                 const res = await fetch(`${SERVER_URL}/scene`);
                 if (!res.ok) throw new Error(`Server returned ${res.status}`);
+                const serverData = await res.json();
+
+                console.log(`Version ${version}: TLD Server reports scene (difficulty)=${serverData.sceneName} (${serverData.experienceMode})`);
+
+                // Use URL params if provided, otherwise use server values
+                // Example call with parameters: https://okclm.github.io/TLD-Map-Client/map.html?scene=RuralRegion&difficulty=hard
+                const urlScene = getQueryParam('scene')?.trim() || null;
+                const urlDifficulty = getQueryParam('difficulty')?.trim().toLowerCase() || null;
+                console.log("URL override - Scene:", urlScene, "Difficulty:", urlDifficulty);
+
+                const finalScene = getQueryParam('scene')?.trim() || serverData.sceneName;
+                const finalDifficulty = getQueryParam('difficulty')?.trim().toLowerCase() || (serverData.experienceMode || 'easy');
+
+                // Assign to the outer variables
+                currentScene = finalScene;
+                currentDifficulty = finalDifficulty;
+
+                //console.log(`Version ${version}: TLD Server reports scene (difficulty)=${currentScene} (${currentDifficulty})`);
+                //console.log("URL override - Scene:", currentScene, "Difficulty:", currentDifficulty);
+
+                if (!currentScene) throw new Error('No scene name received');
+
+                document.getElementById('status').textContent =
+                    `${version}: Connected → ${currentScene} (${currentDifficulty})`;
+
+                console.log(`Version ${version}: Connected → ${currentScene} (${currentDifficulty})`);
+
+                return true;
+            } catch (err) {
+                document.getElementById('status').textContent =
+                    `${version}: Cannot connect to game (${err.message}). Is the mod running?`;
+                console.error(err);
+                return false;
+            }
+        }
+
+
+
+
+        async function getCurrentGameState() {
+            try {
+                const res = await fetch(`${SERVER_URL}/scene`);
+                if (!res.ok) throw new Error(`Server returned ${res.status}`);
                 const data = await res.json();
 
                 currentScene = data.sceneName;
@@ -122,9 +165,11 @@
 
                 // Use URL params if provided, otherwise use server values
                 // Example call with parameters: https://okclm.github.io/TLD-Map-Client/map.html?scene=RuralRegion&difficulty=hard
+                const finalScene = urlScene || serverData.scene;          // Use a new name
+                const finalDifficulty = urlDifficulty || serverData.difficulty;
 
-                let currentScene = urlScene || currentScene;                // URL parameter scene or server-returned scene
-                let currentDifficulty = urlDifficulty || currentDifficulty; // URL difficulty or server-returned difficulty
+                currentScene = finalScene;          // Now assign to the outer currentScene
+                currentDifficulty = finalDifficulty;
 
                 // Log for debugging (remove in production)
                 console.log("URL override - Scene:", currentScene, "Difficulty:", currentDifficulty);

@@ -81,7 +81,7 @@
     </div>
 
     <script>
-        const version = '1.0.27';
+        const version = '1.0.28';
         const SERVER_URL = 'http://localhost:8080';
         //const REGIONS_JSON_URL = 'https://okclm.github.io/TLD-Map-Client/regions-to-mapURL.json';
         const REGIONS_JSON_URL = 'https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/regions-to-mapURL.json';
@@ -103,6 +103,8 @@
 
                 currentScene = data.sceneName;
                 currentDifficulty = data.experienceMode || 'easy';
+
+                console.log(`${version}: TLD Server reports scene (difficulty)=${currentScene} (${currentDifficulty})`);
 
                 // This is where you can hardcode for testing:
                 //currentScene = 'LakeRegion';

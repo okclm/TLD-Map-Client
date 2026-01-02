@@ -81,7 +81,7 @@
     </div>
 
     <script>
-        const version = '1.0.30';
+        const version = '1.0.31';
         const SERVER_URL = 'http://localhost:8080';
         //const REGIONS_JSON_URL = 'https://okclm.github.io/TLD-Map-Client/regions-to-mapURL.json';
         const REGIONS_JSON_URL = 'https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/regions-to-mapURL.json';
@@ -165,8 +165,8 @@
 
                 // Use URL params if provided, otherwise use server values
                 // Example call with parameters: https://okclm.github.io/TLD-Map-Client/map.html?scene=RuralRegion&difficulty=hard
-                const finalScene = urlScene || serverData.scene;          // Use a new name
-                const finalDifficulty = urlDifficulty || serverData.difficulty;
+                const finalScene = urlScene || serverData.sceneName;          // Use a new name
+                const finalDifficulty = urlDifficulty || serverData.experienceMode;
 
                 currentScene = finalScene;          // Now assign to the outer currentScene
                 currentDifficulty = finalDifficulty;

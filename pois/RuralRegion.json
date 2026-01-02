@@ -123,7 +123,7 @@
     "z": 191.38,
     "svgX": 545.6112755970305,
     "svgY": 1995.963983645749,
-    "label": "West Bear Cave (safe)"
+    "label": "West Bear Cave (DANGER!)"
   },
   {
     "scene": "RuralRegion",
@@ -141,7 +141,7 @@
     "z": 592.3,
     "svgX": 1123.504138596019,
     "svgY": 559.3968378019185,
-    "label": "Three Strikes Farmstead (safe)"
+    "label": "Three Strikes Farmstead"
   },
   {
     "scene": "RuralRegion",
@@ -150,7 +150,7 @@
     "z": 1553.07,
     "svgX": 2543.4229795577626,
     "svgY": 181.77671811239492,
-    "label": "North bear cave (safe)"
+    "label": "North bear cave (DANGER!)"
   },
   {
     "scene": "RuralRegion",
@@ -159,7 +159,7 @@
     "z": 1803.96,
     "svgX": 2944.821014208198,
     "svgY": 725.0110110322315,
-    "label": "Airplane crash (safe)"
+    "label": "Airplane crash site"
   },
   {
     "scene": "RuralRegion",
@@ -186,7 +186,7 @@
     "z": 2112.78,
     "svgX": 3378.1117228747607,
     "svgY": 1693.0631130909712,
-    "label": "Bear cave birch forest (safe)"
+    "label": "Bear cave birch forest (DANGER!)"
   },
   {
     "scene": "RuralRegion",
@@ -213,7 +213,7 @@
     "z": 2729.61,
     "svgX": 4365.813165406174,
     "svgY": 1275.5165858419184,
-    "label": "Bear cave East (safe)"
+    "label": "Bear cave East (DANGER!)"
   },
   {
     "scene": "RuralRegion",

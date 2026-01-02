@@ -94,6 +94,18 @@
         let mapWidth = 3203; // Fallback if detection fails
         let mapHeight = 3803;
 
+        // Get URL query parameters
+        function getQueryParam(param) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(param);
+        }
+
+        // Override server values with URL params (for debug/testing)
+        // If param is missing, we will use what the TLD server returned
+        // Also, note that both params are trimmed and the difficult param is lowercased for consistency
+        const urlScene = getQueryParam('scene').trim();
+        const urlDifficulty = getQueryParam('difficulty').trim().toLowerCase();
+
         // === Fetch current scene + difficulty ===
         async function getCurrentGameState() {
             try {
@@ -104,15 +116,26 @@
                 currentScene = data.sceneName;
                 currentDifficulty = data.experienceMode || 'easy';
 
-                console.log(`${version}: TLD Server reports scene (difficulty)=${currentScene} (${currentDifficulty})`);
+                console.log(`Version ${version}: TLD Server reports scene (difficulty)=${currentScene} (${currentDifficulty})`);
+
+                // Use URL params if provided, otherwise use server values
+                // Example call with parameters: https://okclm.github.io/TLD-Map-Client/map.html?scene=RuralRegion&difficulty=hard
+
+                let currentScene = urlScene || currentScene;                // URL parameter scene or server-returned scene
+                let currentDifficulty = urlDifficulty || currentDifficulty; // URL difficulty or server-returned difficulty
+
+                // Log for debugging (remove in production)
+                console.log("URL override - Scene:", currentScene, "Difficulty:", currentDifficulty);
 
                 // This is where you can hardcode for testing:
                 //currentScene = 'LakeRegion';
                 //currentScene = 'MiningRegion';
                 //currentScene = 'RavineTransitionZone';
-                currentScene = 'RuralRegion';
+                //currentScene = 'RuralRegion';
                 //currentDifficulty = 'easy';
-                currentDifficulty = 'hard';
+                //currentDifficulty = 'hard';
+
+                //console.log(`Version ${version}: Overridden (debug) scene (difficulty)=${currentScene} (${currentDifficulty})`);
 
                 // Prompt user for scene/difficulty override for testing
                 //const userInputScene = prompt(`Current scene detected: ${currentScene}.\nPress OK to use this scene, or enter a different scene name for testing:`, currentScene);

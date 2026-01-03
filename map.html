@@ -54,6 +54,7 @@
             .poi:hover {
                 animation-play-state: paused; /* Stop the pulse */
                 opacity: 0.35 !important; /* Force quite transparent (adjust 0.35 to taste: 0.2–0.4 is good) */
+                transition: opacity 0.4s ease-out; /* Smooth fade over 0.4 seconds */
                 filter: drop-shadow(0 0 4px cyan); /* Optional glow */
             }
 
@@ -67,6 +68,17 @@
                 opacity: 0.35 !important; /* Force transparent on hover */
                 filter: drop-shadow(0 0 6px red);
             }
+
+        /* Optional speed variations */
+        .poi-slow {animation: pulse 6s infinite ease-in-out;}
+        .poi-fast {animation: pulse 1.5s infinite ease-in-out;}
+
+        /* Define the animation once */
+        @keyframes pulse {
+            0% {opacity: 0.25;}
+            50% {opacity: 1.0;}
+            100% {opacity: 0.25;}
+        }
 
         #status {
             position: absolute;
@@ -94,7 +106,7 @@
     </div>
 
     <script>
-        const version = '1.0.43';
+        const version = '1.0.44';
         const SERVER_URL = 'http://localhost:8080';
         //const REGIONS_JSON_URL = 'https://okclm.github.io/TLD-Map-Client/regions-to-mapURL.json';
         const REGIONS_JSON_URL = 'https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/regions-to-mapURL.json';

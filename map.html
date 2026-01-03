@@ -41,57 +41,33 @@
             user-select: none; /* Prevent selection while dragging */
         }
 
-        /* Adds animation */
         .poi {
             cursor: pointer;
             fill: cyan;
             stroke: black;
             stroke-width: 1.5px;
-            opacity: 0.85;
-            animation: pulse 3s infinite ease-in-out; /* default speed */
+            opacity: 0.85; /* Resting state */
+            animation: pulse 3s infinite ease-in-out;
         }
 
+            /* On hover: Force low opacity + pause animation + glow */
             .poi:hover {
-                animation-play-state: paused; /* Pause animation on hover */
-                opacity: 0; /* No opacity on hover.  Let my people see! */
-                /*opacity: 1;*/ /* Still full opacity on hover */
-                filter: drop-shadow(0 0 4px cyan); /* Glow effect */
+                animation-play-state: paused;
+                opacity: 0.35;
+                transition: opacity 0.4s ease-out; /* Smooth fade over 0.4 seconds */
+                filter: drop-shadow(0 0 4px cyan);
             }
 
+        /* Danger version – same idea */
         .poi-danger {
             fill: red;
         }
 
             .poi-danger:hover {
-                animation-play-state: paused; /* Pause animation on hover */
-                /*fill: #ff4444;*/
-                opacity: 0; /* No opacity on hover.  Let my people see! */
-                filter: drop-shadow(0 0 6px red); /* Stronger glow effect */
+                animation-play-state: paused;
+                opacity: 0.35 !important; /* Force transparent on hover */
+                filter: drop-shadow(0 0 6px red);
             }
-
-        /* Optional speed variations */
-        .poi-slow {
-            animation: pulse 6s infinite ease-in-out;
-        }
-
-        .poi-fast {
-            animation: pulse 1.5s infinite ease-in-out;
-        }
-
-        /* Define the animation once */
-        @keyframes pulse {
-            0% {
-                opacity: 0.25;
-            }
-
-            50% {
-                opacity: 1.0;
-            }
-
-            100% {
-                opacity: 0.25;
-            }
-        }
 
         #status {
             position: absolute;
@@ -119,7 +95,7 @@
     </div>
 
     <script>
-        const version = '1.0.41';
+        const version = '1.0.42';
         const SERVER_URL = 'http://localhost:8080';
         //const REGIONS_JSON_URL = 'https://okclm.github.io/TLD-Map-Client/regions-to-mapURL.json';
         const REGIONS_JSON_URL = 'https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/regions-to-mapURL.json';

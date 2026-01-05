@@ -13,8 +13,8 @@
         "x": -316.42,
         "y": 150.34,
         "z": -74.17,
-        "svgX": 1139.431823635578,
-        "svgY": 1400.2681927725337,
+        "svgX": 1133.5577952890515,
+        "svgY": 1401.1073348197879,
         "label": "An entrance to level 3 of the Langston Mine in the open pit mine"
     },
     {
@@ -22,9 +22,9 @@
         "x": -947.04,
         "y": 255.4,
         "z": -571.05,
-        "svgX": 217.97933858526565,
-        "svgY": 2130.3098456945886,
-        "label": "The Smoker\u0027s cave provides a warmth bonus, and is a good source of Coal. There is no other loot present. The cave is home to a Bear, caution is advised when exploring the cave. Poisoned Wolves often patrol the area.  DANGER!\nMiner\u0027s Footpath is to the north, while Desperate Elevation is to the south. Craggy Passage is even farther to the south."
+        "svgX": 216.30100157737178,
+        "svgY": 2129.470752781193,
+        "label": "The Smoker\u0027s cave provides a warmth bonus, and is a good source of Coal. There is no other loot present. The cave is home to a Bear, caution is advised when exploring the cave. Poisoned Wolves often patrol the area.\nMiner\u0027s Footpath is to the north, while Desperate Elevation is to the south. Craggy Passage is even farther to the south."
     },
     {
         "scene": "MiningRegion",
@@ -40,7 +40,7 @@
         "x": -176.24,
         "y": 93.76,
         "z": -1036.49,
-        "svgX": 1322.9609197007496,
+        "svgX": 1321.2826582834068,
         "svgY": 2888.0435905854765,
         "label": "Transition Cave entrance to ZOC / SP / FA."
     },
@@ -49,8 +49,8 @@
         "x": 745.6,
         "y": 329.26,
         "z": -13.7,
-        "svgX": 2730.49700790644,
-        "svgY": 1317.3273978109187,
+        "svgX": 2732.761436252924,
+        "svgY": 1318.1839861573856,
         "label": "Boss\u0027s Settlement"
     },
     {
@@ -76,8 +76,8 @@
         "x": 876.97,
         "y": 325.89,
         "z": -115.32,
-        "svgX": 2891.055874050079,
-        "svgY": 1482.9552567105236,
+        "svgX": 2890.402847278418,
+        "svgY": 1479.8793940333217,
         "label": "Scaffolder\u0027s Hideout cave"
     },
     {
@@ -85,8 +85,8 @@
         "x": -321.69,
         "y": 198.55,
         "z": 325.32,
-        "svgX": 1126.3013669425088,
-        "svgY": 799.4632818992574,
+        "svgX": 1154.8322645806427,
+        "svgY": 797.784982686639,
         "label": "Warehouse near train station"
     },
     {
@@ -94,8 +94,8 @@
         "x": -507.81,
         "y": 246.28,
         "z": 664.77,
-        "svgX": 830.6932535531716,
-        "svgY": 277.79629606629095,
+        "svgX": 824.8192252066452,
+        "svgY": 275.27886614500125,
         "label": "Copter"
     },
     {
@@ -103,8 +103,8 @@
         "x": 890.84,
         "y": 280.43,
         "z": -945.58,
-        "svgX": 2947.4713701137416,
-        "svgY": 2700.792151213174,
+        "svgX": 2949.146645704312,
+        "svgY": 2699.605417354893,
         "label": "Entrance to Transfer Pass"
     },
     {
@@ -112,7 +112,7 @@
         "x": -807.78,
         "y": 218.65,
         "z": -292.05,
-        "svgX": 368.1709228390178,
+        "svgX": 363.97523150038523,
         "svgY": 1735.767412933998,
         "label": "Miner\u0027s path entrance to Langston mine"
     },
@@ -121,8 +121,8 @@
         "x": -725.9,
         "y": 202.44,
         "z": -521.1,
-        "svgX": 533.1755338645993,
-        "svgY": 2067.056995300137,
+        "svgX": 531.4971968567054,
+        "svgY": 2071.2526488434937,
         "label": "Cave south of Miner\u0027s path mine entrance"
     },
     {
@@ -130,8 +130,8 @@
         "x": -401.08,
         "y": 248.59,
         "z": 90.81,
-        "svgX": 990.9327496180666,
-        "svgY": 1144.9872378088721,
+        "svgX": 996.8066645787661,
+        "svgY": 1149.1829291475046,
         "label": "Entrance to mine from upper rail bridge"
     },
     {
@@ -139,7 +139,7 @@
         "x": -722.85,
         "y": 210.01,
         "z": 507.57,
-        "svgX": 493.2931653601886,
+        "svgX": 490.7756976436232,
         "svgY": 517.4340283526012,
         "label": "End of the pipeline"
     },
@@ -148,8 +148,8 @@
         "x": 340.14,
         "y": 183.95,
         "z": -909.15,
-        "svgX": 2109.52108794946,
-        "svgY": 2676.5916850711546,
+        "svgX": 2112.8776626392637,
+        "svgY": 2678.2699086932216,
         "label": "Corpse, Arrow, backpack"
     },
     {
@@ -157,8 +157,8 @@
         "x": -338.12,
         "y": 103.07,
         "z": -882.73,
-        "svgX": 1076.6702740285334,
-        "svgY": 2628.538204755623,
+        "svgX": 1082.54430237506,
+        "svgY": 2624.3424378264394,
         "label": "Enduring Waterfall"
     },
     {
@@ -166,8 +166,8 @@
         "x": -271.74,
         "y": 121.59,
         "z": -785.15,
-        "svgX": 1186.5497196991296,
-        "svgY": 2471.391685068718,
+        "svgX": 1189.9062803290908,
+        "svgY": 2455.447974832308,
         "label": "Passage In"
     },
     {
@@ -175,8 +175,8 @@
         "x": -446.15,
         "y": 181.86,
         "z": -929.49,
-        "svgX": 921.7178456802369,
-        "svgY": 2692.0184315280308,
+        "svgX": 934.3049952866854,
+        "svgY": 2693.6966551500977,
         "label": "Passage Out"
     },
     {
@@ -184,8 +184,53 @@
         "x": -557.04,
         "y": 240.58,
         "z": -906.16,
-        "svgX": 752.4016252057851,
-        "svgY": 2663.4686362521006,
+        "svgX": 760.7931212688769,
+        "svgY": 2666.8251968820623,
         "label": "Rope"
+    },
+    {
+        "scene": "MiningRegion",
+        "x": 664.65,
+        "y": 316.61,
+        "z": 529.13,
+        "svgX": 2607.796044125456,
+        "svgY": 497.539313391735,
+        "label": "Harrowed Residence"
+    },
+    {
+        "scene": "MiningRegion",
+        "x": 515.51,
+        "y": 302.49,
+        "z": 496.43,
+        "svgX": 2388.0543118393816,
+        "svgY": 545.7660850458509,
+        "label": "Forgotten Exploration West entrance"
+    },
+    {
+        "scene": "MiningRegion",
+        "x": -241.81,
+        "y": 216.2,
+        "z": 404.24,
+        "svgX": 1242.7558299360178,
+        "svgY": 685.3521259923905,
+        "label": "Tower site overlooking train station"
+    },
+    {
+        "scene": "MiningRegion",
+        "x": -136.45,
+        "y": 304.64,
+        "z": 607.39,
+        "svgX": 1394.1097323000197,
+        "svgY": 385.89301417781087,
+        "label": "Tower site, fire barrel, corpse"
+    },
+    {
+        "scene": "MiningRegion",
+        "x": -680.37,
+        "y": 207.52,
+        "z": 649.88,
+        "svgX": 564.650985833477,
+        "svgY": 301.81916220830846,
+        "label": "Old Corral, fire barrel"
     }
 ]

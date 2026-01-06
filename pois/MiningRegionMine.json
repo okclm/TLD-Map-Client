@@ -451,9 +451,9 @@
     },
     {
         "scene": "MiningRegionMine",
-        "x": 49.01,
-        "y": 37.7,
-        "z": 142.42,
+        "x": -13.01,
+        "y": 35.51,
+        "z": 163.45,
         "svgX": 1076.1127,
         "svgY": 626.45374,
         "label": "Mountainside Passage Machine Room door"

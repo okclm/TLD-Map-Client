@@ -193,8 +193,8 @@
         "x": 664.65,
         "y": 316.61,
         "z": 529.13,
-        "svgX": 2607.796044125456,
-        "svgY": 497.539313391735,
+        "svgX": 2581.094626802304,
+        "svgY": 513.5602393761773,
         "label": "Harrowed Residence"
     },
     {
@@ -202,9 +202,9 @@
         "x": 515.51,
         "y": 302.49,
         "z": 496.43,
-        "svgX": 2388.0543118393816,
-        "svgY": 545.7660850458509,
-        "label": "Forgotten Exploration West entrance"
+        "svgX": 2382.1206690046656,
+        "svgY": 543.9859653607905,
+        "label": "Forgotten Exploration East entrance"
     },
     {
         "scene": "MiningRegion",
@@ -232,5 +232,50 @@
         "svgX": 564.650985833477,
         "svgY": 301.81916220830846,
         "label": "Old Corral, fire barrel"
+    },
+    {
+        "scene": "MiningRegion",
+        "x": 448.85,
+        "y": 296.54,
+        "z": 566.19,
+        "svgX": 2271.7849020742215,
+        "svgY": 432.5958047295464,
+        "label": "Forgotten Exploration, on scaffolds, possible flaregun"
+    },
+    {
+        "scene": "MiningRegion",
+        "x": 408.76,
+        "y": 288.99,
+        "z": 518.61,
+        "svgX": 2225.704380498871,
+        "svgY": 499.47099213191547,
+        "label": "Forgotten Exploration, Campfire"
+    },
+    {
+        "scene": "MiningRegion",
+        "x": 236.14,
+        "y": 267.21,
+        "z": 558.38,
+        "svgX": 1957.9440756138015,
+        "svgY": 448.858998430527,
+        "label": "Forgotten Exploration West entrance"
+    },
+    {
+        "scene": "MiningRegion",
+        "x": -341.57,
+        "y": 220.43,
+        "z": -454.02,
+        "svgX": 1085.6932535561998,
+        "svgY": 1996.2112630158308,
+        "label": "Trailer end of road around strip mine"
+    },
+    {
+        "scene": "MiningRegion",
+        "x": -63.14,
+        "y": 126.01,
+        "z": -752.58,
+        "svgX": 1509.8250330887954,
+        "svgY": 2464.5342992418646,
+        "label": "Cave ! Content may not spawn"
     }
 ]

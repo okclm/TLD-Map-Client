@@ -1,11 +1,20 @@
 [
     {
         "scene": "MiningRegionMine",
+        "x": 10.14,
+        "y": 1.31,
+        "z": 241.86,
+        "svgX": 645.466,
+        "svgY": 177.75291,
+        "label": "North=miner\u0027s path exit\nSouth=blocked path cleared with hatchet"
+    },
+    {
+        "scene": "MiningRegionMine",
         "x": -36.68,
         "y": 2.09,
         "z": 119.95,
-        "svgX": -1599.8981669481325,
-        "svgY": 315.5715401612276,
+        "svgX": 642.67401,
+        "svgY": 699.81641,
         "label": "Track \u0022T\u0022\nNorth=gas\nEast=continue\nWest=towards mine pit exit"
     },
     {
@@ -13,8 +22,8 @@
         "x": -35.16,
         "y": 1.63,
         "z": 120.62,
-        "svgX": -3442.5028535841866,
-        "svgY": 36.29896063035194,
+        "svgX": 155.15152,
+        "svgY": 625.92554,
         "label": "Deadend track with \u0022Danger of Collapse\u0022 sign and coal"
     },
     {
@@ -22,8 +31,8 @@
         "x": 83.72,
         "y": 1.43,
         "z": 110.94,
-        "svgX": -1187.2431496203976,
-        "svgY": 336.17646614572436,
+        "svgX": 751.85565,
+        "svgY": 705.26813,
         "label": "Room with misc supplies at wall lamp"
     },
     {
@@ -31,8 +40,8 @@
         "x": 99.07,
         "y": 1.59,
         "z": 87.86,
-        "svgX": -1039.8055937131346,
-        "svgY": 641.1041007950146,
+        "svgX": 790.86517,
+        "svgY": 785.9469,
         "label": "Track \u0022T\u0022\nNortheast=Cart ramp\nSoutheast=Mine office\nNorthwest=continue"
     },
     {
@@ -40,8 +49,8 @@
         "x": 101.25,
         "y": 1.29,
         "z": 36.35,
-        "svgX": -681.2641889844678,
-        "svgY": 1351.485051984553,
+        "svgX": 885.72925,
+        "svgY": 973.90186,
         "label": "Track \u0022T\u0022 and wall lamp\nNorthwest=continue\nSouthwest=Exit chute from crushing machine\nNortheast=up stairs to Mine office"
     },
     {
@@ -49,8 +58,8 @@
         "x": 17.33,
         "y": 1.21,
         "z": -35.45,
-        "svgX": -1606.0998803340326,
-        "svgY": 2246.162872467618,
+        "svgX": 641.03314,
+        "svgY": 1210.6187,
         "label": "tp 17.33 1.21 -35.45\nTrack \u0022T\u0022 with wall lamp\nWest=gas\nSoutheast=elevator\nNorth=Mine office"
     },
     {
@@ -58,8 +67,8 @@
         "x": -78.07,
         "y": 1.13,
         "z": 27.18,
-        "svgX": -3683.629285083113,
-        "svgY": 1723.4292661621982,
+        "svgX": 91.353485,
+        "svgY": 1072.3121,
         "label": "T at end of long tunnel from mine pit \nEast=elevator thru gas\nWest=Exit to mine pit\nNorth=continue"
     },
     {
@@ -67,8 +76,8 @@
         "x": 131.05,
         "y": 1.24,
         "z": -105.92,
-        "svgX": -607.5454110308362,
-        "svgY": 3244.7174551566413,
+        "svgX": 905.23401,
+        "svgY": 1474.8196,
         "label": "Floor 3 elevator, fire barrel, workbench, cabins (one with bed)\nSouthwest=gas\nNorthwest=continue\nSoutheast=elevator shaft to Floor 2"
     },
     {
@@ -76,8 +85,8 @@
         "x": 131.07,
         "y": 1.33,
         "z": 175.53,
-        "svgX": -620.9488629994994,
-        "svgY": -461.3268283519352,
+        "svgX": 901.68768,
+        "svgY": 494.26205,
         "label": "T track (right=ramp, left=gas)"
     },
     {
@@ -85,8 +94,8 @@
         "x": -50.41,
         "y": 1.37,
         "z": 98.06,
-        "svgX": -3495.98146775805,
-        "svgY": 346.22898898048925,
+        "svgX": 141.00197,
+        "svgY": 707.92786,
         "label": "Track \u0022T\u0022\nEast=continue\nNorth=short track to deadend with \u0022Danger of Collapse\u0022 sign\nSouth=exit to mine pit"
     },
     {
@@ -94,8 +103,8 @@
         "x": 83.39,
         "y": -3.53,
         "z": 170.92,
-        "svgX": -1240.8568819044988,
-        "svgY": -551.7998362270251,
+        "svgX": 737.67035,
+        "svgY": 470.3244,
         "label": "Corpse with mine office key\nEast=ramp\nWest=gas"
     },
     {
@@ -103,8 +112,8 @@
         "x": -10.28,
         "y": -19.07,
         "z": 139.1,
-        "svgX": -2450.515162233824,
-        "svgY": -558.501543313719,
+        "svgX": 417.61493,
+        "svgY": 468.55124,
         "label": "\u0022T\u0022 \nNorth=Corpse, backpack, and deadend\nEast=gas to Corpse with mine office key\ngas to chemical pool"
     },
     {
@@ -112,8 +121,8 @@
         "x": -60.91,
         "y": -31.41,
         "z": -44.93,
-        "svgX": -2430.410003178467,
-        "svgY": 835.4535685138577,
+        "svgX": 422.93442,
+        "svgY": 837.36853,
         "label": "Chemical pool\nNorth =gas"
     },
     {
@@ -121,26 +130,17 @@
         "x": -66.87,
         "y": -23.61,
         "z": -105.69,
-        "svgX": -2748.7410897964205,
-        "svgY": 1187.293114974729,
+        "svgX": 338.70932,
+        "svgY": 930.45941,
         "label": "Corpse with mine gate key"
-    },
-    {
-        "scene": "MiningRegionMine",
-        "x": 10.14,
-        "y": 1.31,
-        "z": 241.86,
-        "svgX": -1589.3457637984006,
-        "svgY": -1657.5818456889751,
-        "label": "North=miner\u0027s path exit\nSouth=blocked path cleared with hatchet"
     },
     {
         "scene": "MiningRegionMine",
         "x": -90.07,
         "y": 0.29,
         "z": 230.81,
-        "svgX": -2487.3745512106393,
-        "svgY": -2022.8249008114228,
+        "svgX": 407.86255,
+        "svgY": 81.115685,
         "label": "Campfire area (Unmapped by Krueger)"
     },
     {
@@ -148,8 +148,8 @@
         "x": -80.49,
         "y": 0.01,
         "z": 236.68,
-        "svgX": -2487.3745512106393,
-        "svgY": -1858.6330582897879,
+        "svgX": 407.86255,
+        "svgY": 124.55811,
         "label": "\u0022T\u0022 (Unmapped by Kreuger)"
     },
     {
@@ -157,8 +157,8 @@
         "x": -327.89,
         "y": 47.28,
         "z": 371.53,
-        "svgX": -2484.023773257844,
-        "svgY": -1711.1954645872497,
+        "svgX": 408.74911,
+        "svgY": 163.56764,
         "label": "Exit to miner\u0027s path (Unmapped by Kreuger"
     },
     {
@@ -166,8 +166,8 @@
         "x": -327.89,
         "y": 47.28,
         "z": 371.53,
-        "svgX": -2480.6729575097725,
-        "svgY": -1577.161285058099,
+        "svgX": 409.63568,
+        "svgY": 199.03085,
         "label": "Exit to miner\u0027s path (Unmapped by Kreuger)"
     },
     {
@@ -175,8 +175,8 @@
         "x": 141.19,
         "y": 5.14,
         "z": -96.44,
-        "svgX": -513.7213606360211,
-        "svgY": 3211.2085417704166,
+        "svgX": 930.05829,
+        "svgY": 1465.9537,
         "label": "Floor 3 Mining office cabin with bed"
     },
     {
@@ -184,8 +184,8 @@
         "x": 145.54,
         "y": 33.59,
         "z": -113.8,
-        "svgX": 826.6204724507611,
-        "svgY": 3459.17200634029,
+        "svgX": 1284.6904,
+        "svgY": 1531.5607,
         "label": "Floor 1 Elevator shaft"
     },
     {
@@ -193,8 +193,8 @@
         "x": 143.48,
         "y": 33.49,
         "z": -178.99,
-        "svgX": 414.46525984744204,
-        "svgY": 4471.12992761215,
+        "svgX": 1175.641,
+        "svgY": 1799.3079,
         "label": "Floor 1 Cabin with gold nugget lockbox"
     },
     {
@@ -202,8 +202,8 @@
         "x": 127.76,
         "y": 20.71,
         "z": -103.64,
-        "svgX": 2254.084157507082,
-        "svgY": 3231.313738621049,
+        "svgX": 1662.3735,
+        "svgY": 1471.2732,
         "label": "Floor 2 Elevator shaft"
     },
     {
@@ -211,8 +211,8 @@
         "x": 123.18,
         "y": 20.75,
         "z": -74.39,
-        "svgX": 2240.6811968770016,
-        "svgY": 2866.0707779867903,
+        "svgX": 1658.8273,
+        "svgY": 1374.636,
         "label": "Floor 2 Four-way intersection\nSouth=Elevator\nNorth=Crushing Machine\nNorthwest=Blocked path and room\nWest=Coal and corpse double deadend"
     },
     {
@@ -220,8 +220,8 @@
         "x": 96.87,
         "y": 20.67,
         "z": -58.36,
-        "svgX": 1885.490267738926,
-        "svgY": 2490.7750299508375,
+        "svgX": 1564.8497,
+        "svgY": 1275.339,
         "label": "Floor 2 Blocked path\nSoutheast=Four-way intersection\nNortheast=Room"
     },
     {
@@ -229,8 +229,8 @@
         "x": 106.45,
         "y": 20.7,
         "z": -42.42,
-        "svgX": 2109.9976063242693,
-        "svgY": 2333.2847622324316,
+        "svgX": 1624.2506,
+        "svgY": 1233.6697,
         "label": "Floor 2 Room\nSouthwest=Blocked path"
     },
     {
@@ -238,8 +238,8 @@
         "x": 87.96,
         "y": 20.73,
         "z": -80.13,
-        "svgX": 1513.934362222703,
-        "svgY": 2906.687848853414,
+        "svgX": 1466.5422,
+        "svgY": 1385.3826,
         "label": "Floor 2 Three-way intersection\nEast=Elevator\nSouthwest=Coal\nWestest=Coal and corpse"
     },
     {
@@ -247,8 +247,8 @@
         "x": 60.58,
         "y": 20.7,
         "z": -86.44,
-        "svgX": 1168.7965984390767,
-        "svgY": 2910.038777987312,
+        "svgX": 1375.2245,
+        "svgY": 1386.2692,
         "label": "Floor 2 Curve\nEast=Elevator\nSouthwest=Coal and corpse"
     },
     {
@@ -256,8 +256,8 @@
         "x": 49.13,
         "y": 20.81,
         "z": -111.04,
-        "svgX": 860.7730393803006,
-        "svgY": 3196.7374866521345,
+        "svgX": 1293.7266,
+        "svgY": 1462.1249,
         "label": "Floor 2 Deadend coal and corpse\nNortheast=Elevator"
     },
     {
@@ -265,8 +265,8 @@
         "x": 73.43,
         "y": 20.78,
         "z": -110.5,
-        "svgX": 1052.6951811148635,
-        "svgY": 3391.0290142134963,
+        "svgX": 1344.506,
+        "svgY": 1513.5312,
         "label": "Floor 2 Deadend coal\nNortheast=Elevator"
     },
     {
@@ -274,8 +274,8 @@
         "x": 108.78,
         "y": 20.71,
         "z": 3.36,
-        "svgX": 2060.605984276438,
-        "svgY": 1619.7606047436439,
+        "svgX": 1611.1824,
+        "svgY": 1044.8831,
         "label": "Floor 2 Crusher cabin\nSouth=Elevator\nWest=Crusher"
     },
     {
@@ -283,8 +283,8 @@
         "x": 75.15,
         "y": 21.28,
         "z": 6.95,
-        "svgX": 1804.7092913600138,
-        "svgY": 1615.0218330900445,
+        "svgX": 1543.4764,
+        "svgY": 1043.6293,
         "label": "Floor 2 Crusher inlet\nEast=One-way path down through crusher to floor 3"
     },
     {
@@ -292,8 +292,8 @@
         "x": 92.94,
         "y": 3.12,
         "z": 22.11,
-        "svgX": -787.4266204817912,
-        "svgY": 1453.901707103879,
+        "svgX": 857.64044,
+        "svgY": 1000.9996,
         "label": "Floor 2 Ramp exit from floor 2 (Crusher)"
     },
     {
@@ -301,8 +301,8 @@
         "x": 158.65,
         "y": 33.59,
         "z": -152.06,
-        "svgX": 715.3806614258183,
-        "svgY": 4092.0240378438684,
+        "svgX": 1255.2582,
+        "svgY": 1699.0028,
         "label": "Floor 1 Three-way interesection\nNortheast=Elevator\nNorthwest=Gas, coal, corpse, locked gate (Unlockable after story complete)"
     },
     {
@@ -310,8 +310,8 @@
         "x": 127.12,
         "y": 33.69,
         "z": -135.54,
-        "svgX": 319.97971653923275,
-        "svgY": 3701.64948665813,
+        "svgX": 1150.6417,
+        "svgY": 1595.7162,
         "label": "Floor 1 Three-way interesection\nSoutheast=Elevator\nNorth=Gas, ramp to conveyor room, locked gate (Unlockable after story complete)\nNorthwest=Gas, coal, corpse"
     },
     {
@@ -319,8 +319,8 @@
         "x": 69.52,
         "y": 33.61,
         "z": -228.02,
-        "svgX": -424.0154834696019,
-        "svgY": 4817.64230556902,
+        "svgX": 953.79297,
+        "svgY": 1890.9893,
         "label": "Floor 1 DANGER! Gas, corpse with lockbox key\nNorth=Towards fresh air"
     },
     {
@@ -328,8 +328,8 @@
         "x": 43.55,
         "y": 33.63,
         "z": -207.41,
-        "svgX": -762.841247253153,
-        "svgY": 4497.771439423489,
+        "svgX": 864.14532,
+        "svgY": 1806.3568,
         "label": "Floor 1 DANGER! Gas, Hard hat\nEast=Towards fresh air"
     },
     {
@@ -337,8 +337,8 @@
         "x": -236.71,
         "y": 1.31,
         "z": 39.77,
-        "svgX": -3985.206130441025,
-        "svgY": 1656.412573248016,
+        "svgX": 11.561278,
+        "svgY": 1054.5806,
         "label": "Exit to Mine pit"
     },
     {
@@ -346,8 +346,8 @@
         "x": 65.8,
         "y": 33.91,
         "z": -19.98,
-        "svgX": 423.8562519735377,
-        "svgY": 2364.6586205005215,
+        "svgX": 1178.1257,
+        "svgY": 1241.9707,
         "label": "Floor 1 Curve after gas\nSoutheast=Elevator\nNorth=Ramp to conveyor room, locked gate (Unlockable after story complete)\nSouthwest=Gas, blocked path, elevator"
     },
     {
@@ -355,8 +355,8 @@
         "x": 13.05,
         "y": 37.01,
         "z": 29.97,
-        "svgX": 55.26236220538053,
-        "svgY": 2049.6784630164657,
+        "svgX": 1080.6019,
+        "svgY": 1158.6322,
         "label": "Floor 1 Ramp to conveyor room\nSoutheast=Ramp to conveyor room\nSoutheast=Gas, blocked path, elevator"
     },
     {
@@ -364,8 +364,8 @@
         "x": 12.3,
         "y": 57.14,
         "z": 65.8,
-        "svgX": 2434.368377981664,
-        "svgY": 1486.7344630097807,
+        "svgX": 1710.0737,
+        "svgY": 1009.6866,
         "label": "Mountainside Passage Exit to elevated rail leading to 6th floor of Concentrator\nSoutheast=Exit to elevated rail leading to 6th floor of Concentrator\nNorthwest=Distress pistol, Securiyt Chief\u0027s Log #32, need mine gate key to enter"
     },
     {
@@ -373,8 +373,8 @@
         "x": 22.42,
         "y": 57.43,
         "z": 136.89,
-        "svgX": 2863.2778583017184,
-        "svgY": 551.8466645734821,
+        "svgX": 1823.556,
+        "svgY": 762.33087,
         "label": "Mountainside Passage Three-way interesection\nNorth=Coal and corpse\nEast=Gas\nWest=Exit to elevated ramp to 6th floor of Concentrator"
     },
     {
@@ -382,8 +382,8 @@
         "x": 6.37,
         "y": 57.28,
         "z": 179.81,
-        "svgX": 2866.6287874356167,
-        "svgY": 92.77961574913297,
+        "svgX": 1824.4426,
+        "svgY": 640.86938,
         "label": "Mountainside Passage Deadend coal and corpse"
     },
     {
@@ -391,8 +391,8 @@
         "x": 59.32,
         "y": 54.98,
         "z": 171.55,
-        "svgX": 3040.873322870756,
-        "svgY": -285.86679685378874,
+        "svgX": 1870.5448,
+        "svgY": 540.68585,
         "label": "Mountainside Passage One-way ramp down\nNorthwest=Long way around\nSouthwest=One-way ramp down.  Take it!\nSoutheast=Gas"
     },
     {
@@ -400,8 +400,8 @@
         "x": 48.16,
         "y": 46.49,
         "z": 164.92,
-        "svgX": 2893.435842554045,
-        "svgY": -141.78013228514857,
+        "svgX": 1831.5353,
+        "svgY": 578.80878,
         "label": "Mountainside Passage Bottom of one-way ramp down"
     },
     {
@@ -409,8 +409,8 @@
         "x": 31.28,
         "y": 45.42,
         "z": 182.28,
-        "svgX": 2744.163023654634,
-        "svgY": -423.7400692963706,
+        "svgX": 1792.0402,
+        "svgY": 504.20688,
         "label": "Mountainside Passage Ramp down to gas"
     },
     {
@@ -418,8 +418,8 @@
         "x": 55.19,
         "y": 45.31,
         "z": 108.79,
-        "svgX": 1168.5040630060018,
-        "svgY": 813.0926740254034,
+        "svgX": 1375.1471,
+        "svgY": 831.45221,
         "label": "Mountainside Passage Three-way intersection\nSoutheast=Deadend, coal\nNortheast=Towards machine room\nWest=Gas"
     },
     {
@@ -427,8 +427,8 @@
         "x": 71.7,
         "y": 45.39,
         "z": 135.02,
-        "svgX": 1682.666456712895,
-        "svgY": 296.56108346808844,
+        "svgX": 1511.1859,
+        "svgY": 694.78656,
         "label": "Mountainside Passage Three-way intersection\nNorthwest=One-way ramp down\nSouthwest=Towards gas\nSoutheast=Long way to gas"
     },
     {
@@ -436,8 +436,8 @@
         "x": 58.78,
         "y": 45.11,
         "z": 148.97,
-        "svgX": 1585.5208819085922,
-        "svgY": 197.04582047478087,
+        "svgX": 1485.4828,
+        "svgY": 668.45648,
         "label": "Mountainside Passage Three-way intersection\nSouthwest=One-way ramp down\nSoutheast=Long way to gas"
     },
     {
@@ -445,17 +445,17 @@
         "x": 49.01,
         "y": 37.7,
         "z": 142.42,
-        "svgX": 687.5138267798179,
-        "svgY": 277.6057700820365,
+        "svgX": 1247.8851,
+        "svgY": 689.7713,
         "label": "Mountainside Passage Bottom of the one-way ramp"
     },
     {
         "scene": "MiningRegionMine",
-        "x": -12.84,
-        "y": 35.51,
-        "z": 163.35,
-        "svgX": 38.29530708706888,
-        "svgY": 38.29530708706888,
+        "x": 49.01,
+        "y": 37.7,
+        "z": 142.42,
+        "svgX": 1076.1127,
+        "svgY": 626.45374,
         "label": "Mountainside Passage Machine Room door"
     }
 ]

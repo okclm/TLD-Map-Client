@@ -18,15 +18,32 @@
         Map Position (px,py): 3978.20863, 119.23147  (Or something close)
 
         Based on the following POI data:
-        {
-        "scene": "RuralRegion",
-        "x": 172.53,
-        "y": 270.15,
-        "z": 2500.19,
-        "svgX": 3978.20863,
-        "svgY": 119.23147,
-        "label": "Exit to Timberwolf Mountain"
-        }
+            {
+                "scene": "RuralRegion",
+                "x": 172.53,
+                "y": 270.15,
+                "z": 2500.19,
+                "svgX": 3978.20863,
+                "svgY": 119.23147,
+                "label": "Exit to Timberwolf Mountain"
+            }
+
+        And the affine matrix:
+            {
+              "region": "RuralRegion",
+              "affineMatrix": {
+                "A": 0.00142720071414083,
+                "B": 1.4950626097669975,
+                "Tx": -317.8680095759911,
+                "C": 1.5038837170024517,
+                "D": -0.0034022158191049073,
+                "Ty": -635.6807481191483
+              },
+              "generatedAt": "2026-01-07T15:50:42.5107240Z",
+              "calibPointCount": 31,
+              "layerOffsetX": 547.95203,
+              "layerOffsetY": 495.03543
+            }
     </pre>
 
     <script>
@@ -75,10 +92,14 @@
 
                 // Optional: Display on page
                 document.body.innerHTML += `
-                                            <p><strong>Region:</strong> ${data.region}</p>
-                                            <p><strong>Game Position:</strong> x=${gameX}, z=${gameZ}</p>
-                                            <p><strong>Map Position (px,py):</strong> ${pxX.toFixed(2)}, ${pxY.toFixed(2)}</p>
-                                        `;
+                        <p><strong>data.region:</strong> ${data.region}</p>
+                        <p>strong>Affine Data Loaded Successfully</strong></p>
+                        <p><strong>m.A, m.B, m.Tx:</strong> ${m.A}, ${m.B}, ${m.Tx}</p>
+                        <p><strong>m.C, m.D, m.Ty:</strong> ${m.C}, ${m.D}, ${m.Ty}</p>
+                        <p><strong>scene, gameX, gameZ:</strong> ${scene}, ${gameX}, z=${gameZ}</p>
+                        <p><strong>Map Position (px,py):</strong> ${pxX.toFixed(2)}, ${pxY.toFixed(2)}</p>
+                                            `;
+
             })
             .catch(error => {
                 console.error("Error loading or computing affine:", error);

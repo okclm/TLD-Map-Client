@@ -1,42 +1,68 @@
 ﻿<!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>Affine Test - TLD Map</title>
 </head>
 <body>
+    <h1>Affine Position Calculator Test</h1>
+    <p>Usage: Append ?scene=RuralRegion&x=423.47&y=1458.18 to the URL</p>
+
     <script>
-        // Get URL query parameters
+        // Helper: Get URL query parameter
         function getQueryParam(param) {
             const urlParams = new URLSearchParams(window.location.search);
             return urlParams.get(param);
         }
 
-        // Override server values with URL params (for debug/testing)
-        // Also, note that both params are trimmed and the difficulty param is lowercased for consistency
-        const urlScene = getQueryParam('scene')?.trim() || null;
-        const urlDifficulty = getQueryParam('difficulty')?.trim().toLowerCase() || null;
-        const urlGameX = getQueryParam('x')?.trim().toLowerCase() || null;
-        const urlGameY = getQueryParam('y')?.trim().toLowerCase() || null;
+        // Get parameters from URL (with defaults/fallbacks)
+        const scene = getQueryParam('scene')?.trim() || null;
+        const gameX = parseFloat(getQueryParam('x')?.trim() || '0');
+        const gameZ = parseFloat(getQueryParam('z')?.trim() || '0'); // Use 'z' for consistency with game coords
 
-        console.log(`scene (difficulty): ${urlScene} (${urlDifficulty})`);
-        console.log(`urlGameX, urlGameY: ${urlGameX}, ${urlGameY})`);
+        console.log(`Scene: ${scene}`);
+        console.log(`Game X: ${gameX}, Game Z: ${gameZ}`);
 
-        const affineUrl = `https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/affine/${urlScene}_affine.json`;
+        if (!scene) {
+            document.body.innerHTML += '<p style="color:red;">Error: Missing ?scene= parameter</p>';
+            throw new Error("Missing scene parameter");
+        }
+
+        const affineUrl = `https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/affine/${scene}_affine.json`;
+        console.log("Fetching affine from:", affineUrl);
+
         fetch(affineUrl)
-            .then(r => r.json())
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+                return response.json();
+            })
             .then(data => {
-                console.log("Loaded affine for", data.region);
-                // Use data.affineMatrix.A, .B, etc.
-            });
+                console.log("Loaded affine data for:", data.region);
 
-        const m = data.affineMatrix;
-        //const pxX = m.A * 423.47 + m.B * 1458.18 + m.Tx;
-        //const pxY = m.C * 423.47 + m.D * 1458.18 + m.Ty;
-        const pxX = m.A * urlGameX + m.B * urlGameY + m.Tx;
-        const pxY = m.C * urlGameX + m.D * urlGameY + m.Ty;
-        console.log("Computed px, py:", pxX.toFixed(2), pxY.toFixed(2));
+                const m = data.affineMatrix;
+                if (!m) {
+                    throw new Error("No affineMatrix found in data");
+                }
+
+                // Compute position (gameX, gameZ → pxX, pxY)
+                const pxX = m.A * gameX + m.B * gameZ + m.Tx;
+                const pxY = m.C * gameX + m.D * gameZ + m.Ty;
+
+                console.log("Computed position:", pxX.toFixed(2), pxY.toFixed(2));
+
+                // Optional: Display on page
+                document.body.innerHTML += `
+                        <p><strong>Region:</strong> ${data.region}</p>
+                        <p><strong>Game Position:</strong> x=${gameX}, z=${gameZ}</p>
+                        <p><strong>Map Position (px):</strong> ${pxX.toFixed(2)}, ${pxY.toFixed(2)}</p>
+                    `;
+            })
+            .catch(error => {
+                console.error("Error loading or computing affine:", error);
+                document.body.innerHTML += `<p style="color:red;">Error: ${error.message}</p>`;
+            });
     </script>
 </body>
 </html>

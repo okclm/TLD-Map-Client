@@ -6,7 +6,28 @@
 </head>
 <body>
     <h1>Affine Position Calculator Test</h1>
-    <p>Usage: Append ?scene=RuralRegion&x=423.47&y=1458.18 to the URL</p>
+    <p>Usage: Append ?scene=RuralRegion&x=172.53&z=2500.19 to the URL</p>
+
+    <p>
+        This should use the affine for RuralRegion to compute the map position for the given game coordinates.
+        Expected output:
+        Region: RuralRegion
+
+        Game Position: x=172.53, z=2500.19
+
+        Map Position (px,py): 3978.20863, 119.23147  (Or something close)
+
+        Based on the following POI data:
+        {
+        "scene": "RuralRegion",
+        "x": 172.53,
+        "y": 270.15,
+        "z": 2500.19,
+        "svgX": 3978.20863,
+        "svgY": 119.23147,
+        "label": "Exit to Timberwolf Mountain"
+        }
+    </p>
 
     <script>
         // Helper: Get URL query parameter
@@ -54,10 +75,10 @@
 
                 // Optional: Display on page
                 document.body.innerHTML += `
-                        <p><strong>Region:</strong> ${data.region}</p>
-                        <p><strong>Game Position:</strong> x=${gameX}, z=${gameZ}</p>
-                        <p><strong>Map Position (px):</strong> ${pxX.toFixed(2)}, ${pxY.toFixed(2)}</p>
-                    `;
+                                            <p><strong>Region:</strong> ${data.region}</p>
+                                            <p><strong>Game Position:</strong> x=${gameX}, z=${gameZ}</p>
+                                            <p><strong>Map Position (px,py):</strong> ${pxX.toFixed(2)}, ${pxY.toFixed(2)}</p>
+                                        `;
             })
             .catch(error => {
                 console.error("Error loading or computing affine:", error);

@@ -8,26 +8,7 @@
     <h1>Affine Position Calculator Test</h1>
     <p>Usage: Append ?scene=RuralRegion&x=172.53&z=2500.19 to the URL</p>
 
-    <pre>
-        This should use the affine for RuralRegion to compute the map position for the given game coordinates.
-        Expected output:
-        Region: RuralRegion
-
-        Game Position: x=172.53, z=2500.19
-
-        Map Position (px,py): 3978.20863, 119.23147  (Or something close)
-
-        Based on the following POI data:
-            {
-                "scene": "RuralRegion",
-                "x": 172.53,
-                "y": 270.15,
-                "z": 2500.19,
-                "svgX": 3978.20863,
-                "svgY": 119.23147,
-                "label": "Exit to Timberwolf Mountain"
-            }
-    </pre>
+    <p id="result">Waiting for data...</p>
 
     <script>
         // Helper: Get URL query parameter
@@ -39,13 +20,11 @@
         // Get parameters from URL (with defaults/fallbacks)
         const scene = getQueryParam('scene')?.trim() || null;
         const gameX = parseFloat(getQueryParam('x')?.trim() || '0');
-        const gameZ = parseFloat(getQueryParam('z')?.trim() || '0'); // Use 'z' for consistency with game coords
-
-        console.log(`Scene: ${scene}`);
-        console.log(`Game X: ${gameX}, Game Z: ${gameZ}`);
+        const gameZ = parseFloat(getQueryParam('z')?.trim() || '0'); // Use 'z' for gameZ
 
         if (!scene) {
-            document.body.innerHTML += '<p style="color:red;">Error: Missing ?scene= parameter</p>';
+            document.getElementById('result').innerHTML =
+                '<p style="color:red;">Error: Missing ?scene= parameter</p>';
             throw new Error("Missing scene parameter");
         }
 
@@ -73,24 +52,21 @@
 
                 console.log("Computed position:", pxX.toFixed(2), pxY.toFixed(2));
 
-                // Optional: Display on page
-                document.body.innerHTML += `
+                // Display on page
+                document.getElementById('result').innerHTML = `
                         <p><strong>Affine Data Loaded Successfully</strong></p>
-                        <p><strong>data.region:</strong> ${data.region}</p>
-                        <p><strong>m.A, m.B, m.Tx:</strong> ${m.A}, ${m.B}, ${m.Tx}</p>
-                        <p><strong>m.C, m.D, m.Ty:</strong> ${m.C}, ${m.D}, ${m.Ty}</p>
-                        <p><strong>data.generatedAt:</strong> ${data.generatedAt}</p>
-                        <p><strong>data.calibPointCount:</strong> ${data.calibPointCount}</p>
-                        <p><strong>data.layerOffsetX:</strong> ${data.layerOffsetX}</p>
-                        <p><strong>data.layerOffsetY:</strong> ${data.layerOffsetY}</p>
-                        <p><strong>scene, gameX, gameZ:</strong> ${scene}, ${gameX}, z=${gameZ}</p>
-                        <p><strong>Map Position (px,py):</strong> ${pxX.toFixed(2)}, ${pxY.toFixed(2)}</p>
-                                            `;
-
+                        <p><strong>Region:</strong> ${data.region}</p>
+                        <p><strong>Calibration Points:</strong> ${data.calibPointCount}</p>
+                        <p><strong>Generated At:</strong> ${data.generatedAt}</p>
+                        <p><strong>Game Position:</strong> x=${gameX}, z=${gameZ}</p>
+                        <p><strong>Map Position (px):</strong> ${pxX.toFixed(2)}, ${pxY.toFixed(2)}</p>
+                        <p><strong>Expected (from POI JSON):</strong> 3978.21, 119.23</p>
+                    `;
             })
             .catch(error => {
-                console.error("Error loading or computing affine:", error);
-                document.body.innerHTML += `<p style="color:red;">Error: ${error.message}</p>`;
+                console.error("Error:", error);
+                document.getElementById('result').innerHTML =
+                    `<p style="color:red;">Error: ${error.message}</p>`;
             });
     </script>
 </body>

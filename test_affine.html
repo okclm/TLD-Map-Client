@@ -75,10 +75,14 @@
 
                 // Optional: Display on page
                 document.body.innerHTML += `
-                        <p><strong>data.region:</strong> ${data.region}</p>
                         <p><strong>Affine Data Loaded Successfully</strong></p>
+                        <p><strong>data.region:</strong> ${data.region}</p>
                         <p><strong>m.A, m.B, m.Tx:</strong> ${m.A}, ${m.B}, ${m.Tx}</p>
                         <p><strong>m.C, m.D, m.Ty:</strong> ${m.C}, ${m.D}, ${m.Ty}</p>
+                        <p><strong>data.generatedAt:</strong> ${data.generatedAt}</p>
+                        <p><strong>data.calibPointCount:</strong> ${data.calibPointCount}</p>
+                        <p><strong>data.layerOffsetX:</strong> ${data.layerOffsetX}</p>
+                        <p><strong>data.layerOffsetY:</strong> ${data.layerOffsetY}</p>
                         <p><strong>scene, gameX, gameZ:</strong> ${scene}, ${gameX}, z=${gameZ}</p>
                         <p><strong>Map Position (px,py):</strong> ${pxX.toFixed(2)}, ${pxY.toFixed(2)}</p>
                                             `;

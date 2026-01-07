@@ -1,15 +1,6 @@
 [
     {
         "scene": "MiningRegionMine",
-        "x": 10.14,
-        "y": 1.31,
-        "z": 241.86,
-        "svgX": 645.466,
-        "svgY": 177.75291,
-        "label": "North=miner\u0027s path exit\nSouth=blocked path cleared with hatchet"
-    },
-    {
-        "scene": "MiningRegionMine",
         "x": -36.68,
         "y": 2.09,
         "z": 119.95,
@@ -136,38 +127,20 @@
     },
     {
         "scene": "MiningRegionMine",
-        "x": -90.07,
-        "y": 0.29,
-        "z": 230.81,
-        "svgX": 407.86255,
-        "svgY": 81.115685,
-        "label": "Campfire area (Unmapped by Krueger)"
-    },
-    {
-        "scene": "MiningRegionMine",
-        "x": -80.49,
-        "y": 0.01,
-        "z": 236.68,
-        "svgX": 407.86255,
-        "svgY": 124.55811,
-        "label": "\u0022T\u0022 (Unmapped by Kreuger)"
+        "x": 10.14,
+        "y": 1.31,
+        "z": 241.86,
+        "svgX": 645.466,
+        "svgY": 177.75291,
+        "label": "North=miner\u0027s path exit\nSouth=blocked path cleared with hatchet"
     },
     {
         "scene": "MiningRegionMine",
         "x": -327.89,
         "y": 47.28,
         "z": 371.53,
-        "svgX": 408.74911,
-        "svgY": 163.56764,
-        "label": "Exit to miner\u0027s path (Unmapped by Kreuger"
-    },
-    {
-        "scene": "MiningRegionMine",
-        "x": -327.89,
-        "y": 47.28,
-        "z": 371.53,
-        "svgX": 409.63568,
-        "svgY": 199.03085,
+        "svgX": 645.78149,
+        "svgY": 116.47581,
         "label": "Exit to miner\u0027s path (Unmapped by Kreuger)"
     },
     {

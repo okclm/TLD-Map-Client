@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="4936"
+   height="4864"
+   viewBox="0 0 4936 4864"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="ruralregion.svg"
+   xml:space="preserve"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+	<sodipodi:namedview
+   id="namedview1"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:document-units="px"
+   inkscape:zoom="0.46587171"
+   inkscape:cx="3366.8067"
+   inkscape:cy="973.44395"
+   inkscape:window-width="2560"
+   inkscape:window-height="1377"
+   inkscape:window-x="5112"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="layer1"
+   showgrid="false" />
+	<defs
+   id="defs1" />
+	<g
+   inkscape:label="Layer 1"
+   inkscape:groupmode="layer"
+   id="layer1"
+   transform="translate(547.95203,495.03543)">
+		<image
+   width="4936"
+   height="4864"
+   preserveAspectRatio="xMidYMid"
+   xlink:href="../Mods/TLD-Map-Client/images/ruralregion_hard.jpg"
+   id="image1"
+   x="-547.95203"
+   y="-495.03543"
+   sodipodi:insensitive="true"
+   inkscape:svg-dpi="96" />
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path4"
+   cx="3430.2566"
+   cy="-375.80396"
+   r="25">
+			<desc
+   id="desc1">scene=RuralRegion x=172.53 y=270.15 z=2500.19
+Exit to Timberwolf Mountain</desc>
+			<title
+   id="title1">Exit to Timberwolf Mountain</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path3"
+   cx="3851.3936"
+   cy="3376.2605"
+   r="25">
+			<desc
+   id="desc2">scene=RuralRegion x=2649.07 y=198.75 z=2766.79
+Exit to Coastal Highway (Cinder Hills Mine Cave)</desc>
+			<title
+   id="title2">Exit to Coastal Highway (Cinder Hills Mine Cave)</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path12"
+   cx="402.80029"
+   cy="3058.6025"
+   r="25">
+			<desc
+   id="desc3">scene=RuralRegion x=2452.71 y=192.39 z=464.96
+Hilltop Cave</desc>
+			<title
+   id="title3">Hilltop Cave</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path15"
+   cx="73.716675"
+   cy="282.43512"
+   r="25">
+			<desc
+   id="desc4">scene=RuralRegion x=604.54 y=75.36 z=257.95
+NorthWest cave near Three Strikes Farm.  DANGER!</desc>
+			<title
+   id="title4">NorthWest cave near Three Strikes Farm</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path1"
+   cx="1838.7422"
+   cy="-7.5190821"
+   r="25">
+			<desc
+   id="desc5">scene=RuralRegion x=423.47 y=178.01 z=1458.18
+Prepper's Cache</desc>
+			<title
+   id="title5">Prepper's Cache</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path2"
+   cx="2034.4733"
+   cy="156.9628"
+   r="25">
+			<desc
+   id="desc6">scene=RuralRegion x=518.65 y=149.99 z=1566.04
+Burned Ridge Cave</desc>
+			<title
+   id="title6">Burned Ridge Cave</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path5"
+   cx="-242.79738"
+   cy="1675.4246"
+   r="25">
+			<desc
+   id="desc7">scene=RuralRegion x=1530.02 y=45.07 z=60.09
+Exit to Keeper's Path South</desc>
+			<title
+   id="title7">Exit to Keeper's Path South</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path6"
+   cx="686.74066"
+   cy="3405.7822"
+   r="25">
+			<desc
+   id="desc8">scene=RuralRegion x=2673.50 y=151.67 z=695.76
+Exit to Winding River cave</desc>
+			<title
+   id="title8">Exit to Winding River cave</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path7"
+   cx="3077.5776"
+   cy="2937.7739"
+   r="25">
+			<desc
+   id="desc9">scene=RuralRegion x=2374.69 y=55.36 z=2255.06
+Community Center Front Door</desc>
+			<title
+   id="title9">Community Center Front Door</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path8"
+   cx="3276.1343"
+   cy="3483.2969"
+   r="25">
+			<desc
+   id="desc10">scene=RuralRegion x=2778.37 y=95.72 z=2388.13
+Cave Southeast (coal spawns)</desc>
+			<title
+   id="title10">Cave Southeast (coal spawns)</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path9"
+   cx="2419.8704"
+   cy="1872.9719"
+   r="25">
+			<desc
+   id="desc11">scene=RuralRegion x=1683.28 y=41.91 z=1840.08
+Outbuildings Barn porch door</desc>
+			<title
+   id="title11">Outbuildings Barn porch door</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path10"
+   cx="1205.0861"
+   cy="1525.6459"
+   r="25">
+			<desc
+   id="desc12">scene=RuralRegion x=1455.00 y=48.76 z=1032.37
+Farmhouse screened porch door (kitchen)</desc>
+			<title
+   id="title12">Farmhouse screened porch door (kitchen)</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path11"
+   cx="647.37"
+   cy="2259.28"
+   r="25">
+			<desc
+   id="desc13">scene=RuralRegion x=1917.91 y=200.00 z=632.13
+Signal Hill Radio Control Hut door</desc>
+			<title
+   id="title13">Signal Hill Radio Control Hut door</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path13"
+   cx="1474.8923"
+   cy="3110.479"
+   r="25">
+			<desc
+   id="desc14">scene=RuralRegion x=2507.46 y=111.43 z=1209.73
+Fishing hut</desc>
+			<title
+   id="title14">Fishing hut</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path14"
+   cx="-5.0474854"
+   cy="1500.0697"
+   r="25">
+			<desc
+   id="desc15">scene=RuralRegion x=1457.33 y=63.21 z=191.38
+West Bear Cave (safe)</desc>
+			<title
+   id="title15">West Bear Cave (safe)</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path16"
+   cx="575.02893"
+   cy="59.849503"
+   r="25">
+			<desc
+   id="desc16">scene=RuralRegion x=475.04 y=62.39 z=592.30
+Three Strikes Farmstead (safe)</desc>
+			<title
+   id="title16">Three Strikes Farmstead (safe)</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path17"
+   cx="1995.9543"
+   cy="-304.16229"
+   r="25">
+			<desc
+   id="desc17">scene=RuralRegion x=196.96 y=156.68 z=1553.07
+North bear cave. DANGER!</desc>
+			<title
+   id="title17">North bear cave (safe)</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path18"
+   cx="2390.48"
+   cy="256.08"
+   r="25">
+			<desc
+   id="desc18">scene=RuralRegion x=588.74 y=159.00 z=1803.96
+Airplane crash (safe)</desc>
+			<title
+   id="title18">Airplane crash (safe)</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path19"
+   cx="2155.3918"
+   cy="375.12643"
+   r="25">
+			<desc
+   id="desc19">scene=RuralRegion x=689.26 y=157.31 z=1656.54
+Skeeter's Ridge Basement entrance</desc>
+			<title
+   id="title19">Skeeter's Ridge Basement entrance</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path20"
+   cx="2750.7839"
+   cy="-77.534981"
+   r="25">
+			<desc
+   id="desc20">scene=RuralRegion x=397.15 y=149.53 z=2056.81
+Hunter's Blind North</desc>
+			<title
+   id="title20">Hunter's Blind North</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path21"
+   cx="2844.0317"
+   cy="1233.9076"
+   r="25">
+			<desc
+   id="desc21">scene=RuralRegion x=1243.64 y=55.27 z=2112.78
+Bear cave birch forest. DANGER!</desc>
+			<title
+   id="title21">Bear cave birch forest (safe)</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path22"
+   cx="2152.2664"
+   cy="763.76044"
+   r="25">
+			<desc
+   id="desc22">scene=RuralRegion x=943.83 y=37.32 z=1668.83
+Draft Dodger's Cabin</desc>
+			<title
+   id="title22">Draft Dodger's Cabin</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path23"
+   cx="3550.7361"
+   cy="-177.75188"
+   r="25">
+			<desc
+   id="desc23">scene=RuralRegion x=313.17 y=140.56 z=2605.25
+Cave Misty Falls</desc>
+			<title
+   id="title23">Cave Misty Falls</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path24"
+   cx="3804.2017"
+   cy="788.68182"
+   r="25">
+			<desc
+   id="desc24">scene=RuralRegion x=956.45 y=116.83 z=2729.61
+Bear cave East. DANGER!</desc>
+			<title
+   id="title24">Bear cave East (safe)</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path25"
+   cx="3625.7034"
+   cy="1665.6116"
+   r="25">
+			<desc
+   id="desc25">scene=RuralRegion x=1507.22 y=45.43 z=2652.18
+Cave with bed East along creek</desc>
+			<title
+   id="title25">Cave with bed East along creek</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path26"
+   cx="-80.32103"
+   cy="1065.9083"
+   r="25">
+			<desc
+   id="desc26">scene=RuralRegion x=1112.72 y=97.27 z=141.71
+Bunker Beta</desc>
+			<title
+   id="title26">Bunker Beta</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path27"
+   cx="-35.160927"
+   cy="1876.6122"
+   r="25">
+			<desc
+   id="desc27">scene=RuralRegion x=1666.52 y=43.35 z=173.02
+Memento in car at the Long Curve</desc>
+			<title
+   id="title27">Memento in car at the Long Curve</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path28"
+   cx="439.44"
+   cy="137.84"
+   r="25">
+			<desc
+   id="desc28">scene=RuralRegion x=513.32 y=66.63 z=502.06
+Rock cache at Three Strikes Farmstead contains bow and arrows</desc>
+			<title
+   id="title28">Rock cache at Three Strikes Farmstead contains bow and arrows</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path29"
+   cx="3114.0789"
+   cy="340.91321"
+   r="25">
+			<desc
+   id="desc29">scene=RuralRegion x=673.72 y=141.54 z=2275.71
+Memento in car at Point of Disagreement</desc>
+			<title
+   id="title29">Memento in car at Point of Disagreement</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path30"
+   cx="1102.03"
+   cy="1578.3866"
+   r="25">
+			<desc
+   id="desc30">scene=RuralRegion x=1465.90 y=48.72 z=969.24
+Memento in car at Farmstead (Describes cave to Winding River)</desc>
+			<title
+   id="title30">Memento in car at Farmstead (Describes cave to Winding River)</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path31"
+   cx="3026.603"
+   cy="3023.6594"
+   r="25">
+			<desc
+   id="desc31">scene=RuralRegion x=2438.60 y=53.43 z=2255.59
+Rural Store front door</desc>
+			<title
+   id="title31">Rural Store front door</title>
+		</circle>
+	</g>
+</svg>

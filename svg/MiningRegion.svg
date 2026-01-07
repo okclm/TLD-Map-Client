@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="3203"
+   height="3803"
+   viewBox="0 0 3203 3803"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="MiningRegion.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+	<sodipodi:namedview
+   id="namedview1"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:document-units="px"
+   inkscape:zoom="0.42132631"
+   inkscape:cx="1879.7782"
+   inkscape:cy="2153.9125"
+   inkscape:window-width="2560"
+   inkscape:window-height="1377"
+   inkscape:window-x="5112"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="layer1"
+   showgrid="false" />
+	<defs
+   id="defs1" />
+	<g
+   inkscape:label="Layer 1"
+   inkscape:groupmode="layer"
+   id="layer1"
+   transform="translate(248.31145,352.29269)">
+		<image
+   width="3203"
+   height="3803"
+   preserveAspectRatio="xMidYMid"
+   xlink:href="../Mods/TLD-Map-Client/images/miningregion_hard.jpg"
+   id="image1"
+   x="-248.31145"
+   y="-352.29269"
+   inkscape:svg-dpi="96"
+   sodipodi:insensitive="true" />
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path1"
+   cx="1073.1993"
+   cy="2538.0454"
+   r="25">
+			<desc
+   id="desc1">scene=MiningRegion x=-176.24 y=93.76 z=-1036.49
+Transition Cave entrance to ZOC / SP / FA.</desc>
+			<title
+   id="title1">Transition Cave entrance to ZOC / SP / FA.</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path29"
+   cx="318.64996"
+   cy="-47.763447"
+   r="25">
+			<desc
+   id="desc2">scene=MiningRegion x=-680.37 y=207.52 z=649.88
+Old Corral, fire barrel</desc>
+			<title
+   id="title2">Old Corral, fire barrel</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path22"
+   cx="2349.5623"
+   cy="139.98157"
+   r="25">
+			<desc
+   id="desc3">scene=MiningRegion x=664.65 y=316.61 z=529.13
+Harrowed Residence</desc>
+			<title
+   id="title3">Harrowed Residence</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path11"
+   cx="2699.3325"
+   cy="2348.1687"
+   r="25">
+			<desc
+   id="desc4">scene=MiningRegion x=890.84 y=280.43 z=-945.58
+Entrance to Transfer Pass</desc>
+			<title
+   id="title4">Entrance to Transfer Pass</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path12"
+   cx="887.19775"
+   cy="1049.0157"
+   r="25">
+			<desc
+   id="desc5">scene=MiningRegion x=-316.42 y=150.34 z=-74.17
+Pit mine cave entrance to Langston mine</desc>
+			<title
+   id="title5">Pit mine cave entrance to Langston mine</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path2"
+   cx="2094.8608"
+   cy="2593.0088"
+   r="25">
+			<desc
+   id="desc6">scene=MiningRegion x=524.90 y=304.14 z=-1106.87
+Welkin's Window cave</desc>
+			<title
+   id="title6">Welkin's Window cave</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path3"
+   cx="2502.0647"
+   cy="988.66205"
+   r="25">
+			<desc
+   id="desc7">scene=MiningRegion x=745.60 y=329.26 z=-13.70
+Boss's Settlement</desc>
+			<title
+   id="title7">Boss's Settlement</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path4"
+   cx="2075.8604"
+   cy="645.19348"
+   r="25">
+			<desc
+   id="desc8">scene=MiningRegion x=476.74 y=242.39 z=190.46
+Idle Camp Mess Hall</desc>
+			<title
+   id="title8">Idle Camp Mess Hall</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path5"
+   cx="1979.8197"
+   cy="623.62042"
+   r="25">
+			<desc
+   id="desc9">scene=MiningRegion x=420.23 y=239.02 z=209.47
+Idle Camp lodging barrack 1</desc>
+			<title
+   id="title9">Idle Camp lodging barrack 1</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path6"
+   cx="2024.6534"
+   cy="585.0434"
+   r="25">
+			<desc
+   id="desc10">scene=MiningRegion x=444.79 y=238.97 z=229.13
+Idle Camp lodging barrack 2</desc>
+			<title
+   id="title10">Idle Camp lodging barrack 2</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path7"
+   cx="2636.9646"
+   cy="1131.8582"
+   r="25">
+			<desc
+   id="desc11">scene=MiningRegion x=876.97 y=325.89 z=-115.32
+Scaffolder's Hideout cave</desc>
+			<title
+   id="title11">Scaffolder's Hideout cave</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path8"
+   cx="877.46399"
+   cy="446.42319"
+   r="25">
+			<desc
+   id="desc12">scene=MiningRegion x=-321.69 y=198.55 z=325.32
+Warehouse near train station</desc>
+			<title
+   id="title12">Warehouse near train station</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path9"
+   cx="-29.357307"
+   cy="1774.4875"
+   r="25">
+			<desc
+   id="desc13">scene=MiningRegion x=-947.04 y=255.40 z=-571.05
+The cave provides a warmth bonus, and is a good source of Coal. There is no other loot present. 
+The cave is home to a Bear, caution is advised when exploring the cave. (DANGER!)
+Poisoned Wolves often patrol the area.
+
+Miner's Footpath is to the north, while Desperate Elevation is to the south. 
+Craggy Passage is even farther to the south. </desc>
+			<title
+   id="title13">Smoker's cave provides a warmth bonus and is a good source of Coal.
+The cave is home to a Bear so caution is advised when exploring the cave.
+Poisoned Wolves often patrol the area. (DANGER!)</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path10"
+   cx="587.04016"
+   cy="-75.653923"
+   r="25">
+			<desc
+   id="desc14">scene=MiningRegion x=-507.81 y=246.28 z=664.77
+Copter</desc>
+			<title
+   id="title14">Copter</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path13"
+   cx="120.11617"
+   cy="1384.686"
+   r="25">
+			<desc
+   id="desc15">scene=MiningRegion x=-807.78 y=218.65 z=-292.05
+Miner's path entrance to Langston mine</desc>
+			<title
+   id="title15">Miner's path entrance to Langston mine</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path14"
+   cx="284.58832"
+   cy="1714.7986"
+   r="25">
+			<desc
+   id="desc16">scene=MiningRegion x=-725.90 y=202.44 z=-521.10
+Cave south of Miner's path mine entrance</desc>
+			<title
+   id="title16">Cave south of Miner's path mine entrance</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path15"
+   cx="747.86017"
+   cy="800.86304"
+   r="25">
+			<desc
+   id="desc17">scene=MiningRegion x=-401.08 y=248.59 z=90.81
+Entrance to mine from upper rail bridge</desc>
+			<title
+   id="title17">Entrance to mine from upper rail bridge</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path16"
+   cx="244.25926"
+   cy="166.71608"
+   r="25">
+			<desc
+   id="desc18">scene=MiningRegion x=-722.85 y=210.01 z=507.57
+End of the pipeline</desc>
+			<title
+   id="title18">End of the pipeline</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path17"
+   cx="1860.9866"
+   cy="2321.5803"
+   r="25">
+			<desc
+   id="desc19">scene=MiningRegion x=340.14 y=183.95 z=-909.15
+Corpse, Arrow, backpack</desc>
+			<title
+   id="title19">Corpse, Arrow, backpack</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path18"
+   cx="841.67682"
+   cy="2280.6997"
+   r="25">
+			<desc
+   id="desc20">scene=MiningRegion x=-338.12 y=103.07 z=-882.73
+Enduring Waterfall</desc>
+			<title
+   id="title20">Enduring Waterfall</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path19"
+   cx="940.84009"
+   cy="2132.4265"
+   r="25">
+			<desc
+   id="desc21">scene=MiningRegion x=-271.74 y=121.59 z=-785.15
+Passage In</desc>
+			<title
+   id="title21">Passage In</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path20"
+   cx="702.76471"
+   cy="2335.6487"
+   r="25">
+			<desc
+   id="desc22">scene=MiningRegion x=-446.15 y=181.86 z=-929.49
+Passage Out</desc>
+			<title
+   id="title22">Passage Out</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path21"
+   cx="504.99316"
+   cy="2318.9863"
+   r="25">
+			<desc
+   id="desc23">scene=MiningRegion x=-557.04 y=240.58 z=-906.16
+Rope</desc>
+			<title
+   id="title23">Rope</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path23"
+   cx="2121.0029"
+   cy="189.72401"
+   r="25">
+			<desc
+   id="desc24">scene=MiningRegion x=515.51 y=302.49 z=496.43
+Forgotten Exploration East entrance</desc>
+			<title
+   id="title24">Forgotten Exploration East entrance</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path24"
+   cx="2019.7595"
+   cy="81.597198"
+   r="25">
+			<desc
+   id="desc25">scene=MiningRegion x=448.85 y=296.54 z=566.19
+Forgotten Exploration, on scaffolds, possible flaregun</desc>
+			<title
+   id="title25">Forgotten Exploration, on scaffolds, possible flaregun</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path25"
+   cx="1970.4335"
+   cy="151.62038"
+   r="25">
+			<desc
+   id="desc26">scene=MiningRegion x=408.76 y=288.99 z=518.61
+Forgotten Exploration, Campfire</desc>
+			<title
+   id="title26">Forgotten Exploration, Campfire</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path26"
+   cx="1588.6372"
+   cy="82.96981"
+   r="25">
+			<desc
+   id="desc27">scene=MiningRegion x=236.14 y=267.21 z=558.38
+Forgotten Exploration West entrance</desc>
+			<title
+   id="title27">Forgotten Exploration West entrance</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path27"
+   cx="993.44714"
+   cy="325.74655"
+   r="25">
+			<desc
+   id="desc28">scene=MiningRegion x=-241.81 y=216.20 z=404.24
+Tower site overlooking train station</desc>
+			<title
+   id="title28">Tower site overlooking train station</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path28"
+   cx="1142.0865"
+   cy="26.350466"
+   r="25">
+			<desc
+   id="desc29">scene=MiningRegion x=-136.45 y=304.64 z=607.39
+Tower site, fire barrel, corpse</desc>
+			<title
+   id="title29">Tower site, fire barrel, corpse</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path30"
+   cx="833.81"
+   cy="1635.54"
+   r="25">
+			<desc
+   id="desc30">scene=MiningRegion x=-341.57 y=220.43 z=-454.02
+Trailer end of road around strip mine</desc>
+			<title
+   id="title30">Trailer end of road around strip mine</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path31"
+   cx="1262.5271"
+   cy="2113.6182"
+   r="25">
+			<desc
+   id="desc31">scene=MiningRegion x=-63.14 y=126.01 z=-752.58
+Cave ! Content may not spawn</desc>
+			<title
+   id="title31">Cave ! Content may not spawn</title>
+		</circle>
+	</g>
+</svg>

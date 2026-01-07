@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <script>
+        // Get URL query parameters
+        function getQueryParam(param) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(param);
+        }
+
+        // Override server values with URL params (for debug/testing)
+        // Also, note that both params are trimmed and the difficulty param is lowercased for consistency
+        const urlScene = getQueryParam('scene')?.trim() || null;
+        const urlDifficulty = getQueryParam('difficulty')?.trim().toLowerCase() || null;
+        const urlGameX = getQueryParam('x')?.trim().toLowerCase() || null;
+        const urlGameY = getQueryParam('y')?.trim().toLowerCase() || null;
+
+        console.log(`scene (difficulty): ${urlScene} (${urlDifficulty})`);
+        console.log(`urlGameX, urlGameY: ${urlGameX}, ${urlGameY})`);
+
+        const affineUrl = `https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/affine/${urlScene}_affine.json`;
+        fetch(affineUrl)
+            .then(r => r.json())
+            .then(data => {
+                console.log("Loaded affine for", data.region);
+                // Use data.affineMatrix.A, .B, etc.
+            });
+
+        const m = data.affineMatrix;
+        //const pxX = m.A * 423.47 + m.B * 1458.18 + m.Tx;
+        //const pxY = m.C * 423.47 + m.D * 1458.18 + m.Ty;
+        const pxX = m.A * urlGameX + m.B * urlGameY + m.Tx;
+        const pxY = m.C * urlGameX + m.D * urlGameY + m.Ty;
+        console.log("Computed px, py:", pxX.toFixed(2), pxY.toFixed(2));
+    </script>
+</body>
+</html>

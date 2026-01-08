@@ -47,8 +47,12 @@
                 }
 
                 // Compute position (gameX, gameZ → pxX, pxY)
-                const pxX = m.A * gameX + m.B * gameZ + m.Tx;
-                const pxY = m.C * gameX + m.D * gameZ + m.Ty;
+                //const pxX = m.A * gameX + m.B * gameZ + m.Tx;
+                //const pxY = m.C * gameX + m.D * gameZ + m.Ty;
+
+                // In your test_affine.html or map.html
+                const pxX = m.A * gameX + m.B * gameZ + m.Tx + data.layerOffsetX;
+                const pxY = m.C * gameX + m.D * gameZ + m.Ty + data.layerOffsetY;
 
                 console.log("Computed position:", pxX.toFixed(2), pxY.toFixed(2));
 

@@ -1,0 +1,173 @@
+[
+  {
+    "scene": "CoastalRegion",
+    "x": -1158.86,
+    "y": 204.72,
+    "z": 1205.99,
+    "svgX": 412.57425,
+    "svgY": 338.77673,
+    "label": "Exit to Ravine"
+  },
+  {
+    "scene": "CoastalRegion",
+    "x": 356.65,
+    "y": 203.31,
+    "z": 1157.75,
+    "svgX": 2714.085,
+    "svgY": 420.10397,
+    "label": "Lookout"
+  },
+  {
+    "scene": "CoastalRegion",
+    "x": 721.37,
+    "y": 31.96,
+    "z": -507.61,
+    "svgX": 3248.0957,
+    "svgY": 2916.5625,
+    "label": "Exit to Crumbling Highway"
+  },
+  {
+    "scene": "CoastalRegion",
+    "x": -941.27,
+    "y": 35.18,
+    "z": 331.65,
+    "svgX": 762.67896,
+    "svgY": 1632.0759,
+    "label": "Car on the bridge near Rockfall (memento)"
+  },
+  {
+    "scene": "CoastalRegion",
+    "x": 325.47,
+    "y": 26.44,
+    "z": 119.22,
+    "svgX": 2661.3569,
+    "svgY": 1976.6439,
+    "label": "Trader Exchange Box"
+  },
+  {
+    "scene": "CoastalRegion",
+    "x": 761.02,
+    "y": 24.16,
+    "z": 646.32,
+    "svgX": 3322.7629,
+    "svgY": 1203.6327,
+    "label": "Quonset Front Door"
+  },
+  {
+    "scene": "CoastalRegion",
+    "x": 366.28,
+    "y": 57.35,
+    "z": 224.48,
+    "svgX": 2726.2632,
+    "svgY": 1848.3381,
+    "label": "Misanthrope\u0027s Homestead"
+  },
+  {
+    "scene": "CoastalRegion",
+    "x": 80.73,
+    "y": 23.44,
+    "z": 310.51,
+    "svgX": 2290.2983,
+    "svgY": 1680.4933,
+    "label": "Fishing Hut (south)"
+  },
+  {
+    "scene": "CoastalRegion",
+    "x": -275.08,
+    "y": 75.52,
+    "z": 286.33,
+    "svgX": 1729.9723,
+    "svgY": 1731.5371,
+    "label": "Jackrabbit Island Cabin (West door)"
+  },
+  {
+    "scene": "CoastalRegion",
+    "x": -1112.97,
+    "y": 81.95,
+    "z": 587.31,
+    "svgX": 495.46097,
+    "svgY": 1285.5023,
+    "label": "Bear spawn West by creek DANGER! (safe)"
+  },
+  {
+    "scene": "CoastalRegion",
+    "x": -751.63,
+    "y": 28.83,
+    "z": 657.69,
+    "svgX": 997.04663,
+    "svgY": 1203.5161,
+    "label": "Fishing camp outside workbench"
+  },
+  {
+    "scene": "CoastalRegion",
+    "x": -39.25,
+    "y": 28.49,
+    "z": 868.19,
+    "svgX": 2105.1279,
+    "svgY": 853.65997,
+    "label": "Log sort (safe on top of trailer)"
+  },
+  {
+    "scene": "CoastalRegion",
+    "x": 57.8,
+    "y": 38.28,
+    "z": 984.02,
+    "svgX": 2229.7375,
+    "svgY": 702.11798,
+    "label": "Cinder Hills Coal Mine (Abandoned Mine) entrance"
+  },
+  {
+    "scene": "CoastalRegion",
+    "x": -1225.05,
+    "y": 127.96,
+    "z": 981.76,
+    "svgX": 358.86987,
+    "svgY": 654.47253,
+    "label": "Rabbit Grove Cabin"
+  },
+  {
+    "scene": "CoastalRegion",
+    "x": -890.53,
+    "y": 23.3,
+    "z": 322,
+    "svgX": 814.89954,
+    "svgY": 1659.8319,
+    "label": "East Salt deposit by bridge"
+  },
+  {
+    "scene": "CoastalRegion",
+    "x": -217.24,
+    "y": 23.18,
+    "z": 245.51,
+    "svgX": 1854.0839,
+    "svgY": 1786.8925,
+    "label": "Salt deposit South Jack Rabbit Island"
+  },
+  {
+    "scene": "CoastalRegion",
+    "x": 387.36,
+    "y": 23.05,
+    "z": 72.93,
+    "svgX": 2775.4526,
+    "svgY": 2049.0042,
+    "label": "Salt deposit Southwest Misanthrope\u0027s Homestead island"
+  },
+  {
+    "scene": "CoastalRegion",
+    "x": -37.4,
+    "y": 176.33,
+    "z": 1341.58,
+    "svgX": 2117.4204,
+    "svgY": 151.81657,
+    "label": "Exit cave to Pleasant Valley"
+  },
+  {
+    "scene": "CoastalRegion",
+    "x": 688.93,
+    "y": 34.36,
+    "z": -423.61,
+    "svgX": 3198.31,
+    "svgY": 2793.38,
+    "label": "Car at Commuter\u0027s Lament (memento)"
+  }
+]

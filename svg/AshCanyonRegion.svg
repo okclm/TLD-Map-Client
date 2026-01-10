@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="3313"
+   height="3917"
+   viewBox="0 0 3313 3917"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="AshCanyonRegion.svg"
+   xml:space="preserve"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="0.81812814"
+     inkscape:cx="1115.351"
+     inkscape:cy="2604.1153"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="5112"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showgrid="false" /><defs
+     id="defs1" /><g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(206.50729,305.72604)"><image
+   width="3313"
+   height="3917"
+   preserveAspectRatio="xMidYMid"
+   xlink:href="../Mods/TLD-Map-Client/images/ashcanyonregion_hard.jpg"
+   id="image1"
+   x="-206.50729"
+   y="-305.72604"
+   sodipodi:insensitive="true"
+   inkscape:svg-dpi="96" />
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path1"
+   cx="2670.0193"
+   cy="2738.8464"
+   r="25">
+<desc
+   id="desc1">scene=AshCanyonRegion x=795.50 y=84.83 z=-899.46
+Enter from Timberwolf Mountain (Echo Ravine)</desc>
+<title
+   id="title1">Enter from Timberwolf Mountain (Echo Ravine)</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path2"
+   cx="1075.3586"
+   cy="2686.0403"
+   r="25">
+<desc
+   id="desc2">scene=AshCanyonRegion x=-243.61 y=75.41 z=-863.98
+Enter from Timberwolf Mountain (Deer Clearing)</desc>
+<title
+   id="title2">Enter from Timberwolf Mountain (Deer Clearing)</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path6"
+   cx="163.41412"
+   cy="381.4111"
+   r="25">
+<desc
+   id="desc3">scene=AshCanyonRegion x=-836.58 y=298.09 z=625.08
+Gold Mine exit</desc>
+<title
+   id="title3">Enter from Gold Mine exit</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path9"
+   cx="1986.787"
+   cy="453.93134"
+   r="25">
+<desc
+   id="desc4">scene=AshCanyonRegion x=349.48 y=234.72 z=574.78
+Miner's Folly Cabin</desc>
+<title
+   id="title4">Miner's Folly Cabin</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="circle5"
+   cx="1520.5172"
+   cy="1056.8308"
+   r="25">
+<desc
+   id="desc5">scene=AshCanyonRegion x=54.45 y=77.59 z=178.49
+Angler's Den</desc>
+<title
+   id="title5">Angler's Den</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path3"
+   cx="2578.5088"
+   cy="1833.986"
+   r="25">
+	<desc
+   id="desc6">scene=AshCanyonRegion x=734.32 y=95.02 z=-313.39
+Homesteader's Respite</desc>
+	<title
+   id="title6">Homesteader's Respite</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path5"
+   cx="470.3501"
+   cy="152.60599"
+   r="25">
+	<desc
+   id="desc7">scene=AshCanyonRegion x=-632.97 y=304.29 z=774.24
+Gold Mine entrance from Mining Camp</desc>
+	<title
+   id="title7">Gold Mine entrance from Mining Camp</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path7"
+   cx="1800.873"
+   cy="715.88477"
+   r="25">
+	<desc
+   id="desc8">scene=AshCanyonRegion x=227.86 y=266.64 z=417.54
+Foreman's Retreat Cabin</desc>
+	<title
+   id="title8">Foreman's Retreat Cabin</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path8"
+   cx="1378.5454"
+   cy="2572.2842"
+   r="25">
+	<desc
+   id="desc9">scene=AshCanyonRegion x=-40.31 y=171.19 z=-795.36
+Prepper's Cache</desc>
+	<title
+   id="title9">Prepper's Cache</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path10"
+   cx="2455.8586"
+   cy="1984.225"
+   r="25">
+	<desc
+   id="desc10">scene=AshCanyonRegion x=654.72 y=51.60 z=-418.71
+Destroyed fishing hut at Bitter Marsh (memento)</desc>
+	<title
+   id="title10">Destroyed fishing hut at Bitter Marsh (memento)</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path11"
+   cx="1753.7417"
+   cy="2396.74"
+   r="25">
+	<desc
+   id="desc11">scene=AshCanyonRegion x=194.95 y=44.95 z=-685.47
+Shattered Cove (memento on corpse)</desc>
+	<title
+   id="title11">Shattered Cove (memento on corpse)</title>
+</circle>
+	   </g></svg>

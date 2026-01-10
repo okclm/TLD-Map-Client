@@ -1,0 +1,101 @@
+[
+  {
+    "scene": "AshCanyonRegion",
+    "x": 795.5,
+    "y": 84.83,
+    "z": -899.46,
+    "svgX": 2876.52659,
+    "svgY": 3044.57244,
+    "label": "Enter from Timberwolf Mountain (Echo Ravine)"
+  },
+  {
+    "scene": "AshCanyonRegion",
+    "x": -243.61,
+    "y": 75.41,
+    "z": -863.98,
+    "svgX": 1281.86589,
+    "svgY": 2991.76634,
+    "label": "Enter from Timberwolf Mountain (Deer Clearing)"
+  },
+  {
+    "scene": "AshCanyonRegion",
+    "x": -836.58,
+    "y": 298.09,
+    "z": 625.08,
+    "svgX": 369.92141000000004,
+    "svgY": 687.13714,
+    "label": "Gold Mine exit"
+  },
+  {
+    "scene": "AshCanyonRegion",
+    "x": 349.48,
+    "y": 234.72,
+    "z": 574.78,
+    "svgX": 2193.29429,
+    "svgY": 759.65738,
+    "label": "Miner\u0027s Folly Cabin"
+  },
+  {
+    "scene": "AshCanyonRegion",
+    "x": 54.45,
+    "y": 77.59,
+    "z": 178.49,
+    "svgX": 1727.02449,
+    "svgY": 1362.55684,
+    "label": "Angler\u0027s Den"
+  },
+  {
+    "scene": "AshCanyonRegion",
+    "x": 734.32,
+    "y": 95.02,
+    "z": -313.39,
+    "svgX": 2785.01609,
+    "svgY": 2139.7120400000003,
+    "label": "Homesteader\u0027s Respite"
+  },
+  {
+    "scene": "AshCanyonRegion",
+    "x": -632.97,
+    "y": 304.29,
+    "z": 774.24,
+    "svgX": 676.85739,
+    "svgY": 458.33203000000003,
+    "label": "Gold Mine entrance from Mining Camp"
+  },
+  {
+    "scene": "AshCanyonRegion",
+    "x": 227.86,
+    "y": 266.64,
+    "z": 417.54,
+    "svgX": 2007.38029,
+    "svgY": 1021.61081,
+    "label": "Foreman\u0027s Retreat Cabin"
+  },
+  {
+    "scene": "AshCanyonRegion",
+    "x": -40.31,
+    "y": 171.19,
+    "z": -795.36,
+    "svgX": 1585.05269,
+    "svgY": 2878.01024,
+    "label": "Prepper\u0027s Cache"
+  },
+  {
+    "scene": "AshCanyonRegion",
+    "x": 654.72,
+    "y": 51.6,
+    "z": -418.71,
+    "svgX": 2662.36589,
+    "svgY": 2289.95104,
+    "label": "Destroyed fishing hut at Bitter Marsh (memento)"
+  },
+  {
+    "scene": "AshCanyonRegion",
+    "x": 194.95,
+    "y": 44.95,
+    "z": -685.47,
+    "svgX": 1960.24899,
+    "svgY": 2702.46604,
+    "label": "Shattered Cove (memento on corpse)"
+  }
+]

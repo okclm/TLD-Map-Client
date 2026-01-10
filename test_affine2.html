@@ -28,7 +28,7 @@
     </style>
 </head>
 <body>
-    <h1>Affine Calibration Test for POI Positions</h1>
+    <h1>Affine Calibration Test for POI Positions - Version 0.0.1</h1>
     <p>Usage: Append ?scene=RuralRegion&difficulty=hard to the URL</p>
     <p id="loading">Loading data...</p>
     <table id="poi-table">
@@ -51,7 +51,7 @@
     </table>
 
     <script>
-        const version = '0.0.1';
+        //const version = '0.0.1';
 
         // Helper: Get URL query parameter
         function getQueryParam(param) {
@@ -71,7 +71,7 @@
         const affineUrl = `https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/affine/${scene}_affine.json`;
         const poiUrl = `https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/pois/${scene}.json`;
 
-        document.getElementById('loading').innerHTML = `Version: ${version} Loading affine and POI data for ${scene} (${difficulty})...`;
+        document.getElementById('loading').innerHTML = `Loading affine and POI data for ${scene} (${difficulty})...`;
 
         async function loadData() {
             try {

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Affine Calibration Test - TLD Map</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .green {
+            background-color: #d4edda;
+        }
+        .yellow {
+            background-color: #fff3cd;
+        }
+        .red {
+            background-color: #f8d7da;
+        }
+    </style>
+</head>
+<body>
+    <h1>Affine Calibration Test for POI Positions</h1>
+    <p>Usage: Append ?scene=RuralRegion&difficulty=hard to the URL</p>
+    <p id="loading">Loading data...</p>
+    <table id="poi-table">
+        <thead>
+            <tr>
+                <th>Scene</th>
+                <th>X</th>
+                <th>Y</th>
+                <th>Z</th>
+                <th>Label</th>
+                <th>Recorded svgX</th>
+                <th>Recorded svgY</th>
+                <th>Calculated svgX</th>
+                <th>Calculated svgY</th>
+                <th>Delta X</th>
+                <th>Delta Y</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <script>
+        const version = '0.0.1';
+
+        // Helper: Get URL query parameter
+        function getQueryParam(param) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(param);
+        }
+
+        // Get parameters from URL (with defaults)
+        const scene = getQueryParam('scene')?.trim() || null;
+        const difficulty = getQueryParam('difficulty')?.trim().toLowerCase() || 'hard';
+
+        if (!scene) {
+            document.getElementById('loading').innerHTML = '<p style="color:red;">Error: Missing ?scene= parameter</p>';
+            throw new Error("Missing scene parameter");
+        }
+
+        const affineUrl = `https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/affine/${scene}_affine.json`;
+        const poiUrl = `https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/pois/${scene}.json`;
+
+        document.getElementById('loading').innerHTML = `Version: ${version} Loading affine and POI data for ${scene} (${difficulty})...`;
+
+        async function loadData() {
+            try {
+                const [affineResponse, poiResponse] = await Promise.all([
+                    fetch(affineUrl),
+                    fetch(poiUrl)
+                ]);
+
+                if (!affineResponse.ok || !poiResponse.ok) {
+                    throw new Error('Failed to load data');
+                }
+
+                const affine = await affineResponse.json();
+                const pois = await poiResponse.json();
+
+                document.getElementById('loading').style.display = 'none';
+
+                const tableBody = document.getElementById('poi-table').getElementsByTagName('tbody')[0];
+
+                pois.forEach(poi => {
+                    const m = affine.affineMatrix;
+
+                    // Compute calculated svgX/svgY
+                    const calcSvgX = m.A * poi.x + m.B * poi.z + m.Tx;
+                    const calcSvgY = m.C * poi.x + m.D * poi.z + m.Ty;
+
+                    const deltaX = Math.abs(calcSvgX - poi.svgX);
+                    const deltaY = Math.abs(calcSvgY - poi.svgY);
+
+                    let deltaXClass = '';
+                    let deltaYClass = '';
+                    if (deltaX < 5) deltaXClass = 'green';
+                    else if (deltaX < 10) deltaXClass = 'yellow';
+                    else deltaXClass = 'red';
+
+                    if (deltaY < 5) deltaYClass = 'green';
+                    else if (deltaY < 10) deltaYClass = 'yellow';
+                    else deltaYClass = 'red';
+
+                    const row = tableBody.insertRow();
+                    row.insertCell().textContent = poi.scene;
+                    row.insertCell().textContent = poi.x.toFixed(2);
+                    row.insertCell().textContent = poi.y.toFixed(2);
+                    row.insertCell().textContent = poi.z.toFixed(2);
+                    row.insertCell().textContent = poi.label;
+                    row.insertCell().textContent = poi.svgX.toFixed(2);
+                    row.insertCell().textContent = poi.svgY.toFixed(2);
+                    row.insertCell().textContent = calcSvgX.toFixed(2);
+                    row.insertCell().textContent = calcSvgY.toFixed(2);
+                    const deltaXCell = row.insertCell();
+                    deltaXCell.textContent = deltaX.toFixed(2);
+                    deltaXCell.className = deltaXClass;
+                    const deltaYCell = row.insertCell();
+                    deltaYCell.textContent = deltaY.toFixed(2);
+                    deltaYCell.className = deltaYClass;
+                });
+            } catch (error) {
+                document.getElementById('loading').innerHTML = `<p style="color:red;">Error: ${error.message}</p>`;
+                console.error(error);
+            }
+        }
+
+        loadData();
+    </script>
+</body>
+</html>

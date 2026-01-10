@@ -4,33 +4,82 @@
     <meta charset="utf-8" />
     <title>Affine Calibration Test - TLD Map</title>
     <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        #affine-summary {
+            background-color: #f8f9fa;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+            max-width: 600px;
+        }
+
+            #affine-summary h3 {
+                margin-top: 0;
+                color: #2c3e50;
+            }
+
+            #affine-summary ul {
+                list-style: none;
+                padding-left: 0;
+            }
+
+            #affine-summary li {
+                margin: 6px 0;
+            }
+
         table {
             border-collapse: collapse;
             width: 100%;
+            margin-top: 20px;
         }
+
         th, td {
             border: 1px solid #ddd;
             padding: 8px;
             text-align: left;
         }
+
         th {
             background-color: #f2f2f2;
         }
+
         .green {
             background-color: #d4edda;
         }
+
         .yellow {
             background-color: #fff3cd;
         }
+
         .red {
             background-color: #f8d7da;
+        }
+
+        #loading {
+            font-style: italic;
+            color: #555;
         }
     </style>
 </head>
 <body>
-    <h1>Affine Calibration Test for POI Positions - Version 0.0.1</h1>
+    <h1>Affine Calibration Test for POI Positions - Version 0.0.2</h1>
     <p>Usage: Append ?scene=RuralRegion&difficulty=hard to the URL</p>
-    <p id="loading">Loading data...</p>
+    <p id="loading">Loading affine and POI data...</p>
+
+    <div id="affine-summary" style="display:none;">
+        <h3>Affine Data Summary</h3>
+        <ul id="affine-list"></ul>
+    </div>
+
     <table id="poi-table">
         <thead>
             <tr>
@@ -51,8 +100,6 @@
     </table>
 
     <script>
-        //const version = '0.0.1';
-
         // Helper: Get URL query parameter
         function getQueryParam(param) {
             const urlParams = new URLSearchParams(window.location.search);
@@ -81,7 +128,7 @@
                 ]);
 
                 if (!affineResponse.ok || !poiResponse.ok) {
-                    throw new Error('Failed to load data');
+                    throw new Error(`Failed to load data (affine: ${affineResponse.status}, poi: ${poiResponse.status})`);
                 }
 
                 const affine = await affineResponse.json();
@@ -89,27 +136,44 @@
 
                 document.getElementById('loading').style.display = 'none';
 
+                // Display affine summary
+                const summaryDiv = document.getElementById('affine-summary');
+                summaryDiv.style.display = 'block';
+
+                const list = document.getElementById('affine-list');
+                list.innerHTML = `
+                        <li><strong>Region:</strong> ${affine.region}</li>
+                        <li><strong>Calibration Points:</strong> ${affine.calibPointCount}</li>
+                        <li><strong>Generated At:</strong> ${affine.generatedAt}</li>
+                        <li><strong>Layer Offset X:</strong> ${affine.layerOffsetX?.toFixed(2) || 'N/A'}</li>
+                        <li><strong>Layer Offset Y:</strong> ${affine.layerOffsetY?.toFixed(2) || 'N/A'}</li>
+                    `;
+
+                // Add affine matrix coefficients
+                const m = affine.affineMatrix;
+                if (m) {
+                    list.innerHTML += `
+                            <li><strong>A:</strong> ${m.A.toFixed(8)}</li>
+                            <li><strong>B:</strong> ${m.B.toFixed(8)}</li>
+                            <li><strong>Tx:</strong> ${m.Tx.toFixed(8)}</li>
+                            <li><strong>C:</strong> ${m.C.toFixed(8)}</li>
+                            <li><strong>D:</strong> ${m.D.toFixed(8)}</li>
+                            <li><strong>Ty:</strong> ${m.Ty.toFixed(8)}</li>
+                        `;
+                }
+
+                // Build POI table
                 const tableBody = document.getElementById('poi-table').getElementsByTagName('tbody')[0];
 
                 pois.forEach(poi => {
-                    const m = affine.affineMatrix;
-
-                    // Compute calculated svgX/svgY
                     const calcSvgX = m.A * poi.x + m.B * poi.z + m.Tx;
                     const calcSvgY = m.C * poi.x + m.D * poi.z + m.Ty;
 
                     const deltaX = Math.abs(calcSvgX - poi.svgX);
                     const deltaY = Math.abs(calcSvgY - poi.svgY);
 
-                    let deltaXClass = '';
-                    let deltaYClass = '';
-                    if (deltaX < 5) deltaXClass = 'green';
-                    else if (deltaX < 10) deltaXClass = 'yellow';
-                    else deltaXClass = 'red';
-
-                    if (deltaY < 5) deltaYClass = 'green';
-                    else if (deltaY < 10) deltaYClass = 'yellow';
-                    else deltaYClass = 'red';
+                    let deltaXClass = deltaX < 5 ? 'green' : deltaX < 10 ? 'yellow' : 'red';
+                    let deltaYClass = deltaY < 5 ? 'green' : deltaY < 10 ? 'yellow' : 'red';
 
                     const row = tableBody.insertRow();
                     row.insertCell().textContent = poi.scene;

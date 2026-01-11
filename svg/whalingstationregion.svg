@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="2490"
+   height="2493"
+   viewBox="0 0 2490 2493"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="whalingstationregion.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="0.45447252"
+     inkscape:cx="1244.2996"
+     inkscape:cy="1246.5"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="5112"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showgrid="false" /><defs
+     id="defs1" /><g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"><image
+   width="2490"
+   height="2493"
+   preserveAspectRatio="xMidYMid"
+   xlink:href="../Mods/TLD-Map-Client/images/whalingstationregion_hard.jpg"
+   id="image1"
+   x="0"
+   y="0"
+   sodipodi:insensitive="true" />
+	   <circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path5"
+   cx="252.16219"
+   cy="1024.3101"
+   r="25">
+<desc
+   id="desc1">scene=WhalingStationRegion x=94.39 y=81.18 z=1091.48
+Exit to Crumbling Highway</desc>
+<title
+   id="title1">Exit to Crumbling Highway</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path7"
+   cx="1478.859"
+   cy="231.4007"
+   r="25">
+<desc
+   id="desc2">scene=WhalingStationRegion x=897.20 y=16.66 z=1635.17
+Scruffy Cave Entrance</desc>
+<title
+   id="title2">Scruffy Cave Entrance</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path8"
+   cx="1217.5671"
+   cy="1524.5421"
+   r="25">
+<desc
+   id="desc3">scene=WhalingStationRegion x=729.26 y=46.94 z=765.58
+Lighthouse Entrance</desc>
+<title
+   id="title3">Lighthouse Entrance</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path4"
+   cx="1663.1385"
+   cy="1172.3998"
+   r="25">
+<desc
+   id="desc4">scene=WhalingStationRegion x=1022.48 y=16.25 z=993.37
+Riken entrance (from ice)</desc>
+<title
+   id="title4">Riken entrance (from ice)</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path1"
+   cx="1676.3022"
+   cy="747.44641"
+   r="25"><desc
+     id="desc5">scene=WhalingStationRegion x=1019.97 y=22.86 z=1270.46
+Hibernia entrance (top of stairs)</desc><title
+     id="title5">Hibernia entrance (top of stairs)</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path6"
+   cx="1859.2388"
+   cy="1451.9958"
+   r="25"><desc
+     id="desc6">scene=WhalingStationRegion x=1158.57 y=15.88 z=812.50
+Salt deposit Southeast Little Island</desc><title
+     id="title6">Salt deposit Southeast Little Island</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="circle7"
+   cx="1759.2881"
+   cy="846.4201"
+   r="25"><desc
+     id="desc7">scene=WhalingStationRegion x=1091.73 y=15.88 z=1219.73
+Salt deposit East Hibernia</desc><title
+     id="title7">Salt deposit East Hibernia</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="circle8"
+   cx="1507.8853"
+   cy="300.73938"
+   r="25"><desc
+     id="desc8">scene=WhalingStationRegion x=895.51 y=46.33 z=1583.52
+Salt deposit Bear cave DANGER! (safe?)</desc><title
+     id="title8">Salt deposit Bear cave DANGER!</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path9"
+   cx="971.44531"
+   cy="1026.1256"
+   r="25"><desc
+     id="desc9">scene=WhalingStationRegion x=560.56 y=63.28 z=1098.74
+Stone Church</desc><title
+     id="title9">Stone Church</title></circle></g></svg>

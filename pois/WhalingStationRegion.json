@@ -1,0 +1,83 @@
+[
+  {
+    "scene": "WhalingStationRegion",
+    "x": 94.39,
+    "y": 81.18,
+    "z": 1091.48,
+    "svgX": 252.16219,
+    "svgY": 1024.3101,
+    "label": "Exit to Crumbling Highway"
+  },
+  {
+    "scene": "WhalingStationRegion",
+    "x": 897.2,
+    "y": 16.66,
+    "z": 1635.17,
+    "svgX": 1478.859,
+    "svgY": 231.4007,
+    "label": "Scruffy Cave Entrance"
+  },
+  {
+    "scene": "WhalingStationRegion",
+    "x": 729.26,
+    "y": 46.94,
+    "z": 765.58,
+    "svgX": 1217.5671,
+    "svgY": 1524.5421,
+    "label": "Lighthouse Entrance"
+  },
+  {
+    "scene": "WhalingStationRegion",
+    "x": 1022.48,
+    "y": 16.25,
+    "z": 993.37,
+    "svgX": 1663.1385,
+    "svgY": 1172.3998,
+    "label": "Riken entrance (from ice)"
+  },
+  {
+    "scene": "WhalingStationRegion",
+    "x": 1019.97,
+    "y": 22.86,
+    "z": 1270.46,
+    "svgX": 1676.3022,
+    "svgY": 747.44641,
+    "label": "Hibernia entrance (top of stairs)"
+  },
+  {
+    "scene": "WhalingStationRegion",
+    "x": 1158.57,
+    "y": 15.88,
+    "z": 812.5,
+    "svgX": 1859.2388,
+    "svgY": 1451.9958,
+    "label": "Salt deposit Southeast Little Island"
+  },
+  {
+    "scene": "WhalingStationRegion",
+    "x": 1091.73,
+    "y": 15.88,
+    "z": 1219.73,
+    "svgX": 1759.2881,
+    "svgY": 846.4201,
+    "label": "Salt deposit East Hibernia"
+  },
+  {
+    "scene": "WhalingStationRegion",
+    "x": 895.51,
+    "y": 46.33,
+    "z": 1583.52,
+    "svgX": 1507.8853,
+    "svgY": 300.73938,
+    "label": "Salt deposit Bear cave DANGER! (safe?)"
+  },
+  {
+    "scene": "WhalingStationRegion",
+    "x": 560.56,
+    "y": 63.28,
+    "z": 1098.74,
+    "svgX": 971.44531,
+    "svgY": 1026.1256,
+    "label": "Stone Church"
+  }
+]

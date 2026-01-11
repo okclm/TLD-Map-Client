@@ -1,0 +1,128 @@
+[
+  {
+    "scene": "MountainTownRegion",
+    "x": 417.88,
+    "y": 5.08,
+    "z": 327.07,
+    "svgX": 386.37531,
+    "svgY": 3390.7375,
+    "label": "Exit to Forlorn Muskeg"
+  },
+  {
+    "scene": "MountainTownRegion",
+    "x": 1978.26,
+    "y": 384.15,
+    "z": 1413.4,
+    "svgX": 2783.875,
+    "svgY": 1698.6779,
+    "label": "Cave Plane Crash"
+  },
+  {
+    "scene": "MountainTownRegion",
+    "x": 556.63,
+    "y": 222.71,
+    "z": 1531.49,
+    "svgX": 604.84918,
+    "svgY": 1557.78,
+    "label": "Paradise Meadows Farm"
+  },
+  {
+    "scene": "MountainTownRegion",
+    "x": 1287,
+    "y": 391.15,
+    "z": 2350.27,
+    "svgX": 1706.0219,
+    "svgY": 298.92963,
+    "label": "Cave entrance to Hushed River Valley"
+  },
+  {
+    "scene": "MountainTownRegion",
+    "x": 821.08,
+    "y": 23.56,
+    "z": 668.68,
+    "svgX": 982.13495,
+    "svgY": 2826.9592,
+    "label": "Basin Cave"
+  },
+  {
+    "scene": "MountainTownRegion",
+    "x": 1104.91,
+    "y": 269.88,
+    "z": 1783.62,
+    "svgX": 1436.82,
+    "svgY": 1161.96,
+    "label": "Milton House (Grey Mother\u0027s Front Porch)"
+  },
+  {
+    "scene": "MountainTownRegion",
+    "x": 1476.86,
+    "y": 322.21,
+    "z": 1537.99,
+    "svgX": 1972.4613,
+    "svgY": 1512.032,
+    "label": "Cave by Radio Tower (coal spawn)"
+  },
+  {
+    "scene": "MountainTownRegion",
+    "x": 1829.49,
+    "y": 442.94,
+    "z": 1773.34,
+    "svgX": 2504.1611,
+    "svgY": 1189.3019,
+    "label": "Prepper\u0027s cache"
+  },
+  {
+    "scene": "MountainTownRegion",
+    "x": 1936.95,
+    "y": 453.01,
+    "z": 1750.1,
+    "svgX": 2694.6216,
+    "svgY": 1191.6689,
+    "label": "Cave entrance near Prepper\u0027s Cache to Spruce Falls Bridge (Bear) DANGER!"
+  },
+  {
+    "scene": "MountainTownRegion",
+    "x": 1831.86,
+    "y": 439.52,
+    "z": 1866.43,
+    "svgX": 2546.4287,
+    "svgY": 1033.1104,
+    "label": "Cave entrance near Spruce Falls Bridge (Bear) to Prepper\u0027s Cache"
+  },
+  {
+    "scene": "MountainTownRegion",
+    "x": 1183.37,
+    "y": 266.67,
+    "z": 1356.12,
+    "svgX": 1529.3826,
+    "svgY": 1797.8108,
+    "label": "Orca Gas Station Front Door Entrance"
+  },
+  {
+    "scene": "MountainTownRegion",
+    "x": 965.55,
+    "y": 304.29,
+    "z": 1236,
+    "svgX": 1236.6992,
+    "svgY": 1977.5807,
+    "label": "Climbing Office"
+  },
+  {
+    "scene": "MountainTownRegion",
+    "x": 1277.83,
+    "y": 245.49,
+    "z": 1010.16,
+    "svgX": 1707.65,
+    "svgY": 2330.12,
+    "label": "Climbing Area Cave"
+  },
+  {
+    "scene": "MountainTownRegion",
+    "x": 1772.09,
+    "y": 350.49,
+    "z": 995.04,
+    "svgX": 2467.01,
+    "svgY": 2339.4,
+    "label": "Cave entrance to Mystery Lake"
+  }
+]

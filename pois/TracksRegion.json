@@ -1,0 +1,92 @@
+[
+  {
+    "scene": "TracksRegion",
+    "x": 667.51,
+    "y": 233.96,
+    "z": 1659.81,
+    "svgX": 2263.6868,
+    "svgY": 1414.8729,
+    "label": "Exit to Forlorn Muskeg"
+  },
+  {
+    "scene": "TracksRegion",
+    "x": 799.02,
+    "y": 237.03,
+    "z": 204.33,
+    "svgX": 233.34599,
+    "svgY": 1592.5251,
+    "label": "Exit to the Far Range Branch Line"
+  },
+  {
+    "scene": "TracksRegion",
+    "x": -167.31,
+    "y": 248.78,
+    "z": 868.45,
+    "svgX": 1067.7325,
+    "svgY": 226.44572,
+    "label": "North Cave"
+  },
+  {
+    "scene": "TracksRegion",
+    "x": 58.14,
+    "y": 245.87,
+    "z": 466.66,
+    "svgX": 579.94635,
+    "svgY": 578.97095,
+    "label": "Hunting Lodge Front Door"
+  },
+  {
+    "scene": "TracksRegion",
+    "x": 126.44,
+    "y": 199.46,
+    "z": 302.42,
+    "svgX": 369.10303,
+    "svgY": 702.08899,
+    "label": "Bear cave DANGER!"
+  },
+  {
+    "scene": "TracksRegion",
+    "x": 254.8,
+    "y": 192.04,
+    "z": 574.56,
+    "svgX": 732.70612,
+    "svgY": 826.35919,
+    "label": "Hunter\u0027s Blind"
+  },
+  {
+    "scene": "TracksRegion",
+    "x": 143.12,
+    "y": 197.88,
+    "z": 630.99,
+    "svgX": 787.22455,
+    "svgY": 720.77582,
+    "label": "Cave by Hunter\u0027s Blind"
+  },
+  {
+    "scene": "TracksRegion",
+    "x": 584.13,
+    "y": 199.09,
+    "z": 559.02,
+    "svgX": 667.30579,
+    "svgY": 1304.9662,
+    "label": "Maintenance Shed (outside)"
+  },
+  {
+    "scene": "TracksRegion",
+    "x": 785.05,
+    "y": 91.88,
+    "z": 358.94,
+    "svgX": 421.74197,
+    "svgY": 1573.1151,
+    "label": "Supply Bin in lower ravine"
+  },
+  {
+    "scene": "TracksRegion",
+    "x": 277.09,
+    "y": 248.14,
+    "z": 945.33,
+    "svgX": 1246.4835,
+    "svgY": 869.30188,
+    "label": "Rickety Foot Bridge"
+  }
+]

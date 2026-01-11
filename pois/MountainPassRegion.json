@@ -1,0 +1,236 @@
+[
+  {
+    "scene": "MountainPassRegion",
+    "x": 1085.6,
+    "y": 617.93,
+    "z": -697.67,
+    "svgX": 416.27139,
+    "svgY": 1156.616,
+    "label": "Crashed airplane"
+  },
+  {
+    "scene": "MountainPassRegion",
+    "x": -1289.87,
+    "y": 757.47,
+    "z": -447.73,
+    "svgX": 3957.2993,
+    "svgY": 1511.3881,
+    "label": "Roamer\u0027s Cave on the far North and East side."
+  },
+  {
+    "scene": "MountainPassRegion",
+    "x": 974.33,
+    "y": 392.04,
+    "z": 487.3,
+    "svgX": 581.76544,
+    "svgY": 2941.9568,
+    "label": "Cave to Zone of Contamination or Forsaken Airfield"
+  },
+  {
+    "scene": "MountainPassRegion",
+    "x": 399.94,
+    "y": 107.35,
+    "z": 1420.02,
+    "svgX": 1446.4695,
+    "svgY": 4307.8716,
+    "label": "Exit for Transfer Pass"
+  },
+  {
+    "scene": "MountainPassRegion",
+    "x": -815.63,
+    "y": 874.08,
+    "z": 528.43,
+    "svgX": 3276.8577,
+    "svgY": 2987.9104,
+    "label": "Woodshed on the far East side near outside of passage."
+  },
+  {
+    "scene": "MountainPassRegion",
+    "x": 497.74,
+    "y": 101.11,
+    "z": 651.76,
+    "svgX": 1302.0831,
+    "svgY": 3190.4644,
+    "label": "Last Lonely House Cabin"
+  },
+  {
+    "scene": "MountainPassRegion",
+    "x": 569.14,
+    "y": 589.6,
+    "z": -571.74,
+    "svgX": 1194.5928,
+    "svgY": 1339.2114,
+    "label": "Weather Station Garage"
+  },
+  {
+    "scene": "MountainPassRegion",
+    "x": -188.47,
+    "y": 433.45,
+    "z": -348.15,
+    "svgX": 2344.814,
+    "svgY": 1656.4366,
+    "label": "Old Settlement buried cabin with 2nd floor entrance and basement"
+  },
+  {
+    "scene": "MountainPassRegion",
+    "x": 532.93,
+    "y": 596.5,
+    "z": -620.66,
+    "svgX": 1266.4071,
+    "svgY": 1249.4592,
+    "label": "Weather Station Bunkhouse"
+  },
+  {
+    "scene": "MountainPassRegion",
+    "x": -478.58,
+    "y": 504.32,
+    "z": -667.02,
+    "svgX": 2769.9558,
+    "svgY": 1192.3285,
+    "label": "Fishing hut"
+  },
+  {
+    "scene": "MountainPassRegion",
+    "x": 337.21,
+    "y": 189.03,
+    "z": 240.21,
+    "svgX": 1520.8477,
+    "svgY": 2560.0349,
+    "label": "Cave \u0022B\u0022 to Route One Waterfall"
+  },
+  {
+    "scene": "MountainPassRegion",
+    "x": 244.12,
+    "y": 249.05,
+    "z": 429.62,
+    "svgX": 1678.4611,
+    "svgY": 2850.4458,
+    "label": "Cave \u0022C\u0022 to Cascading Gap"
+  },
+  {
+    "scene": "MountainPassRegion",
+    "x": -117.35,
+    "y": 488.9,
+    "z": -2.61,
+    "svgX": 2221.0874,
+    "svgY": 2187.9668,
+    "label": "Cave \u0022D\u0022 to Prayerful Window"
+  },
+  {
+    "scene": "MountainPassRegion",
+    "x": -180.88,
+    "y": 390.67,
+    "z": 444.01,
+    "svgX": 2313.46,
+    "svgY": 2856.96,
+    "label": "Main chamber in long outdoor cave.  Bed and campfire."
+  },
+  {
+    "scene": "MountainPassRegion",
+    "x": -886.65,
+    "y": 891.07,
+    "z": 523.82,
+    "svgX": 3369.62,
+    "svgY": 2970.75,
+    "label": "Entrance to outside cave (passage) on the far East side."
+  },
+  {
+    "scene": "MountainPassRegion",
+    "x": -1144.32,
+    "y": 869.37,
+    "z": 447.09,
+    "svgX": 3754.54,
+    "svgY": 2854.15,
+    "label": "Wooden bridge on the far East side."
+  },
+  {
+    "scene": "MountainPassRegion",
+    "x": -1128.86,
+    "y": 738.63,
+    "z": 300.76,
+    "svgX": 3730.49,
+    "svgY": 2635.69,
+    "label": "Cave on the far East side with bed in the back."
+  },
+  {
+    "scene": "MountainPassRegion",
+    "x": 1026.69,
+    "y": 444.67,
+    "z": -496.36,
+    "svgX": 497.4147,
+    "svgY": 1449.083,
+    "label": "Campfire in outside passage on the far West side."
+  },
+  {
+    "scene": "MountainPassRegion",
+    "x": -164.11,
+    "y": 491.19,
+    "z": -65.53,
+    "svgX": 2277.7397,
+    "svgY": 2116.2776,
+    "label": "Vista at cliff near Prayerful Window"
+  },
+  {
+    "scene": "MountainPassRegion",
+    "x": 916.3,
+    "y": 418.53,
+    "z": -586.45,
+    "svgX": 649.46765,
+    "svgY": 1331.6274,
+    "label": "Vista at cliff overlooking Perilous Crossing and Ogre\u0027s Teardrop"
+  },
+  {
+    "scene": "MountainPassRegion",
+    "x": 244.12,
+    "y": 249.05,
+    "z": 429.62,
+    "svgX": 3752.8804,
+    "svgY": 4860.7988,
+    "label": "Cave \u0022C\u0022 to Cascading Gap"
+  },
+  {
+    "scene": "MountainPassRegion",
+    "x": 337.21,
+    "y": 189.03,
+    "z": 240.21,
+    "svgX": 3331.27,
+    "svgY": 4715.0894,
+    "label": "Cave \u0022B\u0022 to Route One Waterfall"
+  },
+  {
+    "scene": "MountainPassRegion",
+    "x": -117.35,
+    "y": 488.9,
+    "z": -2.61,
+    "svgX": 4097.2002,
+    "svgY": 4409.3096,
+    "label": "Cave \u0022D\u0022 to Prayerful Window"
+  },
+  {
+    "scene": "MountainPassRegion",
+    "x": 332.45,
+    "y": 157.08,
+    "z": -369.52,
+    "svgX": 1544.0441,
+    "svgY": 1646.5393,
+    "label": "Cave \u0022A\u0022 to Idle Hideout"
+  },
+  {
+    "scene": "MountainPassRegion",
+    "x": 332.45,
+    "y": 157.08,
+    "z": -369.52,
+    "svgX": 3369.9307,
+    "svgY": 4327.3784,
+    "label": "Cave \u0022A\u0022 to Idle Hideout"
+  },
+  {
+    "scene": "MountainPassRegion",
+    "x": 602.84,
+    "y": 69.96,
+    "z": 1095.87,
+    "svgX": 1170.481,
+    "svgY": 3839.1064,
+    "label": "Miserable Haunt Cave"
+  }
+]

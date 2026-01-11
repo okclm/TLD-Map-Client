@@ -1,0 +1,164 @@
+[
+  {
+    "scene": "RiverValleyRegion",
+    "x": 1493.18,
+    "y": 202.91,
+    "z": 1752.13,
+    "svgX": 2337.3875,
+    "svgY": 319.30847,
+    "label": "Lake Cave (Monolith Lake)"
+  },
+  {
+    "scene": "RiverValleyRegion",
+    "x": 463.81,
+    "y": 235.21,
+    "z": 229.74,
+    "svgX": 766.12396,
+    "svgY": 2608.8044,
+    "label": "Cave to Mountain Town"
+  },
+  {
+    "scene": "RiverValleyRegion",
+    "x": 174.2,
+    "y": 127.54,
+    "z": 730.38,
+    "svgX": 315.72906,
+    "svgY": 1844.2621,
+    "label": "Bunker Gamma"
+  },
+  {
+    "scene": "RiverValleyRegion",
+    "x": 889.2,
+    "y": 223.94,
+    "z": 462.72,
+    "svgX": 1416.9873,
+    "svgY": 2247.105,
+    "label": "Ice Cave Entrance (S1)"
+  },
+  {
+    "scene": "RiverValleyRegion",
+    "x": 498.19,
+    "y": 112.34,
+    "z": 1410.37,
+    "svgX": 821.35657,
+    "svgY": 805.11652,
+    "label": "Ice Cave Entrance N2"
+  },
+  {
+    "scene": "RiverValleyRegion",
+    "x": 365.52,
+    "y": 237.61,
+    "z": 375.14,
+    "svgX": 620.73505,
+    "svgY": 2395.7417,
+    "label": "Prepper\u0027s Cache"
+  },
+  {
+    "scene": "RiverValleyRegion",
+    "x": 586.23,
+    "y": 101.52,
+    "z": 883.36,
+    "svgX": 951.68,
+    "svgY": 1613.9,
+    "label": "Cave, center, scrub brush restricting entrance, wolves patroling outside"
+  },
+  {
+    "scene": "RiverValleyRegion",
+    "x": 1151.34,
+    "y": 212.84,
+    "z": 632.17,
+    "svgX": 1878.5969,
+    "svgY": 1977.7059,
+    "label": "Cave, southeast, near southern mysterious signal fire"
+  },
+  {
+    "scene": "RiverValleyRegion",
+    "x": 1144.29,
+    "y": 25.14,
+    "z": 1230.66,
+    "svgX": 1725.8533,
+    "svgY": 1113.8365,
+    "label": "Valley Cave"
+  },
+  {
+    "scene": "RiverValleyRegion",
+    "x": 1246.2,
+    "y": 229.63,
+    "z": 1327.59,
+    "svgX": 1947.0421,
+    "svgY": 1003.0286,
+    "label": "Cave (Pensive Vista)"
+  },
+  {
+    "scene": "RiverValleyRegion",
+    "x": 1422.27,
+    "y": 288.49,
+    "z": 1301.71,
+    "svgX": 2259.9019,
+    "svgY": 934.61084,
+    "label": "Peak Cave"
+  },
+  {
+    "scene": "RiverValleyRegion",
+    "x": 405.93,
+    "y": 260.83,
+    "z": 424.54,
+    "svgX": 676.69391,
+    "svgY": 2328.1868,
+    "label": "Lonely Cave"
+  },
+  {
+    "scene": "RiverValleyRegion",
+    "x": 868.91,
+    "y": 80.77,
+    "z": 1021.75,
+    "svgX": 1399.9082,
+    "svgY": 1406.0963,
+    "label": "Ice Cave Entrance (S2)"
+  },
+  {
+    "scene": "RiverValleyRegion",
+    "x": 876.57,
+    "y": 106.6,
+    "z": 1276.98,
+    "svgX": 1395.9,
+    "svgY": 1022.45,
+    "label": "Ice Cave Entrance (S3)"
+  },
+  {
+    "scene": "RiverValleyRegion",
+    "x": 461.96,
+    "y": 76.77,
+    "z": 1018.04,
+    "svgX": 771.63446,
+    "svgY": 1438.3235,
+    "label": "Ice Cave Entrance N1"
+  },
+  {
+    "scene": "RiverValleyRegion",
+    "x": 880.76,
+    "y": 175.82,
+    "z": 1571.93,
+    "svgX": 1406.5333,
+    "svgY": 565.1355,
+    "label": "Ice Cave Entrance N3"
+  },
+  {
+    "scene": "RiverValleyRegion",
+    "x": 1168.13,
+    "y": 226.69,
+    "z": 1229.92,
+    "svgX": 1848.4973,
+    "svgY": 1097.4833,
+    "label": "Pensive Vista for charcoal drawing"
+  },
+  {
+    "scene": "RiverValleyRegion",
+    "x": 1301.7,
+    "y": 88.1,
+    "z": 1122.19,
+    "svgX": 2043.1505,
+    "svgY": 1244.9349,
+    "label": "At the top of the lower rope climb beneath Pensive Vista (memento)"
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "scene": "MountainPassCaveA",
+    "x": -56.53,
+    "y": -47.57,
+    "z": -277.62,
+    "svgX": 3365.2622,
+    "svgY": 4326.5078,
+    "label": "Cave exit A"
+  },
+  {
+    "scene": "MountainPassCaveA",
+    "x": 120.33,
+    "y": -41.84,
+    "z": -300.94,
+    "svgX": 3326.4763,
+    "svgY": 4717.5757,
+    "label": "Cave exit B"
+  },
+  {
+    "scene": "MountainPassCaveA",
+    "x": 186.47,
+    "y": 11.26,
+    "z": -109.51,
+    "svgX": 3758.8867,
+    "svgY": 4863.5054,
+    "label": "Cave exit C"
+  },
+  {
+    "scene": "MountainPassCaveA",
+    "x": -13.16,
+    "y": 44.61,
+    "z": 44.71,
+    "svgX": 4095.6702,
+    "svgY": 4408.9287,
+    "label": "Cave exit D"
+  },
+  {
+    "scene": "MountainPassCaveA",
+    "x": -25.81,
+    "y": -2.05,
+    "z": -162.33,
+    "svgX": 3627.87,
+    "svgY": 4389.23,
+    "label": "Main chamber.  Corpse, firewood."
+  },
+  {
+    "scene": "MountainPassCaveA",
+    "x": -2.96,
+    "y": -1.79,
+    "z": -158.11,
+    "svgX": 3638.81,
+    "svgY": 4440.1,
+    "label": "Main chamber #2.  Campfire, clothing, backpack, flares, food, firewood."
+  },
+  {
+    "scene": "MountainPassCaveA",
+    "x": -34.01,
+    "y": 5.11,
+    "z": -98.62,
+    "svgX": 3770.82,
+    "svgY": 4368.71,
+    "label": "Main chamber #3.  Wolf corpse, coal, food, backpack."
+  },
+  {
+    "scene": "MountainPassCaveA",
+    "x": -12.6,
+    "y": 32.05,
+    "z": 2.12,
+    "svgX": 3975.5881,
+    "svgY": 4391.1401,
+    "label": "Main chamber #4.  Has rope leading up (bottom of rope)."
+  },
+  {
+    "scene": "MountainPassCaveA",
+    "x": -11.49,
+    "y": 42.22,
+    "z": 5.31,
+    "svgX": 4012.5286,
+    "svgY": 4436.4688,
+    "label": "Main chamber #4.  Has rope leading down (top of rope)."
+  }
+]

@@ -4,8 +4,8 @@
     "x": -56.53,
     "y": -47.57,
     "z": -277.62,
-    "svgX": 3365.2622,
-    "svgY": 4326.5078,
+    "svgX": 1016.3151,
+    "svgY": 300.89584,
     "label": "Cave exit A"
   },
   {
@@ -13,8 +13,8 @@
     "x": 120.33,
     "y": -41.84,
     "z": -300.94,
-    "svgX": 3326.4763,
-    "svgY": 4717.5757,
+    "svgX": 946.01678,
+    "svgY": 1133.4784,
     "label": "Cave exit B"
   },
   {
@@ -22,8 +22,8 @@
     "x": 186.47,
     "y": 11.26,
     "z": -109.51,
-    "svgX": 3758.8867,
-    "svgY": 4863.5054,
+    "svgX": 1719.2983,
+    "svgY": 1438.8235,
     "label": "Cave exit C"
   },
   {
@@ -31,8 +31,8 @@
     "x": -13.16,
     "y": 44.61,
     "z": 44.71,
-    "svgX": 4095.6702,
-    "svgY": 4408.9287,
+    "svgX": 2339.0334,
+    "svgY": 475.09885,
     "label": "Cave exit D"
   },
   {
@@ -40,8 +40,8 @@
     "x": -25.81,
     "y": -2.05,
     "z": -162.33,
-    "svgX": 3627.87,
-    "svgY": 4389.23,
+    "svgX": 1495.1932,
+    "svgY": 428.26346,
     "label": "Main chamber.  Corpse, firewood."
   },
   {
@@ -49,8 +49,8 @@
     "x": -2.96,
     "y": -1.79,
     "z": -158.11,
-    "svgX": 3638.81,
-    "svgY": 4440.1,
+    "svgX": 1506.3546,
+    "svgY": 538.76971,
     "label": "Main chamber #2.  Campfire, clothing, backpack, flares, food, firewood."
   },
   {
@@ -58,8 +58,8 @@
     "x": -34.01,
     "y": 5.11,
     "z": -98.62,
-    "svgX": 3770.82,
-    "svgY": 4368.71,
+    "svgX": 1752.8622,
+    "svgY": 410.71283,
     "label": "Main chamber #3.  Wolf corpse, coal, food, backpack."
   },
   {
@@ -67,8 +67,8 @@
     "x": -12.6,
     "y": 32.05,
     "z": 2.12,
-    "svgX": 3980.2747,
-    "svgY": 4397.3887,
+    "svgX": 2140.095,
+    "svgY": 499.9985,
     "label": "Main chamber #4.  Has rope leading up (bottom of rope)."
   },
   {
@@ -76,8 +76,8 @@
     "x": -11.49,
     "y": 42.22,
     "z": 5.31,
-    "svgX": 4012.5286,
-    "svgY": 4436.4688,
+    "svgX": 2189.4653,
+    "svgY": 484.39566,
     "label": "Main chamber #4.  Has rope leading down (top of rope)."
   }
 ]

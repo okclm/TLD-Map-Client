@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="4254"
-   height="5006"
-   viewBox="0 0 4254 5006"
+   width="2550"
+   height="2096"
+   viewBox="0 0 2550 2096"
    version="1.1"
    id="svg1"
    xml:space="preserve"
@@ -24,9 +24,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
-     inkscape:zoom="1.2803068"
-     inkscape:cx="3729.1843"
-     inkscape:cy="4610.2231"
+     inkscape:zoom="0.76445801"
+     inkscape:cx="1778.3841"
+     inkscape:cy="645.55541"
      inkscape:window-width="2560"
      inkscape:window-height="1377"
      inkscape:window-x="5112"
@@ -38,10 +38,10 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"><image
-   width="4254"
-   height="5006"
+   width="2550"
+   height="2096"
    preserveAspectRatio="xMidYMid"
-   xlink:href="../Mods/TLD-Map-Client/images/mountainpassregion_hard.jpg"
+   xlink:href="../Mods/TLD-Map-Client/images/mountainpasscavea.jpg"
    id="image1"
    x="0"
    y="0"
@@ -49,8 +49,8 @@
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path6"
-   cx="3365.2622"
-   cy="4326.5078"
+   cx="1016.3151"
+   cy="300.89584"
    r="25">
 <desc
    id="desc1">scene=MountainPassCaveA x=-56.53 y=-47.57 z=-277.62
@@ -61,8 +61,8 @@ Cave exit A</desc>
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path7"
-   cx="3326.4763"
-   cy="4717.5757"
+   cx="946.01678"
+   cy="1133.4784"
    r="25">
 <desc
    id="desc2">scene=MountainPassCaveA x=120.33 y=-41.84 z=-300.94
@@ -73,8 +73,8 @@ Cave exit B</desc>
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path8"
-   cx="3758.8867"
-   cy="4863.5054"
+   cx="1719.2983"
+   cy="1438.8235"
    r="25">
 <desc
    id="desc3">scene=MountainPassCaveA x=186.47 y=11.26 z=-109.51
@@ -85,8 +85,8 @@ Cave exit C</desc>
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path9"
-   cx="4095.6702"
-   cy="4408.9287"
+   cx="2339.0334"
+   cy="475.09885"
    r="25">
 <desc
    id="desc4">scene=MountainPassCaveA x=-13.16 y=44.61 z=44.71
@@ -97,8 +97,8 @@ Cave exit D</desc>
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path1"
-   cx="3627.87"
-   cy="4389.23"
+   cx="1495.1932"
+   cy="428.26346"
    r="25"><desc
      id="desc5">scene=MountainPassCaveA x=-25.81 y=-2.05 z=-162.33
 Main chamber.  Corpse, firewood.</desc><title
@@ -106,8 +106,8 @@ Main chamber.  Corpse, firewood.</desc><title
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path2"
-   cx="3638.81"
-   cy="4440.10"
+   cx="1506.3546"
+   cy="538.76971"
    r="25"><desc
      id="desc6">scene=MountainPassCaveA x=-2.96 y=-1.79 z=-158.11
 Main chamber #2.  Campfire, clothing, backpack, flares, food, firewood.</desc><title
@@ -115,8 +115,8 @@ Main chamber #2.  Campfire, clothing, backpack, flares, food, firewood.</desc><t
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path3"
-   cx="3770.82"
-   cy="4368.71"
+   cx="1752.8622"
+   cy="410.71283"
    r="25"><desc
      id="desc7">scene=MountainPassCaveA x=-34.01 y=5.11 z=-98.62
 Main chamber #3.  Wolf corpse, coal, food, backpack.</desc><title
@@ -124,8 +124,8 @@ Main chamber #3.  Wolf corpse, coal, food, backpack.</desc><title
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path4"
-   cx="3980.2747"
-   cy="4397.3887"
+   cx="2140.095"
+   cy="499.9985"
    r="25"><desc
      id="desc8">scene=MountainPassCaveA x=-12.60 y=32.05 z=2.12
 Main chamber #4.  Has rope leading up (bottom of rope).</desc><title
@@ -133,8 +133,8 @@ Main chamber #4.  Has rope leading up (bottom of rope).</desc><title
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path5"
-   cx="4012.5286"
-   cy="4436.4688"
+   cx="2189.4653"
+   cy="484.39566"
    r="25"><desc
      id="desc9">scene=MountainPassCaveA x=-11.49 y=42.22 z=5.31
 Main chamber #4.  Has rope leading down (top of rope).</desc><title

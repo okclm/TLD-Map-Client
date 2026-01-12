@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1987"
+   height="2146"
+   viewBox="0 0 1987 2146"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="HubRegion.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="0.52795899"
+     inkscape:cx="993.44837"
+     inkscape:cy="1073"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="5112"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showgrid="false" /><defs
+     id="defs1" /><g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"><image
+   width="1987"
+   height="2146"
+   preserveAspectRatio="xMidYMid"
+   xlink:href="../Mods/TLD-Map-Client/images/hubregion_hard.jpg"
+   id="image1"
+   x="0"
+   y="0"
+   sodipodi:insensitive="true" />
+	   <circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path1"
+   cx="1497.7533"
+   cy="674.90338"
+   r="25">
+<desc
+   id="desc1">scene=HubRegion x=134.42 y=251.44 z=402.35
+Vacant Depot</desc>
+<title
+   id="title1">Vacant Depot</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path2"
+   cx="1645.0186"
+   cy="205.25684"
+   r="25">
+<desc
+   id="desc2">scene=HubRegion x=232.40 y=257.02 z=697.65
+Exit to ZOC</desc>
+<title
+   id="title2">Exit to ZOC</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path3"
+   cx="894.01324"
+   cy="1077.097"
+   r="25">
+<desc
+   id="desc3">scene=HubRegion x=-233.25 y=309.19 z=144.20
+Exit to FA</desc>
+<title
+   id="title3">Exit to FA</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path4"
+   cx="637.52698"
+   cy="216.13544"
+   r="25">
+<desc
+   id="desc4">scene=HubRegion x=-428.82 y=410.73 z=711.01
+Exit to SP</desc>
+<title
+   id="title4">Exit to SP</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path5"
+   cx="1159.6589"
+   cy="1326.3434"
+   r="25">
+<desc
+   id="desc5">scene=HubRegion x=-112.02 y=284.78 z=-25.57
+Feedwater Cave.  Campfire, bed, storage.</desc>
+<title
+   id="title5">Feedwater Cave.  Campfire, bed, storage.</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path6"
+   cx="1570.6757"
+   cy="1961.4227"
+   r="25">
+<desc
+   id="desc6">scene=HubRegion x=175.45 y=249.92 z=-391.52
+Exit to Far Range Branch Line.</desc>
+<title
+   id="title6">Exit to Far Range Branch Line.</title>
+</circle>
+	   </g></svg>

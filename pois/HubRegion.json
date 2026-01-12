@@ -1,0 +1,56 @@
+[
+  {
+    "scene": "HubRegion",
+    "x": 134.42,
+    "y": 251.44,
+    "z": 402.35,
+    "svgX": 1497.7533,
+    "svgY": 674.90338,
+    "label": "Vacant Depot"
+  },
+  {
+    "scene": "HubRegion",
+    "x": 232.4,
+    "y": 257.02,
+    "z": 697.65,
+    "svgX": 1645.0186,
+    "svgY": 205.25684,
+    "label": "Exit to ZOC"
+  },
+  {
+    "scene": "HubRegion",
+    "x": -233.25,
+    "y": 309.19,
+    "z": 144.2,
+    "svgX": 894.01324,
+    "svgY": 1077.097,
+    "label": "Exit to FA"
+  },
+  {
+    "scene": "HubRegion",
+    "x": -428.82,
+    "y": 410.73,
+    "z": 711.01,
+    "svgX": 637.52698,
+    "svgY": 216.13544,
+    "label": "Exit to SP"
+  },
+  {
+    "scene": "HubRegion",
+    "x": -112.02,
+    "y": 284.78,
+    "z": -25.57,
+    "svgX": 1159.6589,
+    "svgY": 1326.3434,
+    "label": "Feedwater Cave.  Campfire, bed, storage."
+  },
+  {
+    "scene": "HubRegion",
+    "x": 175.45,
+    "y": 249.92,
+    "z": -391.52,
+    "svgX": 1570.6757,
+    "svgY": 1961.4227,
+    "label": "Exit to Far Range Branch Line."
+  }
+]

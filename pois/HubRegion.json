@@ -52,5 +52,14 @@
     "svgX": 1570.6757,
     "svgY": 1961.4227,
     "label": "Exit to Far Range Branch Line."
+  },
+  {
+    "scene": "HubRegion",
+    "x": -437.64,
+    "y": 323.17,
+    "z": 442.3,
+    "svgX": 634.52338,
+    "svgY": 643.69904,
+    "label": "West side on way to Sundered Pass misc loot"
   }
 ]

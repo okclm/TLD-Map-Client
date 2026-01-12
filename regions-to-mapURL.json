@@ -72,8 +72,8 @@
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/mountainpassregion_hard.jpg"
     },
     "MountainPassCaveA": {
-        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/mountainpassregion_easy.jpg",
-        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/mountainpassregion_hard.jpg"
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/mountainpasscavea.jpg",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/mountainpasscavea.jpg"
     },	
     "MountainTownRegion": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/mountaintownregion_easy.jpg",

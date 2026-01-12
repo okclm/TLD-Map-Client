@@ -1,0 +1,92 @@
+[
+  {
+    "scene": "HubCave",
+    "x": 5.15,
+    "y": 128.07,
+    "z": 850.45,
+    "svgX": 1503.3901,
+    "svgY": 791.99207,
+    "label": "Exit to SP"
+  },
+  {
+    "scene": "HubCave",
+    "x": -284.24,
+    "y": -39.71,
+    "z": 294.84,
+    "svgX": 171.64783,
+    "svgY": 389.93381,
+    "label": "Exit to FA"
+  },
+  {
+    "scene": "HubCave",
+    "x": 86.84,
+    "y": -6.96,
+    "z": -3.84,
+    "svgX": 1089.4519,
+    "svgY": 1890.5905,
+    "label": "Exit to ZOC."
+  },
+  {
+    "scene": "HubCave",
+    "x": -5.31,
+    "y": -6.14,
+    "z": 113.88,
+    "svgX": 857.59058,
+    "svgY": 1242.3308,
+    "label": "Bed / metal storage area in transition cave."
+  },
+  {
+    "scene": "HubCave",
+    "x": 12.21,
+    "y": 11.81,
+    "z": 468.74,
+    "svgX": 1304.8364,
+    "svgY": 322.86176,
+    "label": "Campfire on way to SP"
+  },
+  {
+    "scene": "HubCave",
+    "x": 182.24,
+    "y": 31.06,
+    "z": 479.82,
+    "svgX": 1718.0201,
+    "svgY": 260.79892,
+    "label": "Rope climb (bottom) on way to SP"
+  },
+  {
+    "scene": "HubCave",
+    "x": 184.72,
+    "y": 81.52,
+    "z": 472.42,
+    "svgX": 1808.5122,
+    "svgY": 1863.1534,
+    "label": "Rope climb (top) on way to SP"
+  },
+  {
+    "scene": "HubCave",
+    "x": 126.82,
+    "y": 98.21,
+    "z": 493.37,
+    "svgX": 1656.1077,
+    "svgY": 1776.9196,
+    "label": "Frozen waterfall on way to SP"
+  },
+  {
+    "scene": "HubCave",
+    "x": 94.79,
+    "y": 109.87,
+    "z": 650.44,
+    "svgX": 1735.9349,
+    "svgY": 1285.3965,
+    "label": "Near ice lake tower where Mazey hangs out. (This is a few feet above the ice lake and safe.)"
+  },
+  {
+    "scene": "HubCave",
+    "x": 34.6,
+    "y": 113.82,
+    "z": 700.62,
+    "svgX": 1456.0089,
+    "svgY": 979.74225,
+    "label": "Campfire on way to SP"
+  }
+]

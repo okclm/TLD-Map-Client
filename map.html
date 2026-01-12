@@ -106,7 +106,7 @@
     </div>
 
     <script>
-        const version = '1.0.48';
+        const version = '1.0.49';
         const SERVER_URL = 'http://localhost:8080';
         //const REGIONS_JSON_URL = 'https://okclm.github.io/TLD-Map-Client/regions-to-mapURL.json';
         const REGIONS_JSON_URL = 'https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/regions-to-mapURL.json';
@@ -261,7 +261,7 @@
 
                     // Tooltip text
                     const tooltipText = poi.label
-                        ? `${poi.label} - ${poi.x.toFixed(2)}, ${poi.y.toFixed(2)}, ${poi.z.toFixed(2)}`
+                        ? `${poi.label} [${poi.x.toFixed(2)}, ${poi.y.toFixed(2)}, ${poi.z.toFixed(2)}]`
                         : `POI at ${poi.x.toFixed(2)}, ${poi.y.toFixed(2)}, ${poi.z.toFixed(2)}`;
 
                     // <title> for native tooltip

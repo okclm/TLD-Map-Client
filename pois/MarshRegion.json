@@ -1,0 +1,83 @@
+[
+  {
+    "scene": "MarshRegion",
+    "x": 1762.62,
+    "y": -131.81,
+    "z": 1102.83,
+    "svgX": 3044.0244,
+    "svgY": 1717.0922,
+    "label": "Exit to Mystery Lake"
+  },
+  {
+    "scene": "MarshRegion",
+    "x": -78.57,
+    "y": -131.53,
+    "z": 842.27,
+    "svgX": 249.83009,
+    "svgY": 2108.3689,
+    "label": "Exit to Broken Railroad"
+  },
+  {
+    "scene": "MarshRegion",
+    "x": 1396.84,
+    "y": -92.77,
+    "z": 13.66,
+    "svgX": 2472.6409,
+    "svgY": 3365.2136,
+    "label": "Exit to Bleak Inlet"
+  },
+  {
+    "scene": "MarshRegion",
+    "x": 268.4,
+    "y": -7.4,
+    "z": 1570.85,
+    "svgX": 773.09711,
+    "svgY": 993.22815,
+    "label": "Exit to Mountain Town"
+  },
+  {
+    "scene": "MarshRegion",
+    "x": 1084.53,
+    "y": -120.55,
+    "z": -170.39,
+    "svgX": 2029.6329,
+    "svgY": 3615.3567,
+    "label": "South Cave"
+  },
+  {
+    "scene": "MarshRegion",
+    "x": 474.43,
+    "y": -123,
+    "z": 54.95,
+    "svgX": 1077,
+    "svgY": 3288.7725,
+    "label": "Old Spence Family Homestead"
+  },
+  {
+    "scene": "MarshRegion",
+    "x": 1109.49,
+    "y": -129.94,
+    "z": 976.01,
+    "svgX": 2049.4592,
+    "svgY": 1882.2102,
+    "label": "Poacher\u0027s Camp"
+  },
+  {
+    "scene": "MarshRegion",
+    "x": 1140.94,
+    "y": -109.37,
+    "z": 1414.98,
+    "svgX": 2093.3662,
+    "svgY": 1196.1973,
+    "label": "North Cave"
+  },
+  {
+    "scene": "MarshRegion",
+    "x": 593.89,
+    "y": -84.79,
+    "z": -103.25,
+    "svgX": 1278.5249,
+    "svgY": 3548.7849,
+    "label": "Prepper\u0027s Cache"
+  }
+]

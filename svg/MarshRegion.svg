@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="3308"
+   height="3894"
+   viewBox="0 0 3308 3894"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="MarshRegion.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="0.41148022"
+     inkscape:cx="1865.2173"
+     inkscape:cy="2742.5377"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="5112"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showgrid="false" /><defs
+     id="defs1" /><g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"><image
+   width="3308"
+   height="3894"
+   preserveAspectRatio="xMidYMid"
+   xlink:href="../Mods/TLD-Map-Client/images/marshregion_hard.jpg"
+   id="image1"
+   x="0"
+   y="0"
+   sodipodi:insensitive="true" />
+	   <circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path5"
+   cx="3044.0244"
+   cy="1717.0922"
+   r="25">
+<desc
+   id="desc1">scene=MarshRegion x=1762.62 y=-131.81 z=1102.83
+Exit to Mystery Lake</desc>
+<title
+   id="title1">Exit to Mystery Lake</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path6"
+   cx="249.83009"
+   cy="2108.3689"
+   r="25">
+<desc
+   id="desc2">scene=MarshRegion x=-78.57 y=-131.53 z=842.27
+Exit to Broken Railroad</desc>
+<title
+   id="title2">Exit to Broken Railroad</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path8"
+   cx="2472.6409"
+   cy="3365.2136"
+   r="25">
+<desc
+   id="desc3">scene=MarshRegion x=1396.84 y=-92.77 z=13.66
+Exit to Bleak Inlet</desc>
+<title
+   id="title3">Exit to Bleak Inlet</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path9"
+   cx="773.09711"
+   cy="993.22815"
+   r="25">
+<desc
+   id="desc4">scene=MarshRegion x=268.40 y=-7.40 z=1570.85
+Exit to Mountain Town</desc>
+<title
+   id="title4">Exit to Mountain Town</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path1"
+   cx="2029.6329"
+   cy="3615.3567"
+   r="25"><desc
+     id="desc5">scene=MarshRegion x=1084.53 y=-120.55 z=-170.39
+South Cave</desc><title
+     id="title5">South Cave</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path2"
+   cx="1077"
+   cy="3288.7725"
+   r="25"><desc
+     id="desc6">scene=MarshRegion x=474.43 y=-123.00 z=54.95
+Old Spence Family Homestead</desc><title
+     id="title6">Old Spence Family Homestead</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path3"
+   cx="2049.4592"
+   cy="1882.2102"
+   r="25"><desc
+     id="desc7">scene=MarshRegion x=1109.49 y=-129.94 z=976.01
+Poacher's Camp</desc><title
+     id="title7">Poacher's Camp</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path4"
+   cx="2093.3662"
+   cy="1196.1973"
+   r="25"><desc
+     id="desc8">scene=MarshRegion x=1140.94 y=-109.37 z=1414.98
+North Cave</desc><title
+     id="title8">North Cave</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path7"
+   cx="1278.5249"
+   cy="3548.7849"
+   r="25"><desc
+     id="desc9">scene=MarshRegion x=593.89 y=-84.79 z=-103.25
+Prepper's Cache</desc><title
+     id="title9">Prepper's Cache</title></circle>
+	   </g></svg>

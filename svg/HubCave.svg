@@ -38,7 +38,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"><image
-   width="2097"
+   width="2048"
    height="2048"
    preserveAspectRatio="xMidYMid"
    xlink:href="../Mods/TLD-Map-Client/images/hubcave.jpg"
@@ -49,8 +49,8 @@
 	   <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path1"
-   cx="1503.3901"
-   cy="791.99207"
+   cx="1480.3433"
+   cy="788.82874"
    r="25">
 <desc
    id="desc1">scene=HubCave x=5.15 y=128.07 z=850.45
@@ -61,8 +61,8 @@ Exit to SP</desc>
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path2"
-   cx="171.64783"
-   cy="389.93381"
+   cx="151.76433"
+   cy="393.54898"
    r="25">
 <desc
    id="desc2">scene=HubCave x=-284.24 y=-39.71 z=294.84
@@ -73,8 +73,8 @@ Exit to FA</desc>
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path3"
-   cx="1089.4519"
-   cy="1890.5905"
+   cx="1062.7899"
+   cy="1892.3981"
    r="25">
 <desc
    id="desc3">scene=HubCave x=86.84 y=-6.96 z=-3.84
@@ -85,8 +85,8 @@ Exit to ZOC.</desc>
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path4"
-   cx="857.59058"
-   cy="1242.3308"
+   cx="834.99567"
+   cy="1241.427"
    r="25"><desc
      id="desc4">scene=HubCave x=-5.31 y=-6.14 z=113.88
 Bed / metal storage area in transition cave.</desc><title
@@ -94,7 +94,7 @@ Bed / metal storage area in transition cave.</desc><title
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path5"
-   cx="1304.8364"
+   cx="1281.3378"
    cy="322.86176"
    r="25"><desc
      id="desc5">scene=HubCave x=12.21 y=11.81 z=468.74
@@ -103,8 +103,8 @@ Campfire on way to SP</desc><title
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path6"
-   cx="1718.0201"
-   cy="260.79892"
+   cx="1696.3291"
+   cy="266.22168"
    r="25"><desc
      id="desc6">scene=HubCave x=182.24 y=31.06 z=479.82
 Rope climb (bottom) on way to SP</desc><title
@@ -112,8 +112,8 @@ Rope climb (bottom) on way to SP</desc><title
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path7"
-   cx="1808.5122"
-   cy="1863.1534"
+   cx="1791.3401"
+   cy="1866.3168"
    r="25"><desc
      id="desc7">scene=HubCave x=184.72 y=81.52 z=472.42
 Rope climb (top) on way to SP</desc><title
@@ -121,8 +121,8 @@ Rope climb (top) on way to SP</desc><title
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path8"
-   cx="1656.1077"
-   cy="1776.9196"
+   cx="1628.9938"
+   cy="1780.5348"
    r="25"><desc
      id="desc8">scene=HubCave x=126.82 y=98.21 z=493.37
 Frozen waterfall on way to SP</desc><title
@@ -130,8 +130,8 @@ Frozen waterfall on way to SP</desc><title
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path9"
-   cx="1735.9349"
-   cy="1285.3965"
+   cx="1710.6287"
+   cy="1286.3003"
    r="25"><desc
      id="desc9">scene=HubCave x=94.79 y=109.87 z=650.44
 Near ice lake tower where Mazey hangs out. (This is a few feet above the ice lake and safe.)</desc><title
@@ -139,8 +139,8 @@ Near ice lake tower where Mazey hangs out. (This is a few feet above the ice lak
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path10"
-   cx="1456.0089"
-   cy="979.74225"
+   cx="1437.4811"
+   cy="981.54987"
    r="25"><desc
      id="desc10">scene=HubCave x=34.60 y=113.82 z=700.62
 Campfire on way to SP</desc><title

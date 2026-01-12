@@ -4,8 +4,8 @@
     "x": 5.15,
     "y": 128.07,
     "z": 850.45,
-    "svgX": 1503.3901,
-    "svgY": 791.99207,
+    "svgX": 1480.3433,
+    "svgY": 788.82874,
     "label": "Exit to SP"
   },
   {
@@ -13,8 +13,8 @@
     "x": -284.24,
     "y": -39.71,
     "z": 294.84,
-    "svgX": 171.64783,
-    "svgY": 389.93381,
+    "svgX": 151.76433,
+    "svgY": 393.54898,
     "label": "Exit to FA"
   },
   {
@@ -22,8 +22,8 @@
     "x": 86.84,
     "y": -6.96,
     "z": -3.84,
-    "svgX": 1089.4519,
-    "svgY": 1890.5905,
+    "svgX": 1062.7899,
+    "svgY": 1892.3981,
     "label": "Exit to ZOC."
   },
   {
@@ -31,8 +31,8 @@
     "x": -5.31,
     "y": -6.14,
     "z": 113.88,
-    "svgX": 857.59058,
-    "svgY": 1242.3308,
+    "svgX": 834.99567,
+    "svgY": 1241.427,
     "label": "Bed / metal storage area in transition cave."
   },
   {
@@ -40,7 +40,7 @@
     "x": 12.21,
     "y": 11.81,
     "z": 468.74,
-    "svgX": 1304.8364,
+    "svgX": 1281.3378,
     "svgY": 322.86176,
     "label": "Campfire on way to SP"
   },
@@ -49,8 +49,8 @@
     "x": 182.24,
     "y": 31.06,
     "z": 479.82,
-    "svgX": 1718.0201,
-    "svgY": 260.79892,
+    "svgX": 1696.3291,
+    "svgY": 266.22168,
     "label": "Rope climb (bottom) on way to SP"
   },
   {
@@ -58,8 +58,8 @@
     "x": 184.72,
     "y": 81.52,
     "z": 472.42,
-    "svgX": 1808.5122,
-    "svgY": 1863.1534,
+    "svgX": 1791.3401,
+    "svgY": 1866.3168,
     "label": "Rope climb (top) on way to SP"
   },
   {
@@ -67,8 +67,8 @@
     "x": 126.82,
     "y": 98.21,
     "z": 493.37,
-    "svgX": 1656.1077,
-    "svgY": 1776.9196,
+    "svgX": 1628.9938,
+    "svgY": 1780.5348,
     "label": "Frozen waterfall on way to SP"
   },
   {
@@ -76,8 +76,8 @@
     "x": 94.79,
     "y": 109.87,
     "z": 650.44,
-    "svgX": 1735.9349,
-    "svgY": 1285.3965,
+    "svgX": 1710.6287,
+    "svgY": 1286.3003,
     "label": "Near ice lake tower where Mazey hangs out. (This is a few feet above the ice lake and safe.)"
   },
   {
@@ -85,8 +85,8 @@
     "x": 34.6,
     "y": 113.82,
     "z": 700.62,
-    "svgX": 1456.0089,
-    "svgY": 979.74225,
+    "svgX": 1437.4811,
+    "svgY": 981.54987,
     "label": "Campfire on way to SP"
   }
 ]

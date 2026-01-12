@@ -73,20 +73,47 @@
   },
   {
     "scene": "HubCave",
-    "x": 94.79,
-    "y": 109.87,
-    "z": 650.44,
-    "svgX": 1710.6287,
-    "svgY": 1286.3003,
-    "label": "Near ice lake tower where Mazey hangs out. (This is a few feet above the ice lake and safe.)"
-  },
-  {
-    "scene": "HubCave",
     "x": 34.6,
     "y": 113.82,
     "z": 700.62,
     "svgX": 1437.4811,
     "svgY": 981.54987,
     "label": "Campfire on way to SP"
+  },
+  {
+    "scene": "HubCave",
+    "x": 128.33,
+    "y": 104.74,
+    "z": 679.7,
+    "svgX": 1708.7623,
+    "svgY": 1284.4122,
+    "label": "Ice lake tower where Mazey hangs out. (This is a few feet above the ice lake and safe.)"
+  },
+  {
+    "scene": "HubCave",
+    "x": -0.53,
+    "y": -5.54,
+    "z": 173.94,
+    "svgX": 959.94867,
+    "svgY": 1061.8649,
+    "label": "Bridge"
+  },
+  {
+    "scene": "HubCave",
+    "x": -122.64,
+    "y": -20.4,
+    "z": 170.33,
+    "svgX": 517.41339,
+    "svgY": 1015.3623,
+    "label": "Hairpin West side on way to FA"
+  },
+  {
+    "scene": "HubCave",
+    "x": -182.09,
+    "y": -23.99,
+    "z": 265.63,
+    "svgX": 496.96771,
+    "svgY": 671.12653,
+    "label": "Coal West side on way to FA"
   }
 ]

@@ -25,7 +25,7 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      inkscape:zoom="0.55322266"
-     inkscape:cx="1024"
+     inkscape:cx="1024.9038"
      inkscape:cy="1024"
      inkscape:window-width="2560"
      inkscape:window-height="1377"
@@ -129,15 +129,6 @@ Frozen waterfall on way to SP</desc><title
      id="title8">Frozen waterfall on way to SP</title></circle>
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
-   id="path9"
-   cx="1710.6287"
-   cy="1286.3003"
-   r="25"><desc
-     id="desc9">scene=HubCave x=94.79 y=109.87 z=650.44
-Near ice lake tower where Mazey hangs out. (This is a few feet above the ice lake and safe.)</desc><title
-     id="title9">Near ice lake tower where Mazey hangs out. (This is a few feet above the ice lake and safe.)</title></circle>
-<circle
-   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path10"
    cx="1437.4811"
    cy="981.54987"
@@ -145,4 +136,40 @@ Near ice lake tower where Mazey hangs out. (This is a few feet above the ice lak
      id="desc10">scene=HubCave x=34.60 y=113.82 z=700.62
 Campfire on way to SP</desc><title
      id="title10">Campfire on way to SP</title></circle>
+	 <circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="circle11"
+   cx="1708.7623"
+   cy="1284.4122"
+   r="25"><desc
+     id="desc11">scene=HubCave x=128.33 y=104.74 z=679.70
+Ice lake tower where Mazey hangs out. (This is a few feet above the ice lake and safe.)</desc><title
+     id="title11">Ice lake tower where Mazey hangs out. (This is a few feet above the ice lake and safe.)</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path11"
+   cx="959.94867"
+   cy="1061.8649"
+   r="25"><desc
+     id="desc12">scene=HubCave x=-0.53 y=-5.54 z=173.94
+Bridge</desc><title
+     id="title12">Bridge</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path12"
+   cx="517.41339"
+   cy="1015.3623"
+   r="25"><desc
+     id="desc13">scene=HubCave x=-122.64 y=-20.40 z=170.33
+Hairpin West side on way to FA</desc><title
+     id="title13">Hairpin West side on way to FA</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path13"
+   cx="496.96771"
+   cy="671.12653"
+   r="25"><desc
+     id="desc14">scene=HubCave x=-182.09 y=-23.99 z=265.63
+Coal West side on way to FA</desc><title
+     id="title14">Coal West side on way to FA</title></circle>
 </g></svg>

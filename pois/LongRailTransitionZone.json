@@ -1,0 +1,83 @@
+[
+  {
+    "scene": "LongRailTransitionZone",
+    "x": 82.57,
+    "y": 0.24,
+    "z": -575.56,
+    "svgX": 2926.0703,
+    "svgY": 401.82483,
+    "label": "Exit to Broken Railroad"
+  },
+  {
+    "scene": "LongRailTransitionZone",
+    "x": -173.52,
+    "y": -0.93,
+    "z": 1230.96,
+    "svgX": 209.01833,
+    "svgY": 797.19409,
+    "label": "Exit to Transfer Pass"
+  },
+  {
+    "scene": "LongRailTransitionZone",
+    "x": 92.92,
+    "y": -49.45,
+    "z": 136.51,
+    "svgX": 1843.0377,
+    "svgY": 388.5849,
+    "label": "Platelayer\u0027s Shortcut Cave lower entrance"
+  },
+  {
+    "scene": "LongRailTransitionZone",
+    "x": -66.06,
+    "y": -0.11,
+    "z": -171.45,
+    "svgX": 2307.4822,
+    "svgY": 639.99768,
+    "label": "Office"
+  },
+  {
+    "scene": "LongRailTransitionZone",
+    "x": -36.34,
+    "y": 0.07,
+    "z": 5.27,
+    "svgX": 2064.3638,
+    "svgY": 594.85895,
+    "label": "Surfeit Trestle"
+  },
+  {
+    "scene": "LongRailTransitionZone",
+    "x": -33.39,
+    "y": 1.21,
+    "z": 52.82,
+    "svgX": 1971.0961,
+    "svgY": 573.49365,
+    "label": "Train cart"
+  },
+  {
+    "scene": "LongRailTransitionZone",
+    "x": 30.24,
+    "y": 4.15,
+    "z": 216.57,
+    "svgX": 1726.468,
+    "svgY": 490.97733,
+    "label": "Platelayer\u0027s Shortcut Cave upper entrance"
+  },
+  {
+    "scene": "LongRailTransitionZone",
+    "x": 189.43,
+    "y": 15.06,
+    "z": 609.29,
+    "svgX": 1153.8422,
+    "svgY": 284.93399,
+    "label": "Remnant Cave"
+  },
+  {
+    "scene": "LongRailTransitionZone",
+    "x": 93.32,
+    "y": 1.22,
+    "z": 592.29,
+    "svgX": 1150.49,
+    "svgY": 389.57,
+    "label": "Train cart outside Remnant Cave (has container)"
+  }
+]

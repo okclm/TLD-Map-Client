@@ -1,0 +1,15 @@
+{
+  "region": "LongRailTransitionZone",
+  "affineMatrix": {
+    "A": 0.00175755674559012,
+    "B": -1.5032215897275527,
+    "Tx": 2055.9287150821838,
+    "C": -1.4478946793326086,
+    "D": 0.011408571087928055,
+    "Ty": 532.9927065217737
+  },
+  "generatedAt": "2026-01-12T06:08:34.5825383-06:00",
+  "calibPointCount": 9,
+  "layerOffsetX": 0,
+  "layerOffsetY": 0
+}

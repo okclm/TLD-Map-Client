@@ -24,9 +24,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
-     inkscape:zoom="0.87845612"
-     inkscape:cx="2079.216"
-     inkscape:cy="2434.3845"
+     inkscape:zoom="1.2423246"
+     inkscape:cx="2200.3107"
+     inkscape:cy="1376.0494"
      inkscape:window-width="2560"
      inkscape:window-height="1377"
      inkscape:window-x="5112"
@@ -184,4 +184,22 @@ Cave Northeast of prepper cache</desc><title
      id="desc14">scene=CrashMountainRegion x=1386.01 y=138.09 z=751.60
 Bear Cave Northeast of Fishing Hut DANGER!</desc><title
      id="title14">Bear Cave Northeast of Fishing Hut DANGER!</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path15"
+   cx="2030.5319"
+   cy="1713.0066"
+   r="25"><desc
+     id="desc15">scene=CrashMountainRegion x=1343.63 y=50.85 z=865.36
+Chasm Cave</desc><title
+     id="title15">Chasm Cave</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path16"
+   cx="2066.4307"
+   cy="1212.2911"
+   r="25"><desc
+     id="desc16">scene=CrashMountainRegion x=1380.84 y=148.26 z=1210.13
+Cave with misc loot</desc><title
+     id="title16">Cave with misc loot</title></circle>	 
 	   </g></svg>

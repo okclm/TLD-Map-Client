@@ -124,5 +124,23 @@
     "svgX": 2090.7161,
     "svgY": 1931.4221,
     "label": "Bear Cave Northeast of Fishing Hut DANGER!"
+  },
+  {
+    "scene": "CrashMountainRegion",
+    "x": 1343.63,
+    "y": 50.85,
+    "z": 865.36,
+    "svgX": 2030.5319,
+    "svgY": 1713.0066,
+    "label": "Chasm Cave"
+  },
+  {
+    "scene": "CrashMountainRegion",
+    "x": 1380.84,
+    "y": 148.26,
+    "z": 1210.13,
+    "svgX": 2066.4307,
+    "svgY": 1212.2911,
+    "label": "Cave with misc loot"
   }
 ]

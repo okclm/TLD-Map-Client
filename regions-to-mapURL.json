@@ -31,7 +31,15 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/crashmountainregion_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/crashmountainregion_hard.jpg"
     },
+    "Dam": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/damrivertransitionzoneb_easy.jpg",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/damrivertransitionzoneb_hard.jpg"
+    },
     "DamRiverTransitionZoneB": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/damrivertransitionzoneb_easy.jpg",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/damrivertransitionzoneb_hard.jpg"
+    },
+    "DamTransitionZone": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/damrivertransitionzoneb_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/damrivertransitionzoneb_hard.jpg"
     },

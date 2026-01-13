@@ -1,0 +1,164 @@
+[
+  {
+    "scene": "LakeRegion",
+    "x": 38,
+    "y": 15.92,
+    "z": 27.42,
+    "svgX": 578.01105,
+    "svgY": 4053.6438,
+    "label": "Trapper\u0027s Cabin"
+  },
+  {
+    "scene": "LakeRegion",
+    "x": 765.39,
+    "y": 37.25,
+    "z": -142.25,
+    "svgX": 1992.9161,
+    "svgY": 4357.2734,
+    "label": "Exit to Forlorn Muskeg"
+  },
+  {
+    "scene": "LakeRegion",
+    "x": 1778.59,
+    "y": 37.38,
+    "z": 1290.2,
+    "svgX": 4047.5554,
+    "svgY": 1497.1567,
+    "label": "Exit to Ravine"
+  },
+  {
+    "scene": "LakeRegion",
+    "x": 65.72,
+    "y": 25.66,
+    "z": 945.46,
+    "svgX": 605.16241,
+    "svgY": 2196.9912,
+    "label": "Cabin - West side, North of Trapper\u0027s"
+  },
+  {
+    "scene": "LakeRegion",
+    "x": 787.88,
+    "y": 213.08,
+    "z": 967.5,
+    "svgX": 2064.373,
+    "svgY": 2135.1086,
+    "label": "Forestry Lookout"
+  },
+  {
+    "scene": "LakeRegion",
+    "x": 431.56,
+    "y": 155.08,
+    "z": 994.3,
+    "svgX": 1357.1562,
+    "svgY": 2024.2041,
+    "label": "Destroyed Lookout"
+  },
+  {
+    "scene": "LakeRegion",
+    "x": 1273.62,
+    "y": 120.88,
+    "z": 660.39,
+    "svgX": 3050.2556,
+    "svgY": 2828.7307,
+    "label": "Overlook cave"
+  },
+  {
+    "scene": "LakeRegion",
+    "x": 1019.23,
+    "y": 26.55,
+    "z": 444.38,
+    "svgX": 2504.5999,
+    "svgY": 3197.0129,
+    "label": "Camp office - porch door"
+  },
+  {
+    "scene": "LakeRegion",
+    "x": 130.04,
+    "y": 33.8,
+    "z": -91.05,
+    "svgX": 723.95862,
+    "svgY": 4268.8159,
+    "label": "Cave to Mountain Town"
+  },
+  {
+    "scene": "LakeRegion",
+    "x": 1027.64,
+    "y": 90.79,
+    "z": -52.81,
+    "svgX": 2543.1973,
+    "svgY": 4194.2959,
+    "label": "Prepper\u0027s Cache"
+  },
+  {
+    "scene": "LakeRegion",
+    "x": 945.41,
+    "y": 51.72,
+    "z": 23.08,
+    "svgX": 2417.1143,
+    "svgY": 4045.3372,
+    "label": "Dave\u0027s Quiet Clearing"
+  },
+  {
+    "scene": "LakeRegion",
+    "x": 1307.39,
+    "y": 16.71,
+    "z": 288.67,
+    "svgX": 3074.9365,
+    "svgY": 3489.4429,
+    "label": "Ice Fishing Hut - Closest to Camp Office"
+  },
+  {
+    "scene": "LakeRegion",
+    "x": 1676.61,
+    "y": 41.61,
+    "z": 1384.73,
+    "svgX": 3855.0225,
+    "svgY": 1293.5917,
+    "label": "Carter Hydro Dam"
+  },
+  {
+    "scene": "LakeRegion",
+    "x": 912.33,
+    "y": 21.89,
+    "z": 1230.33,
+    "svgX": 2315.9243,
+    "svgY": 1615.6538,
+    "label": "Logging Camp Trailers ()"
+  },
+  {
+    "scene": "LakeRegion",
+    "x": 130.9,
+    "y": 12.72,
+    "z": 663.29,
+    "svgX": 743.08789,
+    "svgY": 2767.9399,
+    "label": "Hunter\u0027s Blind - Unnamed Pond"
+  },
+  {
+    "scene": "LakeRegion",
+    "x": 1637.87,
+    "y": 19.98,
+    "z": 834.36,
+    "svgX": 3757.06,
+    "svgY": 2405.02,
+    "label": "Hunter\u0027s Blind - Across from Alan\u0027s Cave"
+  },
+  {
+    "scene": "LakeRegion",
+    "x": 803.31,
+    "y": 141.46,
+    "z": 941.68,
+    "svgX": 2224.1853,
+    "svgY": 2189.3706,
+    "label": "Plane crash"
+  },
+  {
+    "scene": "LakeRegion",
+    "x": 302.62,
+    "y": 32,
+    "z": 1155.47,
+    "svgX": 1075.8685,
+    "svgY": 1801.3334,
+    "label": "Clearcut overlook"
+  }
+]

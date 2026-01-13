@@ -1,0 +1,47 @@
+[
+  {
+    "scene": "DamRiverTransitionZoneB",
+    "x": 768.15,
+    "y": 13.13,
+    "z": 660.6,
+    "svgX": 3243.01,
+    "svgY": 685.22485,
+    "label": "Exit to Pleasant Valley Cave"
+  },
+  {
+    "scene": "DamRiverTransitionZoneB",
+    "x": 505.01,
+    "y": 95.75,
+    "z": 235.36,
+    "svgX": 2594.7449,
+    "svgY": 1696.7429,
+    "label": "Entrance to Carter Dam (Lower)"
+  },
+  {
+    "scene": "DamRiverTransitionZoneB",
+    "x": 606.87,
+    "y": 89.38,
+    "z": 269.49,
+    "svgX": 2874.3813,
+    "svgY": 1620.248,
+    "label": "Exit from Carter Dam (Lower)"
+  },
+  {
+    "scene": "DamRiverTransitionZoneB",
+    "x": 364.23,
+    "y": 37.33,
+    "z": 623.53,
+    "svgX": 2335.2156,
+    "svgY": 797.55939,
+    "label": "Cave"
+  },
+  {
+    "scene": "DamRiverTransitionZoneB",
+    "x": 471.17,
+    "y": 89.31,
+    "z": 272.9,
+    "svgX": 2557.5095,
+    "svgY": 1615.4543,
+    "label": "Possible gun spawn"
+  }
+]

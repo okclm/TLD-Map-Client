@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="3826"
+   height="3375"
+   viewBox="0 0 3826 3375"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="DamRiverTransitionZoneB.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="1.3428148"
+     inkscape:cx="2676.095"
+     inkscape:cy="1209.0275"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="5112"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showgrid="false" /><defs
+     id="defs1" /><g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"><image
+   width="3826"
+   height="3375"
+   preserveAspectRatio="xMidYMid"
+   xlink:href="../Mods/TLD-Map-Client/images/damrivertransitionzoneb_hard.jpg"
+   id="image1"
+   x="0"
+   y="0"
+   sodipodi:insensitive="true" />
+	   <circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path1"
+   cx="3243.01"
+   cy="685.22485"
+   r="25">
+<desc
+   id="desc1">scene=DamRiverTransitionZoneB x=768.15 y=13.13 z=660.60
+Exit to Pleasant Valley Cave</desc>
+<title
+   id="title1">Exit to Pleasant Valley Cave</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path2"
+   cx="2594.7449"
+   cy="1696.7429"
+   r="25">
+<desc
+   id="desc2">scene=DamRiverTransitionZoneB x=505.01 y=95.75 z=235.36
+Entrance to Carter Dam (Lower)</desc>
+<title
+   id="title2">Entrance to Carter Dam (Lower)</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path3"
+   cx="2874.3813"
+   cy="1620.248"
+   r="25">
+<desc
+   id="desc3">scene=DamRiverTransitionZoneB x=606.87 y=89.38 z=269.49
+Exit from Carter Dam (Lower)</desc>
+<title
+   id="title3">Exit from Carter Dam (Lower)</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path4"
+   cx="2335.2156"
+   cy="797.55939"
+   r="25">
+<desc
+   id="desc4">scene=DamRiverTransitionZoneB x=364.23 y=37.33 z=623.53
+Cave</desc>
+<title
+   id="title4">Cave</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path5"
+   cx="2557.5095"
+   cy="1615.4543"
+   r="25">
+<desc
+   id="desc5">scene=DamRiverTransitionZoneB x=471.17 y=89.31 z=272.90
+Possible gun spawn</desc>
+<title
+   id="title5">Possible gun spawn</title>
+</circle>
+
+	   </g></svg>

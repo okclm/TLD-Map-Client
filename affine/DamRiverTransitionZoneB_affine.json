@@ -1,0 +1,15 @@
+{
+  "region": "DamRiverTransitionZoneB",
+  "affineMatrix": {
+    "A": 2.259914695903075,
+    "B": 0.07408563279001103,
+    "Tx": 1463.0930905533692,
+    "C": -0.056681379974643877,
+    "D": -2.3517915999097907,
+    "Ty": 2283.651164729309
+  },
+  "generatedAt": "2026-01-13T14:22:13.6386679-06:00",
+  "calibPointCount": 5,
+  "layerOffsetX": 0,
+  "layerOffsetY": 0
+}

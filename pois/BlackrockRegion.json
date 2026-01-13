@@ -1,0 +1,227 @@
+[
+  {
+    "scene": "BlackrockRegion",
+    "x": -342.05,
+    "y": 142.76,
+    "z": -971.03,
+    "svgX": 1389.0869,
+    "svgY": 3298.396,
+    "label": "Exit to Keeper\u0027s Pass North"
+  },
+  {
+    "scene": "BlackrockRegion",
+    "x": -352.46,
+    "y": 76.6,
+    "z": 442.85,
+    "svgX": 1422.6794,
+    "svgY": 1121.3998,
+    "label": "Power Plant Door (steam tunnel side)"
+  },
+  {
+    "scene": "BlackrockRegion",
+    "x": 703.77,
+    "y": 373.47,
+    "z": 815.66,
+    "svgX": 2999.4006,
+    "svgY": 539.04297,
+    "label": "Prepper\u0027s Cache"
+  },
+  {
+    "scene": "BlackrockRegion",
+    "x": 690.48,
+    "y": 265.07,
+    "z": -301.12,
+    "svgX": 2985.8843,
+    "svgY": 2237.0964,
+    "label": "Exit Cave to Timberwolf Mountain"
+  },
+  {
+    "scene": "BlackrockRegion",
+    "x": -184.98,
+    "y": 225.59,
+    "z": 6.22,
+    "svgX": 1644.4758,
+    "svgY": 1763.4355,
+    "label": "Entrance to Prison Guardhouse"
+  },
+  {
+    "scene": "BlackrockRegion",
+    "x": 902.61,
+    "y": 231.62,
+    "z": -99.02,
+    "svgX": 3297.0815,
+    "svgY": 1940.0425,
+    "label": "Bricklayer\u0027s Retreat"
+  },
+  {
+    "scene": "BlackrockRegion",
+    "x": 850.95,
+    "y": 310.11,
+    "z": 351.12,
+    "svgX": 3216.0874,
+    "svgY": 1244.8746,
+    "label": "Hunter\u0027s blind (Whistling Perch)"
+  },
+  {
+    "scene": "BlackrockRegion",
+    "x": -580.17,
+    "y": 106.05,
+    "z": -476.87,
+    "svgX": 1060.7625,
+    "svgY": 2495.4153,
+    "label": "Old Substation Door"
+  },
+  {
+    "scene": "BlackrockRegion",
+    "x": -310.98,
+    "y": 76.54,
+    "z": 435.68,
+    "svgX": 1475.6016,
+    "svgY": 1122.4028,
+    "label": "Steam Tunnels (power plant side)"
+  },
+  {
+    "scene": "BlackrockRegion",
+    "x": -39.74,
+    "y": 127.48,
+    "z": -766.31,
+    "svgX": 1883.9181,
+    "svgY": 2921.959,
+    "label": "Jailer\u0027s Residence Barn"
+  },
+  {
+    "scene": "BlackrockRegion",
+    "x": -670.2,
+    "y": 109.04,
+    "z": -630.2,
+    "svgX": 954.4516,
+    "svgY": 2716.7163,
+    "label": "Lineworker\u0027s Hideout.  Possible bear.  DANGER!"
+  },
+  {
+    "scene": "BlackrockRegion",
+    "x": 184.02,
+    "y": 179.37,
+    "z": -243.51,
+    "svgX": 2203.1338,
+    "svgY": 2170.6147,
+    "label": "Cook\u0027s Farm"
+  },
+  {
+    "scene": "BlackrockRegion",
+    "x": 480.03,
+    "y": 185.19,
+    "z": -563.28,
+    "svgX": 2642.4521,
+    "svgY": 2645.0637,
+    "label": "Cutty\u0027s Cave"
+  },
+  {
+    "scene": "BlackrockRegion",
+    "x": 464.91,
+    "y": 371.47,
+    "z": 948.62,
+    "svgX": 2635.8167,
+    "svgY": 329.88531,
+    "label": "Abandoned Mine"
+  },
+  {
+    "scene": "BlackrockRegion",
+    "x": 536.77,
+    "y": 194.46,
+    "z": 516.93,
+    "svgX": 2728.1372,
+    "svgY": 984.62903,
+    "label": "Cave below mine climbs (coal)"
+  },
+  {
+    "scene": "BlackrockRegion",
+    "x": -802.77,
+    "y": 86.14,
+    "z": 417.1,
+    "svgX": 723.82062,
+    "svgY": 1140.7678,
+    "label": "Forager\u0027s Remnant"
+  },
+  {
+    "scene": "BlackrockRegion",
+    "x": 523.4,
+    "y": 243.69,
+    "z": 301.25,
+    "svgX": 2720.7173,
+    "svgY": 1367.4816,
+    "label": "Cliff Cave (bear) DANGER!"
+  },
+  {
+    "scene": "BlackrockRegion",
+    "x": 799.15,
+    "y": 308.13,
+    "z": 697.39,
+    "svgX": 3184.936,
+    "svgY": 733.60657,
+    "label": "No Road Cave"
+  },
+  {
+    "scene": "BlackrockRegion",
+    "x": 1106.53,
+    "y": 307.78,
+    "z": 557.33,
+    "svgX": 3577.2131,
+    "svgY": 975.3772,
+    "label": "Wedge cave (bear) DANGER!"
+  },
+  {
+    "scene": "BlackrockRegion",
+    "x": 452.98,
+    "y": 210.31,
+    "z": -221.83,
+    "svgX": 2622.5393,
+    "svgY": 2127.6299,
+    "label": "Trailer Foreman\u0027s Clearcut"
+  },
+  {
+    "scene": "BlackrockRegion",
+    "x": -310.92,
+    "y": 128.54,
+    "z": -792.48,
+    "svgX": 1459.781,
+    "svgY": 2994.0002,
+    "label": "Blocked Bridge Container"
+  },
+  {
+    "scene": "BlackrockRegion",
+    "x": -1081.23,
+    "y": 110.69,
+    "z": -343.98,
+    "svgX": 323.94281,
+    "svgY": 2317.0125,
+    "label": "Creek Bed Cave"
+  },
+  {
+    "scene": "BlackrockRegion",
+    "x": -936.07,
+    "y": 83.73,
+    "z": -110.7,
+    "svgX": 483.78619,
+    "svgY": 1951.1663,
+    "label": "Bear\u0027s Bend DANGER!"
+  },
+  {
+    "scene": "BlackrockRegion",
+    "x": -658.59,
+    "y": 105.04,
+    "z": -22.62,
+    "svgX": 935.55377,
+    "svgY": 1817.9556,
+    "label": "Trailer (door) West Power Lines near Bear\u0027s Bend"
+  },
+  {
+    "scene": "BlackrockRegion",
+    "x": -784.47,
+    "y": 118.88,
+    "z": 161.92,
+    "svgX": 734.79657,
+    "svgY": 1552.2329,
+    "label": "Cave NorthWest of Trailer and South of Forager\u0027s Remnant (Rabbits outside)"
+  }
+]

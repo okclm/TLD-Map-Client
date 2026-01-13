@@ -1,0 +1,38 @@
+[
+  {
+    "scene": "HighwayTransitionZone",
+    "x": 68.04,
+    "y": 49.39,
+    "z": 464.96,
+    "svgX": 195.65666,
+    "svgY": 966.69196,
+    "label": "Exit to Coastal Hghway"
+  },
+  {
+    "scene": "HighwayTransitionZone",
+    "x": 462.4,
+    "y": 50.14,
+    "z": 231.24,
+    "svgX": 1181.0636,
+    "svgY": 1409.4421,
+    "label": "Cave (Arch)"
+  },
+  {
+    "scene": "HighwayTransitionZone",
+    "x": 653.62,
+    "y": 73.64,
+    "z": 514.26,
+    "svgX": 1649.0494,
+    "svgY": 769.56311,
+    "label": "Exit to Desolation Point (mine)"
+  },
+  {
+    "scene": "HighwayTransitionZone",
+    "x": 392.41,
+    "y": 66.26,
+    "z": 459.67,
+    "svgX": 1097.1145,
+    "svgY": 863.51434,
+    "label": "Harris Home basement entrance"
+  }
+]

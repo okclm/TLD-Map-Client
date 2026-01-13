@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="2097"
+   height="1867"
+   viewBox="0 0 2097 1867"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="HighwayTransitionZone.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="0.60685592"
+     inkscape:cx="1048.8486"
+     inkscape:cy="933.5"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="5112"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showgrid="false" /><defs
+     id="defs1" /><g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"><image
+   width="2097"
+   height="1867"
+   preserveAspectRatio="xMidYMid"
+   xlink:href="../Mods/TLD-Map-Client/images/highwaytransitionzone.jpg"
+   id="image1"
+   x="0"
+   y="0"
+   sodipodi:insensitive="true" />
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path1"
+   cx="195.65666"
+   cy="966.69196"
+   r="25">
+<desc
+   id="desc1">scene=HighwayTransitionZone x=68.04 y=49.39 z=464.96
+Exit to Coastal Hghway</desc>
+<title
+   id="title1">Exit to Coastal Hghway</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path2"
+   cx="1181.0636"
+   cy="1409.4421"
+   r="25">
+<desc
+   id="desc2">scene=HighwayTransitionZone x=462.40 y=50.14 z=231.24
+Cave (Arch)</desc>
+<title
+   id="title2">Cave (Arch)</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path3"
+   cx="1649.0494"
+   cy="769.56311"
+   r="25">
+<desc
+   id="desc3">scene=HighwayTransitionZone x=653.62 y=73.64 z=514.26
+Exit to Desolation Point (mine)</desc>
+<title
+   id="title3">Exit to Desolation Point (mine)</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path4"
+   cx="1097.1145"
+   cy="863.51434"
+   r="25"><desc
+     id="desc4">scene=HighwayTransitionZone x=392.41 y=66.26 z=459.67
+Harris Home basement entrance</desc><title
+     id="title4">Harris Home basement entrance</title></circle>
+	   </g></svg>

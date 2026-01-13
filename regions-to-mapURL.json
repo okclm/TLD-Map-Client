@@ -47,6 +47,14 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/hubregion_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/hubregion_hard.jpg"
     },
+    "IceCaveA": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/hushedrivervalleyicecaves.jpg",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/hushedrivervalleyicecaves.jpg"
+    },
+    "IceCaveB": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/hushedrivervalleyicecaves.jpg",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/hushedrivervalleyicecaves.jpg"
+    },
     "LakeRegion": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/lakeregion_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/lakeregion_hard.jpg"

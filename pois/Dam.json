@@ -1,6 +1,15 @@
 [
   {
     "scene": "Dam",
+    "x": 1.17,
+    "y": 0.01,
+    "z": 2.88,
+    "svgX": 1872.754,
+    "svgY": 3026.5752,
+    "label": "Carter Dam Exit to Mystery Lake"
+  },
+  {
+    "scene": "Dam",
     "x": -14.84,
     "y": 0.08,
     "z": -9.51,

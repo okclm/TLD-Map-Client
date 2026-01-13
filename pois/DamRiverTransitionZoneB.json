@@ -43,5 +43,14 @@
     "svgX": 2557.5095,
     "svgY": 1615.4543,
     "label": "Possible gun spawn"
+  },
+  {
+    "scene": "DamRiverTransitionZoneB",
+    "x": 447.91,
+    "y": 73.39,
+    "z": 477.16,
+    "svgX": 2516.0818,
+    "svgY": 1103.8713,
+    "label": "Maple trees"
   }
 ]

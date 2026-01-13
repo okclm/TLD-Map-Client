@@ -24,9 +24,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
-     inkscape:zoom="1.3428148"
-     inkscape:cx="2676.095"
-     inkscape:cy="1209.0275"
+     inkscape:zoom="1.8990269"
+     inkscape:cx="2424.1363"
+     inkscape:cy="1121.3638"
      inkscape:window-width="2560"
      inkscape:window-height="1377"
      inkscape:window-x="5112"
@@ -106,5 +106,16 @@ Possible gun spawn</desc>
 <title
    id="title5">Possible gun spawn</title>
 </circle>
-
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path6"
+   cx="2516.0818"
+   cy="1103.8713"
+   r="25">
+<desc
+   id="desc6">scene=DamRiverTransitionZoneB x=447.91 y=73.39 z=477.16
+Maple trees</desc>
+<title
+   id="title6">Maple trees</title>
+</circle>
 	   </g></svg>

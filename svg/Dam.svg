@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="3826"
+   height="3375"
+   viewBox="0 0 3826 3375"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="Dam.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="0.47475673"
+     inkscape:cx="1801.9755"
+     inkscape:cy="1111.0954"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="5112"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showgrid="false" /><defs
+     id="defs1" /><g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"><image
+   width="3826"
+   height="3375"
+   preserveAspectRatio="xMidYMid"
+   xlink:href="../Mods/TLD-Map-Client/images/damrivertransitionzoneb_hard.jpg"
+   id="image1"
+   x="0"
+   y="0"
+   sodipodi:insensitive="true" />
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path1"
+   cx="1872.754"
+   cy="3026.5752"
+   r="25">
+<desc
+   id="desc1">scene=Dam x=1.17 y=0.00 z=2.88
+Carter Dam Exit to Mystery Lake</desc>
+<title
+   id="title1">Carter Dam Exit to Mystery Lake</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path2"
+   cx="2165.4229"
+   cy="2804.1184"
+   r="25">
+<desc
+   id="desc2">scene=Dam x=-14.84 y=0.08 z=-9.51
+Ground Floor Restroom</desc>
+<title
+   id="title2">Ground Floor Restroom</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path3"
+   cx="1732.441"
+   cy="2541.9365"
+   r="25">
+<desc
+   id="desc3">scene=Dam x=9.91 y=0.08 z=-25.90
+Control Room Safe</desc>
+<title
+   id="title3">Control Room Safe</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path4"
+   cx="540.87439"
+   cy="2639.9685"
+   r="25">
+<desc
+   id="desc4">scene=Dam x=10.01 y=-5.92 z=-20.53
+Basement Lower Level Corpse</desc>
+<title
+   id="title4">Basement Lower Level Corpse</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path5"
+   cx="989.52521"
+   cy="2381.8904"
+   r="25">
+<desc
+   id="desc5">scene=Dam x=-17.83 y=-5.92 z=-33.98
+Basement Lower Level Fire Barrel</desc>
+<title
+   id="title5">Basement Lower Level Fire Barrel</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path6"
+   cx="2331.2649"
+   cy="2486.103"
+   r="25">
+<desc
+   id="desc6">scene=Dam x=-24.88 y=0.16 z=-28.85
+Basement Upper Level Desk</desc>
+<title
+   id="title6">Basement Upper Level Desk</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path7"
+   cx="363.94165"
+   cy="2173.26"
+   r="25">
+<desc
+   id="desc7">scene=Dam x=21.04 y=-5.92 z=-46.27
+Basement Lower Level Exit to Lower Dam</desc>
+<title
+   id="title7">Basement Lower Level Exit to Lower Dam</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path8"
+   cx="3215.9287"
+   cy="2616.5938"
+   r="25">
+<desc
+   id="desc8">scene=Dam x=-7.44 y=4.70 z=-20.45
+Upper Dam 2nd floor Admin Office</desc>
+<title
+   id="title8">Upper Dam 2nd floor Admin Office</title>
+</circle>
+	   
+	   </g></svg>

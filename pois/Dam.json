@@ -1,0 +1,65 @@
+[
+  {
+    "scene": "Dam",
+    "x": -14.84,
+    "y": 0.08,
+    "z": -9.51,
+    "svgX": 2165.4229,
+    "svgY": 2804.1184,
+    "label": "Ground Floor Restroom"
+  },
+  {
+    "scene": "Dam",
+    "x": 9.91,
+    "y": 0.08,
+    "z": -25.9,
+    "svgX": 1732.441,
+    "svgY": 2541.9365,
+    "label": "Control Room Safe"
+  },
+  {
+    "scene": "Dam",
+    "x": 10.01,
+    "y": -5.92,
+    "z": -20.53,
+    "svgX": 540.87439,
+    "svgY": 2639.9685,
+    "label": "Basement Lower Level Corpse"
+  },
+  {
+    "scene": "Dam",
+    "x": -17.83,
+    "y": -5.92,
+    "z": -33.98,
+    "svgX": 989.52521,
+    "svgY": 2381.8904,
+    "label": "Basement Lower Level Fire Barrel"
+  },
+  {
+    "scene": "Dam",
+    "x": -24.88,
+    "y": 0.16,
+    "z": -28.85,
+    "svgX": 2331.2649,
+    "svgY": 2486.103,
+    "label": "Basement Upper Level Desk"
+  },
+  {
+    "scene": "Dam",
+    "x": 21.04,
+    "y": -5.92,
+    "z": -46.27,
+    "svgX": 363.94165,
+    "svgY": 2173.26,
+    "label": "Basement Lower Level Exit to Lower Dam"
+  },
+  {
+    "scene": "Dam",
+    "x": -7.44,
+    "y": 4.7,
+    "z": -20.45,
+    "svgX": 3215.9287,
+    "svgY": 2616.5938,
+    "label": "Upper Dam 2nd floor Admin Office"
+  }
+]

@@ -25,8 +25,8 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      inkscape:zoom="0.41148022"
-     inkscape:cx="1865.2173"
-     inkscape:cy="2742.5377"
+     inkscape:cx="1313.5504"
+     inkscape:cy="2028.044"
      inkscape:window-width="2560"
      inkscape:window-height="1377"
      inkscape:window-x="5112"
@@ -97,7 +97,7 @@ Exit to Mountain Town</desc>
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path1"
-   cx="2029.6329"
+   cx="2033.0698"
    cy="3615.3567"
    r="25"><desc
      id="desc5">scene=MarshRegion x=1084.53 y=-120.55 z=-170.39
@@ -139,4 +139,60 @@ North Cave</desc><title
      id="desc9">scene=MarshRegion x=593.89 y=-84.79 z=-103.25
 Prepper's Cache</desc><title
      id="title9">Prepper's Cache</title></circle>
+	 <circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path10"
+   cx="2830.1182"
+   cy="2926.8108"
+   r="25"><desc
+     id="desc10">scene=MarshRegion x=1599.99 y=-47.31 z=300.70
+Copter</desc><title
+     id="title10">Copter</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path11"
+   cx="2667.9268"
+   cy="2692.6013"
+   r="25"><desc
+     id="desc11">scene=MarshRegion x=1506.91 y=-46.62 z=461.52
+South Radio Tower, Muskeg Overlook, Transmitter</desc><title
+     id="title11">South Radio Tower, Muskeg Overlook, Transmitter</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path12"
+   cx="810.73755"
+   cy="1818.293"
+   r="25"><desc
+     id="desc12">scene=MarshRegion x=283.57 y=-130.66 z=1037.97
+Low Hunter's Blind</desc><title
+     id="title12">Low Hunter's Blind</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path13"
+   cx="334.4415"
+   cy="3120.564"
+   r="25"><desc
+     id="desc13">scene=MarshRegion x=-32.85 y=-97.74 z=133.08
+West cave</desc><title
+     id="title13">West cave</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path14"
+   cx="1209.8243"
+   cy="899.36438"
+   r="25"><desc
+     id="desc14">scene=MarshRegion x=538.32 y=-26.83 z=1646.83
+Cave entrance Waterfall</desc><title
+     id="title14">Cave entrance Waterfall</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path15"
+   cx="825.86145"
+   cy="1133.212"
+   r="25"><desc
+     id="desc15">scene=MarshRegion x=297.23 y=-41.73 z=1488.33
+Cave entrance Marsh Ridge</desc><title
+     id="title15">Cave entrance Marsh Ridge</title></circle>
+	 <circle style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931" id="path14" cx="1990.84" cy="2781.45" r="25"><desc id="desc1">scene=MarshRegion x=1069.81 y=-125.38 z=390.89
+High Hunter's Blind</desc><title id="title1">High Hunter's Blind</title></circle>
 	   </g></svg>

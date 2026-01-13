@@ -40,7 +40,7 @@
     "x": 1084.53,
     "y": -120.55,
     "z": -170.39,
-    "svgX": 2029.6329,
+    "svgX": 2033.0698,
     "svgY": 3615.3567,
     "label": "South Cave"
   },
@@ -79,5 +79,68 @@
     "svgX": 1278.5249,
     "svgY": 3548.7849,
     "label": "Prepper\u0027s Cache"
+  },
+  {
+    "scene": "MarshRegion",
+    "x": 1599.99,
+    "y": -47.31,
+    "z": 300.7,
+    "svgX": 2830.1182,
+    "svgY": 2926.8108,
+    "label": "Copter"
+  },
+  {
+    "scene": "MarshRegion",
+    "x": 1506.91,
+    "y": -46.62,
+    "z": 461.52,
+    "svgX": 2667.9268,
+    "svgY": 2692.6013,
+    "label": "South Radio Tower, Muskeg Overlook, Transmitter"
+  },
+  {
+    "scene": "MarshRegion",
+    "x": 283.57,
+    "y": -130.66,
+    "z": 1037.97,
+    "svgX": 810.73755,
+    "svgY": 1818.293,
+    "label": "Low Hunter\u0027s Blind"
+  },
+  {
+    "scene": "MarshRegion",
+    "x": -32.85,
+    "y": -97.74,
+    "z": 133.08,
+    "svgX": 334.4415,
+    "svgY": 3120.564,
+    "label": "West cave"
+  },
+  {
+    "scene": "MarshRegion",
+    "x": 538.32,
+    "y": -26.83,
+    "z": 1646.83,
+    "svgX": 1209.8243,
+    "svgY": 899.36438,
+    "label": "Cave entrance Waterfall"
+  },
+  {
+    "scene": "MarshRegion",
+    "x": 297.23,
+    "y": -41.73,
+    "z": 1488.33,
+    "svgX": 825.86145,
+    "svgY": 1133.212,
+    "label": "Cave entrance Marsh Ridge"
+  },
+  {
+    "scene": "MarshRegion",
+    "x": 1069.81,
+    "y": -125.38,
+    "z": 390.89,
+    "svgX": 1990.84,
+    "svgY": 2781.45,
+    "label": "High Hunter\u0027s Blind"
   }
 ]

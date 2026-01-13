@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="3826"
+   height="3375"
+   viewBox="0 0 3826 3375"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="DamTransitionZone.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="0.47475673"
+     inkscape:cx="1060.5432"
+     inkscape:cy="837.27091"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="5112"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showgrid="false" /><defs
+     id="defs1" /><g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"><image
+   width="3826"
+   height="3375"
+   preserveAspectRatio="xMidYMid"
+   xlink:href="../Mods/TLD-Map-Client/images/damrivertransitionzoneb_hard.jpg"
+   id="image1"
+   x="0"
+   y="0"
+   sodipodi:insensitive="true" />
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path1"
+   cx="1225.4354"
+   cy="1611.1741"
+   r="25">
+<desc
+   id="desc1">scene=DamTransitionZone x=-54.98 y=-0.31 z=-3.56
+Exit to Upper Dam</desc>
+<title
+   id="title1">Exit to Upper Dam</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path2"
+   cx="1560.3439"
+   cy="1384.691"
+   r="25">
+<desc
+   id="desc2">scene=DamTransitionZone x=-74.60 y=-5.86 z=-15.63
+Exit to Winding River</desc>
+<title
+   id="title2">Exit to Winding River</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path3"
+   cx="1080.0979"
+   cy="1651.092"
+   r="25">
+<desc
+   id="desc3">scene=DamTransitionZone x=-47.18 y=-8.68 z=-0.17
+Workbench</desc>
+<title
+   id="title3">Workbench</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path4"
+   cx="460.83337"
+   cy="1538.3516"
+   r="25">
+<desc
+   id="desc4">scene=DamTransitionZone x=-10.57 y=0.08 z=-7.13
+Entrance from Winding River</desc>
+<title
+   id="title4">Entrance from Winding River</title>
+</circle>
+	   
+	   </g></svg>

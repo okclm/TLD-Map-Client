@@ -1,0 +1,38 @@
+[
+  {
+    "scene": "DamTransitionZone",
+    "x": -54.98,
+    "y": -0.31,
+    "z": -3.56,
+    "svgX": 1225.4354,
+    "svgY": 1611.1741,
+    "label": "Exit to Upper Dam"
+  },
+  {
+    "scene": "DamTransitionZone",
+    "x": -74.6,
+    "y": -5.86,
+    "z": -15.63,
+    "svgX": 1560.3439,
+    "svgY": 1384.691,
+    "label": "Exit to Winding River"
+  },
+  {
+    "scene": "DamTransitionZone",
+    "x": -47.18,
+    "y": -8.68,
+    "z": -0.17,
+    "svgX": 1080.0979,
+    "svgY": 1651.092,
+    "label": "Workbench"
+  },
+  {
+    "scene": "DamTransitionZone",
+    "x": -10.57,
+    "y": 0.08,
+    "z": -7.13,
+    "svgX": 460.83337,
+    "svgY": 1538.3516,
+    "label": "Entrance from Winding River"
+  }
+]

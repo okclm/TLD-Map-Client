@@ -214,5 +214,14 @@
     "svgX": 734.79657,
     "svgY": 1552.2329,
     "label": "Cave NorthWest of Trailer and South of Forager\u0027s Remnant (Rabbits outside)"
+  },
+  {
+    "scene": "BlackrockRegion",
+    "x": -936.07,
+    "y": 83.73,
+    "z": -110.7,
+    "svgX": 514.21436,
+    "svgY": 1931.6681,
+    "label": "Bear\u0027s Bend (safe)."
   }
 ]

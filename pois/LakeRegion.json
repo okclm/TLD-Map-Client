@@ -160,5 +160,14 @@
     "svgX": 1075.8685,
     "svgY": 1801.3334,
     "label": "Clearcut overlook"
+  },
+  {
+    "scene": "LakeRegion",
+    "x": 970.52,
+    "y": 39.02,
+    "z": 851.19,
+    "svgX": 2381.1206,
+    "svgY": 2386.6462,
+    "label": "Train Cart Derailment"
   }
 ]

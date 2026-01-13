@@ -1,0 +1,128 @@
+[
+  {
+    "scene": "CrashMountainRegion",
+    "x": 191.95,
+    "y": 222,
+    "z": 283.5,
+    "svgX": 343.17743,
+    "svgY": 2612.8423,
+    "label": "Exit to Pleasant Valley"
+  },
+  {
+    "scene": "CrashMountainRegion",
+    "x": 1841.3,
+    "y": 61.21,
+    "z": 711.6,
+    "svgX": 2807.9927,
+    "svgY": 1962.4478,
+    "label": "Exit to Ash Canyon (Echo ravine)"
+  },
+  {
+    "scene": "CrashMountainRegion",
+    "x": 1743.02,
+    "y": 208.04,
+    "z": 1760.37,
+    "svgX": 2605.1472,
+    "svgY": 432.30939,
+    "label": "Deer Clearing Cave"
+  },
+  {
+    "scene": "CrashMountainRegion",
+    "x": 426.74,
+    "y": 349.88,
+    "z": 1818.44,
+    "svgX": 682.96088,
+    "svgY": 347.82266,
+    "label": "Waterfall Cave"
+  },
+  {
+    "scene": "CrashMountainRegion",
+    "x": 927.02,
+    "y": 469.43,
+    "z": 1172.71,
+    "svgX": 1400.526,
+    "svgY": 1237.6953,
+    "label": "Plane crash"
+  },
+  {
+    "scene": "CrashMountainRegion",
+    "x": 888.66,
+    "y": 160.65,
+    "z": 342.64,
+    "svgX": 1354.5858,
+    "svgY": 2481.821,
+    "label": "Mountaineer\u0027s Hut"
+  },
+  {
+    "scene": "CrashMountainRegion",
+    "x": 1675.93,
+    "y": 206.37,
+    "z": 969.49,
+    "svgX": 2479.8687,
+    "svgY": 1574.7113,
+    "label": "Prepper\u0027s Cache"
+  },
+  {
+    "scene": "CrashMountainRegion",
+    "x": 188.83,
+    "y": 312.55,
+    "z": 1405.99,
+    "svgX": 352.43805,
+    "svgY": 923.39514,
+    "label": "Exit Cave to Blackrock"
+  },
+  {
+    "scene": "CrashMountainRegion",
+    "x": 1739.05,
+    "y": 206.03,
+    "z": 1561.51,
+    "svgX": 2607.5015,
+    "svgY": 709.83313,
+    "label": "Cave to Ash Canyon"
+  },
+  {
+    "scene": "CrashMountainRegion",
+    "x": 1719.09,
+    "y": 151.31,
+    "z": 229.23,
+    "svgX": 2550.7017,
+    "svgY": 2669.1016,
+    "label": "Forest Cave"
+  },
+  {
+    "scene": "CrashMountainRegion",
+    "x": 971.29,
+    "y": 149.31,
+    "z": 466.82,
+    "svgX": 1476.8226,
+    "svgY": 2308.896,
+    "label": "Ice Fishing Hut"
+  },
+  {
+    "scene": "CrashMountainRegion",
+    "x": 1024.98,
+    "y": 491.42,
+    "z": 1399.44,
+    "svgX": 1530.7908,
+    "svgY": 946.95294,
+    "label": "Summit Cave"
+  },
+  {
+    "scene": "CrashMountainRegion",
+    "x": 1824.12,
+    "y": 154.89,
+    "z": 1075.14,
+    "svgX": 2716.8706,
+    "svgY": 1442.147,
+    "label": "Cave Northeast of prepper cache"
+  },
+  {
+    "scene": "CrashMountainRegion",
+    "x": 1386.01,
+    "y": 138.09,
+    "z": 751.6,
+    "svgX": 2090.7161,
+    "svgY": 1931.4221,
+    "label": "Bear Cave Northeast of Fishing Hut DANGER!"
+  }
+]

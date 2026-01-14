@@ -1,54 +1,54 @@
 {
     "BlackrockPrisonSurvivalZone": {
-		"_comment": "Blackrock Prison Yard, translateX=343, translateY=2668, scale=5.35"
+		"_comment": "Blackrock Prison Yard, translateX=343, translateY=2668, scale=5.35",
         "translateX": 343.0,
         "translateY": 2668.0,
         "scale": 5.35
     },
     "BlackrockInteriorASurvival": {
-		"_comment": "Inside Blackrock Prison, translateX=2600, translateY=3088, scale=6.00"
+		"_comment": "Inside Blackrock Prison, translateX=2600, translateY=3088, scale=6.00",
         "translateX": 2600,
         "translateY": 3088.0,
         "scale": 6.00
     },	
     "BlackrockTransitionZone": {
-		"_comment": "Keeper's Pass North, translateX=2600, translateY=3088, scale=6.00"
+		"_comment": "Keeper's Pass North, translateX=2600, translateY=3088, scale=6.00",
         "translateX": 73.0,
         "translateY": 533.0,
         "scale": 1.92
     },
     "CanyonRoadTransitionZone": {
-		"_comment": "Keeper's Pass South, translateX=74, translateY=72, scale=2.21"
+		"_comment": "Keeper's Pass South, translateX=74, translateY=72, scale=2.21",
         "translateX": 74.0,
         "translateY": 72.0,
         "scale": 2.21
     },
     "Dam": {
-		"_comment": "Upper Dam, translateX=99, translateY=-790, scale=1.49"
+		"_comment": "Upper Dam, translateX=99, translateY=-790, scale=1.49",
         "translateX": 99.0,
         "translateY": -790.0,
         "scale": 1.49
     },
     "DamRiverTransitionZoneB": {
-		"_comment": "Winding River, translateX=-803, translateY=453, scale=1.97"
+		"_comment": "Winding River, translateX=-803, translateY=453, scale=1.97",
         "translateX": -803.0,
         "translateY": 453.0,
         "scale": 1.97
     },
     "DamTransitionZone": {
-		"_comment": "Lower Dam, translateX=1239, translateY=31, scale=3.06"
+		"_comment": "Lower Dam, translateX=1239, translateY=31, scale=3.06",
         "translateX": 1239.0,
         "translateY": 31.0,
         "scale": 3.06
     },
     "IceCaveA": {
-		"_comment": "Ice Cave South, translateX=-244, translateY=-225, scale=1.71"
+		"_comment": "Ice Cave South, translateX=-244, translateY=-225, scale=1.71",
         "translateX": -244.0,
         "translateY": -225.0,
         "scale": 1.71
     },
     "IceCaveB": {
-		"_comment": "Ice Cave North, translateX=-20, translateY=435, scale=1.67"
+		"_comment": "Ice Cave North, translateX=-20, translateY=435, scale=1.67",
         "translateX": -20.0,
         "translateY": 435.0,
         "scale": 1.67

@@ -351,7 +351,8 @@
         function updateTransform() {
             svg.style.transform = `translate(${translateX}px, ${translateY}px) scale(${scale})`;
             document.getElementById('status').textContent =
-                `${version}: ${currentScene} (${currentDifficulty}) translate(${translateX}px, ${translateY}px) scale(${scale})`;
+                `${version}: ${currentScene} (${currentDifficulty}) translate(${translateX.toFixed(2)}px, ${translateY.toFixed(2)}px) scale(${scale.toFixed(2)})`
+;
         }
 
         // Mouse wheel zoom

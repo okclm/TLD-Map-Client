@@ -145,7 +145,7 @@
         // const urlScale = parseFloat(urlParams.get('scale')) || null;
         
         console.log(`Version ${version}: URL parameters - scene: "${urlScene}", difficulty: "${urlDifficulty}"`);
-        console.log(`Version ${version}: URL parameters - scale: "${urlScale}", translateX: "${urlTranslateX}", translateY: "${urlTranslateY}"`);
+        console.log(`Version ${version}: URL parameters - scale: ${urlScale}, translateX: ${urlTranslateX}, translateY: ${urlTranslateY}`);
 
         // === Fetch current scene + difficulty ===
         async function getCurrentGameState() {
@@ -354,6 +354,7 @@
 
         const container = document.getElementById('map-container');
         const svg = document.getElementById('map-svg');
+        updateTransform();  // Initial display?
 
         // Update transform
         function updateTransform() {

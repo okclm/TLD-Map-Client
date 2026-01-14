@@ -139,9 +139,9 @@
         // Also, note that both params are trimmed and the difficult param is lowercased for consistency
         const urlScene = getQueryParam('scene')?.trim() || null;
         const urlDifficulty = getQueryParam('difficulty')?.trim().toLowerCase() || null;
-        const urlScale = getQueryParam('scale')?.trim() || 1.0;
-        const urlTranslateX = getQueryParam('translateX')?.trim() || 0.0;
-        const urlTranslateY = getQueryParam('translateY')?.trim() || 0.0;
+        const urlScale = parseFloat(getQueryParam('scale')?.trim()) || 1.0;
+        const urlTranslateX = parseFloat(getQueryParam('translateX')?.trim()) || 0.0;
+        const urlTranslateY = parseFloat(getQueryParam('translateY')?.trim()) || 0.0;
         // const urlScale = parseFloat(urlParams.get('scale')) || null;
         
         console.log(`Version ${version}: URL parameters - scene: "${urlScene}", difficulty: "${urlDifficulty}"`);

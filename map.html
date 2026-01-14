@@ -115,7 +115,7 @@
         // and it would be nice to zoom in on the actual playable area.
         // We would need to add the scale, translateX, translateY values to the regions-to-mapURL.json file.
 
-        const version = '1.0.55';
+        const version = '1.0.56';
         const SERVER_URL = 'http://localhost:8080';
         //const REGIONS_JSON_URL = 'https://okclm.github.io/TLD-Map-Client/regions-to-mapURL.json';
         const REGIONS_JSON_URL = 'https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/regions-to-mapURL.json';
@@ -243,8 +243,14 @@
 
             // Apply zoom/translate from database
             scale = rzt[currentScene]?.scale || 1.0;
+            urlScale = scale;
+
             translateX = rzt[currentScene]?.translateX || 0.0;
+            urlTranslateX = translateX;
+
             translateY = rzt[currentScene]?.translateY || 0.0;
+            urlTranslateY = translateY;
+
             updateTransform();
             console.log(`Applied zoom/translate for ${currentScene}: scale=${scale}, translateX=${translateX}, translateY=${translateY}`);
 

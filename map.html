@@ -115,13 +115,14 @@
         // and it would be nice to zoom in on the actual playable area.
         // We would need to add the scale, translateX, translateY values to the regions-to-mapURL.json file.
 
-        const version = '1.0.52';
+        const version = '1.0.53';
         const SERVER_URL = 'http://localhost:8080';
         //const REGIONS_JSON_URL = 'https://okclm.github.io/TLD-Map-Client/regions-to-mapURL.json';
         const REGIONS_JSON_URL = 'https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/regions-to-mapURL.json';
         //const POIS_BASE_URL = 'https://okclm.github.io/TLD-Map-Client/pois/';
         const POIS_BASE_URL = 'https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/pois/';
         //const CALIBRATION_BASE_URL = 'https://okclm.github.io/TLD-Map-Client/calibration/';
+        const REGIONS_ZOOM_TRANS_URL = 'https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/regions-zoom-trans.json';
 
         let currentScene = null;
         let currentDifficulty = 'easy';
@@ -143,7 +144,7 @@
         const urlTranslateX = parseFloat(getQueryParam('translateX')?.trim()) || 0.0;
         const urlTranslateY = parseFloat(getQueryParam('translateY')?.trim()) || 0.0;
         // const urlScale = parseFloat(urlParams.get('scale')) || null;
-        
+
         console.log(`Version ${version}: URL parameters - scene: "${urlScene}", difficulty: "${urlDifficulty}"`);
         console.log(`Version ${version}: URL parameters - scale: ${urlScale}, translateX: ${urlTranslateX}, translateY: ${urlTranslateY}`);
 
@@ -229,6 +230,22 @@
                 document.getElementById('status').textContent = `${version}: Failed to load region map database`;
                 return;
             }
+
+            // Load region-zoom-trans mapping (REGIONS_ZOOM_TRANS_URL)
+            let rzt;
+            try {
+                rzt = await fetch(REGIONS_ZOOM_TRANS_URL).then(r => r.json());
+            } catch (err) {
+                document.getElementById('status').textContent = `${version}: Failed to load region-zoom-trans database`;
+                return;
+            }
+
+            // Apply zoom/translate from database
+            scale = rzt[currentScene]?.scale || 1.0;
+            translateX = rzt[currentScene]?.translateX || 0.0;
+            translateY = rzt[currentScene]?.translateY || 0.0;
+            updateTransform();
+            console.log(`Applied zoom/translate for ${currentScene}: scale=${scale}, translateX=${translateX}, translateY=${translateY}`);
 
             const mapUrl = regions[currentScene]?.[currentDifficulty];
             if (!mapUrl) {
@@ -361,7 +378,7 @@
             svg.style.transform = `translate(${translateX}px, ${translateY}px) scale(${scale})`;
             document.getElementById('status').textContent =
                 `${version}: ${currentScene} (${currentDifficulty}) translate(${translateX.toFixed(2)}px, ${translateY.toFixed(2)}px) scale(${scale.toFixed(2)})`
-;
+                ;
         }
 
         // Mouse wheel zoom

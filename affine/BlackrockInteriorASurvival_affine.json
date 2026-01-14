@@ -1,0 +1,15 @@
+{
+  "region": "BlackrockInteriorASurvival",
+  "affineMatrix": {
+    "A": -4.480693363677635,
+    "B": -9.734226889539643,
+    "Tx": 572.4082270100777,
+    "C": 0.8043971985224087,
+    "D": 6.910512821264287,
+    "Ty": 388.4853115143567
+  },
+  "generatedAt": "2026-01-14T17:15:18.5160230-06:00",
+  "calibPointCount": 7,
+  "layerOffsetX": 0,
+  "layerOffsetY": 0
+}

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="3870"
+   height="4171"
+   viewBox="0 0 3870 4171"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="BlackrockInteriorASurvival.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="1.08655"
+     inkscape:cx="883.07027"
+     inkscape:cy="489.16295"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="5112"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showgrid="false" /><defs
+     id="defs1" /><g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"><image
+   width="3870"
+   height="4171"
+   preserveAspectRatio="xMidYMid"
+   xlink:href="../Mods/TLD-Map-Client/images/blackrockregion_hard.jpg"
+   id="image1"
+   x="0"
+   y="0"
+   sodipodi:insensitive="true" />
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path1"
+   cx="209.2054"
+   cy="488.4422"
+   r="25">
+<desc
+   id="desc1">scene=BlackrockInteriorASurvival x=56.39 y=0.09 z=9.48
+1st floor cells (Vest)</desc>
+<title
+   id="title1">1st floor cells (Vest)</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path2"
+   cx="939.95874"
+   cy="219.38416"
+   r="25">
+<desc
+   id="desc2">scene=BlackrockInteriorASurvival x=-10.62 y=7.66 z=-23.78
+Exit to 3rd floor</desc>
+<title
+   id="title2">Exit to 3rd floor</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path3"
+   cx="833.19879"
+   cy="242.07524"
+   r="25">
+<desc
+   id="desc3">scene=BlackrockInteriorASurvival x=0.09 y=3.87 z=-23.24
+2nd floor office 200</desc>
+<title
+   id="title3">2nd floor office</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path4"
+   cx="672.71521"
+   cy="241.45135"
+   r="25"><desc
+     id="desc4">scene=BlackrockInteriorASurvival x=-9.48 y=0.07 z=-17.49
+1st floor room 130/140</desc><title
+     id="title4">1st floor room 130/140</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path5"
+   cx="609.84821"
+   cy="291.09109"
+   r="25"><desc
+     id="desc5">scene=BlackrockInteriorASurvival x=7.61 y=0.07 z=-13.90
+1st floor room 120</desc><title
+     id="title5">1st floor room 120</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path6"
+   cx="540.71838"
+   cy="415.25665"
+   r="25"><desc
+     id="desc6">scene=BlackrockInteriorASurvival x=12.32 y=0.07 z=2.04
+1st floor cafeteria room 110A</desc><title
+     id="title6">1st floor cafeteria room 110A</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path7"
+   cx="409.465"
+   cy="466.78708"
+   r="25"><desc
+     id="desc7">scene=BlackrockInteriorASurvival x=30.82 y=0.11 z=5.39
+1st floor CB2 room</desc><title
+     id="title7">1st floor CB2 room</title></circle>
+	   </g></svg>

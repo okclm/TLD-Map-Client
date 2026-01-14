@@ -1,0 +1,65 @@
+[
+  {
+    "scene": "BlackrockPrisonSurvivalZone",
+    "x": -81.19,
+    "y": 225.96,
+    "z": 41.2,
+    "svgX": 1829.0112,
+    "svgY": 770.98785,
+    "label": "Maintenance garage"
+  },
+  {
+    "scene": "BlackrockPrisonSurvivalZone",
+    "x": -191.49,
+    "y": 225.94,
+    "z": 3.58,
+    "svgX": 1515.1738,
+    "svgY": 738.71136,
+    "label": "Guardhouse"
+  },
+  {
+    "scene": "BlackrockPrisonSurvivalZone",
+    "x": -231.64,
+    "y": 234.05,
+    "z": 158.42,
+    "svgX": 1580.5183,
+    "svgY": 272.90677,
+    "label": "Warden\u0027s office"
+  },
+  {
+    "scene": "BlackrockPrisonSurvivalZone",
+    "x": -116.89,
+    "y": 226.19,
+    "z": 55.01,
+    "svgX": 1765.2438,
+    "svgY": 685.92828,
+    "label": "Workshop"
+  },
+  {
+    "scene": "BlackrockPrisonSurvivalZone",
+    "x": -112.86,
+    "y": 225.38,
+    "z": 106.01,
+    "svgX": 1844.3192,
+    "svgY": 569.97449,
+    "label": "Staff quarters"
+  },
+  {
+    "scene": "BlackrockPrisonSurvivalZone",
+    "x": -148.33,
+    "y": 228.92,
+    "z": 79.76,
+    "svgX": 1709.9124,
+    "svgY": 590.36176,
+    "label": "Infirmary"
+  },
+  {
+    "scene": "BlackrockPrisonSurvivalZone",
+    "x": -142.92,
+    "y": 233.56,
+    "z": 109.88,
+    "svgX": 1762.7952,
+    "svgY": 519.45312,
+    "label": "Watchtower"
+  }
+]

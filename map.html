@@ -115,7 +115,7 @@
         // and it would be nice to zoom in on the actual playable area.
         // We would need to add the scale, translateX, translateY values to the regions-to-mapURL.json file.
 
-        const version = '1.0.56';
+        const version = '1.0.57';
         const SERVER_URL = 'http://localhost:8080';
         //const REGIONS_JSON_URL = 'https://okclm.github.io/TLD-Map-Client/regions-to-mapURL.json';
         const REGIONS_JSON_URL = 'https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/regions-to-mapURL.json';
@@ -141,10 +141,9 @@
         // Also, note that both params are trimmed and the difficult param is lowercased for consistency
         const urlScene = getQueryParam('scene')?.trim() || null;
         const urlDifficulty = getQueryParam('difficulty')?.trim().toLowerCase() || null;
-        const urlScale = parseFloat(getQueryParam('scale')?.trim()) || 1.0;
-        const urlTranslateX = parseFloat(getQueryParam('translateX')?.trim()) || 0.0;
-        const urlTranslateY = parseFloat(getQueryParam('translateY')?.trim()) || 0.0;
-        // const urlScale = parseFloat(urlParams.get('scale')) || null;
+        urlScale = parseFloat(getQueryParam('scale')?.trim()) || 1.0;
+        urlTranslateX = parseFloat(getQueryParam('translateX')?.trim()) || 0.0;
+        urlTranslateY = parseFloat(getQueryParam('translateY')?.trim()) || 0.0;
 
         console.log(`Version ${version}: URL parameters - scene: "${urlScene}", difficulty: "${urlDifficulty}"`);
         console.log(`Version ${version}: URL parameters - scale: ${urlScale}, translateX: ${urlTranslateX}, translateY: ${urlTranslateY}`);

@@ -115,7 +115,7 @@
         // and it would be nice to zoom in on the actual playable area.
         // We would need to add the scale, translateX, translateY values to the regions-to-mapURL.json file.
 
-        const version = '1.0.52';
+        const version = '1.0.51';
         const SERVER_URL = 'http://localhost:8080';
         //const REGIONS_JSON_URL = 'https://okclm.github.io/TLD-Map-Client/regions-to-mapURL.json';
         const REGIONS_JSON_URL = 'https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/regions-to-mapURL.json';
@@ -139,13 +139,8 @@
         // Also, note that both params are trimmed and the difficult param is lowercased for consistency
         const urlScene = getQueryParam('scene')?.trim() || null;
         const urlDifficulty = getQueryParam('difficulty')?.trim().toLowerCase() || null;
-        const urlScale = getQueryParam('scale')?.trim() || 1.0;
-        const urlTranslateX = getQueryParam('translateX')?.trim() || 0.0;
-        const urlTranslateY = getQueryParam('translateY')?.trim() || 0.0;
-        // const urlScale = parseFloat(urlParams.get('scale')) || null;
-        
+
         console.log(`Version ${version}: URL parameters - scene: "${urlScene}", difficulty: "${urlDifficulty}"`);
-        console.log(`Version ${version}: URL parameters - scale: "${urlScale}", translateX: "${urlTranslateX}", translateY: "${urlTranslateY}"`);
 
         // === Fetch current scene + difficulty ===
         async function getCurrentGameState() {
@@ -342,12 +337,9 @@
         }
 
         // === INTERACTIVE ZOOM & PAN ===
-        // scale = 1.0;
-        scale = urlScale;
-        // translateX = 0;
-        translateX = urlTranslateX;
-        // translateY = 0;
-        translateY = urlTranslateY;
+        let scale = 1.0;
+        let translateX = 0;
+        let translateY = 0;
         const zoomSpeed = 0.15; // Adjust for feel
         const minScale = 0.5;
         const maxScale = 6.0;
@@ -420,12 +412,9 @@
 
         // Optional: Reset on double-click
         container.addEventListener('dblclick', () => {
-            // scale = 1.0;
-            scale = urlScale;
-            // translateX = 0;
-            translateX = urlTranslateX;
-            // translateY = 0;
-            translateY = urlTranslateY;
+            scale = 1.0;
+            translateX = 0;
+            translateY = 0;
             updateTransform();
         });
 

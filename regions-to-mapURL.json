@@ -103,10 +103,19 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/miningregion_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/miningregion_hard.jpg"
     },
+    "MountainCaveA": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/mountaincavea.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/mountaincavea.png"
+    },
+    "MountainCaveB": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/mountaincaveb.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/mountaincaveb.png"
+    },	
     "MountainPassRegion": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/mountainpassregion_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/mountainpassregion_hard.jpg"
-    },
+    },	
+	
     "MountainPassCaveA": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/mountainpasscavea.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/mountainpasscavea.jpg"

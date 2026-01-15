@@ -26,7 +26,7 @@
      inkscape:document-units="px"
      inkscape:zoom="0.78899721"
      inkscape:cx="826.99912"
-     inkscape:cy="781.37158"
+     inkscape:cy="984.16064"
      inkscape:window-width="2560"
      inkscape:window-height="1377"
      inkscape:window-x="5112"
@@ -118,4 +118,13 @@ Elevator Floor 3 (pre-gas side)</desc><title
      id="desc7">scene=BlackrockMineA x=-199.21 y=-93.18 z=117.97
 Tunnel right before gas</desc><title
      id="title7">Tunnel right before gas</title></circle>
+	 <circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path8"
+   cx="762.57782"
+   cy="1239.0471"
+   r="25"><desc
+     id="desc8">scene=BlackrockMineA x=-259.17 y=-94.56 z=104.70
+Misc loot southern area</desc><title
+     id="title8">Misc loot southern area</title></circle>
 	   </g></svg>

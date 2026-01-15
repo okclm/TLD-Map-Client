@@ -61,5 +61,14 @@
     "svgX": 1081.5266,
     "svgY": 1205.2853,
     "label": "Tunnel right before gas"
+  },
+  {
+    "scene": "BlackrockMineA",
+    "x": -259.17,
+    "y": -94.56,
+    "z": 104.7,
+    "svgX": 762.57782,
+    "svgY": 1239.0471,
+    "label": "Misc loot southern area"
   }
 ]

@@ -1,0 +1,65 @@
+[
+  {
+    "scene": "BlackrockMineA",
+    "x": -296.69,
+    "y": -44.94,
+    "z": 279.31,
+    "svgX": 114.4722,
+    "svgY": 90.879967,
+    "label": "Exit to Blackrock"
+  },
+  {
+    "scene": "BlackrockMineA",
+    "x": -90.1,
+    "y": -65.78,
+    "z": 242.14,
+    "svgX": 703.82788,
+    "svgY": 597.09003,
+    "label": "Locker with key"
+  },
+  {
+    "scene": "BlackrockMineA",
+    "x": -168.91,
+    "y": -67.74,
+    "z": 184.77,
+    "svgX": 944.63989,
+    "svgY": 706.84991,
+    "label": "Elevator Floor 2 (post-gas side)"
+  },
+  {
+    "scene": "BlackrockMineA",
+    "x": -287.44,
+    "y": -50.12,
+    "z": 266.95,
+    "svgX": 155.47501,
+    "svgY": 145.99306,
+    "label": "Storage under stairs (noisemakers)"
+  },
+  {
+    "scene": "BlackrockMineA",
+    "x": -177.6,
+    "y": -57.63,
+    "z": 194.86,
+    "svgX": 749.4104,
+    "svgY": 509.77371,
+    "label": "Elevator Floor 1"
+  },
+  {
+    "scene": "BlackrockMineA",
+    "x": -175.9,
+    "y": -83.98,
+    "z": 194.92,
+    "svgX": 1180.2484,
+    "svgY": 808.15283,
+    "label": "Elevator Floor 3 (pre-gas side)"
+  },
+  {
+    "scene": "BlackrockMineA",
+    "x": -199.21,
+    "y": -93.18,
+    "z": 117.97,
+    "svgX": 1081.5266,
+    "svgY": 1205.2853,
+    "label": "Tunnel right before gas"
+  }
+]

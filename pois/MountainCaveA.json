@@ -1,0 +1,56 @@
+[
+  {
+    "scene": "MountainCaveA",
+    "x": -27.37,
+    "y": -23.36,
+    "z": -104.08,
+    "svgX": 1276.3397,
+    "svgY": 1255.1554,
+    "label": "Cave D exit"
+  },
+  {
+    "scene": "MountainCaveA",
+    "x": -27.35,
+    "y": -22.99,
+    "z": -93.59,
+    "svgX": 1137.3203,
+    "svgY": 1251.2039,
+    "label": "First junction from Cave D"
+  },
+  {
+    "scene": "MountainCaveA",
+    "x": -11.01,
+    "y": -21,
+    "z": -66.45,
+    "svgX": 982.01941,
+    "svgY": 1189.6407,
+    "label": "Mini-atrium opening"
+  },
+  {
+    "scene": "MountainCaveA",
+    "x": -14.86,
+    "y": 10.37,
+    "z": -31.44,
+    "svgX": 809.18445,
+    "svgY": 1190.699,
+    "label": "Middle junction"
+  },
+  {
+    "scene": "MountainCaveA",
+    "x": -36.01,
+    "y": 12.53,
+    "z": -11.03,
+    "svgX": 676.42719,
+    "svgY": 1318.2524,
+    "label": "Atrium ramp up"
+  },
+  {
+    "scene": "MountainCaveA",
+    "x": -6.38,
+    "y": 33.99,
+    "z": 42.09,
+    "svgX": 172.95146,
+    "svgY": 1130.1942,
+    "label": "Cave C exit"
+  }
+]

@@ -52,5 +52,17 @@
         "translateX": -20.0,
         "translateY": 435.0,
         "scale": 1.67
-    }
+    },
+    "MountainCaveA": {
+		"_comment": "Timberwolf Mountain Cave C-D, translateX=18, translateY=-887, scale=1.32",
+        "translateX": 18.0,
+        "translateY": -887.0,
+        "scale": 1.32
+	},
+    "MountainCaveB": {
+		"_comment": "Timberwolf Mountain Cave A-B, translateX=??, translateY=435, scale=1.67",
+        "translateX": -20.0,
+        "translateY": 435.0,
+        "scale": 1.67
+	}
 }

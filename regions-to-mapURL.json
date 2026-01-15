@@ -23,6 +23,10 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/blackrockregion_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/blackrockregion_hard.jpg"
     },	
+    "BlackrockSteamTunnelsASurvival": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/blackrocksteamtunnelsasurvival.jpg",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/blackrocksteamtunnelsasurvival.jpg"
+    },	
     "BlackrockTransitionZone": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/blackrocktransitionzone_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/blackrocktransitionzone_hard.jpg"

@@ -11,6 +11,10 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/blackrockregion_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/blackrockregion_hard.jpg"
     },
+    "BlackrockMineA": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/blackrockminea.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/blackrockminea.png"
+    },
     "BlackrockPrisonSurvivalZone": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/blackrockregion_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/blackrockregion_hard.jpg"

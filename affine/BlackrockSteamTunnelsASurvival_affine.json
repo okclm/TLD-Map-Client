@@ -1,0 +1,15 @@
+{
+  "region": "BlackrockSteamTunnelsASurvival",
+  "affineMatrix": {
+    "A": -0.9422242049799259,
+    "B": -7.564682796821406,
+    "Tx": 513.8266677784526,
+    "C": -7.357142224356648,
+    "D": -0.09149934427681383,
+    "Ty": 389.02406506181694
+  },
+  "generatedAt": "2026-01-15T14:06:24.7318779-06:00",
+  "calibPointCount": 3,
+  "layerOffsetX": 0,
+  "layerOffsetY": 0
+}

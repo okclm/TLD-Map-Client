@@ -1,0 +1,29 @@
+[
+  {
+    "scene": "BlackrockSteamTunnelsASurvival",
+    "x": -55.24,
+    "y": 13.72,
+    "z": 58.66,
+    "svgX": 122.13084,
+    "svgY": 790.06525,
+    "label": "Exit to Prison"
+  },
+  {
+    "scene": "BlackrockSteamTunnelsASurvival",
+    "x": 0.17,
+    "y": -15.27,
+    "z": -108.1,
+    "svgX": 1331.4087,
+    "svgY": 397.66443,
+    "label": "Exit to Power Station"
+  },
+  {
+    "scene": "BlackrockSteamTunnelsASurvival",
+    "x": 12.75,
+    "y": -2.59,
+    "z": -25.47,
+    "svgX": 694.48578,
+    "svgY": 297.55099,
+    "label": "Boiler room entrance from power plant side"
+  }
+]

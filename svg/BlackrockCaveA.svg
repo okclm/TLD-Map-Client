@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1351"
+   height="1228"
+   viewBox="0 0 1351 1228"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="blackrockcavea.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="0.92263844"
+     inkscape:cx="371.218"
+     inkscape:cy="527.29214"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="5112"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showgrid="false" /><defs
+     id="defs1" /><g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"><image
+   width="1351"
+   height="1228"
+   preserveAspectRatio="xMidYMid"
+   xlink:href="../Mods/TLD-Map-Client/images/blackrockcavea.png"
+   id="image1"
+   x="0"
+   y="0"
+   sodipodi:insensitive="true" />
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path1"
+   cx="1257.8932"
+   cy="1079.3566"
+   r="25">
+<desc
+   id="desc1">scene=BlackrockCaveA x=127.55 y=-5.87 z=-21.47
+Exit to Timberwolf Mountain</desc>
+<title
+   id="title1">Exit to Timberwolf Mountain</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path2"
+   cx="137.19417"
+   cy="300.35568"
+   r="25">
+<desc
+   id="desc2">scene=BlackrockCaveA x=-68.86 y=-54.22 z=96.65
+Exit to Blackrock</desc>
+<title
+   id="title2">Exit to Blackrock</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path3"
+   cx="427.6655"
+   cy="172.74757"
+   r="25">
+<desc
+   id="desc3">scene=BlackrockCaveA x=-22.26 y=-47.84 z=121.73
+Coal from Blackrock</desc>
+<title
+   id="title3">Coal from Blackrock</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path4"
+   cx="723.55603"
+   cy="63.564873"
+   r="25">
+<desc
+   id="desc4">scene=BlackrockCaveA x=25.25 y=-40.65 z=142.51
+Possible wolf carcass</desc>
+<title
+   id="title4">Possible wolf carcass</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path5"
+   cx="804.84467"
+   cy="316.38745"
+   r="25">
+<desc
+   id="desc5">scene=BlackrockCaveA x=41.08 y=-40.88 z=100.03
+Backpack</desc>
+<title
+   id="title5">Backpack</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path6"
+   cx="621.67432"
+   cy="380.62048"
+   r="25">
+<desc
+   id="desc6">scene=BlackrockCaveA x=12.78 y=-39.57 z=88.71
+Central campfire</desc>
+<title
+   id="title6">Central campfire</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path7"
+   cx="750.65222"
+   cy="707.14478"
+   r="25">
+<desc
+   id="desc7">scene=BlackrockCaveA x=38.37 y=-35.80 z=33.09
+Atrium bottom of climb</desc>
+<title
+   id="title7">Atrium bottom of climb</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path8"
+   cx="750.65222"
+   cy="784.38391"
+   r="25">
+<desc
+   id="desc8">scene=BlackrockCaveA x=37.85 y=-25.38 z=25.10
+Atrium top of climb</desc>
+<title
+   id="title8">Atrium top of climb</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path9"
+   cx="1082.3098"
+   cy="1076.2251"
+   r="25">
+<desc
+   id="desc9">scene=BlackrockCaveA x=92.20 y=-12.44 z=-21.94
+Crouch point near Timberwolf Mountain exit</desc>
+<title
+   id="title9">Crouch point near Timberwolf Mountain exit</title>
+</circle>
+
+	   </g></svg>

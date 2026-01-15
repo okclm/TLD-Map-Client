@@ -26,7 +26,11 @@
     "BlackrockSteamTunnelsASurvival": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/blackrocksteamtunnelsasurvival.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/blackrocksteamtunnelsasurvival.png"
-    },	
+    },
+    "BlackrockCaveA": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/blackrockcavea.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/blackrockcavea.png"
+    },
     "BlackrockTransitionZone": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/blackrocktransitionzone_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/blackrocktransitionzone_hard.jpg"

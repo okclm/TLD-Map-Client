@@ -1,0 +1,83 @@
+[
+  {
+    "scene": "BlackrockCaveA",
+    "x": 127.55,
+    "y": -5.87,
+    "z": -21.47,
+    "svgX": 1257.8932,
+    "svgY": 1079.3566,
+    "label": "Exit to Timberwolf Mountain"
+  },
+  {
+    "scene": "BlackrockCaveA",
+    "x": -68.86,
+    "y": -54.22,
+    "z": 96.65,
+    "svgX": 137.19417,
+    "svgY": 300.35568,
+    "label": "Exit to Blackrock"
+  },
+  {
+    "scene": "BlackrockCaveA",
+    "x": -22.26,
+    "y": -47.84,
+    "z": 121.73,
+    "svgX": 427.6655,
+    "svgY": 172.74757,
+    "label": "Coal from Blackrock"
+  },
+  {
+    "scene": "BlackrockCaveA",
+    "x": 25.25,
+    "y": -40.65,
+    "z": 142.51,
+    "svgX": 723.55603,
+    "svgY": 63.564873,
+    "label": "Possible wolf carcass"
+  },
+  {
+    "scene": "BlackrockCaveA",
+    "x": 41.08,
+    "y": -40.88,
+    "z": 100.03,
+    "svgX": 804.84467,
+    "svgY": 316.38745,
+    "label": "Backpack"
+  },
+  {
+    "scene": "BlackrockCaveA",
+    "x": 12.78,
+    "y": -39.57,
+    "z": 88.71,
+    "svgX": 621.67432,
+    "svgY": 380.62048,
+    "label": "Central campfire"
+  },
+  {
+    "scene": "BlackrockCaveA",
+    "x": 38.37,
+    "y": -35.8,
+    "z": 33.09,
+    "svgX": 750.65222,
+    "svgY": 707.14478,
+    "label": "Atrium bottom of climb"
+  },
+  {
+    "scene": "BlackrockCaveA",
+    "x": 37.85,
+    "y": -25.38,
+    "z": 25.1,
+    "svgX": 750.65222,
+    "svgY": 784.38391,
+    "label": "Atrium top of climb"
+  },
+  {
+    "scene": "BlackrockCaveA",
+    "x": 92.2,
+    "y": -12.44,
+    "z": -21.94,
+    "svgX": 1082.3098,
+    "svgY": 1076.2251,
+    "label": "Crouch point near Timberwolf Mountain exit"
+  }
+]

@@ -25,5 +25,32 @@
     "svgX": 694.48578,
     "svgY": 297.55099,
     "label": "Boiler room entrance from power plant side"
+  },
+  {
+    "scene": "BlackrockSteamTunnelsASurvival",
+    "x": 14.35,
+    "y": 0.38,
+    "z": 4.93,
+    "svgX": 491.48608,
+    "svgY": 309.38937,
+    "label": "Fire barrel outside boiler room"
+  },
+  {
+    "scene": "BlackrockSteamTunnelsASurvival",
+    "x": 9.52,
+    "y": 0.1,
+    "z": 33.96,
+    "svgX": 288.63321,
+    "svgY": 320.78696,
+    "label": "Fire barrel in steam exchanger room"
+  },
+  {
+    "scene": "BlackrockSteamTunnelsASurvival",
+    "x": -17.52,
+    "y": 0.13,
+    "z": 9.97,
+    "svgX": 496.14938,
+    "svgY": 515.21844,
+    "label": "Control room"
   }
 ]

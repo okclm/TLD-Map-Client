@@ -142,5 +142,23 @@
     "svgX": 2066.4307,
     "svgY": 1212.2911,
     "label": "Cave with misc loot"
+  },
+  {
+    "scene": "CrashMountainRegion",
+    "x": 1090.46,
+    "y": 90.45,
+    "z": 1090.69,
+    "svgX": 1662.1742,
+    "svgY": 1408.2394,
+    "label": "Cave D entrance"
+  },
+  {
+    "scene": "CrashMountainRegion",
+    "x": 587.72,
+    "y": 299.84,
+    "z": 1218.52,
+    "svgX": 966.69641,
+    "svgY": 1233.8134,
+    "label": "Cave C entrance"
   }
 ]

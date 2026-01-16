@@ -97,5 +97,23 @@
     "svgX": 1960.24899,
     "svgY": 2702.46604,
     "label": "Shattered Cove (memento on corpse)"
+  },
+  {
+    "scene": "AshCanyonRegion",
+    "x": -239.79,
+    "y": 142.94,
+    "z": 858.92,
+    "svgX": 1292.99249,
+    "svgY": 343.22504100000003,
+    "label": "Cave to Gold Mine West entrance"
+  },
+  {
+    "scene": "AshCanyonRegion",
+    "x": -83.17,
+    "y": 295.51,
+    "z": 853.53,
+    "svgX": 1526.71869,
+    "svgY": 342.878914,
+    "label": "Cave to Gold Mine East entrance"
   }
 ]

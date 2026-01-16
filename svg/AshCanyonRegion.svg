@@ -24,9 +24,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
-     inkscape:zoom="0.81812814"
-     inkscape:cx="1115.351"
-     inkscape:cy="2604.1153"
+     inkscape:zoom="1.6362563"
+     inkscape:cx="1331.3929"
+     inkscape:cy="312.60384"
      inkscape:window-width="2560"
      inkscape:window-height="1377"
      inkscape:window-x="5112"
@@ -180,4 +180,22 @@ Shattered Cove (memento on corpse)</desc>
 	<title
    id="title11">Shattered Cove (memento on corpse)</title>
 </circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path12"
+   cx="1086.4852"
+   cy="37.499001"
+   r="25"><desc
+     id="desc12">scene=AshCanyonRegion x=-239.79 y=142.94 z=858.92
+Cave to Gold Mine West entrance</desc><title
+     id="title12">Cave to Gold Mine West entrance</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path13"
+   cx="1320.2114"
+   cy="37.152874"
+   r="25"><desc
+     id="desc13">scene=AshCanyonRegion x=-83.17 y=295.51 z=853.53
+Cave to Gold Mine East entrance</desc><title
+     id="title13">Cave to Gold Mine East entrance</title></circle>
 	   </g></svg>

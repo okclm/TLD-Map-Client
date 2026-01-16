@@ -25,8 +25,8 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      inkscape:zoom="1.2423246"
-     inkscape:cx="1210.2312"
-     inkscape:cy="1441.2498"
+     inkscape:cx="1660.9991"
+     inkscape:cy="926.08647"
      inkscape:window-width="2560"
      inkscape:window-height="1377"
      inkscape:window-x="5112"
@@ -219,5 +219,23 @@ Cave D entrance</desc><title
    r="25"><desc
      id="desc18">scene=CrashMountainRegion x=587.72 y=299.84 z=1218.52
 Cave C entrance</desc><title
-     id="title18">Cave C entrance</title></circle>	 
+     id="title18">Cave C entrance</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path19"
+   cx="971.66949"
+   cy="818.60931"
+   r="25"><desc
+     id="desc19">scene=CrashMountainRegion x=616.00 y=417.98 z=1494.45
+Cave A entrance</desc><title
+     id="title19">Cave A entrance</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path20"
+   cx="1833.871"
+   cy="981.20953"
+   r="25"><desc
+     id="desc20">scene=CrashMountainRegion x=1221.60 y=342.86 z=1381.96
+Cave B entrance</desc><title
+     id="title20">Cave B entrance</title></circle>	 
 	   </g></svg>

@@ -160,5 +160,23 @@
     "svgX": 966.69641,
     "svgY": 1233.8134,
     "label": "Cave C entrance"
+  },
+  {
+    "scene": "CrashMountainRegion",
+    "x": 616,
+    "y": 417.98,
+    "z": 1494.45,
+    "svgX": 971.66949,
+    "svgY": 818.60931,
+    "label": "Cave A entrance"
+  },
+  {
+    "scene": "CrashMountainRegion",
+    "x": 1221.6,
+    "y": 342.86,
+    "z": 1381.96,
+    "svgX": 1833.871,
+    "svgY": 981.20953,
+    "label": "Cave B entrance"
   }
 ]

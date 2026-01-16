@@ -143,5 +143,9 @@
     "WhalingStationRegion": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/whalingstationregion_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/whalingstationregion_hard.jpg"
-    }
+    },
+    "WhalingMine": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/whalingmine.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/whalingmine.png"
+    }	
 }

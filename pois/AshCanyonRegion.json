@@ -4,8 +4,8 @@
     "x": 795.5,
     "y": 84.83,
     "z": -899.46,
-    "svgX": 2876.52659,
-    "svgY": 3044.57244,
+    "svgX": 2879.1794,
+    "svgY": 3043.0793,
     "label": "Enter from Timberwolf Mountain (Echo Ravine)"
   },
   {
@@ -13,8 +13,8 @@
     "x": -243.61,
     "y": 75.41,
     "z": -863.98,
-    "svgX": 1281.86589,
-    "svgY": 2991.76634,
+    "svgX": 1279.3331,
+    "svgY": 3031.7595,
     "label": "Enter from Timberwolf Mountain (Deer Clearing)"
   },
   {
@@ -22,8 +22,8 @@
     "x": -836.58,
     "y": 298.09,
     "z": 625.08,
-    "svgX": 369.92141000000004,
-    "svgY": 687.13714,
+    "svgX": 373.43863,
+    "svgY": 689.96558,
     "label": "Gold Mine exit"
   },
   {
@@ -31,8 +31,8 @@
     "x": 349.48,
     "y": 234.72,
     "z": 574.78,
-    "svgX": 2193.29429,
-    "svgY": 759.65738,
+    "svgX": 2191.0144,
+    "svgY": 754.81201,
     "label": "Miner\u0027s Folly Cabin"
   },
   {
@@ -40,8 +40,8 @@
     "x": 54.45,
     "y": 77.59,
     "z": 178.49,
-    "svgX": 1727.02449,
-    "svgY": 1362.55684,
+    "svgX": 1720.1702,
+    "svgY": 1365.3853,
     "label": "Angler\u0027s Den"
   },
   {
@@ -49,8 +49,8 @@
     "x": 734.32,
     "y": 95.02,
     "z": -313.39,
-    "svgX": 2785.01609,
-    "svgY": 2139.7120400000003,
+    "svgX": 2788.5332,
+    "svgY": 2138.219,
     "label": "Homesteader\u0027s Respite"
   },
   {
@@ -58,8 +58,8 @@
     "x": -632.97,
     "y": 304.29,
     "z": 774.24,
-    "svgX": 676.85739,
-    "svgY": 458.33203000000003,
+    "svgX": 678.646,
+    "svgY": 460.2962,
     "label": "Gold Mine entrance from Mining Camp"
   },
   {
@@ -67,8 +67,8 @@
     "x": 227.86,
     "y": 266.64,
     "z": 417.54,
-    "svgX": 2007.38029,
-    "svgY": 1021.61081,
+    "svgX": 2005.7118,
+    "svgY": 1018.3892,
     "label": "Foreman\u0027s Retreat Cabin"
   },
   {
@@ -76,8 +76,8 @@
     "x": -40.31,
     "y": 171.19,
     "z": -795.36,
-    "svgX": 1585.05269,
-    "svgY": 2878.01024,
+    "svgX": 1586.8413,
+    "svgY": 2876.5171,
     "label": "Prepper\u0027s Cache"
   },
   {
@@ -85,8 +85,8 @@
     "x": 654.72,
     "y": 51.6,
     "z": -418.71,
-    "svgX": 2662.36589,
-    "svgY": 2289.95104,
+    "svgX": 2663.2903,
+    "svgY": 2293.6438,
     "label": "Destroyed fishing hut at Bitter Marsh (memento)"
   },
   {
@@ -94,8 +94,8 @@
     "x": 194.95,
     "y": 44.95,
     "z": -685.47,
-    "svgX": 1960.24899,
-    "svgY": 2702.46604,
+    "svgX": 1955.9875,
+    "svgY": 2698.3801,
     "label": "Shattered Cove (memento on corpse)"
   },
   {
@@ -103,8 +103,8 @@
     "x": -239.79,
     "y": 142.94,
     "z": 858.92,
-    "svgX": 1292.99249,
-    "svgY": 343.22504100000003,
+    "svgX": 1293.0525,
+    "svgY": 343.4606,
     "label": "Cave to Gold Mine West entrance"
   },
   {
@@ -112,8 +112,71 @@
     "x": -83.17,
     "y": 295.51,
     "z": 853.53,
-    "svgX": 1526.71869,
-    "svgY": 342.878914,
+    "svgX": 1530.236,
+    "svgY": 344.84308,
     "label": "Cave to Gold Mine East entrance"
+  },
+  {
+    "scene": "AshCanyonRegion",
+    "x": 11.63,
+    "y": 275.66,
+    "z": 619.86,
+    "svgX": 1675.3413,
+    "svgY": 703.49841,
+    "label": "Snow shelter, campfire, saplings, and rabbits on way to gold mine"
+  },
+  {
+    "scene": "AshCanyonRegion",
+    "x": -343.93,
+    "y": 353.83,
+    "z": 370.29,
+    "svgX": 1128.8353,
+    "svgY": 1094.3179,
+    "label": "Wolf\u0027s Jaw Overlook"
+  },
+  {
+    "scene": "AshCanyonRegion",
+    "x": -421.84,
+    "y": 365.17,
+    "z": 457,
+    "svgX": 1007.6547,
+    "svgY": 935.927,
+    "label": "Covered cave misc loot"
+  },
+  {
+    "scene": "AshCanyonRegion",
+    "x": -407.88,
+    "y": 368.43,
+    "z": 516.83,
+    "svgX": 1032.324,
+    "svgY": 857.83551,
+    "label": "Possible rifle, ammo, polaroid"
+  },
+  {
+    "scene": "AshCanyonRegion",
+    "x": -504.08,
+    "y": 365.34,
+    "z": 450.64,
+    "svgX": 885.08966,
+    "svgY": 948.11023,
+    "label": "Cave on way to gold mine"
+  },
+  {
+    "scene": "AshCanyonRegion",
+    "x": -607.4,
+    "y": 384.83,
+    "z": 545.73,
+    "svgX": 739.27692,
+    "svgY": 840.25616,
+    "label": "Mining Camp overlook, wooden pulley system"
+  },
+  {
+    "scene": "AshCanyonRegion",
+    "x": -420.12,
+    "y": 293.1,
+    "z": 742.95,
+    "svgX": 999.5412,
+    "svgY": 513.95154,
+    "label": "Mining camp corpse"
   }
 ]

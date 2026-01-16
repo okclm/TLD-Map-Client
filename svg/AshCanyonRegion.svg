@@ -24,9 +24,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
-     inkscape:zoom="1.6362563"
-     inkscape:cx="1331.3929"
-     inkscape:cy="312.60384"
+     inkscape:zoom="0.40906407"
+     inkscape:cx="1548.6571"
+     inkscape:cy="1397.0916"
      inkscape:window-width="2560"
      inkscape:window-height="1377"
      inkscape:window-x="5112"
@@ -37,22 +37,21 @@
      id="defs1" /><g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(206.50729,305.72604)"><image
+     id="layer1"><image
    width="3313"
    height="3917"
    preserveAspectRatio="xMidYMid"
    xlink:href="../Mods/TLD-Map-Client/images/ashcanyonregion_hard.jpg"
    id="image1"
-   x="-206.50729"
-   y="-305.72604"
+   x="0"
+   y="0"
    sodipodi:insensitive="true"
    inkscape:svg-dpi="96" />
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path1"
-   cx="2670.0193"
-   cy="2738.8464"
+   cx="2879.1794"
+   cy="3043.0793"
    r="25">
 <desc
    id="desc1">scene=AshCanyonRegion x=795.50 y=84.83 z=-899.46
@@ -63,8 +62,8 @@ Enter from Timberwolf Mountain (Echo Ravine)</desc>
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path2"
-   cx="1075.3586"
-   cy="2686.0403"
+   cx="1279.3331"
+   cy="3031.7595"
    r="25">
 <desc
    id="desc2">scene=AshCanyonRegion x=-243.61 y=75.41 z=-863.98
@@ -75,8 +74,8 @@ Enter from Timberwolf Mountain (Deer Clearing)</desc>
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path6"
-   cx="163.41412"
-   cy="381.4111"
+   cx="373.43863"
+   cy="689.96558"
    r="25">
 <desc
    id="desc3">scene=AshCanyonRegion x=-836.58 y=298.09 z=625.08
@@ -87,8 +86,8 @@ Gold Mine exit</desc>
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path9"
-   cx="1986.787"
-   cy="453.93134"
+   cx="2191.0144"
+   cy="754.81201"
    r="25">
 <desc
    id="desc4">scene=AshCanyonRegion x=349.48 y=234.72 z=574.78
@@ -99,8 +98,8 @@ Miner's Folly Cabin</desc>
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="circle5"
-   cx="1520.5172"
-   cy="1056.8308"
+   cx="1720.1702"
+   cy="1365.3853"
    r="25">
 <desc
    id="desc5">scene=AshCanyonRegion x=54.45 y=77.59 z=178.49
@@ -111,8 +110,8 @@ Angler's Den</desc>
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path3"
-   cx="2578.5088"
-   cy="1833.986"
+   cx="2788.5332"
+   cy="2138.219"
    r="25">
 	<desc
    id="desc6">scene=AshCanyonRegion x=734.32 y=95.02 z=-313.39
@@ -123,8 +122,8 @@ Homesteader's Respite</desc>
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path5"
-   cx="470.3501"
-   cy="152.60599"
+   cx="678.646"
+   cy="460.2962"
    r="25">
 	<desc
    id="desc7">scene=AshCanyonRegion x=-632.97 y=304.29 z=774.24
@@ -135,8 +134,8 @@ Gold Mine entrance from Mining Camp</desc>
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path7"
-   cx="1800.873"
-   cy="715.88477"
+   cx="2005.7118"
+   cy="1018.3892"
    r="25">
 	<desc
    id="desc8">scene=AshCanyonRegion x=227.86 y=266.64 z=417.54
@@ -147,8 +146,8 @@ Foreman's Retreat Cabin</desc>
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path8"
-   cx="1378.5454"
-   cy="2572.2842"
+   cx="1586.8413"
+   cy="2876.5171"
    r="25">
 	<desc
    id="desc9">scene=AshCanyonRegion x=-40.31 y=171.19 z=-795.36
@@ -159,8 +158,8 @@ Prepper's Cache</desc>
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path10"
-   cx="2455.8586"
-   cy="1984.225"
+   cx="2663.2903"
+   cy="2293.6438"
    r="25">
 	<desc
    id="desc10">scene=AshCanyonRegion x=654.72 y=51.60 z=-418.71
@@ -171,8 +170,8 @@ Destroyed fishing hut at Bitter Marsh (memento)</desc>
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path11"
-   cx="1753.7417"
-   cy="2396.74"
+   cx="1955.9875"
+   cy="2698.3801"
    r="25">
 	<desc
    id="desc11">scene=AshCanyonRegion x=194.95 y=44.95 z=-685.47
@@ -183,8 +182,8 @@ Shattered Cove (memento on corpse)</desc>
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path12"
-   cx="1086.4852"
-   cy="37.499001"
+   cx="1293.0525"
+   cy="343.4606"
    r="25"><desc
      id="desc12">scene=AshCanyonRegion x=-239.79 y=142.94 z=858.92
 Cave to Gold Mine West entrance</desc><title
@@ -192,10 +191,75 @@ Cave to Gold Mine West entrance</desc><title
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path13"
-   cx="1320.2114"
-   cy="37.152874"
+   cx="1530.236"
+   cy="344.84308"
    r="25"><desc
      id="desc13">scene=AshCanyonRegion x=-83.17 y=295.51 z=853.53
 Cave to Gold Mine East entrance</desc><title
      id="title13">Cave to Gold Mine East entrance</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path14"
+   cx="1675.3413"
+   cy="703.49841"
+   r="25"><desc
+     id="desc14">scene=AshCanyonRegion x=11.63 y=275.66 z=619.86
+Snow shelter, campfire, saplings, and rabbits on way to gold mine</desc><title
+     id="title14">Snow shelter, campfire, saplings, and rabbits on way to gold mine</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path15"
+   cx="1128.8353"
+   cy="1094.3179"
+   r="25"><desc
+     id="desc15">scene=AshCanyonRegion x=-343.93 y=353.83 z=370.29
+Wolf's Jaw Overlook</desc><title
+     id="title15">Wolf's Jaw Overlook</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path16"
+   cx="1007.6547"
+   cy="935.927"
+   r="25"><desc
+     id="desc16">scene=AshCanyonRegion x=-421.84 y=365.17 z=457.00
+Covered cave misc loot</desc><title
+     id="title16">Covered cave misc loot</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path17"
+   cx="1032.324"
+   cy="857.83551"
+   r="25"><desc
+     id="desc17">scene=AshCanyonRegion x=-407.88 y=368.43 z=516.83
+Possible rifle, ammo, polaroid</desc><title
+     id="title17">Possible rifle, ammo, polaroid</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path18"
+   cx="885.08966"
+   cy="948.11023"
+   r="25"><desc
+     id="desc18">scene=AshCanyonRegion x=-504.08 y=365.34 z=450.64
+Cave on way to gold mine</desc><title
+     id="title18">Cave on way to gold mine</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path19"
+   cx="739.27692"
+   cy="840.25616"
+   r="25"
+   inkscape:transform-center-x="224.90364"
+   inkscape:transform-center-y="-220.01443"><desc
+     id="desc19">scene=AshCanyonRegion x=-607.40 y=384.83 z=545.73
+Mining Camp overlook, wooden pulley system</desc><title
+     id="title19">Mining Camp overlook, wooden pulley system</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path20"
+   cx="999.5412"
+   cy="513.95154"
+   r="25"><desc
+     id="desc20">scene=AshCanyonRegion x=-420.12 y=293.10 z=742.95
+Mining camp corpse</desc><title
+     id="title20">Mining camp corpse</title></circle>	 
 	   </g></svg>

@@ -1,0 +1,92 @@
+[
+  {
+    "scene": "AshCaveB",
+    "x": -43.33,
+    "y": -20.34,
+    "z": -77.29,
+    "svgX": 92.79258,
+    "svgY": 842.36804,
+    "label": "Exit Cave West"
+  },
+  {
+    "scene": "AshCaveB",
+    "x": 45.5,
+    "y": 33.01,
+    "z": -60.78,
+    "svgX": 708.26746,
+    "svgY": 815.26038,
+    "label": "Exit Cave East"
+  },
+  {
+    "scene": "AshCaveB",
+    "x": 46.25,
+    "y": 16.69,
+    "z": -8.66,
+    "svgX": 731.63989,
+    "svgY": 261.5022,
+    "label": "Atrium rope climb up"
+  },
+  {
+    "scene": "AshCaveB",
+    "x": -27.5,
+    "y": -20.7,
+    "z": -57.62,
+    "svgX": 213.20784,
+    "svgY": 608.21313,
+    "label": "Waterfall West"
+  },
+  {
+    "scene": "AshCaveB",
+    "x": -16.56,
+    "y": -20.75,
+    "z": -61.28,
+    "svgX": 309.88736,
+    "svgY": 632.10394,
+    "label": "Waterfall East (safe)"
+  },
+  {
+    "scene": "AshCaveB",
+    "x": -20.56,
+    "y": -21.85,
+    "z": -68.31,
+    "svgX": 260.6138,
+    "svgY": 675.78851,
+    "label": "Coal after waterfall"
+  },
+  {
+    "scene": "AshCaveB",
+    "x": -2.09,
+    "y": -20.33,
+    "z": -76.8,
+    "svgX": 386.80679,
+    "svgY": 743.69574,
+    "label": "Coal, possible hatchet"
+  },
+  {
+    "scene": "AshCaveB",
+    "x": -3.9,
+    "y": 10.24,
+    "z": -4.57,
+    "svgX": 312.85556,
+    "svgY": 248.63637,
+    "label": "Coal, possible backpack"
+  },
+  {
+    "scene": "AshCaveB",
+    "x": 43.36,
+    "y": 25.72,
+    "z": -11.23,
+    "svgX": 683.30054,
+    "svgY": 295.15973,
+    "label": "Atrium rope climb down"
+  },
+  {
+    "scene": "AshCaveB",
+    "x": 53.25,
+    "y": 24.18,
+    "z": 6.24,
+    "svgX": 755.62054,
+    "svgY": 151.27815,
+    "label": "Upper East Campfire, wolf carcass, backpack"
+  }
+]

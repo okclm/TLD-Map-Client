@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1931"
+   height="1419"
+   viewBox="0 0 1931 1419"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="MountainCaveB.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="0.79844961"
+     inkscape:cx="964.99515"
+     inkscape:cy="709.5"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="5112"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showgrid="false" /><defs
+     id="defs1" /><g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"><image
+   width="1931"
+   height="1419"
+   preserveAspectRatio="xMidYMid"
+   xlink:href="../Mods/TLD-Map-Client/images/mountaincavea.png"
+   id="image1"
+   x="0"
+   y="0"
+   sodipodi:insensitive="true" />
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path1"
+   cx="1802.3593"
+   cy="809.29126"
+   r="25">
+<desc
+   id="desc1">scene=MountainCaveB x=120.85 y=-7.16 z=-21.98
+Exit Cave B</desc>
+<title
+   id="title1">Exit Cave B</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path10"
+   cx="152.91263"
+   cy="230.17476"
+   r="25">
+<desc
+   id="desc2">scene=MountainCaveB x=-103.85 y=18.49 z=77.11
+Exit Cave A</desc>
+<title
+   id="title2">Exit Cave A</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path8"
+   cx="807.93207"
+   cy="456"
+   r="25">
+<desc
+   id="desc3">scene=MountainCaveB x=-24.86 y=2.79 z=41.54
+Switchback</desc>
+<title
+   id="title3">Switchback</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path2"
+   cx="1563.8289"
+   cy="825.22772"
+   r="25"><desc
+     id="desc4">scene=MountainCaveB x=97.14 y=-7.75 z=-24.19
+Chamber 1 near Cave B exit</desc><title
+     id="title4">Chamber 1 near Cave B exit</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path3"
+   cx="1351.5901"
+   cy="822.71832"
+   r="25"><desc
+     id="desc5">scene=MountainCaveB x=67.65 y=-6.49 z=-13.95
+Junction</desc><title
+     id="title5">Junction</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path4"
+   cx="1335.3342"
+   cy="593.67554"
+   r="25"><desc
+     id="desc6">scene=MountainCaveB x=66.55 y=-7.53 z=14.13
+Chamber 2</desc><title
+     id="title6">Chamber 2</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path5"
+   cx="1389.1969"
+   cy="482.49271"
+   r="25"><desc
+     id="desc7">scene=MountainCaveB x=74.64 y=-8.16 z=35.04
+Skylight chamber</desc><title
+     id="title7">Skylight chamber</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path6"
+   cx="1191.3475"
+   cy="516.57269"
+   r="25"><desc
+     id="desc8">scene=MountainCaveB x=38.47 y=-5.15 z=29.85
+Crouch junction</desc><title
+     id="title8">Crouch junction</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path7"
+   cx="4113.95"
+   cy="1461.11"
+   r="25"><desc
+     id="desc9">scene=MountainCaveB x=41.49 y=-5.01 z=-15.33
+Corner</desc><title
+     id="title9">Corner</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path9"
+   cx="638.91107"
+   cy="395.96078"
+   r="25"><desc
+     id="desc10">scene=MountainCaveB x=-49.54 y=10.69 z=50.44
+West junction</desc><title
+     id="title10">West junction</title></circle>
+	   </g></svg>

@@ -11,6 +11,10 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/ashcaveb.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/ashcaveb.png"
     },
+    "AshMine": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/ashmine.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/ashmine.png"
+    },	
     "BlackrockRegion": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/blackrockregion_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/blackrockregion_hard.jpg"

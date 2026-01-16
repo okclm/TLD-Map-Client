@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1700"
+   height="1300"
+   viewBox="0 0 1700 1300"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="AshMine.svg"
+   xml:space="preserve"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="0.87153846"
+     inkscape:cx="1216.8138"
+     inkscape:cy="1108.9585"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="5112"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showgrid="false" /><defs
+     id="defs1" /><g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"><image
+   width="1700"
+   height="1300"
+   preserveAspectRatio="xMidYMid"
+   xlink:href="../Mods/TLD-Map-Client/images/ashmine.png"
+   id="image1"
+   x="0"
+   y="0"
+   sodipodi:insensitive="true"
+   inkscape:svg-dpi="96" />
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path1"
+   cx="1591.9232"
+   cy="1111.7308"
+   r="25">
+<desc
+   id="desc1">scene=AshMine x=-101.23 y=-55.52 z=162.64
+Exit to Mining Camp</desc>
+<title
+   id="title1">Exit to Mining Camp</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path7"
+   cx="219.63725"
+   cy="87.017654"
+   r="25">
+<desc
+   id="desc2">scene=AshMine x=-275.60 y=-34.66 z=288.64
+Exit West to cliff</desc>
+<title
+   id="title2">Exit West to cliff</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path4"
+   cx="1305.0741"
+   cy="657.89142"
+   r="25">
+<desc
+   id="desc3">scene=AshMine x=-135.31 y=-56.94 z=229.35
+Fire barrel, workbench, bed, technical backpack</desc>
+<title
+   id="title3">Fire barrel, workbench, bed, technical backpack</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path2"
+   cx="1334.441"
+   cy="1060.2294"
+   r="25"><desc
+     id="desc4">scene=AshMine x=-126.04 y=-57.03 z=170.82
+Firebarrel, misc loot near entrance</desc><title
+     id="title4">Firebarrel, misc loot near entrance</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path3"
+   cx="981.60"
+   cy="859.22"
+   r="25"><desc
+     id="desc5">scene=AshMine x=-180.79 y=-56.72 z=184.44
+Coal spawn</desc><title
+     id="title5">Coal spawn</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path5"
+   cx="813.24628"
+   cy="525.66095"
+   r="25"><desc
+     id="desc6">scene=AshMine x=-205.51 y=-46.92 z=236.41
+Possible rifle</desc><title
+     id="title6">Possible rifle</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path6"
+   cx="461.77869"
+   cy="303.5498"
+   r="25"><desc
+     id="desc7">scene=AshMine x=-257.73 y=-35.68 z=266.74
+Coal spawn</desc><title
+     id="title7">Coal spawn</title></circle>
+	   </g></svg>

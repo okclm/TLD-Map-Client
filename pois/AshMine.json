@@ -1,0 +1,65 @@
+[
+  {
+    "scene": "AshMine",
+    "x": -101.23,
+    "y": -55.52,
+    "z": 162.64,
+    "svgX": 1591.9232,
+    "svgY": 1111.7308,
+    "label": "Exit to Mining Camp"
+  },
+  {
+    "scene": "AshMine",
+    "x": -275.6,
+    "y": -34.66,
+    "z": 288.64,
+    "svgX": 219.63725,
+    "svgY": 87.017654,
+    "label": "Exit West to cliff"
+  },
+  {
+    "scene": "AshMine",
+    "x": -135.31,
+    "y": -56.94,
+    "z": 229.35,
+    "svgX": 1305.0741,
+    "svgY": 657.89142,
+    "label": "Fire barrel, workbench, bed, technical backpack"
+  },
+  {
+    "scene": "AshMine",
+    "x": -126.04,
+    "y": -57.03,
+    "z": 170.82,
+    "svgX": 1334.441,
+    "svgY": 1060.2294,
+    "label": "Firebarrel, misc loot near entrance"
+  },
+  {
+    "scene": "AshMine",
+    "x": -180.79,
+    "y": -56.72,
+    "z": 184.44,
+    "svgX": 981.6,
+    "svgY": 859.22,
+    "label": "Coal spawn"
+  },
+  {
+    "scene": "AshMine",
+    "x": -205.51,
+    "y": -46.92,
+    "z": 236.41,
+    "svgX": 813.24628,
+    "svgY": 525.66095,
+    "label": "Possible rifle"
+  },
+  {
+    "scene": "AshMine",
+    "x": -257.73,
+    "y": -35.68,
+    "z": 266.74,
+    "svgX": 461.77869,
+    "svgY": 303.5498,
+    "label": "Coal spawn"
+  }
+]

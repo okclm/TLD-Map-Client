@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1563"
+   height="979"
+   viewBox="0 0 1563 979"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="AshCaveA.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="1.1573034"
+     inkscape:cx="850.68444"
+     inkscape:cy="420.37378"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="5112"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showgrid="false" /><defs
+     id="defs1" /><g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"><image
+   width="1563"
+   height="979"
+   preserveAspectRatio="xMidYMid"
+   xlink:href="../Mods/TLD-Map-Client/images/ashcavea.png"
+   id="image1"
+   x="0"
+   y="0"
+   sodipodi:insensitive="true" />
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path1"
+   cx="123.29124"
+   cy="207.66019"
+   r="25">
+<desc
+   id="desc1">scene=AshCaveA x=-74.66 y=5.40 z=46.15
+Exit to Ash Canyon</desc>
+<title
+   id="title1">Exit to Ash Canyon</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path10"
+   cx="1453.1067"
+   cy="630.68933"
+   r="25">
+<desc
+   id="desc2">scene=AshCaveA x=122.60 y=1.32 z=-31.55
+Exit to Timberwolf Mountain</desc>
+<title
+   id="title2">Exit to Timberwolf Mountain</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path5"
+   cx="868.99023"
+   cy="334.61163"
+   r="25">
+<desc
+   id="desc3">scene=AshCaveA x=39.80 y=-4.89 z=19.96
+Main atrium, campfire, wolf carcass, coal, backpack</desc>
+<title
+   id="title3">Main atrium, campfire, wolf carcass, coal, backpack</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path2"
+   cx="477.53125"
+   cy="412.96408"
+   r="25"><desc
+     id="desc4">scene=AshCaveA x=-31.10 y=-0.80 z=11.29
+Coal closest to Ash Canyon exit</desc><title
+     id="title4">Coal closest to Ash Canyon exit</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path3"
+   cx="726.22931"
+   cy="350.92706"
+   r="25"><desc
+     id="desc5">scene=AshCaveA x=14.55 y=-2.40 z=20.60
+Junction</desc><title
+     id="title5">Junction</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path4"
+   cx="729.11255"
+   cy="124.66359"
+   r="25"><desc
+     id="desc6">scene=AshCaveA x=15.42 y=-5.68 z=64.62
+North atrium misc loot, campfire</desc><title
+     id="title6">North atrium misc loot, campfire</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path6"
+   cx="865.57477"
+   cy="404.99088"
+   r="25"><desc
+     id="desc7">scene=AshCaveA x=40.12 y=-4.88 z=13.82
+Junction, &quot;window&quot; into main atrium area</desc><title
+     id="title7">Junction, &quot;window&quot; into main atrium area</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path7"
+   cx="998.56342"
+   cy="580.50513"
+   r="25"><desc
+     id="desc8">scene=AshCaveA x=63.26 y=-6.31 z=-21.98
+Small atrium with skylight</desc><title
+     id="title8">Small atrium with skylight</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path8"
+   cx="978.33105"
+   cy="382.4801"
+   r="25"><desc
+     id="desc9">scene=AshCaveA x=58.03 y=-6.32 z=15.10
+Deadend North of skylight atrium, coal</desc><title
+     id="title9">Deadend North of skylight atrium, coal</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path9"
+   cx="1229.3341"
+   cy="584.33557"
+   r="25"><desc
+     id="desc10">scene=AshCaveA x=106.13 y=-7.71 z=-24.13
+Coal, bottom of switchback</desc><title
+     id="title10">Coal, bottom of switchback</title></circle>
+	   </g></svg>

@@ -1,0 +1,92 @@
+[
+  {
+    "scene": "AshCaveA",
+    "x": -74.66,
+    "y": 5.4,
+    "z": 46.15,
+    "svgX": 123.29124,
+    "svgY": 207.66019,
+    "label": "Exit to Ash Canyon"
+  },
+  {
+    "scene": "AshCaveA",
+    "x": 122.6,
+    "y": 1.32,
+    "z": -31.55,
+    "svgX": 1453.1067,
+    "svgY": 630.68933,
+    "label": "Exit to Timberwolf Mountain"
+  },
+  {
+    "scene": "AshCaveA",
+    "x": 39.8,
+    "y": -4.89,
+    "z": 19.96,
+    "svgX": 868.99023,
+    "svgY": 334.61163,
+    "label": "Main atrium, campfire, wolf carcass, coal, backpack"
+  },
+  {
+    "scene": "AshCaveA",
+    "x": -31.1,
+    "y": -0.8,
+    "z": 11.29,
+    "svgX": 477.53125,
+    "svgY": 412.96408,
+    "label": "Coal closest to Ash Canyon exit"
+  },
+  {
+    "scene": "AshCaveA",
+    "x": 14.55,
+    "y": -2.4,
+    "z": 20.6,
+    "svgX": 726.22931,
+    "svgY": 350.92706,
+    "label": "Junction"
+  },
+  {
+    "scene": "AshCaveA",
+    "x": 15.42,
+    "y": -5.68,
+    "z": 64.62,
+    "svgX": 729.11255,
+    "svgY": 124.66359,
+    "label": "North atrium misc loot, campfire"
+  },
+  {
+    "scene": "AshCaveA",
+    "x": 40.12,
+    "y": -4.88,
+    "z": 13.82,
+    "svgX": 865.57477,
+    "svgY": 404.99088,
+    "label": "Junction, \u0022window\u0022 into main atrium area"
+  },
+  {
+    "scene": "AshCaveA",
+    "x": 63.26,
+    "y": -6.31,
+    "z": -21.98,
+    "svgX": 998.56342,
+    "svgY": 580.50513,
+    "label": "Small atrium with skylight"
+  },
+  {
+    "scene": "AshCaveA",
+    "x": 58.03,
+    "y": -6.32,
+    "z": 15.1,
+    "svgX": 978.33105,
+    "svgY": 382.4801,
+    "label": "Deadend North of skylight atrium, coal"
+  },
+  {
+    "scene": "AshCaveA",
+    "x": 106.13,
+    "y": -7.71,
+    "z": -24.13,
+    "svgX": 1229.3341,
+    "svgY": 584.33557,
+    "label": "Coal, bottom of switchback"
+  }
+]

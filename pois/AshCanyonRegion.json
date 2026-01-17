@@ -286,5 +286,14 @@
     "svgX": 1247.9331,
     "svgY": 2205.5784,
     "label": "Cave in Ravine Bottom"
+  },
+  {
+    "scene": "AshCanyonRegion",
+    "x": 339.32,
+    "y": 81.88,
+    "z": -804.22,
+    "svgX": 2169.6909,
+    "svgY": 2880.8577,
+    "label": "South Cave"
   }
 ]

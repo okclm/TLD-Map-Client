@@ -25,8 +25,8 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      inkscape:zoom="0.81812814"
-     inkscape:cx="1783.9504"
-     inkscape:cy="1681.277"
+     inkscape:cx="1392.8136"
+     inkscape:cy="1290.1402"
      inkscape:window-width="2560"
      inkscape:window-height="1377"
      inkscape:window-x="5112"
@@ -106,18 +106,6 @@ Miner's Folly Cabin</desc>
 Angler's Den</desc>
 <title
    id="title5">Angler's Den</title>
-</circle>
-<circle
-   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
-   id="path3"
-   cx="2788.5332"
-   cy="2138.219"
-   r="25">
-	<desc
-   id="desc6">scene=AshCanyonRegion x=734.32 y=95.02 z=-313.39
-Homesteader's Respite</desc>
-	<title
-   id="title6">Homesteader's Respite</title>
 </circle>
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
@@ -343,4 +331,40 @@ Runaway Bridge Area, Backpack, Bed, corpse, possible rifle</desc><title
      id="desc29">scene=AshCanyonRegion x=-280.56 y=198.82 z=94.82
 Runaway Bridge flares</desc><title
      id="title29">Runaway Bridge flares</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path3"
+   cx="2783.5154"
+   cy="2133.197"
+   r="25"><desc
+     id="desc6">scene=AshCanyonRegion x=729.92 y=90.45 z=-309.70
+Homesteader's Respite</desc><title
+     id="title6">Homesteader's Respite</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path30"
+   cx="2745.9614"
+   cy="1405.3716"
+   r="25"><desc
+     id="desc30">scene=AshCanyonRegion x=731.98 y=248.74 z=152.70
+Fire Overlook Cave</desc><title
+     id="title30">Fire Overlook Cave</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path31"
+   cx="2487.3462"
+   cy="864.31525"
+   r="25"><desc
+     id="desc31">scene=AshCanyonRegion x=540.95 y=103.09 z=539.48
+Narrow Falls Cave</desc><title
+     id="title31">Narrow Falls Cave</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path32"
+   cx="1247.9331"
+   cy="2205.5784"
+   r="25"><desc
+     id="desc32">scene=AshCanyonRegion x=-265.17 y=54.05 z=-337.32
+Cave in Ravine Bottom</desc><title
+     id="title32">Cave in Ravine Bottom</title></circle>	 
 	   </g></svg>

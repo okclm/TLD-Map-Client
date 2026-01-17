@@ -46,15 +46,6 @@
   },
   {
     "scene": "AshCanyonRegion",
-    "x": 734.32,
-    "y": 95.02,
-    "z": -313.39,
-    "svgX": 2788.5332,
-    "svgY": 2138.219,
-    "label": "Homesteader\u0027s Respite"
-  },
-  {
-    "scene": "AshCanyonRegion",
     "x": -632.97,
     "y": 304.29,
     "z": 774.24,
@@ -259,5 +250,41 @@
     "svgX": 1212.4612,
     "svgY": 1500.5969,
     "label": "Runaway Bridge flares"
+  },
+  {
+    "scene": "AshCanyonRegion",
+    "x": 729.92,
+    "y": 90.45,
+    "z": -309.7,
+    "svgX": 2783.5154,
+    "svgY": 2133.197,
+    "label": "Homesteader\u0027s Respite"
+  },
+  {
+    "scene": "AshCanyonRegion",
+    "x": 731.98,
+    "y": 248.74,
+    "z": 152.7,
+    "svgX": 2745.9614,
+    "svgY": 1405.3716,
+    "label": "Fire Overlook Cave"
+  },
+  {
+    "scene": "AshCanyonRegion",
+    "x": 540.95,
+    "y": 103.09,
+    "z": 539.48,
+    "svgX": 2487.3462,
+    "svgY": 864.31525,
+    "label": "Narrow Falls Cave"
+  },
+  {
+    "scene": "AshCanyonRegion",
+    "x": -265.17,
+    "y": 54.05,
+    "z": -337.32,
+    "svgX": 1247.9331,
+    "svgY": 2205.5784,
+    "label": "Cave in Ravine Bottom"
   }
 ]

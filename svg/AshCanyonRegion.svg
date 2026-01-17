@@ -25,8 +25,8 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      inkscape:zoom="0.81812814"
-     inkscape:cx="2243.5361"
-     inkscape:cy="2634.6729"
+     inkscape:cx="1783.9504"
+     inkscape:cy="1681.277"
      inkscape:window-width="2560"
      inkscape:window-height="1377"
      inkscape:window-x="5112"
@@ -307,4 +307,40 @@ Cave with coal near Climber's Cave</desc><title
      id="desc25">scene=AshCanyonRegion x=135.48 y=155.19 z=-806.69
 Windproof Shelter, bed, possible polaroid</desc><title
      id="title25">Windproof Shelter, bed, possible polaroid</title></circle>
+	 <circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path26"
+   cx="2373.78"
+   cy="1647.4832"
+   r="25"><desc
+     id="desc26">scene=AshCanyonRegion x=479.11 y=219.39 z=1.41
+Fire overlook campfire</desc><title
+     id="title26">Fire overlook campfire</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path27"
+   cx="2017.6985"
+   cy="1658.4246"
+   r="25"><desc
+     id="desc27">scene=AshCanyonRegion x=250.25 y=234.30 z=-0.55
+High Meadow bridge</desc><title
+     id="title27">High Meadow bridge</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path28"
+   cx="1118.4691"
+   cy="1262.5746"
+   r="25"><desc
+     id="desc28">scene=AshCanyonRegion x=-354.92 y=193.65 z=258.75
+Runaway Bridge Area, Backpack, Bed, corpse, possible rifle</desc><title
+     id="title28">Runaway Bridge Area, Backpack, Bed, corpse, possible rifle</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path29"
+   cx="1212.4612"
+   cy="1500.5969"
+   r="25"><desc
+     id="desc29">scene=AshCanyonRegion x=-280.56 y=198.82 z=94.82
+Runaway Bridge flares</desc><title
+     id="title29">Runaway Bridge flares</title></circle>
 	   </g></svg>

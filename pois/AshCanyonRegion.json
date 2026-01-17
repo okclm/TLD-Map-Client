@@ -223,5 +223,41 @@
     "svgX": 1871.1261,
     "svgY": 2881.6165,
     "label": "Windproof Shelter, bed, possible polaroid"
+  },
+  {
+    "scene": "AshCanyonRegion",
+    "x": 479.11,
+    "y": 219.39,
+    "z": 1.41,
+    "svgX": 2373.78,
+    "svgY": 1647.4832,
+    "label": "Fire overlook campfire"
+  },
+  {
+    "scene": "AshCanyonRegion",
+    "x": 250.25,
+    "y": 234.3,
+    "z": -0.55,
+    "svgX": 2017.6985,
+    "svgY": 1658.4246,
+    "label": "High Meadow bridge"
+  },
+  {
+    "scene": "AshCanyonRegion",
+    "x": -354.92,
+    "y": 193.65,
+    "z": 258.75,
+    "svgX": 1118.4691,
+    "svgY": 1262.5746,
+    "label": "Runaway Bridge Area, Backpack, Bed, corpse, possible rifle"
+  },
+  {
+    "scene": "AshCanyonRegion",
+    "x": -280.56,
+    "y": 198.82,
+    "z": 94.82,
+    "svgX": 1212.4612,
+    "svgY": 1500.5969,
+    "label": "Runaway Bridge flares"
   }
 ]

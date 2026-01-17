@@ -7,10 +7,14 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/ashcanyonregion_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/ashcanyonregion_hard.jpg"
     },
+    "AshCaveA": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/ashcavea.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/ashcavea.png"
+    },
     "AshCaveB": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/ashcaveb.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/ashcaveb.png"
-    },
+    },	
     "AshMine": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/ashmine.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/ashmine.png"

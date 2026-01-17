@@ -82,15 +82,6 @@
   },
   {
     "scene": "AshCanyonRegion",
-    "x": 194.95,
-    "y": 44.95,
-    "z": -685.47,
-    "svgX": 1955.9875,
-    "svgY": 2698.3801,
-    "label": "Shattered Cove (memento on corpse)"
-  },
-  {
-    "scene": "AshCanyonRegion",
     "x": -239.79,
     "y": 142.94,
     "z": 858.92,
@@ -295,5 +286,14 @@
     "svgX": 2169.6909,
     "svgY": 2880.8577,
     "label": "South Cave"
+  },
+  {
+    "scene": "AshCanyonRegion",
+    "x": 194.95,
+    "y": 44.95,
+    "z": -685.47,
+    "svgX": 1954.5923,
+    "svgY": 2701.7947,
+    "label": "Shattered Cove (memento on corpse), wolves nearby DANGER!"
   }
 ]

@@ -24,9 +24,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
-     inkscape:zoom="0.40906407"
-     inkscape:cx="1548.6571"
-     inkscape:cy="1397.0916"
+     inkscape:zoom="0.81812814"
+     inkscape:cx="2243.5361"
+     inkscape:cy="2634.6729"
      inkscape:window-width="2560"
      inkscape:window-height="1377"
      inkscape:window-x="5112"
@@ -261,5 +261,50 @@ Mining Camp overlook, wooden pulley system</desc><title
    r="25"><desc
      id="desc20">scene=AshCanyonRegion x=-420.12 y=293.10 z=742.95
 Mining camp corpse</desc><title
-     id="title20">Mining camp corpse</title></circle>	 
+     id="title20">Mining camp corpse</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path21"
+   cx="303.21381"
+   cy="1062.4385"
+   r="25"><desc
+     id="desc21">scene=AshCanyonRegion x=-885.51 y=166.34 z=386.99
+West rope climb down</desc><title
+     id="title21">West rope climb down</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path22"
+   cx="564.06061"
+   cy="1421.7377"
+   r="25"><desc
+     id="desc22">scene=AshCanyonRegion x=-728.23 y=130.61 z=156.92
+Stone Shelf Cave</desc><title
+     id="title22">Stone Shelf Cave</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path23"
+   cx="1518.9208"
+   cy="2199.7485"
+   r="25"><desc
+     id="desc23">scene=AshCanyonRegion x=-95.79 y=133.07 z=-353.57
+Climber's Cave</desc><title
+     id="title23">Climber's Cave</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path24"
+   cx="1887.2961"
+   cy="1779.5591"
+   r="25"><desc
+     id="desc24">scene=AshCanyonRegion x=155.74 y=128.03 z=-56.65
+Cave with coal near Climber's Cave</desc><title
+     id="title24">Cave with coal near Climber's Cave</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path25"
+   cx="1871.1261"
+   cy="2881.6165"
+   r="25"><desc
+     id="desc25">scene=AshCanyonRegion x=135.48 y=155.19 z=-806.69
+Windproof Shelter, bed, possible polaroid</desc><title
+     id="title25">Windproof Shelter, bed, possible polaroid</title></circle>
 	   </g></svg>

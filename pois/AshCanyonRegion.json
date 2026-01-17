@@ -178,5 +178,50 @@
     "svgX": 999.5412,
     "svgY": 513.95154,
     "label": "Mining camp corpse"
+  },
+  {
+    "scene": "AshCanyonRegion",
+    "x": -885.51,
+    "y": 166.34,
+    "z": 386.99,
+    "svgX": 303.21381,
+    "svgY": 1062.4385,
+    "label": "West rope climb down"
+  },
+  {
+    "scene": "AshCanyonRegion",
+    "x": -728.23,
+    "y": 130.61,
+    "z": 156.92,
+    "svgX": 564.06061,
+    "svgY": 1421.7377,
+    "label": "Stone Shelf Cave"
+  },
+  {
+    "scene": "AshCanyonRegion",
+    "x": -95.79,
+    "y": 133.07,
+    "z": -353.57,
+    "svgX": 1518.9208,
+    "svgY": 2199.7485,
+    "label": "Climber\u0027s Cave"
+  },
+  {
+    "scene": "AshCanyonRegion",
+    "x": 155.74,
+    "y": 128.03,
+    "z": -56.65,
+    "svgX": 1887.2961,
+    "svgY": 1779.5591,
+    "label": "Cave with coal near Climber\u0027s Cave"
+  },
+  {
+    "scene": "AshCanyonRegion",
+    "x": 135.48,
+    "y": 155.19,
+    "z": -806.69,
+    "svgX": 1871.1261,
+    "svgY": 2881.6165,
+    "label": "Windproof Shelter, bed, possible polaroid"
   }
 ]

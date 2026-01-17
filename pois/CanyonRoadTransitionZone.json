@@ -1,0 +1,38 @@
+[
+  {
+    "scene": "CanyonRoadTransitionZone",
+    "x": 468.72,
+    "y": 57.39,
+    "z": 756.2,
+    "svgX": 1058.6671,
+    "svgY": 1696.1318,
+    "label": "Exit to Pleasant Valley"
+  },
+  {
+    "scene": "CanyonRoadTransitionZone",
+    "x": 385.67,
+    "y": 73.06,
+    "z": 434.1,
+    "svgX": 1181.5325,
+    "svgY": 1209.8167,
+    "label": "Trailer"
+  },
+  {
+    "scene": "CanyonRoadTransitionZone",
+    "x": 231.46,
+    "y": 40.04,
+    "z": 422.56,
+    "svgX": 1402.7827,
+    "svgY": 1177.0205,
+    "label": "Fishing hut"
+  },
+  {
+    "scene": "CanyonRoadTransitionZone",
+    "x": 445.28,
+    "y": 70.09,
+    "z": 172.1,
+    "svgX": 1058.8402,
+    "svgY": 829.19336,
+    "label": "Exit to cave to Keeper\u0027s Pass North"
+  }
+]

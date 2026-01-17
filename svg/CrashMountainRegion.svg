@@ -25,8 +25,8 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      inkscape:zoom="1.2423246"
-     inkscape:cx="1660.9991"
-     inkscape:cy="926.08647"
+     inkscape:cx="2343.5905"
+     inkscape:cy="913.20741"
      inkscape:window-width="2560"
      inkscape:window-height="1377"
      inkscape:window-x="5112"
@@ -237,5 +237,32 @@ Cave A entrance</desc><title
    r="25"><desc
      id="desc20">scene=CrashMountainRegion x=1221.60 y=342.86 z=1381.96
 Cave B entrance</desc><title
-     id="title20">Cave B entrance</title></circle>	 
+     id="title20">Cave B entrance</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path21"
+   cx="1713.6862"
+   cy="409.25943"
+   r="25"><desc
+     id="desc21">scene=CrashMountainRegion x=1142.03 y=254.18 z=1773.82
+Bear cave North DANGER!</desc><title
+     id="title21">Bear cave North DANGER!</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path22"
+   cx="939.90"
+   cy="1574.59"
+   r="25"><desc
+     id="desc22">scene=CrashMountainRegion x=598.73 y=334.18 z=973.64
+Andre's Peak, Polaroid Vista</desc><title
+     id="title22">Andre's Peak, Polaroid Vista</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path23"
+   cx="1317.326"
+   cy="1726.9515"
+   r="25"><desc
+     id="desc23">scene=CrashMountainRegion x=856.37 y=218.71 z=855.55
+Bear cave North of Crystal Lake (safe)</desc><title
+     id="title23">Bear cave North of Crystal Lake (safe)</title></circle>	 
 	   </g></svg>

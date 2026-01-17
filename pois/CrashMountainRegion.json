@@ -178,5 +178,32 @@
     "svgX": 1833.871,
     "svgY": 981.20953,
     "label": "Cave B entrance"
+  },
+  {
+    "scene": "CrashMountainRegion",
+    "x": 1142.03,
+    "y": 254.18,
+    "z": 1773.82,
+    "svgX": 1713.6862,
+    "svgY": 409.25943,
+    "label": "Bear cave North DANGER!"
+  },
+  {
+    "scene": "CrashMountainRegion",
+    "x": 598.73,
+    "y": 334.18,
+    "z": 973.64,
+    "svgX": 939.9,
+    "svgY": 1574.59,
+    "label": "Andre\u0027s Peak, Polaroid Vista"
+  },
+  {
+    "scene": "CrashMountainRegion",
+    "x": 856.37,
+    "y": 218.71,
+    "z": 855.55,
+    "svgX": 1317.326,
+    "svgY": 1726.9515,
+    "label": "Bear cave North of Crystal Lake (safe)"
   }
 ]

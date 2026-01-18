@@ -111,6 +111,10 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/miningregionmine.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/miningregionmine.jpg"
     },
+    "MineTransitionZone": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/minetransitionzone.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/minetransitionzone.png"
+    },	
     "MiningRegion": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/miningregion_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/miningregion_hard.jpg"

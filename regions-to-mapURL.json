@@ -159,5 +159,9 @@
     "WhalingMine": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/whalingmine.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/whalingmine.png"
-    }	
+    },
+    "WorldMap": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/worldmap.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/worldmap.png"
+    }
 }

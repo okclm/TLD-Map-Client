@@ -1,0 +1,15 @@
+{
+  "region": "BlackrockTransitionZone",
+  "affineMatrix": {
+    "A": -1.5640645604610817,
+    "B": 0.04534448166035282,
+    "Tx": 1812.06980249253,
+    "C": 0.033801669650284936,
+    "D": 1.4867623663688745,
+    "Ty": 540.1625314244932
+  },
+  "generatedAt": "2026-01-18T11:39:25.4904052-06:00",
+  "calibPointCount": 4,
+  "layerOffsetX": 0,
+  "layerOffsetY": 0
+}

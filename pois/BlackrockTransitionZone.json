@@ -1,0 +1,38 @@
+[
+  {
+    "scene": "BlackrockTransitionZone",
+    "x": 754.45,
+    "y": 291.45,
+    "z": 412.61,
+    "svgX": 649.26776,
+    "svgY": 1179.3582,
+    "label": "Exit to Keeper\u0027s South transition cave"
+  },
+  {
+    "scene": "BlackrockTransitionZone",
+    "x": 759.8,
+    "y": 244.62,
+    "z": -162.58,
+    "svgX": 635.71936,
+    "svgY": 321.01736,
+    "label": "Forester\u0027s Hermitage"
+  },
+  {
+    "scene": "BlackrockTransitionZone",
+    "x": 445.38,
+    "y": 187.8,
+    "z": -147.83,
+    "svgX": 1074.6285,
+    "svgY": 340.90152,
+    "label": "Shallow cave bottom of ravine"
+  },
+  {
+    "scene": "BlackrockTransitionZone",
+    "x": 98.43,
+    "y": 252.63,
+    "z": -78.34,
+    "svgX": 1670.8068,
+    "svgY": 424.41306,
+    "label": "Exit to Blackrock"
+  }
+]

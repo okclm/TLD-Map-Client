@@ -161,7 +161,7 @@
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/whalingmine.png"
     },
     "WorldMap": {
-        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/worldmap.png",
-        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/worldmap.png"
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/worldmap.jpg",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/worldmap.jpg"
     }
 }

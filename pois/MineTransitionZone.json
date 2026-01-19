@@ -1,0 +1,56 @@
+[
+  {
+    "scene": "MineTransitionZone",
+    "x": -119.13,
+    "y": -80,
+    "z": 281.42,
+    "svgX": 917.08472,
+    "svgY": 490.41354,
+    "label": "Salt deposit"
+  },
+  {
+    "scene": "MineTransitionZone",
+    "x": -144.39,
+    "y": -80.92,
+    "z": 327.06,
+    "svgX": 738.97174,
+    "svgY": 48.472168,
+    "label": "Exit to Coastal Highway"
+  },
+  {
+    "scene": "MineTransitionZone",
+    "x": -181.32,
+    "y": -56.53,
+    "z": 178.35,
+    "svgX": 389.26215,
+    "svgY": 416.72775,
+    "label": "Coal spawn #2"
+  },
+  {
+    "scene": "MineTransitionZone",
+    "x": -174.43,
+    "y": -47.64,
+    "z": 239.99,
+    "svgX": 382.74585,
+    "svgY": 148.55524,
+    "label": "Coal spawn #1"
+  },
+  {
+    "scene": "MineTransitionZone",
+    "x": 42.61,
+    "y": 0.99,
+    "z": 73.9,
+    "svgX": 672.72241,
+    "svgY": 1223.8323,
+    "label": "Exit to Coastal Highway"
+  },
+  {
+    "scene": "MineTransitionZone",
+    "x": -92.54,
+    "y": -5.17,
+    "z": -63.09,
+    "svgX": 1972.7299,
+    "svgY": 1519.3221,
+    "label": "Exit to Pleasant Valley"
+  }
+]

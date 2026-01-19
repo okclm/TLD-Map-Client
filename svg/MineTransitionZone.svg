@@ -26,7 +26,7 @@
      inkscape:document-units="px"
      inkscape:zoom="0.92076392"
      inkscape:cx="1084.4256"
-     inkscape:cy="565.29148"
+     inkscape:cy="1347.2509"
      inkscape:window-width="2560"
      inkscape:window-height="1377"
      inkscape:window-x="5112"
@@ -117,5 +117,68 @@ Exit to Coastal Highway</desc>
 Exit to Pleasant Valley</desc>
 <title
    id="title6">Exit to Pleasant Valley</title>
-</circle>   
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path7"
+   cx="1639.0038"
+   cy="1535.3716"
+   r="25"><desc
+     id="desc7">scene=MineTransitionZone x=-67.02 y=-15.32 z=-24.00
+Atrium from tunnel wooden horseshoe platform South</desc><title
+     id="title7">Atrium from tunnel wooden horseshoe platform South</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path8"
+   cx="1574.7542"
+   cy="1533.3585"
+   r="25"><desc
+     id="desc8">scene=MineTransitionZone x=-63.10 y=-15.32 z=-16.20
+Atrium from tunnel</desc><title
+     id="title8">Atrium from tunnel</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path9"
+   cx="1517.3599"
+   cy="1416.7485"
+   r="25"><desc
+     id="desc9">scene=MineTransitionZone x=-31.00 y=-20.46 z=-9.83
+Fence coal spawn</desc><title
+     id="title9">Fence coal spawn</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path10"
+   cx="1260.6525"
+   cy="1538.1525"
+   r="25"><desc
+     id="desc10">scene=MineTransitionZone x=-40.95 y=-16.21 z=28.72
+Atrium workbench and lockers</desc><title
+     id="title10">Atrium workbench and lockers</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path11"
+   cx="1004.5801"
+   cy="1622.4741"
+   r="25"><desc
+     id="desc11">scene=MineTransitionZone x=-28.98 y=-14.04 z=66.42
+Wooden planks</desc><title
+     id="title11">Wooden planks</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path12"
+   cx="954.94977"
+   cy="1403.816"
+   r="25"><desc
+     id="desc12">scene=MineTransitionZone x=2.84 y=-9.31 z=56.83
+Deadend corpse and coal</desc><title
+     id="title12">Deadend corpse and coal</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path13"
+   cx="1158.025"
+   cy="1402.0088"
+   r="25"><desc
+     id="desc13">scene=MineTransitionZone x=-12.79 y=-5.64 z=30.01
+Fenced in storage area</desc><title
+     id="title13">Fenced in storage area</title></circle>
 	   </g></svg>

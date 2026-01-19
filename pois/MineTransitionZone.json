@@ -52,5 +52,68 @@
     "svgX": 1972.7299,
     "svgY": 1519.3221,
     "label": "Exit to Pleasant Valley"
+  },
+  {
+    "scene": "MineTransitionZone",
+    "x": -67.02,
+    "y": -15.32,
+    "z": -24,
+    "svgX": 1639.0038,
+    "svgY": 1535.3716,
+    "label": "Atrium from tunnel wooden horseshoe platform South"
+  },
+  {
+    "scene": "MineTransitionZone",
+    "x": -63.1,
+    "y": -15.32,
+    "z": -16.2,
+    "svgX": 1574.7542,
+    "svgY": 1533.3585,
+    "label": "Atrium from tunnel"
+  },
+  {
+    "scene": "MineTransitionZone",
+    "x": -31,
+    "y": -20.46,
+    "z": -9.83,
+    "svgX": 1517.3599,
+    "svgY": 1416.7485,
+    "label": "Fence coal spawn"
+  },
+  {
+    "scene": "MineTransitionZone",
+    "x": -40.95,
+    "y": -16.21,
+    "z": 28.72,
+    "svgX": 1260.6525,
+    "svgY": 1538.1525,
+    "label": "Atrium workbench and lockers"
+  },
+  {
+    "scene": "MineTransitionZone",
+    "x": -28.98,
+    "y": -14.04,
+    "z": 66.42,
+    "svgX": 1004.5801,
+    "svgY": 1622.4741,
+    "label": "Wooden planks"
+  },
+  {
+    "scene": "MineTransitionZone",
+    "x": 2.84,
+    "y": -9.31,
+    "z": 56.83,
+    "svgX": 954.94977,
+    "svgY": 1403.816,
+    "label": "Deadend corpse and coal"
+  },
+  {
+    "scene": "MineTransitionZone",
+    "x": -12.79,
+    "y": -5.64,
+    "z": 30.01,
+    "svgX": 1158.025,
+    "svgY": 1402.0088,
+    "label": "Fenced in storage area"
   }
 ]

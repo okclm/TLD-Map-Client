@@ -1,0 +1,15 @@
+{
+  "region": "MineTransitionZone_CHtoPV",
+  "affineMatrix": {
+    "A": -3.8070620078475135,
+    "B": -5.537407902824704,
+    "Tx": 645.574632807131,
+    "C": -5.631430447620832,
+    "D": 3.3364885794299988,
+    "Ty": 229.18339114158283
+  },
+  "generatedAt": "2026-01-20T15:42:58.0423864-06:00",
+  "calibPointCount": 9,
+  "layerOffsetX": 0,
+  "layerOffsetY": 0
+}

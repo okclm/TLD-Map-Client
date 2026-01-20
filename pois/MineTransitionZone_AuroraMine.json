@@ -1,0 +1,38 @@
+[
+  {
+    "scene": "MineTransitionZone",
+    "x": -119.13,
+    "y": -80,
+    "z": 281.42,
+    "svgX": 1644.1006,
+    "svgY": 462.08478,
+    "label": "Salt deposit"
+  },
+  {
+    "scene": "MineTransitionZone",
+    "x": -144.39,
+    "y": -80.92,
+    "z": 327.06,
+    "svgX": 1416.8181,
+    "svgY": 66.12442,
+    "label": "Exit to Coastal Highway"
+  },
+  {
+    "scene": "MineTransitionZone",
+    "x": -181.32,
+    "y": -56.53,
+    "z": 178.35,
+    "svgX": 740.54193,
+    "svgY": 775.06842,
+    "label": "Coal spawn #2"
+  },
+  {
+    "scene": "MineTransitionZone",
+    "x": -174.43,
+    "y": -47.64,
+    "z": 239.99,
+    "svgX": 748.14746,
+    "svgY": 300.36459,
+    "label": "Coal spawn #1"
+  }
+]

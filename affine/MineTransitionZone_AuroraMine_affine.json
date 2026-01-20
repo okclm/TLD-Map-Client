@@ -1,0 +1,15 @@
+{
+  "region": "MineTransitionZone_AuroraMine",
+  "affineMatrix": {
+    "A": 14.04119343616436,
+    "B": 1.1133269148653602,
+    "Tx": 3025.427901622864,
+    "C": 6.622220025280957,
+    "D": -6.369206551329112,
+    "Ty": 3061.1532690228746
+  },
+  "generatedAt": "2026-01-20T15:50:18.3830421-06:00",
+  "calibPointCount": 4,
+  "layerOffsetX": 0,
+  "layerOffsetY": 0
+}

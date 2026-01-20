@@ -1,0 +1,15 @@
+{
+  "region": "HighwayMineTransitionZone",
+  "affineMatrix": {
+    "A": 8.47480050908812,
+    "B": -1.2091856331802606,
+    "Tx": 1053.9028199999332,
+    "C": 0.20228258151521317,
+    "D": -8.170189552689765,
+    "Ty": 176.9768145315248
+  },
+  "generatedAt": "2026-01-20T16:37:07.2906286-06:00",
+  "calibPointCount": 10,
+  "layerOffsetX": 0,
+  "layerOffsetY": 0
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "scene": "HighwayMineTransitionZone",
+    "x": -114.3,
+    "y": 0.91,
+    "z": -12.52,
+    "svgX": 55.755371,
+    "svgY": 257.58774,
+    "label": "Exit to Crumbling Highway"
+  },
+  {
+    "scene": "HighwayMineTransitionZone",
+    "x": 1.3,
+    "y": -18.52,
+    "z": -14.21,
+    "svgX": 1082.3116,
+    "svgY": 274.45312,
+    "label": "Exit to Desolation Point"
+  },
+  {
+    "scene": "HighwayMineTransitionZone",
+    "x": -63.66,
+    "y": -5.61,
+    "z": -21.05,
+    "svgX": 532.78839,
+    "svgY": 337.22736,
+    "label": "Atrium with workbench, container"
+  },
+  {
+    "scene": "HighwayMineTransitionZone",
+    "x": -76.72,
+    "y": -3.28,
+    "z": 0.48,
+    "svgX": 433.89697,
+    "svgY": 151.43037,
+    "label": "Coal nearest to Crumbling Highway Exit"
+  },
+  {
+    "scene": "HighwayMineTransitionZone",
+    "x": -51.77,
+    "y": -5.63,
+    "z": 8.29,
+    "svgX": 635.35107,
+    "svgY": 101.06542,
+    "label": "Coal North Turn"
+  },
+  {
+    "scene": "HighwayMineTransitionZone",
+    "x": -51.33,
+    "y": -5.93,
+    "z": -0.06,
+    "svgX": 633.46509,
+    "svgY": 166.05397,
+    "label": "Salt"
+  },
+  {
+    "scene": "HighwayMineTransitionZone",
+    "x": -80.29,
+    "y": -7.81,
+    "z": -34.34,
+    "svgX": 409.99551,
+    "svgY": 429.14139,
+    "label": "Coal by fence"
+  },
+  {
+    "scene": "HighwayMineTransitionZone",
+    "x": -77.04,
+    "y": -13.34,
+    "z": -58.55,
+    "svgX": 514.30194,
+    "svgY": 643.59827,
+    "label": "Coal by crouch spot"
+  },
+  {
+    "scene": "HighwayMineTransitionZone",
+    "x": -37.83,
+    "y": -16.21,
+    "z": -30.51,
+    "svgX": 729.3443,
+    "svgY": 429.91678,
+    "label": "Atrium closest to Desolation Point Exit"
+  },
+  {
+    "scene": "HighwayMineTransitionZone",
+    "x": -21.64,
+    "y": -20.38,
+    "z": -4.94,
+    "svgX": 855.81409,
+    "svgY": 231.1006,
+    "label": "Coal at Fence closest to Desolation Point Exit"
+  }
+]

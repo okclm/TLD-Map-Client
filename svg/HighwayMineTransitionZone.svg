@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1488"
+   height="816"
+   viewBox="0 0 1488 816"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="HighwayMineTransitionZone.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="1.2829301"
+     inkscape:cx="744"
+     inkscape:cy="470.40754"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="5112"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showgrid="false" /><defs
+     id="defs1" /><g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"><image
+   width="1488"
+   height="816"
+   preserveAspectRatio="xMidYMid"
+   xlink:href="../Mods/TLD-Map-Client/images/highwayminetransitionzone.png"
+   id="image1"
+   x="0"
+   y="0"
+   sodipodi:insensitive="true" />
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path1"
+   cx="55.755371"
+   cy="257.58774"
+   r="25">
+<desc
+   id="desc1">scene=HighwayMineTransitionZone x=-114.30 y=0.91 z=-12.52
+Exit to Crumbling Highway</desc>
+<title
+   id="title1">Exit to Crumbling Highway</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path10"
+   cx="1082.3116"
+   cy="274.45312"
+   r="25">
+<desc
+   id="desc2">scene=HighwayMineTransitionZone x=1.30 y=-18.52 z=-14.21
+Exit to Desolation Point</desc>
+<title
+   id="title2">Exit to Desolation Point</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path5"
+   cx="532.78839"
+   cy="337.22736"
+   r="25">
+<desc
+   id="desc3">scene=HighwayMineTransitionZone x=-63.66 y=-5.61 z=-21.05
+Atrium with workbench, container</desc>
+<title
+   id="title3">Atrium with workbench, container</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path2"
+   cx="433.89697"
+   cy="151.43037"
+   r="25"><desc
+     id="desc4">scene=HighwayMineTransitionZone x=-76.72 y=-3.28 z=0.48
+Coal nearest to Crumbling Highway Exit</desc><title
+     id="title4">Coal nearest to Crumbling Highway Exit</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path3"
+   cx="635.35107"
+   cy="101.06542"
+   r="25"><desc
+     id="desc5">scene=HighwayMineTransitionZone x=-51.77 y=-5.63 z=8.29
+Coal North Turn</desc><title
+     id="title5">Coal North Turn</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path4"
+   cx="633.46509"
+   cy="166.05397"
+   r="25"><desc
+     id="desc6">scene=HighwayMineTransitionZone x=-51.33 y=-5.93 z=-0.06
+Salt</desc><title
+     id="title6">Salt</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path6"
+   cx="409.99551"
+   cy="429.14139"
+   r="25"><desc
+     id="desc7">scene=HighwayMineTransitionZone x=-80.29 y=-7.81 z=-34.34
+Coal by fence</desc><title
+     id="title7">Coal by fence</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path7"
+   cx="514.30194"
+   cy="643.59827"
+   r="25"><desc
+     id="desc8">scene=HighwayMineTransitionZone x=-77.04 y=-13.34 z=-58.55
+Coal by crouch spot</desc><title
+     id="title8">Coal by crouch spot</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path8"
+   cx="729.3443"
+   cy="429.91678"
+   r="25"><desc
+     id="desc9">scene=HighwayMineTransitionZone x=-37.83 y=-16.21 z=-30.51
+Atrium closest to Desolation Point Exit</desc><title
+     id="title9">Atrium closest to Desolation Point Exit</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path9"
+   cx="855.81409"
+   cy="231.1006"
+   r="25"><desc
+     id="desc10">scene=HighwayMineTransitionZone x=-21.64 y=-20.38 z=-4.94
+Coal at Fence closest to Desolation Point Exit</desc><title
+     id="title10">Coal at Fence closest to Desolation Point Exit</title></circle>
+	   </g></svg>

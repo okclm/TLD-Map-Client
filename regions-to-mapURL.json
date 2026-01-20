@@ -114,6 +114,14 @@
     "MineTransitionZone": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/minetransitionzone.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/minetransitionzone.png"
+    },
+    "MineTransitionZone_CHtoPV": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/minetransitionzone_chtopv.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/minetransitionzone_chtopv.png"
+    },
+    "MineTransitionZone_AuroraMine": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/minetransitionzone_auroramine.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/minetransitionzone_auroramine.png"
     },	
     "MiningRegion": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/miningregion_easy.jpg",

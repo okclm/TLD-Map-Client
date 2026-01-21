@@ -1,0 +1,38 @@
+[
+  {
+    "scene": "WhalingMine",
+    "x": -54.12,
+    "y": -18.59,
+    "z": -15.07,
+    "svgX": 1083.8706,
+    "svgY": 274.73599,
+    "label": "Exit near Hibernia"
+  },
+  {
+    "scene": "WhalingMine",
+    "x": -36.07,
+    "y": -16.21,
+    "z": 24.53,
+    "svgX": 726.09589,
+    "svgY": 434.75485,
+    "label": "Atrium closest to Hibernia Exit"
+  },
+  {
+    "scene": "WhalingMine",
+    "x": 2.73,
+    "y": -9.21,
+    "z": 57.16,
+    "svgX": 334.02463,
+    "svgY": 443.55734,
+    "label": "Salt"
+  },
+  {
+    "scene": "WhalingMine",
+    "x": -4.59,
+    "y": -5.61,
+    "z": 29.33,
+    "svgX": 498.49188,
+    "svgY": 254.37556,
+    "label": "Exit near Stone Church"
+  }
+]

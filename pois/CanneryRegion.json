@@ -76,8 +76,8 @@
     "x": 168.26,
     "y": 30.02,
     "z": -433.39,
-    "svgX": 2326.7336,
-    "svgY": 2867.7456,
+    "svgX": 2332.9341,
+    "svgY": 2866.5056,
     "label": "Cannery Worker Residencies Cabin"
   },
   {
@@ -103,8 +103,8 @@
     "x": 325.75,
     "y": 24.57,
     "z": -764.68,
-    "svgX": 2556.8542,
-    "svgY": 3371.9512,
+    "svgX": 2559.3345,
+    "svgY": 3374.4314,
     "label": "Fishing Hut SouthEast"
   },
   {
@@ -139,8 +139,8 @@
     "x": -415.28,
     "y": 26.02,
     "z": -579.63,
-    "svgX": 1488.1415,
-    "svgY": 3079.4551,
+    "svgX": 1491.2417,
+    "svgY": 3076.3547,
     "label": "Salt Deposit Under Dock closer to workshop"
   },
   {
@@ -151,5 +151,131 @@
     "svgX": 2049.1018,
     "svgY": 2000.8481,
     "label": "Cars parked at Echo One Radio Tower (memento)"
+  },
+  {
+    "scene": "CanneryRegion",
+    "x": -1031.38,
+    "y": 56.53,
+    "z": 102.95,
+    "svgX": 474.28571,
+    "svgY": 2065.491,
+    "label": "Hunter\u0027s Blind near Coastal Highway Terminus"
+  },
+  {
+    "scene": "CanneryRegion",
+    "x": -980.95,
+    "y": 63.57,
+    "z": 434.59,
+    "svgX": 627.32501,
+    "svgY": 1576.5713,
+    "label": "West Cave"
+  },
+  {
+    "scene": "CanneryRegion",
+    "x": -573.67,
+    "y": 84.92,
+    "z": 710.36,
+    "svgX": 1207.27,
+    "svgY": 1117.85,
+    "label": "Hunter\u0027s Blind North"
+  },
+  {
+    "scene": "CanneryRegion",
+    "x": -365.03,
+    "y": 58.04,
+    "z": 412.09,
+    "svgX": 1518.02,
+    "svgY": 1574.46,
+    "label": "Hunter\u0027s Blind Central"
+  },
+  {
+    "scene": "CanneryRegion",
+    "x": -639.24,
+    "y": 35.56,
+    "z": -75.23,
+    "svgX": 1115.36,
+    "svgY": 2323.8,
+    "label": "Washed Out Trailers"
+  },
+  {
+    "scene": "CanneryRegion",
+    "x": -746.28,
+    "y": 36.48,
+    "z": -391.66,
+    "svgX": 917.46704,
+    "svgY": 2821.1409,
+    "label": "Southwest Trailers"
+  },
+  {
+    "scene": "CanneryRegion",
+    "x": -470.65,
+    "y": 32.68,
+    "z": -499.3,
+    "svgX": 1354.019,
+    "svgY": 2980.5005,
+    "label": "Cannery Trailer"
+  },
+  {
+    "scene": "CanneryRegion",
+    "x": -389.93,
+    "y": 31.89,
+    "z": -597.22,
+    "svgX": 1483.4297,
+    "svgY": 3127.8604,
+    "label": "Keypad Room"
+  },
+  {
+    "scene": "CanneryRegion",
+    "x": -235.8,
+    "y": 49.98,
+    "z": -380.58,
+    "svgX": 1775.2344,
+    "svgY": 2759.2178,
+    "label": "West Car on bridge"
+  },
+  {
+    "scene": "CanneryRegion",
+    "x": -75.25,
+    "y": 49.97,
+    "z": -311.39,
+    "svgX": 1936.7589,
+    "svgY": 2689.3804,
+    "label": "East Car on bridge"
+  },
+  {
+    "scene": "CanneryRegion",
+    "x": -797.01,
+    "y": 52.14,
+    "z": -312.86,
+    "svgX": 881.54987,
+    "svgY": 2703.5811,
+    "label": "Truck with lockbox near Coastal Highway Terminus"
+  },
+  {
+    "scene": "CanneryRegion",
+    "x": -68.94,
+    "y": 138.2,
+    "z": 24.04,
+    "svgX": 1951.3395,
+    "svgY": 2182.0208,
+    "label": "Echo One radio hut"
+  },
+  {
+    "scene": "CanneryRegion",
+    "x": 532.16,
+    "y": 274.06,
+    "z": 755.76,
+    "svgX": 2839.9297,
+    "svgY": 1089.3434,
+    "label": "Northeast Cave near Prepper\u0027s Cache"
+  },
+  {
+    "scene": "CanneryRegion",
+    "x": 328.98,
+    "y": 343.02,
+    "z": 831.65,
+    "svgX": 2635.4465,
+    "svgY": 967.77295,
+    "label": "Prepper\u0027s Cache"
   }
 ]

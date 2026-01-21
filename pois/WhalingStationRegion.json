@@ -69,7 +69,7 @@
     "z": 1583.52,
     "svgX": 1507.8853,
     "svgY": 300.73938,
-    "label": "Salt deposit Bear cave DANGER!"
+    "label": "Salt deposit Bear cave DANGER! (safe?)"
   },
   {
     "scene": "WhalingStationRegion",
@@ -79,5 +79,23 @@
     "svgX": 971.44531,
     "svgY": 1026.1256,
     "label": "Stone Church"
+  },
+  {
+    "scene": "WhalingStationRegion",
+    "x": 427.52,
+    "y": 42.49,
+    "z": 1124.89,
+    "svgX": 743.19647,
+    "svgY": 978.40955,
+    "label": "Abandoned Coal Mine Entrance near Stone Church"
+  },
+  {
+    "scene": "WhalingStationRegion",
+    "x": 790.24,
+    "y": 45.12,
+    "z": 1421.51,
+    "svgX": 1302.8065,
+    "svgY": 527.27783,
+    "label": "Abandoned Coal Mine Entrance near Hibernia"
   }
 ]

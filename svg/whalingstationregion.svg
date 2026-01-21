@@ -24,9 +24,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
-     inkscape:zoom="0.45447252"
-     inkscape:cx="1244.2996"
-     inkscape:cy="1246.5"
+     inkscape:zoom="1.8178901"
+     inkscape:cx="1313.3357"
+     inkscape:cy="627.37567"
      inkscape:window-width="2560"
      inkscape:window-height="1377"
      inkscape:window-x="5112"
@@ -138,4 +138,23 @@ Salt deposit Bear cave DANGER! (safe?)</desc><title
    r="25"><desc
      id="desc9">scene=WhalingStationRegion x=560.56 y=63.28 z=1098.74
 Stone Church</desc><title
-     id="title9">Stone Church</title></circle></g></svg>
+     id="title9">Stone Church</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path10"
+   cx="743.19647"
+   cy="978.40955"
+   r="25"><desc
+     id="desc10">scene=WhalingStationRegion x=427.52 y=42.49 z=1124.89
+Abandoned Coal Mine Entrance near Stone Church</desc><title
+     id="title10">Abandoned Coal Mine Entrance near Stone Church</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path11"
+   cx="1302.8065"
+   cy="527.27783"
+   r="25"><desc
+     id="desc11">scene=WhalingStationRegion x=790.24 y=45.12 z=1421.51
+Abandoned Coal Mine Entrance near Hibernia</desc><title
+     id="title11">Abandoned Coal Mine Entrance near Hibernia</title></circle>	 
+	 </g></svg>

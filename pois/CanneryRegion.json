@@ -1,0 +1,155 @@
+[
+  {
+    "scene": "CanneryRegion",
+    "x": -972.97,
+    "y": 36.26,
+    "z": -748.5,
+    "svgX": 630.61511,
+    "svgY": 3365.2766,
+    "label": "Far West island cave."
+  },
+  {
+    "scene": "CanneryRegion",
+    "x": -358.33,
+    "y": 31.95,
+    "z": -527.18,
+    "svgX": 1504.6453,
+    "svgY": 3018.0012,
+    "label": "Employee Cafeteria"
+  },
+  {
+    "scene": "CanneryRegion",
+    "x": 679.22,
+    "y": 105.54,
+    "z": 420.32,
+    "svgX": 3092.22,
+    "svgY": 1558.6178,
+    "label": "Cabin Northeast"
+  },
+  {
+    "scene": "CanneryRegion",
+    "x": 228.66,
+    "y": 344.49,
+    "z": 963.16,
+    "svgX": 2405.2053,
+    "svgY": 730.13062,
+    "label": "Exit to Ravine"
+  },
+  {
+    "scene": "CanneryRegion",
+    "x": -247.26,
+    "y": 119.28,
+    "z": 882.04,
+    "svgX": 1677.2729,
+    "svgY": 849.97205,
+    "label": "Exit to Forlorn Muskeg"
+  },
+  {
+    "scene": "CanneryRegion",
+    "x": 299.21,
+    "y": 239.21,
+    "z": 350.42,
+    "svgX": 2527.4832,
+    "svgY": 1656.6006,
+    "label": "Pensive Lookout"
+  },
+  {
+    "scene": "CanneryRegion",
+    "x": 75.06,
+    "y": 83.32,
+    "z": -917.76,
+    "svgX": 2157.8523,
+    "svgY": 3598.7224,
+    "label": "Lighthouse"
+  },
+  {
+    "scene": "CanneryRegion",
+    "x": 109.24,
+    "y": 24.65,
+    "z": -460.84,
+    "svgX": 2252.7808,
+    "svgY": 2921.4048,
+    "label": "Fishing Hut Cannery Worker Residencies"
+  },
+  {
+    "scene": "CanneryRegion",
+    "x": 168.26,
+    "y": 30.02,
+    "z": -433.39,
+    "svgX": 2326.7336,
+    "svgY": 2867.7456,
+    "label": "Cannery Worker Residencies Cabin"
+  },
+  {
+    "scene": "CanneryRegion",
+    "x": 166.63,
+    "y": 31.05,
+    "z": -364.82,
+    "svgX": 2348.9631,
+    "svgY": 2744.0112,
+    "label": "Coal spawn - Cannery Worker Residencies Destroyed Cabin"
+  },
+  {
+    "scene": "CanneryRegion",
+    "x": 514.13,
+    "y": 42,
+    "z": -513.38,
+    "svgX": 2755.4214,
+    "svgY": 3010.2036,
+    "label": "SouthEast Bear Cave with salt spawn DANGER!"
+  },
+  {
+    "scene": "CanneryRegion",
+    "x": 325.75,
+    "y": 24.57,
+    "z": -764.68,
+    "svgX": 2556.8542,
+    "svgY": 3371.9512,
+    "label": "Fishing Hut SouthEast"
+  },
+  {
+    "scene": "CanneryRegion",
+    "x": -38.11,
+    "y": 102.38,
+    "z": 501.72,
+    "svgX": 1986.4293,
+    "svgY": 1430.8988,
+    "label": "Bunker Alpha"
+  },
+  {
+    "scene": "CanneryRegion",
+    "x": -55.66,
+    "y": 55.66,
+    "z": 268.42,
+    "svgX": 1930.8718,
+    "svgY": 1778.7562,
+    "label": "Salt deposit Cave North of Radio Tower and South of Alpha Bunker"
+  },
+  {
+    "scene": "CanneryRegion",
+    "x": -353.98,
+    "y": 25.67,
+    "z": -528.42,
+    "svgX": 1550.1309,
+    "svgY": 3037.9229,
+    "label": "Salt Deposit Under Cafeteria Dock"
+  },
+  {
+    "scene": "CanneryRegion",
+    "x": -415.28,
+    "y": 26.02,
+    "z": -579.63,
+    "svgX": 1488.1415,
+    "svgY": 3079.4551,
+    "label": "Salt Deposit Under Dock closer to workshop"
+  },
+  {
+    "scene": "CanneryRegion",
+    "x": 3.16,
+    "y": 123.37,
+    "z": 147.17,
+    "svgX": 2049.1018,
+    "svgY": 2000.8481,
+    "label": "Cars parked at Echo One Radio Tower (memento)"
+  }
+]

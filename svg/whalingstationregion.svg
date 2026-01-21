@@ -26,7 +26,7 @@
      inkscape:document-units="px"
      inkscape:zoom="1.8178901"
      inkscape:cx="1313.3357"
-     inkscape:cy="627.37567"
+     inkscape:cy="407.34036"
      inkscape:window-width="2560"
      inkscape:window-height="1377"
      inkscape:window-x="5112"
@@ -156,5 +156,15 @@ Abandoned Coal Mine Entrance near Stone Church</desc><title
    r="25"><desc
      id="desc11">scene=WhalingStationRegion x=790.24 y=45.12 z=1421.51
 Abandoned Coal Mine Entrance near Hibernia</desc><title
-     id="title11">Abandoned Coal Mine Entrance near Hibernia</title></circle>	 
+     id="title11">Abandoned Coal Mine Entrance near Hibernia</title></circle>
+	 
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="circle12"
+   cx="1440.0918"
+   cy="315.61176"
+   r="25"><desc
+     id="desc12">scene=WhalingStationRegion x=900.60 y=47.41 z=1578.20
+Bear Cave ledge (safe)</desc><title
+     id="title12">Bear Cave ledge (safe)</title></circle>	 
 	 </g></svg>

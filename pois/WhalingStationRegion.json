@@ -97,5 +97,14 @@
     "svgX": 1302.8065,
     "svgY": 527.27783,
     "label": "Abandoned Coal Mine Entrance near Hibernia"
+  },
+  {
+    "scene": "WhalingStationRegion",
+    "x": 900.6,
+    "y": 47.41,
+    "z": 1578.2,
+    "svgX": 1440.0918,
+    "svgY": 315.61176,
+    "label": "Bear Cave ledge (safe)"
   }
 ]

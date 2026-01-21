@@ -106,5 +106,14 @@
     "svgX": 1440.0918,
     "svgY": 315.61176,
     "label": "Bear Cave ledge (safe)"
+  },
+  {
+    "scene": "WhalingStationRegion",
+    "x": 178.58,
+    "y": 87.48,
+    "z": 969.91,
+    "svgX": 397.45319,
+    "svgY": 1258.3079,
+    "label": "Katie\u0027s Secluded Corner"
   }
 ]

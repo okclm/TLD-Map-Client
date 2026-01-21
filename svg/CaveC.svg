@@ -26,7 +26,7 @@
      inkscape:document-units="px"
      inkscape:zoom="1.2829301"
      inkscape:cx="619.28549"
-     inkscape:cy="345.69304"
+     inkscape:cy="470.40755"
      inkscape:window-width="2560"
      inkscape:window-height="1377"
      inkscape:window-x="5112"
@@ -49,8 +49,8 @@
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path1"
-   cx="1093.9347"
-   cy="141.26404"
+   cx="1094.5752"
+   cy="139.19426"
    r="25"><desc
      id="desc1">scene=CaveC x=29.94 y=3.19 z=19.91
 Exit to Desolation Point</desc><title
@@ -58,8 +58,8 @@ Exit to Desolation Point</desc><title
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path2"
-   cx="495.46"
-   cy="704.00"
+   cx="500.06"
+   cy="694.34"
    r="25"><desc
      id="desc2">scene=CaveC x=-18.19 y=6.72 z=-51.93
 Salt deposit (Wolf DANGER!)</desc><title
@@ -67,8 +67,8 @@ Salt deposit (Wolf DANGER!)</desc><title
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path3"
-   cx="453.95749"
-   cy="465.64575"
+   cx="465.77"
+   cy="477.62"
    r="25"><desc
      id="desc3">scene=CaveC x=-26.68 y=11.04 z=-27.05
 Atrium ledge (safe)</desc><title
@@ -76,8 +76,8 @@ Atrium ledge (safe)</desc><title
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path4"
-   cx="277.20505"
-   cy="573.55127"
+   cx="277.16556"
+   cy="573.39172"
    r="25"><desc
      id="desc4">scene=CaveC x=-45.75 y=17.83 z=-42.99
 Overlook corpse, campfire, possible rifle (Wolf DANGER!)</desc><title
@@ -85,10 +85,19 @@ Overlook corpse, campfire, possible rifle (Wolf DANGER!)</desc><title
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path5"
-   cx="399.328"
-   cy="434.57468"
+   cx="396.3396"
+   cy="429.02771"
    r="25"><desc
      id="desc5">scene=CaveC x=-33.92 y=7.51 z=-20.00
-Alcove possible deer carcass (Wolf DANGER!)</desc><title
-     id="title5">Alcove possible deer carcass (Wolf DANGER!)</title></circle>
+Atium alcove possible deer carcass (Wolf DANGER!)</desc><title
+     id="title5">Atium alcove possible deer carcass (Wolf DANGER!)</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path6"
+   cx="605.66022"
+   cy="181.06505"
+   r="25"><desc
+     id="desc6">scene=CaveC x=-11.94 y=1.44 z=12.95
+First chamber alcove coal spawn (Wolf DANGER!)</desc><title
+     id="title6">First chamber alcove coal spawn (Wolf DANGER!)</title></circle>
 	   </g></svg>

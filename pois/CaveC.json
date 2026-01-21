@@ -4,8 +4,8 @@
     "x": 29.94,
     "y": 3.19,
     "z": 19.91,
-    "svgX": 1093.9347,
-    "svgY": 141.26404,
+    "svgX": 1094.5752,
+    "svgY": 139.19426,
     "label": "Exit to Desolation Point"
   },
   {
@@ -13,8 +13,8 @@
     "x": -18.19,
     "y": 6.72,
     "z": -51.93,
-    "svgX": 495.46,
-    "svgY": 704,
+    "svgX": 500.06,
+    "svgY": 694.34,
     "label": "Salt deposit (Wolf DANGER!)"
   },
   {
@@ -22,8 +22,8 @@
     "x": -26.68,
     "y": 11.04,
     "z": -27.05,
-    "svgX": 453.95749,
-    "svgY": 465.64575,
+    "svgX": 465.77,
+    "svgY": 477.62,
     "label": "Atrium ledge (safe)"
   },
   {
@@ -31,8 +31,8 @@
     "x": -45.75,
     "y": 17.83,
     "z": -42.99,
-    "svgX": 277.20505,
-    "svgY": 573.55127,
+    "svgX": 277.16556,
+    "svgY": 573.39172,
     "label": "Overlook corpse, campfire, possible rifle (Wolf DANGER!)"
   },
   {
@@ -40,8 +40,17 @@
     "x": -33.92,
     "y": 7.51,
     "z": -20,
-    "svgX": 399.328,
-    "svgY": 434.57468,
-    "label": "Alcove possible deer carcass (Wolf DANGER!)"
+    "svgX": 396.3396,
+    "svgY": 429.02771,
+    "label": "Atium alcove possible deer carcass (Wolf DANGER!)"
+  },
+  {
+    "scene": "CaveC",
+    "x": -11.94,
+    "y": 1.44,
+    "z": 12.95,
+    "svgX": 605.66022,
+    "svgY": 181.06505,
+    "label": "First chamber alcove coal spawn (Wolf DANGER!)"
   }
 ]

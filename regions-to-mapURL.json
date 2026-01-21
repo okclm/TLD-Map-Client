@@ -55,6 +55,10 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/canyonroadtransitionzone_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/canyonroadtransitionzone_hard.jpg"
     },
+    "CaveC": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/cavec.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/cavec.png"
+    },	
     "CoastalRegion": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/coastalregion_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/coastalregion_hard.jpg"

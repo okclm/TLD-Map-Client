@@ -49,50 +49,46 @@
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path1"
-   cx="1094.0037"
-   cy="136.77057"
-   r="25">
-<desc
-   id="desc1">scene=CaveC x=29.94 y=3.19 z=19.91
-Exit to Desolation Point</desc>
-<title
-   id="title1">Exit to Desolation Point</title>
-</circle>
+   cx="1093.9347"
+   cy="141.26404"
+   r="25"><desc
+     id="desc1">scene=CaveC x=29.94 y=3.19 z=19.91
+Exit to Desolation Point</desc><title
+     id="title1">Exit to Desolation Point</title></circle>
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path2"
-   cx="495.37402"
-   cy="704.44995"
-   r="25">
-<desc
-   id="desc2">scene=CaveC x=-18.19 y=6.72 z=-51.93
-Salt deposit</desc>
-<title
-   id="title2">Salt deposit</title>
-</circle>
+   cx="495.46"
+   cy="704.00"
+   r="25"><desc
+     id="desc2">scene=CaveC x=-18.19 y=6.72 z=-51.93
+Salt deposit (Wolf DANGER!)</desc><title
+     id="title2">Salt deposit (Wolf DANGER!)</title></circle>
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path3"
-   cx="433.79623"
-   cy="717.92932"
-   r="25">
-<desc
-   id="desc3">scene=CaveC x=-26.68 y=11.04 z=-27.05
-Scruffy's cave where salt deposit is (safe)</desc>
-<title
-   id="title3">Scruffy's cave where salt deposit is (safe)</title>
-</circle>
+   cx="453.95749"
+   cy="465.64575"
+   r="25"><desc
+     id="desc3">scene=CaveC x=-26.68 y=11.04 z=-27.05
+Atrium ledge (safe)</desc><title
+     id="title3">Atrium ledge (safe)</title></circle>
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path4"
-   cx="278.68256"
-   cy="574.73602"
-   r="25">
-<desc
-   id="desc4">scene=CaveC x=-45.75 y=17.83 z=-42.99
-Scruffy's cave where corpse at campfire is (safe?)</desc>
-<title
-   id="title4">Scruffy's cave where corpse at campfire is (safe?)</title>
-</circle>
-
+   cx="277.20505"
+   cy="573.55127"
+   r="25"><desc
+     id="desc4">scene=CaveC x=-45.75 y=17.83 z=-42.99
+Overlook corpse, campfire, possible rifle (Wolf DANGER!)</desc><title
+     id="title4">Overlook corpse, campfire, possible rifle (Wolf DANGER!)</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path5"
+   cx="399.328"
+   cy="434.57468"
+   r="25"><desc
+     id="desc5">scene=CaveC x=-33.92 y=7.51 z=-20.00
+Alcove possible deer carcass (Wolf DANGER!)</desc><title
+     id="title5">Alcove possible deer carcass (Wolf DANGER!)</title></circle>
 	   </g></svg>

@@ -1,0 +1,38 @@
+[
+  {
+    "scene": "CaveC",
+    "x": 29.94,
+    "y": 3.19,
+    "z": 19.91,
+    "svgX": 1094.0037,
+    "svgY": 136.77057,
+    "label": "Exit to Desolation Point"
+  },
+  {
+    "scene": "CaveC",
+    "x": -18.19,
+    "y": 6.72,
+    "z": -51.93,
+    "svgX": 495.37402,
+    "svgY": 704.44995,
+    "label": "Salt deposit"
+  },
+  {
+    "scene": "CaveC",
+    "x": -26.68,
+    "y": 11.04,
+    "z": -27.05,
+    "svgX": 433.79623,
+    "svgY": 717.92932,
+    "label": "Scruffy\u0027s cave where salt deposit is (safe)"
+  },
+  {
+    "scene": "CaveC",
+    "x": -45.75,
+    "y": 17.83,
+    "z": -42.99,
+    "svgX": 278.68256,
+    "svgY": 574.73602,
+    "label": "Scruffy\u0027s cave where corpse at campfire is (safe?)"
+  }
+]

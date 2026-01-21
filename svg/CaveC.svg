@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1488"
+   height="816"
+   viewBox="0 0 1488 816"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="CaveC.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="1.2829301"
+     inkscape:cx="619.28549"
+     inkscape:cy="345.69304"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="5112"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showgrid="false" /><defs
+     id="defs1" /><g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"><image
+   width="1488"
+   height="816"
+   preserveAspectRatio="xMidYMid"
+   xlink:href="../Mods/TLD-Map-Client/images/cavec.png"
+   id="image1"
+   x="0"
+   y="0"
+   sodipodi:insensitive="true" />
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path1"
+   cx="1094.0037"
+   cy="136.77057"
+   r="25">
+<desc
+   id="desc1">scene=CaveC x=29.94 y=3.19 z=19.91
+Exit to Desolation Point</desc>
+<title
+   id="title1">Exit to Desolation Point</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path2"
+   cx="495.37402"
+   cy="704.44995"
+   r="25">
+<desc
+   id="desc2">scene=CaveC x=-18.19 y=6.72 z=-51.93
+Salt deposit</desc>
+<title
+   id="title2">Salt deposit</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path3"
+   cx="433.79623"
+   cy="717.92932"
+   r="25">
+<desc
+   id="desc3">scene=CaveC x=-26.68 y=11.04 z=-27.05
+Scruffy's cave where salt deposit is (safe)</desc>
+<title
+   id="title3">Scruffy's cave where salt deposit is (safe)</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path4"
+   cx="278.68256"
+   cy="574.73602"
+   r="25">
+<desc
+   id="desc4">scene=CaveC x=-45.75 y=17.83 z=-42.99
+Scruffy's cave where corpse at campfire is (safe?)</desc>
+<title
+   id="title4">Scruffy's cave where corpse at campfire is (safe?)</title>
+</circle>
+
+	   </g></svg>

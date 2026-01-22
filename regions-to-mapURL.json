@@ -62,6 +62,10 @@
     "CaveC": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/cavec.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/cavec.png"
+    },
+    "CaveD": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/caved.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/caved.png"
     },	
     "CoastalRegion": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/coastalregion_easy.jpg",

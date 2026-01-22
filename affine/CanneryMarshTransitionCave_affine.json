@@ -1,0 +1,15 @@
+{
+  "region": "CanneryMarshTransitionCave",
+  "affineMatrix": {
+    "A": 5.908607187511899,
+    "B": -0.3651021386710872,
+    "Tx": 849.3797344210046,
+    "C": 0.4112434092971049,
+    "D": -5.329901407061247,
+    "Ty": 296.68341683449216
+  },
+  "generatedAt": "2026-01-22T04:25:09.4953651-06:00",
+  "calibPointCount": 10,
+  "layerOffsetX": 0,
+  "layerOffsetY": 0
+}

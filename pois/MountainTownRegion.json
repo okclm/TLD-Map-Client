@@ -78,7 +78,7 @@
     "z": 1750.1,
     "svgX": 2694.6216,
     "svgY": 1191.6689,
-    "label": "Cave entrance near Prepper\u0027s Cache to Spruce Falls Bridge (Bear) DANGER!"
+    "label": "Cave entrance near Prepper\u0027s Cache to Spruce Falls Bridge"
   },
   {
     "scene": "MountainTownRegion",
@@ -87,7 +87,7 @@
     "z": 1866.43,
     "svgX": 2546.4287,
     "svgY": 1033.1104,
-    "label": "Cave entrance near Spruce Falls Bridge (Bear) to Prepper\u0027s Cache"
+    "label": "Cave entrance near Spruce Falls Bridge to Prepper\u0027s Cache (Bear) DANGER!"
   },
   {
     "scene": "MountainTownRegion",

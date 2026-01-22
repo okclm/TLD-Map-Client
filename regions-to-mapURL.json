@@ -47,10 +47,14 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/blackrocktransitionzone_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/blackrocktransitionzone_hard.jpg"
     },
+    "CanneryMarshTransitionCave": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/cannerymarshtransitioncave.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/cannerymarshtransitioncave.png"
+    },
     "CanneryRegion": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/canneryregion_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/canneryregion_hard.jpg"
-    },
+    },	
     "CanyonRoadTransitionZone": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/canyonroadtransitionzone_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/canyonroadtransitionzone_hard.jpg"
@@ -164,6 +168,10 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/rivervalleyregion_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/rivervalleyregion_hard.jpg"
     },
+    "RiverValleyTransitionCave": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/rivervalleytransitioncave.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/rivervalleytransitioncave.png"
+    },	
     "RuralRegion": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/ruralregion_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/ruralregion_hard.jpg"

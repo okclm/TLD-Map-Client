@@ -1,0 +1,74 @@
+[
+  {
+    "scene": "CaveD",
+    "x": 100.18,
+    "y": -23.21,
+    "z": 105.95,
+    "svgX": 1090.7722,
+    "svgY": 435.2153,
+    "label": "Exit to Waterfall"
+  },
+  {
+    "scene": "CaveD",
+    "x": -47.68,
+    "y": -6.5,
+    "z": 19.21,
+    "svgX": 91.810211,
+    "svgY": 1005.4289,
+    "label": "Exit to Marsh Ridge"
+  },
+  {
+    "scene": "CaveD",
+    "x": 15.84,
+    "y": -23.41,
+    "z": 92.16,
+    "svgX": 564.74402,
+    "svgY": 412.4263,
+    "label": "Main atrium, bottom of the ramp up"
+  },
+  {
+    "scene": "CaveD",
+    "x": 76.62,
+    "y": -28.91,
+    "z": 137.47,
+    "svgX": 923.32001,
+    "svgY": 137.95767,
+    "label": "Bottom of switchback"
+  },
+  {
+    "scene": "CaveD",
+    "x": 26.68,
+    "y": -23.98,
+    "z": 139.07,
+    "svgX": 629.71936,
+    "svgY": 144.25562,
+    "label": "Atrium closest to Waterfall Exit"
+  },
+  {
+    "scene": "CaveD",
+    "x": -1.42,
+    "y": -21.09,
+    "z": 120.6,
+    "svgX": 446.28848,
+    "svgY": 251.33778,
+    "label": "Skylight Northwest"
+  },
+  {
+    "scene": "CaveD",
+    "x": 16.42,
+    "y": -23.65,
+    "z": 113.98,
+    "svgX": 566.50635,
+    "svgY": 286.25104,
+    "label": "Middle atrium"
+  },
+  {
+    "scene": "CaveD",
+    "x": -9.66,
+    "y": -10.98,
+    "z": 70.22,
+    "svgX": 399.63168,
+    "svgY": 564.1015,
+    "label": "Main atrium, top of the ramp"
+  }
+]

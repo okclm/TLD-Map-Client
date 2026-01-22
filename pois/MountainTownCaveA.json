@@ -1,0 +1,47 @@
+[
+  {
+    "scene": "MountainTownCaveA",
+    "x": -124.69,
+    "y": 24.13,
+    "z": -110.25,
+    "svgX": 1046.5269,
+    "svgY": 565.81018,
+    "label": "Exit to Prepper\u0027s Cache area"
+  },
+  {
+    "scene": "MountainTownCaveA",
+    "x": -75.83,
+    "y": 23.92,
+    "z": -86.75,
+    "svgX": 844.22723,
+    "svgY": 565.81018,
+    "label": "Campfire, backpack"
+  },
+  {
+    "scene": "MountainTownCaveA",
+    "x": -74.92,
+    "y": 15.99,
+    "z": -40.03,
+    "svgX": 641.92761,
+    "svgY": 565.81018,
+    "label": "Atrium"
+  },
+  {
+    "scene": "MountainTownCaveA",
+    "x": -68.55,
+    "y": 18.24,
+    "z": -18.9,
+    "svgX": 439.62793,
+    "svgY": 565.81018,
+    "label": "Wolf carcass"
+  },
+  {
+    "scene": "MountainTownCaveA",
+    "x": -62.89,
+    "y": 25.53,
+    "z": -0.8,
+    "svgX": 237.32831,
+    "svgY": 565.81018,
+    "label": "Exit to Spruce Falls Bridge area"
+  }
+]

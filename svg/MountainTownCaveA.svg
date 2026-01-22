@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1222"
+   height="1114"
+   viewBox="0 0 1222 1114"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="MountainTownCaveA.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="1.0170557"
+     inkscape:cx="689.24445"
+     inkscape:cy="479.32478"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="5112"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showgrid="false" /><defs
+     id="defs1" /><g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"><image
+   width="1222"
+   height="1114"
+   preserveAspectRatio="xMidYMid"
+   xlink:href="../Mods/TLD-Map-Client/images/mountaintowncavea.png"
+   id="image1"
+   x="0"
+   y="0"
+   sodipodi:insensitive="true" />
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path1"
+   cx="1046.5269"
+   cy="565.81018"
+   r="25">
+<desc
+   id="desc1">scene=MountainTownCaveA x=-124.69 y=24.13 z=-110.25
+Exit to Prepper's Cache area</desc>
+<title
+   id="title1">Exit to Prepper's Cache area</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path2"
+   cx="844.22723"
+   cy="565.81018"
+   r="25">
+<desc
+   id="desc2">scene=MountainTownCaveA x=-75.83 y=23.92 z=-86.75
+Campfire, backpack</desc>
+<title
+   id="title2">Campfire, backpack</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path3"
+   cx="641.92761"
+   cy="565.81018"
+   r="25">
+<desc
+   id="desc3">scene=MountainTownCaveA x=-74.92 y=15.99 z=-40.03
+Atrium</desc>
+<title
+   id="title3">Atrium</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path4"
+   cx="439.62793"
+   cy="565.81018"
+   r="25">
+<desc
+   id="desc4">scene=MountainTownCaveA x=-68.55 y=18.24 z=-18.90
+Wolf carcass</desc>
+<title
+   id="title4">Wolf carcass</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path5"
+   cx="237.32831"
+   cy="565.81018"
+   r="25">
+<desc
+   id="desc5">scene=MountainTownCaveA x=-62.89 y=25.53 z=-0.80
+Exit to Spruce Falls Bridge area</desc>
+<title
+   id="title5">Exit to Spruce Falls Bridge area</title>
+</circle>
+
+	   </g></svg>

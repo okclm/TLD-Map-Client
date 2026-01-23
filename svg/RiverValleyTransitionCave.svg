@@ -9,7 +9,7 @@
    id="svg1"
    xml:space="preserve"
    inkscape:version="1.4 (86a8ad7, 2024-10-11)"
-   sodipodi:docname="MountainTownCaveB.svg"
+   sodipodi:docname="RiverValleyTransitionCave.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -41,7 +41,7 @@
    width="1206"
    height="1140"
    preserveAspectRatio="xMidYMid"
-   xlink:href="../Mods/TLD-Map-Client/images/mountaintowncaveb.png"
+   xlink:href="../Mods/TLD-Map-Client/images/rivervalleytransitioncave.png"
    id="image1"
    x="0"
    y="0"
@@ -53,7 +53,7 @@
    cy="998.42102"
    r="25">
 <desc
-   id="desc1">scene=MountainTownCaveB x=16.11 y=0.27 z=-0.07
+   id="desc1">scene=RiverValleyTransitionCave x=16.11 y=0.27 z=-0.07
 Exit to Mountain Town</desc>
 <title
    id="title1">Exit to Mountain Town</title>
@@ -65,7 +65,7 @@ Exit to Mountain Town</desc>
    cy="917.3089"
    r="25">
 <desc
-   id="desc2">scene=MountainTownCaveB x=6.65 y=-7.67 z=7.34
+   id="desc2">scene=RiverValleyTransitionCave x=6.65 y=-7.67 z=7.34
 Bottom of the switchback</desc>
 <title
    id="title2">Bottom of the switchback</title>
@@ -77,7 +77,7 @@ Bottom of the switchback</desc>
    cy="909.64783"
    r="25">
 <desc
-   id="desc3">scene=MountainTownCaveB x=-30.07 y=-7.37 z=8.50
+   id="desc3">scene=RiverValleyTransitionCave x=-30.07 y=-7.37 z=8.50
 Skylight near switchback</desc>
 <title
    id="title3">Skylight near switchback</title>
@@ -89,7 +89,7 @@ Skylight near switchback</desc>
    cy="738.9859"
    r="25">
 <desc
-   id="desc4">scene=MountainTownCaveB x=-32.18 y=-7.46 z=26.36
+   id="desc4">scene=RiverValleyTransitionCave x=-32.18 y=-7.46 z=26.36
 Atrium</desc>
 <title
    id="title4">Atrium</title>
@@ -101,7 +101,7 @@ Atrium</desc>
    cy="535.12006"
    r="25">
 <desc
-   id="desc5">scene=MountainTownCaveB x=-34.26 y=-7.25 z=53.34
+   id="desc5">scene=RiverValleyTransitionCave x=-34.26 y=-7.25 z=53.34
 Skylight after atrium</desc>
 <title
    id="title5">Skylight after atrium</title>
@@ -113,7 +113,7 @@ Skylight after atrium</desc>
    cy="441.93381"
    r="25">
 <desc
-   id="desc6">scene=MountainTownCaveB x=-77.55 y=-7.19 z=63.22
+   id="desc6">scene=RiverValleyTransitionCave x=-77.55 y=-7.19 z=63.22
 Alcove near HRV Exit</desc>
 <title
    id="title6">Alcove near HRV Exit</title>
@@ -125,7 +125,7 @@ Alcove near HRV Exit</desc>
    cy="117.32658"
    r="25">
 <desc
-   id="desc7">scene=MountainTownCaveB x=-67.36 y=-6.96 z=89.74
+   id="desc7">scene=RiverValleyTransitionCave x=-67.36 y=-6.96 z=89.74
 Exit to Hushed River Valley</desc>
 <title
    id="title7">Exit to Hushed River Valley</title>

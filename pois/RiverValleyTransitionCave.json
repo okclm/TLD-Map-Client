@@ -1,6 +1,6 @@
 [
   {
-    "scene": "MountainTownCaveB",
+    "scene": "RiverValleyTransitionCave",
     "x": 16.11,
     "y": 0.27,
     "z": -0.07,
@@ -9,7 +9,7 @@
     "label": "Exit to Mountain Town"
   },
   {
-    "scene": "MountainTownCaveB",
+    "scene": "RiverValleyTransitionCave",
     "x": 6.65,
     "y": -7.67,
     "z": 7.34,
@@ -18,7 +18,7 @@
     "label": "Bottom of the switchback"
   },
   {
-    "scene": "MountainTownCaveB",
+    "scene": "RiverValleyTransitionCave",
     "x": -30.07,
     "y": -7.37,
     "z": 8.5,
@@ -27,7 +27,7 @@
     "label": "Skylight near switchback"
   },
   {
-    "scene": "MountainTownCaveB",
+    "scene": "RiverValleyTransitionCave",
     "x": -32.18,
     "y": -7.46,
     "z": 26.36,
@@ -36,7 +36,7 @@
     "label": "Atrium"
   },
   {
-    "scene": "MountainTownCaveB",
+    "scene": "RiverValleyTransitionCave",
     "x": -34.26,
     "y": -7.25,
     "z": 53.34,
@@ -45,7 +45,7 @@
     "label": "Skylight after atrium"
   },
   {
-    "scene": "MountainTownCaveB",
+    "scene": "RiverValleyTransitionCave",
     "x": -77.55,
     "y": -7.19,
     "z": 63.22,
@@ -54,7 +54,7 @@
     "label": "Alcove near HRV Exit"
   },
   {
-    "scene": "MountainTownCaveB",
+    "scene": "RiverValleyTransitionCave",
     "x": -67.36,
     "y": -6.96,
     "z": 89.74,

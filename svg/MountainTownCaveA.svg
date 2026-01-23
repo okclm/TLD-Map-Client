@@ -38,7 +38,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"><image
-   width="1222"
+   width="1186"
    height="1114"
    preserveAspectRatio="xMidYMid"
    xlink:href="../Mods/TLD-Map-Client/images/mountaintowncavea.png"
@@ -49,8 +49,8 @@
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path1"
-   cx="1046.5269"
-   cy="562.86047"
+   cx="1076.0238"
+   cy="677.89844"
    r="25">
 <desc
    id="desc1">scene=MountainTownCaveA x=-124.69 y=24.13 z=-110.25
@@ -61,8 +61,8 @@ Exit to Prepper's Cache area</desc>
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path2"
-   cx="641.92761"
-   cy="562.86047"
+   cx="855.28857"
+   cy="145.97083"
    r="25">
 <desc
    id="desc2">scene=MountainTownCaveA x=-75.83 y=23.92 z=-86.75
@@ -73,8 +73,8 @@ Campfire, backpack</desc>
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path3"
-   cx="507.06116"
-   cy="562.86047"
+   cx="500.17856"
+   cy="338.68396"
    r="25">
 <desc
    id="desc3">scene=MountainTownCaveA x=-74.92 y=15.99 z=-40.03
@@ -85,8 +85,8 @@ Atrium</desc>
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path4"
-   cx="372.19473"
-   cy="562.86047"
+   cx="317.13382"
+   cy="333.76782"
    r="25">
 <desc
    id="desc4">scene=MountainTownCaveA x=-68.55 y=18.24 z=-18.90
@@ -97,8 +97,8 @@ Wolf carcass</desc>
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path5"
-   cx="237.32831"
-   cy="562.86047"
+   cx="60.346851"
+   cy="334.75104"
    r="25">
 <desc
    id="desc5">scene=MountainTownCaveA x=-62.89 y=25.53 z=-0.80
@@ -109,8 +109,8 @@ Exit to Spruce Falls Bridge area</desc>
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="circle6"
-   cx="911.6604"
-   cy="562.86047"
+   cx="856.59949"
+   cy="564.8269"
    r="25"><desc
      id="desc6">scene=MountainTownCaveA x=-102.99 y=23.72 z=-78.53
 Crouch closest to Prepper's Cache Exit</desc><title
@@ -118,8 +118,8 @@ Crouch closest to Prepper's Cache Exit</desc><title
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="circle7"
-   cx="776.79401"
-   cy="562.86047"
+   cx="856.43567"
+   cy="468.47037"
    r="25"><desc
      id="desc7">scene=MountainTownCaveA x=-98.48 y=23.89 z=-81.12
 Crouch farthest from Prepper's Cache Exit</desc><title

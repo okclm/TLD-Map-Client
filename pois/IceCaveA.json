@@ -1,0 +1,29 @@
+[
+  {
+    "scene": "IceCaveA",
+    "x": 205.81,
+    "y": 0.33,
+    "z": 46.09,
+    "svgX": 1222.2631,
+    "svgY": 2074.5154,
+    "label": "Exit at S1"
+  },
+  {
+    "scene": "IceCaveA",
+    "x": 87.81,
+    "y": -10.67,
+    "z": 52.4,
+    "svgX": 1262.0601,
+    "svgY": 1453.7476,
+    "label": "Exit at S2"
+  },
+  {
+    "scene": "IceCaveA",
+    "x": 31.48,
+    "y": -8.16,
+    "z": 64.73,
+    "svgX": 1264.271,
+    "svgY": 1261.903,
+    "label": "Exit at S3"
+  }
+]

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1563"
+   height="2505"
+   viewBox="0 0 1563 2505"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="IceCaveA.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="0.45229541"
+     inkscape:cx="781.56884"
+     inkscape:cy="1228.1796"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="5112"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" /><defs
+     id="defs1" /><g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"><image
+   width="1563"
+   height="2505"
+   preserveAspectRatio="xMidYMid"
+   xlink:href="../Mods/TLD-Map-Client/images/hushedrivervalleyicecaves.jpg"
+   id="image1"
+   x="0"
+   y="0"
+   sodipodi:insensitive="true" />
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path1"
+   cx="1222.2631"
+   cy="2074.5154"
+   r="25">
+<desc
+   id="desc1">scene=IceCaveA x=205.81 y=0.33 z=46.09
+Exit at S1</desc>
+<title
+   id="title1">Exit at S1</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path2"
+   cx="1262.0601"
+   cy="1453.7476"
+   r="25">
+<desc
+   id="desc2">scene=IceCaveA x=87.81 y=-10.67 z=52.40
+Exit at S2</desc>
+<title
+   id="title2">Exit at S2</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path3"
+   cx="1264.271"
+   cy="1261.903"
+   r="25">
+<desc
+   id="desc3">scene=IceCaveA x=31.48 y=-8.16 z=64.73
+Exit at S3</desc>
+<title
+   id="title3">Exit at S3</title>
+</circle>
+	   
+	   </g></svg>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1206"
+   height="1140"
+   viewBox="0 0 1206 1140"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="MountainTownCaveB.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="0.99385965"
+     inkscape:cx="603.20388"
+     inkscape:cy="570"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="5112"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showgrid="false" /><defs
+     id="defs1" /><g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"><image
+   width="1206"
+   height="1140"
+   preserveAspectRatio="xMidYMid"
+   xlink:href="../Mods/TLD-Map-Client/images/mountaintowncaveb.png"
+   id="image1"
+   x="0"
+   y="0"
+   sodipodi:insensitive="true" />
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path1"
+   cx="1109.5579"
+   cy="998.42102"
+   r="25">
+<desc
+   id="desc1">scene=MountainTownCaveB x=16.11 y=0.27 z=-0.07
+Exit to Mountain Town</desc>
+<title
+   id="title1">Exit to Mountain Town</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path2"
+   cx="803.67963"
+   cy="917.3089"
+   r="25">
+<desc
+   id="desc2">scene=MountainTownCaveB x=6.65 y=-7.67 z=7.34
+Bottom of the switchback</desc>
+<title
+   id="title2">Bottom of the switchback</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path3"
+   cx="479.69022"
+   cy="909.64783"
+   r="25">
+<desc
+   id="desc3">scene=MountainTownCaveB x=-30.07 y=-7.37 z=8.50
+Skylight near switchback</desc>
+<title
+   id="title3">Skylight near switchback</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path4"
+   cx="473.65317"
+   cy="738.9859"
+   r="25">
+<desc
+   id="desc4">scene=MountainTownCaveB x=-32.18 y=-7.46 z=26.36
+Atrium</desc>
+<title
+   id="title4">Atrium</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path5"
+   cx="448.49869"
+   cy="535.12006"
+   r="25">
+<desc
+   id="desc5">scene=MountainTownCaveB x=-34.26 y=-7.25 z=53.34
+Skylight after atrium</desc>
+<title
+   id="title5">Skylight after atrium</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path6"
+   cx="91.305405"
+   cy="441.93381"
+   r="25">
+<desc
+   id="desc6">scene=MountainTownCaveB x=-77.55 y=-7.19 z=63.22
+Alcove near HRV Exit</desc>
+<title
+   id="title6">Alcove near HRV Exit</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path7"
+   cx="181.86145"
+   cy="117.32658"
+   r="25">
+<desc
+   id="desc7">scene=MountainTownCaveB x=-67.36 y=-6.96 z=89.74
+Exit to Hushed River Valley</desc>
+<title
+   id="title7">Exit to Hushed River Valley</title>
+</circle>
+
+	   </g></svg>

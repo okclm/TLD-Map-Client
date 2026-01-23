@@ -168,6 +168,10 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/mountaintowncavea.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/mountaintowncavea.png"
     },
+    "MountainTownCaveB": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/mountaintowncaveb.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/mountaintowncaveb.png"
+    },	
     "RavineTransitionZone": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/ravinetransitionzone_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/ravinetransitionzone_hard.jpg"

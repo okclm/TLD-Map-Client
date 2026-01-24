@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1700"
+   height="920"
+   viewBox="0 0 1700 920"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="DamCaveTransitionZone.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="1.1229412"
+     inkscape:cx="850"
+     inkscape:cy="459.95285"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="5112"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showgrid="false" /><defs
+     id="defs1" /><g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"><image
+   width="1700"
+   height="920"
+   preserveAspectRatio="xMidYMid"
+   xlink:href="../Mods/TLD-Map-Client/images/damcavetransitionzone.png"
+   id="image1"
+   x="0"
+   y="0"
+   sodipodi:insensitive="true" />
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path1"
+   cx="1505.9072"
+   cy="615.47565"
+   r="25">
+<desc
+   id="desc1">scene=DamCaveTransitionZone x=-75.38 y=-0.09 z=-38.90
+Exit to Winding River</desc>
+<title
+   id="title1">Exit to Winding River</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path2"
+   cx="966.25299"
+   cy="826.79047"
+   r="25">
+<desc
+   id="desc2">scene=DamCaveTransitionZone x=-104.33 y=-4.60 z=20.51
+Deadend with coal closest to Winding River Exit</desc>
+<title
+   id="title2">Deadend with coal closest to Winding River Exit</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path3"
+   cx="960.01935"
+   cy="620.45203"
+   r="25">
+<desc
+   id="desc3">scene=DamCaveTransitionZone x=-72.55 y=-5.90 z=24.22
+Atrium with coal closest to Winding River Exit</desc>
+<title
+   id="title3">Atrium with coal closest to Winding River Exit</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path4"
+   cx="828.2226"
+   cy="264.50653"
+   r="25">
+<desc
+   id="desc4">scene=DamCaveTransitionZone x=-24.16 y=-0.73 z=41.60
+Deadend with coal North and midway between exits</desc>
+<title
+   id="title4">Deadend with coal North and midway between exits</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path5"
+   cx="492.4971"
+   cy="473.14981"
+   r="25">
+<desc
+   id="desc5">scene=DamCaveTransitionZone x=-50.39 y=3.63 z=82.41
+Atrium with campfire</desc>
+<title
+   id="title5">Atrium with campfire</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path6"
+   cx="657.24304"
+   cy="765.50183"
+   r="25">
+<desc
+   id="desc6">scene=DamCaveTransitionZone x=-97.35 y=-2.10 z=65.10
+Deadend with coal South of main atrium</desc>
+<title
+   id="title6">Deadend with coal South of main atrium</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path7"
+   cx="317.06494"
+   cy="421.13306"
+   r="25">
+<desc
+   id="desc7">scene=DamCaveTransitionZone x=-45.95 y=13.75 z=112.38
+Main atrium top of ramp alcove with coal</desc>
+<title
+   id="title7">Main atrium top of ramp alcove with coal</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path8"
+   cx="125.60345"
+   cy="696.56519"
+   r="25">
+<desc
+   id="desc8">scene=DamCaveTransitionZone x=-75.54 y=18.33 z=140.18
+Exit to Pleasant Valley</desc>
+<title
+   id="title8">Exit to Pleasant Valley</title>
+</circle>
+
+	   </g></svg>

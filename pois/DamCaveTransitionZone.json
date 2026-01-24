@@ -1,0 +1,74 @@
+[
+  {
+    "scene": "DamCaveTransitionZone",
+    "x": -75.38,
+    "y": -0.09,
+    "z": -38.9,
+    "svgX": 1505.9072,
+    "svgY": 615.47565,
+    "label": "Exit to Winding River"
+  },
+  {
+    "scene": "DamCaveTransitionZone",
+    "x": -104.33,
+    "y": -4.6,
+    "z": 20.51,
+    "svgX": 966.25299,
+    "svgY": 826.79047,
+    "label": "Deadend with coal closest to Winding River Exit"
+  },
+  {
+    "scene": "DamCaveTransitionZone",
+    "x": -72.55,
+    "y": -5.9,
+    "z": 24.22,
+    "svgX": 960.01935,
+    "svgY": 620.45203,
+    "label": "Atrium with coal closest to Winding River Exit"
+  },
+  {
+    "scene": "DamCaveTransitionZone",
+    "x": -24.16,
+    "y": -0.73,
+    "z": 41.6,
+    "svgX": 828.2226,
+    "svgY": 264.50653,
+    "label": "Deadend with coal North and midway between exits"
+  },
+  {
+    "scene": "DamCaveTransitionZone",
+    "x": -50.39,
+    "y": 3.63,
+    "z": 82.41,
+    "svgX": 492.4971,
+    "svgY": 473.14981,
+    "label": "Atrium with campfire"
+  },
+  {
+    "scene": "DamCaveTransitionZone",
+    "x": -97.35,
+    "y": -2.1,
+    "z": 65.1,
+    "svgX": 657.24304,
+    "svgY": 765.50183,
+    "label": "Deadend with coal South of main atrium"
+  },
+  {
+    "scene": "DamCaveTransitionZone",
+    "x": -45.95,
+    "y": 13.75,
+    "z": 112.38,
+    "svgX": 317.06494,
+    "svgY": 421.13306,
+    "label": "Main atrium top of ramp alcove with coal"
+  },
+  {
+    "scene": "DamCaveTransitionZone",
+    "x": -75.54,
+    "y": 18.33,
+    "z": 140.18,
+    "svgX": 125.60345,
+    "svgY": 696.56519,
+    "label": "Exit to Pleasant Valley"
+  }
+]

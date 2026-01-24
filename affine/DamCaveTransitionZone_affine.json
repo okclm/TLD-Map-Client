@@ -1,0 +1,15 @@
+{
+  "region": "DamCaveTransitionZone",
+  "affineMatrix": {
+    "A": -0.005679662895529654,
+    "B": -7.627028751361158,
+    "Tx": 1157.8508660218965,
+    "C": -7.092458653712338,
+    "D": 0.3211913631277318,
+    "Ty": 83.73017132527517
+  },
+  "generatedAt": "2026-01-24T14:07:20.5614295-06:00",
+  "calibPointCount": 8,
+  "layerOffsetX": 0,
+  "layerOffsetY": 0
+}

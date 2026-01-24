@@ -83,6 +83,10 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/damrivertransitionzoneb_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/damrivertransitionzoneb_hard.jpg"
     },
+    "DamCaveTransitionZone": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/damcavetransitionzone.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/damcavetransitionzone.png"
+    },	
     "DamTransitionZone": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/damrivertransitionzoneb_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/damrivertransitionzoneb_hard.jpg"

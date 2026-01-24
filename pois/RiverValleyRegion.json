@@ -178,5 +178,32 @@
     "svgX": 1113.0472,
     "svgY": 373.34946,
     "label": "Cave West of Mammoth Falls, possible prybar, guaranteed matches"
+  },
+  {
+    "scene": "RiverValleyRegion",
+    "x": 1027.44,
+    "y": 252.72,
+    "z": 392.18,
+    "svgX": 1627.76,
+    "svgY": 2352.84,
+    "label": "Southeast corpse, campfire, cache, possible hatchet"
+  },
+  {
+    "scene": "RiverValleyRegion",
+    "x": 1150.35,
+    "y": 198.67,
+    "z": 760.69,
+    "svgX": 1800.1918,
+    "svgY": 1791.5449,
+    "label": "Mystery Signal Fire South"
+  },
+  {
+    "scene": "RiverValleyRegion",
+    "x": 953.96,
+    "y": 193.34,
+    "z": 1291.34,
+    "svgX": 1496.8224,
+    "svgY": 1013.8273,
+    "label": "Mystery Signal Fire North"
   }
 ]

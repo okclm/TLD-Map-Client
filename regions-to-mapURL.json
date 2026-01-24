@@ -55,10 +55,14 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/canneryregion_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/canneryregion_hard.jpg"
     },	
+    "CanyonRoadCave": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/canyonroadcave.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/canyonroadcave.png"
+    },
     "CanyonRoadTransitionZone": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/canyonroadtransitionzone_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/canyonroadtransitionzone_hard.jpg"
-    },
+    },	
     "CaveC": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/cavec.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/cavec.png"

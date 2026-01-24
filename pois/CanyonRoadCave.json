@@ -4,7 +4,7 @@
     "x": 177.46,
     "y": -4.41,
     "z": -40.28,
-    "svgX": 1289.6638,
+    "svgX": 1260.0151,
     "svgY": 707.6355,
     "label": "Exit to Keeper\u0027s Pass South"
   },
@@ -13,8 +13,8 @@
     "x": -13.37,
     "y": -12.47,
     "z": 42.17,
-    "svgX": 109.4166,
-    "svgY": 59.038834,
+    "svgX": 78.987656,
+    "svgY": 59.819061,
     "label": "Exit to Keeper\u0027s Pass North"
   },
   {
@@ -22,8 +22,8 @@
     "x": 0.31,
     "y": -9.93,
     "z": -9.13,
-    "svgX": 202.99118,
-    "svgY": 439.92145,
+    "svgX": 174.90292,
+    "svgY": 436.80054,
     "label": "Deadend, backpack"
   },
   {
@@ -31,8 +31,8 @@
     "x": 173.75,
     "y": -13.24,
     "z": -20.11,
-    "svgX": 1277.0942,
-    "svgY": 503.62393,
+    "svgX": 1248.2257,
+    "svgY": 499.72278,
     "label": "Main atrium near Keeper\u0027s Pass South"
   },
   {
@@ -40,8 +40,8 @@
     "x": 108.43,
     "y": -10.19,
     "z": -11.06,
-    "svgX": 839.44312,
-    "svgY": 450.16196,
+    "svgX": 825.39899,
+    "svgY": 447.82126,
     "label": "Midway atrium, possible backpack"
   },
   {
@@ -49,8 +49,8 @@
     "x": 58.03,
     "y": -12.33,
     "z": 27.46,
-    "svgX": 552.5014,
-    "svgY": 213.24896,
+    "svgX": 523.63293,
+    "svgY": 211.68851,
     "label": "Possible carcass"
   }
 ]

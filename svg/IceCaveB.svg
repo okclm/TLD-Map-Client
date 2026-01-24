@@ -26,7 +26,7 @@
      inkscape:document-units="px"
      inkscape:zoom="0.90459082"
      inkscape:cx="879.40313"
-     inkscape:cy="1083.9155"
+     inkscape:cy="730.16439"
      inkscape:window-width="2560"
      inkscape:window-height="1377"
      inkscape:window-x="5112"
@@ -148,8 +148,8 @@ Deadend West of N2, coal, possible campfire</desc><title
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path11"
-   cx="264.84808"
-   cy="766.43628"
+   cx="280.32471"
+   cy="764.22534"
    r="25"><desc
      id="desc11">scene=IceCaveB x=72.82 y=-7.69 z=-10.28
 Ice Cave, possible bow, backpack, corpse</desc><title
@@ -163,4 +163,31 @@ Ice Cave, possible bow, backpack, corpse</desc><title
      id="desc12">scene=IceCaveB x=110.06 y=-11.76 z=-6.95
 Mini-switchback-ish South of Ice Cave, waterfall</desc><title
      id="title12">Mini-switchback-ish South of Ice Cave, waterfall</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path13"
+   cx="201.58208"
+   cy="1023.7288"
+   r="25"><desc
+     id="desc13">scene=IceCaveB x=129.85 y=-13.26 z=-25.60
+Waterfall South of mini-switchback-ish closest to N1</desc><title
+     id="title13">Waterfall South of mini-switchback-ish closest to N1</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path14"
+   cx="198.93567"
+   cy="1275.4117"
+   r="25"><desc
+     id="desc14">scene=IceCaveB x=175.73 y=-11.29 z=-25.04
+Deadend near N1, coal, possible hidden cache</desc><title
+     id="title14">Deadend near N1, coal, possible hidden cache</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path15"
+   cx="391.80548"
+   cy="1207.5695"
+   r="25"><desc
+     id="desc15">scene=IceCaveB x=166.94 y=-10.81 z=12.35
+Mini-switchback-ish with waterfall, coal, possible hidden cache, near N1</desc><title
+     id="title15">Mini-switchback-ish with waterfall, coal, possible hidden cache, near N1</title></circle>	 
 	   </g></svg>

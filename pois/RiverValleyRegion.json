@@ -58,8 +58,8 @@
     "x": 586.23,
     "y": 101.52,
     "z": 883.36,
-    "svgX": 951.68,
-    "svgY": 1613.9,
+    "svgX": 923.65723,
+    "svgY": 1645.0365,
     "label": "Cave, center, scrub brush restricting entrance, wolves patroling outside"
   },
   {
@@ -160,5 +160,23 @@
     "svgX": 2043.1505,
     "svgY": 1244.9349,
     "label": "At the top of the lower rope climb beneath Pensive Vista (memento)"
+  },
+  {
+    "scene": "RiverValleyRegion",
+    "x": 261.46,
+    "y": 104.02,
+    "z": 1538.74,
+    "svgX": 493.47345,
+    "svgY": 640.95789,
+    "label": "Northwest Cave, North of bear cave, coal"
+  },
+  {
+    "scene": "RiverValleyRegion",
+    "x": 675.69,
+    "y": 119.28,
+    "z": 1738.65,
+    "svgX": 1113.0472,
+    "svgY": 373.34946,
+    "label": "Cave West of Mammoth Falls, possible prybar, guaranteed matches"
   }
 ]

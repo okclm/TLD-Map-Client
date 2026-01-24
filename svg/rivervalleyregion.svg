@@ -25,8 +25,8 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      inkscape:zoom="0.96350209"
-     inkscape:cx="948.10381"
-     inkscape:cy="970.93718"
+     inkscape:cx="1031.1342"
+     inkscape:cy="1386.0894"
      inkscape:window-width="2560"
      inkscape:window-height="1377"
      inkscape:window-x="5112"
@@ -118,8 +118,8 @@ Prepper's Cache</desc><title
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path3"
-   cx="951.68"
-   cy="1613.90"
+   cx="923.65723"
+   cy="1645.0365"
    r="25"><desc
      id="desc7">scene=RiverValleyRegion x=586.23 y=101.52 z=883.36
 Cave, center, scrub brush restricting entrance, wolves patroling outside</desc><title
@@ -222,4 +222,23 @@ Pensive Vista for charcoal drawing</desc><title
    r="25"><desc
      id="desc18">scene=RiverValleyRegion x=1301.70 y=88.10 z=1122.19
 At the top of the lower rope climb beneath Pensive Vista (memento)</desc><title
-     id="title18">At the top of the lower rope climb beneath Pensive Vista (memento)</title></circle></g></svg>
+     id="title18">At the top of the lower rope climb beneath Pensive Vista (memento)</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path19"
+   cx="493.47345"
+   cy="640.95789"
+   r="25"><desc
+     id="desc19">scene=RiverValleyRegion x=261.46 y=104.02 z=1538.74
+Northwest Cave, North of bear cave, coal</desc><title
+     id="title19">Northwest Cave, North of bear cave, coal</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path20"
+   cx="1113.0472"
+   cy="373.34946"
+   r="25"><desc
+     id="desc20">scene=RiverValleyRegion x=675.69 y=119.28 z=1738.65
+Cave West of Mammoth Falls, possible prybar, guaranteed matches</desc><title
+     id="title20">Cave West of Mammoth Falls, possible prybar, guaranteed matches</title></circle>	 
+	 </g></svg>

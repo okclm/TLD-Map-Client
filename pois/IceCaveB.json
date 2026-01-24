@@ -94,8 +94,8 @@
     "x": 72.82,
     "y": -7.69,
     "z": -10.28,
-    "svgX": 264.84808,
-    "svgY": 766.43628,
+    "svgX": 280.32471,
+    "svgY": 764.22534,
     "label": "Ice Cave, possible bow, backpack, corpse"
   },
   {
@@ -106,5 +106,32 @@
     "svgX": 270.64301,
     "svgY": 948.92175,
     "label": "Mini-switchback-ish South of Ice Cave, waterfall"
+  },
+  {
+    "scene": "IceCaveB",
+    "x": 129.85,
+    "y": -13.26,
+    "z": -25.6,
+    "svgX": 201.58208,
+    "svgY": 1023.7288,
+    "label": "Waterfall South of mini-switchback-ish closest to N1"
+  },
+  {
+    "scene": "IceCaveB",
+    "x": 175.73,
+    "y": -11.29,
+    "z": -25.04,
+    "svgX": 198.93567,
+    "svgY": 1275.4117,
+    "label": "Deadend near N1, coal, possible hidden cache"
+  },
+  {
+    "scene": "IceCaveB",
+    "x": 166.94,
+    "y": -10.81,
+    "z": 12.35,
+    "svgX": 391.80548,
+    "svgY": 1207.5695,
+    "label": "Mini-switchback-ish with waterfall, coal, possible hidden cache, near N1"
   }
 ]

@@ -24,15 +24,16 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
-     inkscape:zoom="0.45229541"
-     inkscape:cx="781.56884"
-     inkscape:cy="1228.1796"
+     inkscape:zoom="0.90459082"
+     inkscape:cx="1098.2866"
+     inkscape:cy="1249.7363"
      inkscape:window-width="2560"
      inkscape:window-height="1377"
      inkscape:window-x="5112"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" /><defs
+     inkscape:current-layer="layer1"
+     showgrid="false" /><defs
      id="defs1" /><g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
@@ -76,10 +77,81 @@ Exit at S2</desc>
    cy="1261.903"
    r="25">
 <desc
-   id="desc3">scene=IceCaveA x=31.48 y=-8.16 z=64.73
+   id="desc3">scene=IceCaveA x=36.74 y=-8.60 z=62.72
 Exit at S3</desc>
 <title
    id="title3">Exit at S3</title>
 </circle>
-	   
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path4"
+   cx="778.45789"
+   cy="2116.7148"
+   r="25"><desc
+     id="desc4">scene=IceCaveA x=214.68 y=-2.95 z=-29.96
+Southwest deadend, possible hacksaw, campfire, coal</desc><title
+     id="title4">Southwest deadend, possible hacksaw, campfire, coal</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path5"
+   cx="788.93164"
+   cy="2009.0256"
+   r="25"><desc
+     id="desc5">scene=IceCaveA x=189.39 y=-4.42 z=-25.12
+Rope climb down</desc><title
+     id="title5">Rope climb down</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path6"
+   cx="826.80792"
+   cy="1912.0282"
+   r="25"><desc
+     id="desc6">scene=IceCaveA x=179.48 y=-13.16 z=-16.90
+Atrium, possible hammer, wolf (DANGER!)</desc><title
+     id="title6">Atrium, possible hammer, wolf (DANGER!)</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path7"
+   cx="879.81653"
+   cy="1532.068"
+   r="25"><desc
+     id="desc7">scene=IceCaveA x=105.76 y=-10.04 z=-10.98
+Ice room</desc><title
+     id="title7">Ice room</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path8"
+   cx="1072.2969"
+   cy="1301.839"
+   r="25"><desc
+     id="desc8">scene=IceCaveA x=57.79 y=-12.34 z=27.08
+Possible carcass / corpse, &quot;T&quot; intersection North of S2</desc><title
+     id="title8">Possible carcass / corpse, &quot;T&quot; intersection North of S2</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path9"
+   cx="887.39056"
+   cy="1026.3069"
+   r="25"><desc
+     id="desc9">scene=IceCaveA x=-1.03 y=-9.16 z=-9.89
+Possible hacksaw, carcass, campfire, coal, Northwest area</desc><title
+     id="title9">Possible hacksaw, carcass, campfire, coal, Northwest area</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path10"
+   cx="1058.3696"
+   cy="1008.2568"
+   r="25"><desc
+     id="desc10">scene=IceCaveA x=4.77 y=-12.16 z=19.73
+Possible corpse, coal mini-switchback-ish</desc><title
+     id="title10">Possible corpse, coal mini-switchback-ish</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path11"
+   cx="1273.3672"
+   cy="933.51959"
+   r="25"><desc
+     id="desc11">scene=IceCaveA x=-9.93 y=-10.43 z=65.22
+Possible hacksaw, campfire, backpack, North of S3</desc><title
+     id="title11">Possible hacksaw, campfire, backpack, North of S3</title></circle>
 	   </g></svg>

@@ -25,5 +25,86 @@
     "svgX": 953.6333,
     "svgY": 614.09625,
     "label": "Exit at N3"
+  },
+  {
+    "scene": "IceCaveB",
+    "x": -34.53,
+    "y": 5.17,
+    "z": 121.8,
+    "svgX": 998.79352,
+    "svgY": 194.64336,
+    "label": "Wolf carcass, coal, North of N3"
+  },
+  {
+    "scene": "IceCaveB",
+    "x": -12.34,
+    "y": 6.92,
+    "z": 90.21,
+    "svgX": 811.17694,
+    "svgY": 287.1843,
+    "label": "Possible carcass, deadend closest to N3"
+  },
+  {
+    "scene": "IceCaveB",
+    "x": -15.11,
+    "y": 3.67,
+    "z": 53.6,
+    "svgX": 646.12067,
+    "svgY": 252.26335,
+    "label": "Rope climb down"
+  },
+  {
+    "scene": "IceCaveB",
+    "x": -9.18,
+    "y": -4.23,
+    "z": 45.72,
+    "svgX": 567.44562,
+    "svgY": 305.44562,
+    "label": "Atrium"
+  },
+  {
+    "scene": "IceCaveB",
+    "x": -55.9,
+    "y": -3.14,
+    "z": 5.69,
+    "svgX": 353.54367,
+    "svgY": 47.890915,
+    "label": "Deadend North of atrium, possible corpse"
+  },
+  {
+    "scene": "IceCaveB",
+    "x": 0.28,
+    "y": -5,
+    "z": -15.63,
+    "svgX": 244.56258,
+    "svgY": 370.61285,
+    "label": "Deadend West of atrium, coal"
+  },
+  {
+    "scene": "IceCaveB",
+    "x": 77.22,
+    "y": -3.23,
+    "z": -43.07,
+    "svgX": 95.169777,
+    "svgY": 746.01587,
+    "label": "Deadend West of N2, coal, possible campfire"
+  },
+  {
+    "scene": "IceCaveB",
+    "x": 72.82,
+    "y": -7.69,
+    "z": -10.28,
+    "svgX": 264.84808,
+    "svgY": 766.43628,
+    "label": "Ice Cave, possible bow, backpack, corpse"
+  },
+  {
+    "scene": "IceCaveB",
+    "x": 110.06,
+    "y": -11.76,
+    "z": -6.95,
+    "svgX": 270.64301,
+    "svgY": 948.92175,
+    "label": "Mini-switchback-ish South of Ice Cave, waterfall"
   }
 ]

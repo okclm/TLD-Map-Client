@@ -26,7 +26,7 @@
      inkscape:document-units="px"
      inkscape:zoom="0.90459082"
      inkscape:cx="879.40313"
-     inkscape:cy="907.03994"
+     inkscape:cy="1083.9155"
      inkscape:window-width="2560"
      inkscape:window-height="1377"
      inkscape:window-x="5112"
@@ -82,5 +82,85 @@ Exit at N3</desc>
 <title
    id="title3">Exit at N3</title>
 </circle>
-
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path4"
+   cx="998.79352"
+   cy="194.64336"
+   r="25"><desc
+     id="desc4">scene=IceCaveB x=-34.53 y=5.17 z=121.80
+Wolf carcass, coal, North of N3</desc><title
+     id="title4">Wolf carcass, coal, North of N3</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path5"
+   cx="811.17694"
+   cy="287.1843"
+   r="25"><desc
+     id="desc5">scene=IceCaveB x=-12.34 y=6.92 z=90.21
+Possible carcass, deadend closest to N3</desc><title
+     id="title5">Possible carcass, deadend closest to N3</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path6"
+   cx="646.12067"
+   cy="252.26335"
+   r="25"><desc
+     id="desc6">scene=IceCaveB x=-15.11 y=3.67 z=53.60
+Rope climb down</desc><title
+     id="title6">Rope climb down</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path7"
+   cx="567.44562"
+   cy="305.44562"
+   r="25"><desc
+     id="desc7">scene=IceCaveB x=-9.18 y=-4.23 z=45.72
+Atrium</desc><title
+     id="title7">Atrium</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path8"
+   cx="353.54367"
+   cy="47.890915"
+   r="25"><desc
+     id="desc8">scene=IceCaveB x=-55.90 y=-3.14 z=5.69
+Deadend North of atrium, possible corpse</desc><title
+     id="title8">Deadend North of atrium, possible corpse</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path9"
+   cx="244.56258"
+   cy="370.61285"
+   r="25"><desc
+     id="desc9">scene=IceCaveB x=0.28 y=-5.00 z=-15.63
+Deadend West of atrium, coal</desc><title
+     id="title9">Deadend West of atrium, coal</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path10"
+   cx="95.169777"
+   cy="746.01587"
+   r="25"><desc
+     id="desc10">scene=IceCaveB x=77.22 y=-3.23 z=-43.07
+Deadend West of N2, coal, possible campfire</desc><title
+     id="title10">Deadend West of N2, coal, possible campfire</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path11"
+   cx="264.84808"
+   cy="766.43628"
+   r="25"><desc
+     id="desc11">scene=IceCaveB x=72.82 y=-7.69 z=-10.28
+Ice Cave, possible bow, backpack, corpse</desc><title
+     id="title11">Ice Cave, possible bow, backpack, corpse</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path12"
+   cx="270.64301"
+   cy="948.92175"
+   r="25"><desc
+     id="desc12">scene=IceCaveB x=110.06 y=-11.76 z=-6.95
+Mini-switchback-ish South of Ice Cave, waterfall</desc><title
+     id="title12">Mini-switchback-ish South of Ice Cave, waterfall</title></circle>
 	   </g></svg>

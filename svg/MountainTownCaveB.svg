@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1700"
+   height="920"
+   viewBox="0 0 1700 920"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="MountainTownCaveB.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="1.1229412"
+     inkscape:cx="1206.2074"
+     inkscape:cy="459.95285"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="5112"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showgrid="false" /><defs
+     id="defs1" /><g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"><image
+   width="1700"
+   height="920"
+   preserveAspectRatio="xMidYMid"
+   xlink:href="../Mods/TLD-Map-Client/images/mountaintowncaveb.png"
+   id="image1"
+   x="0"
+   y="0"
+   sodipodi:insensitive="true" />
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path1"
+   cx="135.39915"
+   cy="472.99265"
+   r="25">
+<desc
+   id="desc1">scene=MountainTownCaveB x=-109.94 y=19.21 z=76.25
+Exit Mountain Town</desc>
+<title
+   id="title1">Exit Mountain Town</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path2"
+   cx="616.27917"
+   cy="730.61444"
+   r="25">
+<desc
+   id="desc2">scene=MountainTownCaveB x=-49.78 y=15.06 z=40.27
+Alcove closest to Mountain Town Exit, coal</desc>
+<title
+   id="title2">Alcove closest to Mountain Town Exit, coal</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path3"
+   cx="822.87952"
+   cy="672.10211"
+   r="25">
+<desc
+   id="desc3">scene=MountainTownCaveB x=-20.64 y=14.25 z=48.06
+Atrium, campfire, coal, skylight</desc>
+<title
+   id="title3">Atrium, campfire, coal, skylight</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path4"
+   cx="1286.8397"
+   cy="508.50861"
+   r="25">
+<desc
+   id="desc4">scene=MountainTownCaveB x=48.80 y=25.35 z=73.69
+Atrium closest to Mystery Lake Exit, coal, possible campfire</desc>
+<title
+   id="title4">Atrium closest to Mystery Lake Exit, coal, possible campfire</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path5"
+   cx="1581.6013"
+   cy="137.42429"
+   r="25">
+<desc
+   id="desc5">scene=MountainTownCaveB x=90.76 y=27.23 z=123.03
+Exit Mystery Lake</desc>
+<title
+   id="title5">Exit Mystery Lake</title>
+</circle>
+
+	   </g></svg>

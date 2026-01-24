@@ -1,0 +1,47 @@
+[
+  {
+    "scene": "MountainTownCaveB",
+    "x": -109.94,
+    "y": 19.21,
+    "z": 76.25,
+    "svgX": 135.39915,
+    "svgY": 472.99265,
+    "label": "Exit Mountain Town"
+  },
+  {
+    "scene": "MountainTownCaveB",
+    "x": -49.78,
+    "y": 15.06,
+    "z": 40.27,
+    "svgX": 616.27917,
+    "svgY": 730.61444,
+    "label": "Alcove closest to Mountain Town Exit, coal"
+  },
+  {
+    "scene": "MountainTownCaveB",
+    "x": -20.64,
+    "y": 14.25,
+    "z": 48.06,
+    "svgX": 822.87952,
+    "svgY": 672.10211,
+    "label": "Atrium, campfire, coal, skylight"
+  },
+  {
+    "scene": "MountainTownCaveB",
+    "x": 48.8,
+    "y": 25.35,
+    "z": 73.69,
+    "svgX": 1286.8397,
+    "svgY": 508.50861,
+    "label": "Atrium closest to Mystery Lake Exit, coal, possible campfire"
+  },
+  {
+    "scene": "MountainTownCaveB",
+    "x": 90.76,
+    "y": 27.23,
+    "z": 123.03,
+    "svgX": 1581.6013,
+    "svgY": 137.42429,
+    "label": "Exit Mystery Lake"
+  }
+]

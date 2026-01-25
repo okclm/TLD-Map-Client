@@ -127,6 +127,10 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/longrailtransitionzone_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/longrailtransitionzone_hard.jpg"
     },
+    "LongTransitionCave": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/longtransitioncave.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/longtransitioncave.png"
+    },	
     "MarshRegion": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/marshregion_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/marshregion_hard.jpg"

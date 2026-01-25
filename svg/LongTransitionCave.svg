@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="4262"
-   height="6257"
-   viewBox="0 0 4262 6257"
+   width="1024"
+   height="2048"
+   viewBox="0 0 1024 2048"
    version="1.1"
    id="svg1"
    xml:space="preserve"
@@ -27,9 +27,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
-     inkscape:zoom="0.18107719"
-     inkscape:cx="2128.9263"
-     inkscape:cy="3128.5"
+     inkscape:zoom="1.1064453"
+     inkscape:cx="707.21977"
+     inkscape:cy="1019.9329"
      inkscape:window-width="2560"
      inkscape:window-height="1377"
      inkscape:window-x="5112"
@@ -46,47 +46,48 @@
        id="rect1" /></defs><g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1"><image
-   width="2962.717"
-   height="4574.6739"
+     id="layer1"
+     transform="translate(-54.251534,-34.244495)"><image
+   width="963.49512"
+   height="1836.6107"
    preserveAspectRatio="xMidYMid"
    xlink:href="longtransitioncave_basemap.png"
    id="image1"
-   x="533.41742"
-   y="34.244495"
+   x="94.222359"
+   y="-113.46689"
    inkscape:svg-dpi="96" /><image
-   width="2854.9355"
-   height="1304.8759"
+   width="675.26892"
+   height="308.63818"
    preserveAspectRatio="xMidYMid"
    xlink:href="../Mods/TLD-Map-Client/images/emptylegend.png"
    id="Map_Legend"
-   x="54.251534"
-   y="4710.9678"
+   x="70.819054"
+   y="1745.3817"
    inkscape:label="Map Legend"
    inkscape:svg-dpi="96"><desc
      id="desc1">Empty map legend</desc></image><image
-   width="918.32745"
-   height="1020.3638"
+   width="183.59737"
+   height="203.99706"
    preserveAspectRatio="xMidYMid"
    xlink:href="../Mods/TLD-Map-Client/images/sticknorthlogo.png"
    id="Stick_North_Logo"
-   x="3781.1885"
-   y="4683.541"
+   x="1051.817"
+   y="1715.8628"
    inkscape:svg-dpi="96"
    transform="rotate(7.1)" /><image
-   width="896.38745"
-   height="437.26218"
+   width="219.77708"
+   height="107.20834"
    preserveAspectRatio="none"
    xlink:href="../Mods/TLD-Map-Client/images/sticknorthlabel.png"
    id="Stock_North_Label"
-   x="3086.4143"
-   y="4727.4019"
+   x="785.54846"
+   y="1710.5175"
    inkscape:svg-dpi="96" />
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path1"
-   cx="3154.6614"
-   cy="366.0191"
+   cx="938.51813"
+   cy="169.27713"
    r="25">
 <desc
    id="desc2">scene=LongTransitionCave x=26.74 y=3.18 z=19.80
@@ -97,8 +98,8 @@ Exit lower Far Range Branch Line</desc>
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path2"
-   cx="1752.7657"
-   cy="1852.2948"
+   cx="515.54193"
+   cy="653.39008"
    r="25">
 <desc
    id="desc3">scene=LongTransitionCave x=-23.59 y=6.95 z=-40.07
@@ -109,8 +110,8 @@ Atrium</desc>
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path3"
-   cx="1272.4504"
-   cy="2372.0825"
+   cx="340.20566"
+   cy="809.42542"
    r="25">
 <desc
    id="desc4">scene=LongTransitionCave x=-32.72 y=16.35 z=-54.82
@@ -121,8 +122,8 @@ Atrium overlook</desc>
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path4"
-   cx="2709.4912"
-   cy="2493.5601"
+   cx="802.04504"
+   cy="855.19775"
    r="25">
 <desc
    id="desc5">scene=LongTransitionCave x=9.60 y=28.58 z=-66.28
@@ -133,8 +134,8 @@ Deadend near upper Far Range Branch Line Exit, coal</desc>
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path5"
-   cx="2012.4482"
-   cy="4385.9561"
+   cx="572.48102"
+   cy="1473.9762"
    r="25">
 <desc
    id="desc6">scene=LongTransitionCave x=-4.17 y=35.90 z=-102.08

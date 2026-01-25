@@ -1,0 +1,47 @@
+[
+  {
+    "scene": "LongTransitionCave",
+    "x": 26.74,
+    "y": 3.18,
+    "z": 19.8,
+    "svgX": 3154.6614,
+    "svgY": 366.0191,
+    "label": "Exit lower Far Range Branch Line"
+  },
+  {
+    "scene": "LongTransitionCave",
+    "x": -23.59,
+    "y": 6.95,
+    "z": -40.07,
+    "svgX": 1752.7657,
+    "svgY": 1852.2948,
+    "label": "Atrium"
+  },
+  {
+    "scene": "LongTransitionCave",
+    "x": -32.72,
+    "y": 16.35,
+    "z": -54.82,
+    "svgX": 1272.4504,
+    "svgY": 2372.0825,
+    "label": "Atrium overlook"
+  },
+  {
+    "scene": "LongTransitionCave",
+    "x": 9.6,
+    "y": 28.58,
+    "z": -66.28,
+    "svgX": 2709.4912,
+    "svgY": 2493.5601,
+    "label": "Deadend near upper Far Range Branch Line Exit, coal"
+  },
+  {
+    "scene": "LongTransitionCave",
+    "x": -4.17,
+    "y": 35.9,
+    "z": -102.08,
+    "svgX": 2012.4482,
+    "svgY": 4385.9561,
+    "label": "Exit upper Far Range Branch Line"
+  }
+]

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="4262"
+   height="6257"
+   viewBox="0 0 4262 6257"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="LongTransitionCave.svg"
+   inkscape:export-filename="longtransitioncave.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="0.18107719"
+     inkscape:cx="2128.9263"
+     inkscape:cy="3128.5"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="5112"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:export-bgcolor="#ffffffff"
+     showgrid="false" /><defs
+     id="defs1"><rect
+       x="2860.3962"
+       y="4350.3047"
+       width="1040.6611"
+       height="449.24713"
+       id="rect1" /></defs><g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"><image
+   width="2962.717"
+   height="4574.6739"
+   preserveAspectRatio="xMidYMid"
+   xlink:href="longtransitioncave_basemap.png"
+   id="image1"
+   x="533.41742"
+   y="34.244495"
+   inkscape:svg-dpi="96" /><image
+   width="2854.9355"
+   height="1304.8759"
+   preserveAspectRatio="xMidYMid"
+   xlink:href="../Mods/TLD-Map-Client/images/emptylegend.png"
+   id="Map_Legend"
+   x="54.251534"
+   y="4710.9678"
+   inkscape:label="Map Legend"
+   inkscape:svg-dpi="96"><desc
+     id="desc1">Empty map legend</desc></image><image
+   width="918.32745"
+   height="1020.3638"
+   preserveAspectRatio="xMidYMid"
+   xlink:href="../Mods/TLD-Map-Client/images/sticknorthlogo.png"
+   id="Stick_North_Logo"
+   x="3781.1885"
+   y="4683.541"
+   inkscape:svg-dpi="96"
+   transform="rotate(7.1)" /><image
+   width="896.38745"
+   height="437.26218"
+   preserveAspectRatio="none"
+   xlink:href="../Mods/TLD-Map-Client/images/sticknorthlabel.png"
+   id="Stock_North_Label"
+   x="3086.4143"
+   y="4727.4019"
+   inkscape:svg-dpi="96" />
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path1"
+   cx="3154.6614"
+   cy="366.0191"
+   r="25">
+<desc
+   id="desc2">scene=LongTransitionCave x=26.74 y=3.18 z=19.80
+Exit lower Far Range Branch Line</desc>
+<title
+   id="title1">Exit lower Far Range Branch Line</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path2"
+   cx="1752.7657"
+   cy="1852.2948"
+   r="25">
+<desc
+   id="desc3">scene=LongTransitionCave x=-23.59 y=6.95 z=-40.07
+Atrium</desc>
+<title
+   id="title3">Atrium</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path3"
+   cx="1272.4504"
+   cy="2372.0825"
+   r="25">
+<desc
+   id="desc4">scene=LongTransitionCave x=-32.72 y=16.35 z=-54.82
+Atrium overlook</desc>
+<title
+   id="title4">Atrium overlook</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path4"
+   cx="2709.4912"
+   cy="2493.5601"
+   r="25">
+<desc
+   id="desc5">scene=LongTransitionCave x=9.60 y=28.58 z=-66.28
+Deadend near upper Far Range Branch Line Exit, coal</desc>
+<title
+   id="title5">Deadend near upper Far Range Branch Line Exit, coal</title>
+</circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path5"
+   cx="2012.4482"
+   cy="4385.9561"
+   r="25">
+<desc
+   id="desc6">scene=LongTransitionCave x=-4.17 y=35.90 z=-102.08
+Exit upper Far Range Branch Line</desc>
+<title
+   id="title6">Exit upper Far Range Branch Line</title>
+</circle>
+
+	   </g></svg>

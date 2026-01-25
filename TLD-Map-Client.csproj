@@ -8,6 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="map.1.0.17.html" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Include="map.html" />
   </ItemGroup>
 

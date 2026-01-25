@@ -107,15 +107,7 @@
     </div>
 
     <script>
-
-        // Todo:
-        // 1. Can we adjust the scale, translateX, translateY to present a subset of the map?  Background info is that some scenes are
-        // all represented in a single large map image.
-        // e.g. Dam, DamRiverTransitionZoneB, and DamTransitionZone scenes are all on a single map.
-        // and it would be nice to zoom in on the actual playable area.
-        // We would need to add the scale, translateX, translateY values to the regions-to-mapURL.json file.
-
-        const version = '1.0.58';
+        const version = '1.0.59';
         const SERVER_URL = 'http://localhost:8080';
         //const REGIONS_JSON_URL = 'https://okclm.github.io/TLD-Map-Client/regions-to-mapURL.json';
         const REGIONS_JSON_URL = 'https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/regions-to-mapURL.json';
@@ -138,7 +130,7 @@
 
         // Override server values with URL params (for debug/testing)
         // If param is missing, we will use what the TLD server returned
-        // Also, note that both params are trimmed and the difficult param is lowercased for consistency
+        // Also, note that both params are trimmed and the difficulty param is lowercased for consistency
         const urlScene = getQueryParam('scene')?.trim() || null;
         const urlDifficulty = getQueryParam('difficulty')?.trim().toLowerCase() || null;
         urlScale = parseFloat(getQueryParam('scale')?.trim()) || 1.0;
@@ -187,7 +179,7 @@
                 console.error(err);
                 return false;
             }
-        }
+        }   // End of getCurrentGameState
 
 
         // This is where you can hardcode for testing:
@@ -349,10 +341,15 @@
                 })
                 .then(text => alert('Success: ' + text))
                 .catch(err => {
-                    alert('Teleport failed: ' + err.message);
                     if (err.message.includes('Wrong region')) {
+                        alert('Game scene has changed.  Let\'s refresh the map...');
                         loadCurrentGameStateAndMap();
+                    } else {
+                        alert('Teleport failed: ' + err.message);
                     }
+                    //if (err.message.includes('Wrong region')) {
+                    //    loadCurrentGameStateAndMap();
+                    //}
                 });
         }
 

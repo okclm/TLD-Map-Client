@@ -27,9 +27,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
-     inkscape:zoom="1.1064453"
-     inkscape:cx="707.21977"
-     inkscape:cy="1019.9329"
+     inkscape:zoom="0.55322266"
+     inkscape:cx="512.4519"
+     inkscape:cy="445.57105"
      inkscape:window-width="2560"
      inkscape:window-height="1377"
      inkscape:window-x="5112"
@@ -48,13 +48,13 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-54.251534,-34.244495)"><image
-   width="963.49512"
-   height="1836.6107"
+   width="820.64612"
+   height="1641.2922"
    preserveAspectRatio="xMidYMid"
    xlink:href="longtransitioncave_basemap.png"
    id="image1"
-   x="94.222359"
-   y="-113.46689"
+   x="169.68925"
+   y="56.446613"
    inkscape:svg-dpi="96" /><image
    width="675.26892"
    height="308.63818"
@@ -86,8 +86,8 @@
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path1"
-   cx="938.51813"
-   cy="169.27713"
+   cx="888.80933"
+   cy="335.57547"
    r="25">
 <desc
    id="desc2">scene=LongTransitionCave x=26.74 y=3.18 z=19.80
@@ -98,8 +98,8 @@ Exit lower Far Range Branch Line</desc>
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path2"
-   cx="515.54193"
-   cy="653.39008"
+   cx="527.29126"
+   cy="741.05823"
    r="25">
 <desc
    id="desc3">scene=LongTransitionCave x=-23.59 y=6.95 z=-40.07
@@ -110,8 +110,8 @@ Atrium</desc>
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path3"
-   cx="340.20566"
-   cy="809.42542"
+   cx="368.2233"
+   cy="871.78729"
    r="25">
 <desc
    id="desc4">scene=LongTransitionCave x=-32.72 y=16.35 z=-54.82
@@ -122,8 +122,8 @@ Atrium overlook</desc>
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path4"
-   cx="802.04504"
-   cy="855.19775"
+   cx="774.93115"
+   cy="915.75201"
    r="25">
 <desc
    id="desc5">scene=LongTransitionCave x=9.60 y=28.58 z=-66.28
@@ -134,8 +134,8 @@ Deadend near upper Far Range Branch Line Exit, coal</desc>
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path5"
-   cx="572.48102"
-   cy="1473.9762"
+   cx="570.67346"
+   cy="1445.9585"
    r="25">
 <desc
    id="desc6">scene=LongTransitionCave x=-4.17 y=35.90 z=-102.08

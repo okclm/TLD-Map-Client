@@ -4,53 +4,17 @@
     "x": -124.69,
     "y": 24.13,
     "z": -110.25,
-    "svgX": 1076.0238,
-    "svgY": 677.89844,
+    "svgX": 177.402919,
+    "svgY": 947.53543,
     "label": "Exit to Prepper\u0027s Cache area"
-  },
-  {
-    "scene": "MountainTownCaveA",
-    "x": -75.83,
-    "y": 23.92,
-    "z": -86.75,
-    "svgX": 855.28857,
-    "svgY": 145.97083,
-    "label": "Campfire, backpack"
-  },
-  {
-    "scene": "MountainTownCaveA",
-    "x": -74.92,
-    "y": 15.99,
-    "z": -40.03,
-    "svgX": 500.17856,
-    "svgY": 338.68396,
-    "label": "Atrium"
-  },
-  {
-    "scene": "MountainTownCaveA",
-    "x": -68.55,
-    "y": 18.24,
-    "z": -18.9,
-    "svgX": 317.13382,
-    "svgY": 333.76782,
-    "label": "Wolf carcass"
-  },
-  {
-    "scene": "MountainTownCaveA",
-    "x": -62.89,
-    "y": 25.53,
-    "z": -0.8,
-    "svgX": 60.346851,
-    "svgY": 334.75104,
-    "label": "Exit to Spruce Falls Bridge area"
   },
   {
     "scene": "MountainTownCaveA",
     "x": -102.99,
     "y": 23.72,
     "z": -78.53,
-    "svgX": 856.59949,
-    "svgY": 564.8269,
+    "svgX": 233.600139,
+    "svgY": 634.0123299999999,
     "label": "Crouch closest to Prepper\u0027s Cache Exit"
   },
   {
@@ -58,8 +22,44 @@
     "x": -98.48,
     "y": 23.89,
     "z": -81.12,
-    "svgX": 856.43567,
-    "svgY": 468.47037,
+    "svgX": 302.92856900000004,
+    "svgY": 635.32443,
     "label": "Crouch farthest from Prepper\u0027s Cache Exit"
+  },
+  {
+    "scene": "MountainTownCaveA",
+    "x": -75.83,
+    "y": 23.92,
+    "z": -86.75,
+    "svgX": 450.37195900000006,
+    "svgY": 635.9716299999999,
+    "label": "Campfire, backpack"
+  },
+  {
+    "scene": "MountainTownCaveA",
+    "x": -74.92,
+    "y": 15.99,
+    "z": -40.03,
+    "svgX": 348.345009,
+    "svgY": 387.5296299999999,
+    "label": "Atrium"
+  },
+  {
+    "scene": "MountainTownCaveA",
+    "x": -68.55,
+    "y": 18.24,
+    "z": -18.9,
+    "svgX": 336.008039,
+    "svgY": 241.49542999999994,
+    "label": "Wolf carcass"
+  },
+  {
+    "scene": "MountainTownCaveA",
+    "x": -62.89,
+    "y": 25.53,
+    "z": -0.8,
+    "svgX": 348.31259900000003,
+    "svgY": 62.697869999999966,
+    "label": "Exit to Spruce Falls Bridge area"
   }
 ]

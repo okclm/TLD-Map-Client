@@ -142,5 +142,14 @@
     "svgX": 800.20319,
     "svgY": 662.83942,
     "label": "St. Christopher\u0027s Church"
+  },
+  {
+    "scene": "MountainTownRegion",
+    "x": 1291.32,
+    "y": 349.83,
+    "z": 1613.84,
+    "svgX": 1745.6884,
+    "svgY": 1420.8507,
+    "label": "Radio Tower, Transmitter Location"
   }
 ]

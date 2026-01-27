@@ -24,9 +24,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
-     inkscape:zoom="1.0701299"
-     inkscape:cx="2080.5885"
-     inkscape:cy="648.05217"
+     inkscape:zoom="0.53506493"
+     inkscape:cx="1679.2354"
+     inkscape:cy="2522.1238"
      inkscape:window-width="2560"
      inkscape:window-height="1377"
      inkscape:window-x="5112"
@@ -203,5 +203,14 @@ Campfire, corpse</desc><title
    r="25"><desc
      id="desc17">scene=MountainTownRegion x=698.51 y=288.49 z=2101.97
 St. Christopher's Church</desc><title
-     id="title17">St. Christopher's Church</title></circle>	 
+     id="title17">St. Christopher's Church</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path18"
+   cx="1745.6884"
+   cy="1420.8507"
+   r="25"><desc
+     id="desc16">scene=MountainTownRegion x=1291.32 y=349.83 z=1613.84
+Radio Tower, Transmitter Location</desc><title
+     id="title16">Radio Tower, Transmitter Location</title></circle>
 	 </g></svg>

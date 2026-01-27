@@ -143,6 +143,10 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/marshregion_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/marshregion_hard.jpg"
     },
+    "MiltonTrailerB": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/miltontrailerb.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/miltontrailerb.png"
+    },	
     "MiningRegionMine": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/miningregionmine.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/miningregionmine.jpg"

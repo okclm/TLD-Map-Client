@@ -160,5 +160,14 @@
     "svgX": 641.41614,
     "svgY": 2476.8049,
     "label": "Western Milton Basin, backpack, possible corpse, cat tails"
+  },
+  {
+    "scene": "MountainTownRegion",
+    "x": 999.99,
+    "y": 357.99,
+    "z": 2292.72,
+    "svgX": 1263.8657,
+    "svgY": 374.97272,
+    "label": "Trailer"
   }
 ]

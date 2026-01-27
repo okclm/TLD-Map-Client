@@ -25,8 +25,8 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      inkscape:zoom="1.0701299"
-     inkscape:cx="1183.5012"
-     inkscape:cy="648.05218"
+     inkscape:cx="2080.5885"
+     inkscape:cy="648.05217"
      inkscape:window-width="2560"
      inkscape:window-height="1377"
      inkscape:window-x="5112"
@@ -184,4 +184,24 @@ Climbing Area Cave</desc><title
    r="25"><desc
      id="desc15">scene=MountainTownRegion x=1772.09 y=350.49 z=995.04
 Cave entrance to Mystery Lake</desc><title
-     id="title15">Cave entrance to Mystery Lake</title></circle></g></svg>
+     id="title15">Cave entrance to Mystery Lake</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path10"
+   cx="1999.1576"
+   cy="812.60101"
+   r="25"><desc
+     id="desc11">scene=MountainTownRegion x=1483.05 y=364.41 z=2009.14
+Campfire, corpse</desc><title
+     id="title11">Campfire, corpse</title></circle>
+
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path17"
+   cx="800.20319"
+   cy="662.83942"
+   r="25"><desc
+     id="desc17">scene=MountainTownRegion x=698.51 y=288.49 z=2101.97
+St. Christopher's Church</desc><title
+     id="title17">St. Christopher's Church</title></circle>	 
+	 </g></svg>

@@ -124,5 +124,23 @@
     "svgX": 2467.01,
     "svgY": 2339.4,
     "label": "Cave entrance to Mystery Lake"
+  },
+  {
+    "scene": "MountainTownRegion",
+    "x": 1483.05,
+    "y": 364.41,
+    "z": 2009.14,
+    "svgX": 1999.1576,
+    "svgY": 812.60101,
+    "label": "Campfire, corpse"
+  },
+  {
+    "scene": "MountainTownRegion",
+    "x": 698.51,
+    "y": 288.49,
+    "z": 2101.97,
+    "svgX": 800.20319,
+    "svgY": 662.83942,
+    "label": "St. Christopher\u0027s Church"
   }
 ]

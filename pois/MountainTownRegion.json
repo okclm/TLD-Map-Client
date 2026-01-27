@@ -169,5 +169,14 @@
     "svgX": 1263.8657,
     "svgY": 374.97272,
     "label": "Trailer"
+  },
+  {
+    "scene": "MountainTownRegion",
+    "x": 443.47,
+    "y": 6.96,
+    "z": 715.69,
+    "svgX": 425.7,
+    "svgY": 2779.93,
+    "label": "Hermit\u0027s Cabin"
   }
 ]

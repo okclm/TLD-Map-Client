@@ -230,5 +230,7 @@ Western Milton Basin, backpack, possible corpse, cat tails</desc><title
    r="25"><desc
      id="desc19">scene=MountainTownRegion x=999.99 y=357.99 z=2292.72
 Trailer</desc><title
-     id="title19">Trailer</title></circle>	 
+     id="title19">Trailer</title></circle>
+<circle style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931" id="path21" cx="425.70" cy="2779.93" r="25"><desc id="desc1">scene=MountainTownRegion x=443.47 y=6.96 z=715.69
+Hermit's Cabin</desc><title id="title1">Hermit's Cabin</title></circle>
 	 </g></svg>

@@ -71,6 +71,10 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/caved.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/caved.png"
     },	
+    "ChurchB": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/churchb.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/churchb.png"
+    },		
     "CoastalRegion": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/coastalregion_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/coastalregion_hard.jpg"

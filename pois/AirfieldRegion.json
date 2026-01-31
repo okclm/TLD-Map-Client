@@ -4,8 +4,8 @@
     "x": 511.92,
     "y": 265.47,
     "z": -1258.03,
-    "svgX": 833.21533,
-    "svgY": 1126.1827,
+    "svgX": 3150.0891,
+    "svgY": 4263.7329,
     "label": "Exit for Transfer Pass"
   },
   {
@@ -13,8 +13,8 @@
     "x": 163.49,
     "y": 160.04,
     "z": -617.47,
-    "svgX": 687.88281,
-    "svgY": 885.5495,
+    "svgX": 2601.0249,
+    "svgY": 3348.259,
     "label": "Entrance to main hanger"
   },
   {
@@ -22,8 +22,8 @@
     "x": 935.83,
     "y": 247.56,
     "z": -810.75,
-    "svgX": 984.63232,
-    "svgY": 945.08368,
+    "svgX": -3720.2542,
+    "svgY": 3574.0969,
     "label": "Cave with bed and double campfire.  Primary outside cooking location."
   },
   {
@@ -31,8 +31,8 @@
     "x": 1423.18,
     "y": 232.19,
     "z": 158.7,
-    "svgX": 1206.3301,
-    "svgY": 555.87207,
+    "svgX": 4513.5605,
+    "svgY": 2118.2959,
     "label": "Transition Cave entrance to ZOC / SP / FA.  Westside of FA map."
   },
   {
@@ -40,8 +40,8 @@
     "x": 324.05,
     "y": 208.65,
     "z": 1009.94,
-    "svgX": 755.78571,
-    "svgY": 212.68333,
+    "svgX": 2857.8125,
+    "svgY": 815.77698,
     "label": "Island Cottage"
   },
   {
@@ -49,8 +49,8 @@
     "x": 1033.12,
     "y": 151.08,
     "z": 319.86,
-    "svgX": 1034.3715,
-    "svgY": 502.4436,
+    "svgX": 3908.4583,
+    "svgY": 1902.7269,
     "label": "Bear cave (Fallow dugout)  Caution: Bear may be home!  DANGER!"
   },
   {
@@ -58,8 +58,8 @@
     "x": 378.71,
     "y": 168.02,
     "z": 955.54,
-    "svgX": 781.07684,
-    "svgY": 238.09776,
+    "svgX": 2915.1396,
+    "svgY": 919.16797,
     "label": "Cove tunnel to Island Cottage"
   },
   {
@@ -67,8 +67,8 @@
     "x": 542.81,
     "y": 153.21,
     "z": 830,
-    "svgX": 843.00189,
-    "svgY": 303.15002,
+    "svgX": 3189.2424,
+    "svgY": 1143.8546,
     "label": "Archie\u0027s Crawl Space"
   },
   {
@@ -76,8 +76,8 @@
     "x": 1234.17,
     "y": 224.06,
     "z": 1293.27,
-    "svgX": 1115.8397,
-    "svgY": 108.23988,
+    "svgX": 4220.5562,
+    "svgY": 422.9668,
     "label": "Brittle Cave"
   },
   {
@@ -85,8 +85,8 @@
     "x": 667.43,
     "y": 151.29,
     "z": 1135.39,
-    "svgX": 894.56549,
-    "svgY": 165.93138,
+    "svgX": 3383.54,
+    "svgY": 637.49261,
     "label": "Fishing Hut East"
   },
   {
@@ -94,8 +94,8 @@
     "x": -6.16,
     "y": 151.44,
     "z": 1118.42,
-    "svgX": 619.27515,
-    "svgY": 170.89796,
+    "svgX": 2339.7891,
+    "svgY": 658.79279,
     "label": "Fishing Hut West"
   },
   {
@@ -103,8 +103,8 @@
     "x": -731.48,
     "y": 294.89,
     "z": 1131.28,
-    "svgX": 326.20438,
-    "svgY": 162.98906,
+    "svgX": 1230.1649,
+    "svgY": 627.3175,
     "label": "Mindful Cabin"
   },
   {
@@ -112,8 +112,8 @@
     "x": -1390.7,
     "y": 237.45,
     "z": 602.19,
-    "svgX": 69.307617,
-    "svgY": 378.2554,
+    "svgX": 269.0105,
+    "svgY": 1439.2244,
     "label": "Sudden Washout (cave)"
   },
   {
@@ -121,8 +121,8 @@
     "x": -1167.62,
     "y": 201.21,
     "z": 488.94,
-    "svgX": 154.53113,
-    "svgY": 423.07471,
+    "svgX": 587.64136,
+    "svgY": 1609.2008,
     "label": "Bear Cave (West wall) This is a safe transport on a rock pillar next to the cave."
   },
   {
@@ -130,8 +130,8 @@
     "x": -501.74,
     "y": 153.61,
     "z": 293.99,
-    "svgX": 423.07715,
-    "svgY": 502.22867,
+    "svgX": 1598.7568,
+    "svgY": 1915.5155,
     "label": "Final Approach Crash Site (Helicopter)"
   },
   {
@@ -139,8 +139,8 @@
     "x": -1158.66,
     "y": 276.65,
     "z": -580.87,
-    "svgX": 166.18039,
-    "svgY": 852.3811,
+    "svgX": 627.92975,
+    "svgY": 3231.6821,
     "label": "Grip\u0027s Cave"
   },
   {
@@ -148,8 +148,8 @@
     "x": -1190.95,
     "y": 233.66,
     "z": -755.29,
-    "svgX": 150.85242,
-    "svgY": 916.82025,
+    "svgX": 557.58429,
+    "svgY": 3483.3115,
     "label": "Stony Passage"
   },
   {
@@ -157,8 +157,8 @@
     "x": 1010.14,
     "y": 288.02,
     "z": -949.59,
-    "svgX": 1027.6122,
-    "svgY": 1002.1054,
+    "svgX": 3879.5483,
+    "svgY": 3797.1182,
     "label": "Justy\u0027s Hovel Cabin."
   },
   {
@@ -166,8 +166,8 @@
     "x": 1209.38,
     "y": 303.83,
     "z": -727.21,
-    "svgX": 1107.3176,
-    "svgY": 913.26483,
+    "svgX": 4189.1421,
+    "svgY": 3459.9922,
     "label": "Bunker Omega"
   },
   {
@@ -175,8 +175,8 @@
     "x": -95.25,
     "y": 136.32,
     "z": -1189.19,
-    "svgX": 594.19891,
-    "svgY": 1096.6456,
+    "svgX": 2241.9387,
+    "svgY": 4154.2026,
     "label": "Frost Cave"
   },
   {
@@ -184,8 +184,8 @@
     "x": -285.67,
     "y": 265.89,
     "z": -1197,
-    "svgX": 511.42789,
-    "svgY": 1101.6123,
+    "svgX": 1918.7676,
+    "svgY": 4158.3218,
     "label": "Whealy\u0027s Turn"
   },
   {
@@ -193,8 +193,8 @@
     "x": -493.18,
     "y": 278.44,
     "z": -1347.61,
-    "svgX": 421.91257,
-    "svgY": 1151.9496,
+    "svgX": 1595.3838,
+    "svgY": 4357.8174,
     "label": "Cave (south map between Whealy\u0027s Turn and Junker\u0027s Paddock"
   },
   {
@@ -202,8 +202,8 @@
     "x": 271.08,
     "y": 282.15,
     "z": -999.27,
-    "svgX": 735.21625,
-    "svgY": 1020.8655,
+    "svgX": 2787.854,
+    "svgY": 3877.9707,
     "label": "Vista at cliffside south of Field 31"
   },
   {
@@ -211,8 +211,8 @@
     "x": 37.21,
     "y": 155.9,
     "z": 384.01,
-    "svgX": 638.34351,
-    "svgY": 462.37595,
+    "svgX": 2415.8264,
+    "svgY": 1757.8511,
     "label": "Hunter\u0027s Blind West of Shoulder Lake"
   },
   {
@@ -220,8 +220,8 @@
     "x": 565.58,
     "y": 178.43,
     "z": -382.8,
-    "svgX": 850.48254,
-    "svgY": 766.54449,
+    "svgX": 3217.4497,
+    "svgY": 2910.7776,
     "label": "Spotter\u0027s Blind East of Airport"
   },
   {
@@ -229,8 +229,8 @@
     "x": 125.71,
     "y": 160.97,
     "z": -503.62,
-    "svgX": 677.58307,
-    "svgY": 819.64093,
+    "svgX": 2555.3047,
+    "svgY": 3111.2185,
     "label": "Field 31 Terminal (air baggage claims terminal building)"
   }
 ]

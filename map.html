@@ -107,7 +107,7 @@
     </div>
 
     <script>
-        const version = '1.0.59';
+        const version = '1.0.60';
         const SERVER_URL = 'http://localhost:8080';
         //const REGIONS_JSON_URL = 'https://okclm.github.io/TLD-Map-Client/regions-to-mapURL.json';
         const REGIONS_JSON_URL = 'https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/regions-to-mapURL.json';
@@ -121,6 +121,7 @@
         let currentDifficulty = 'easy';
         let mapWidth = 3203; // Fallback if detection fails
         let mapHeight = 3803;
+        let poiDiameter = 25;
 
         // Get URL query parameters
         function getQueryParam(param) {
@@ -146,8 +147,15 @@
                 const res = await fetch(`${SERVER_URL}/scene`);
                 if (!res.ok) throw new Error(`Server returned ${res.status}`);
                 const serverData = await res.json();
-
                 console.log(`TLD Server reports scene (difficulty)=${serverData.sceneName} (${serverData.experienceMode})`);
+
+                const configRes = await fetch(`${SERVER_URL}/getconfig`);
+                if (!configRes.ok) throw new Error(`Server returned ${configRes.status}`);
+                const configServerData = await configRes.json();
+                console.log(`TLD Server reports current config: portNumber=${configServerData.portNumber}, ` +
+                    `enableTeleport=${configServerData.enableTeleport},  ` +
+                    `groundSnappingYoffset=${configServerData.groundSnappingYoffset},  ` +
+                    `poiDiameter=${configServerData.poiDiameter}`);
 
                 // Use URL params if provided, otherwise use server values
                 // Example call with parameters: https://okclm.github.io/TLD-Map-Client/map.html?scene=RuralRegion&difficulty=hard
@@ -161,6 +169,7 @@
                 // Assign to the outer variables
                 currentScene = finalScene;
                 currentDifficulty = finalDifficulty;
+                poiDiameter = configServerData.poiDiameter || poiDiameter;
 
                 //console.log(`Version ${version}: TLD Server reports scene (difficulty)=${currentScene} (${currentDifficulty})`);
                 //console.log("URL override - Scene:", currentScene, "Difficulty:", currentDifficulty);
@@ -277,7 +286,8 @@
                     const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
                     circle.setAttribute('cx', poi.svgX);  // Use harvested svgX directly
                     circle.setAttribute('cy', poi.svgY);  // Use harvested svgY directly
-                    circle.setAttribute('r', '25');       // Bigger for visibility
+                    //circle.setAttribute('r', '25');       // Bigger for visibility
+                    circle.setAttribute('r', poiDiameter);       // Bigger for visibility
 
                     // Always add base POI class
                     circle.classList.add('poi');

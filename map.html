@@ -121,7 +121,7 @@
         let currentDifficulty = 'easy';
         let mapWidth = 3203; // Fallback if detection fails
         let mapHeight = 3803;
-        let poiDiameter = 25;
+        let poiRadius = 25;
 
         // Get URL query parameters
         function getQueryParam(param) {
@@ -155,7 +155,7 @@
                 console.log(`TLD Server reports current config: portNumber=${configServerData.portNumber}, ` +
                     `enableTeleport=${configServerData.enableTeleport},  ` +
                     `groundSnappingYoffset=${configServerData.groundSnappingYoffset},  ` +
-                    `poiDiameter=${configServerData.poiDiameter}`);
+                    `poiRadius=${configServerData.poiRadius}`);
 
                 // Use URL params if provided, otherwise use server values
                 // Example call with parameters: https://okclm.github.io/TLD-Map-Client/map.html?scene=RuralRegion&difficulty=hard
@@ -169,7 +169,7 @@
                 // Assign to the outer variables
                 currentScene = finalScene;
                 currentDifficulty = finalDifficulty;
-                poiDiameter = configServerData.poiDiameter || poiDiameter;
+                poiRadius = configServerData.poiRadius || poiRadius;
 
                 //console.log(`Version ${version}: TLD Server reports scene (difficulty)=${currentScene} (${currentDifficulty})`);
                 //console.log("URL override - Scene:", currentScene, "Difficulty:", currentDifficulty);
@@ -287,7 +287,7 @@
                     circle.setAttribute('cx', poi.svgX);  // Use harvested svgX directly
                     circle.setAttribute('cy', poi.svgY);  // Use harvested svgY directly
                     //circle.setAttribute('r', '25');       // Bigger for visibility
-                    circle.setAttribute('r', poiDiameter);       // Bigger for visibility
+                    circle.setAttribute('r', poiRadius);       // Bigger for visibility
 
                     // Always add base POI class
                     circle.classList.add('poi');

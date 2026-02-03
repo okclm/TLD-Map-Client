@@ -138,6 +138,10 @@
     "LongTransitionCave": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/longtransitioncave.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/longtransitioncave.png"
+    },
+    "MaintenanceShedB": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/maintenanceshedb.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/maintenanceshedb.png"
     },	
     "MarshRegion": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/marshregion_easy.jpg",

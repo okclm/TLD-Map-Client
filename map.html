@@ -97,7 +97,9 @@
     </style>
 </head>
 <body>
-    <div id="status">Starting...</div>
+<!--    <div id="status">Starting...</div>-->
+    <p id="status">Starting...</p>
+    <button id="pause-poll">Resume Polling</button>
 
     <div id="map-container">
         <svg id="map-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">
@@ -107,18 +109,26 @@
     </div>
 
     <script>
-        const version = '1.0.60';
+        const version = '1.0.61';
         const SERVER_URL = 'http://localhost:8080';
-        //const REGIONS_JSON_URL = 'https://okclm.github.io/TLD-Map-Client/regions-to-mapURL.json';
+
+        // These are raw GitHub links (uncomment to use raw GitHub hosting).  Not sure about authentication requirements.
         const REGIONS_JSON_URL = 'https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/regions-to-mapURL.json';
-        //const POIS_BASE_URL = 'https://okclm.github.io/TLD-Map-Client/pois/';
         const POIS_BASE_URL = 'https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/pois/';
-        //const CALIBRATION_BASE_URL = 'https://okclm.github.io/TLD-Map-Client/calibration/';
-        //const REGIONS_ZOOM_TRANS_URL = 'https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/regions-zoom-trans.json';
         const REGIONS_ZOOM_TRANS_URL = 'https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/regions-zoom-trans.json';
 
-        let currentScene = null;
-        let currentDifficulty = 'easy';
+        // These are GitHub Pages links (uncomment to use GitHub Pages hosting).  Don't think they need authentication.
+        //const REGIONS_JSON_URL = 'https://okclm.github.io/TLD-Map-Client/regions-to-mapURL.json';
+        //const POIS_BASE_URL = 'https://okclm.github.io/TLD-Map-Client/pois/';
+        //const REGIONS_ZOOM_TRANS_URL = 'https://okclm.github.io/TLD-Map-Client/regions-zoom-trans.json';
+
+        //let currentScene = null;
+        //let currentDifficulty = 'easy';
+        let pollingInterval = null; // To store the interval ID for stopping
+        let pollingEnabled = false; // Control flag for polling
+        let currentScene = null; // Track current scene to detect changes
+        let currentDifficulty = null; // Track current difficulty
+
         let mapWidth = 3203; // Fallback if detection fails
         let mapHeight = 3803;
         let poiRadius = 25;
@@ -319,7 +329,7 @@
                     circle.onclick = () => teleport(poi.scene || currentScene, poi.x, poi.y, poi.z);
                     svg.appendChild(circle);
 
-                    console.log(`POI "${poi.label}": game(${poi.x.toFixed(2)}, ${poi.y.toFixed(2)}) → svg(${poi.svgX.toFixed(1)}, ${poi.svgY.toFixed(1)})`);
+                    //console.log(`POI "${poi.label}": game(${poi.x.toFixed(2)}, ${poi.y.toFixed(2)}) → svg(${poi.svgX.toFixed(1)}, ${poi.svgY.toFixed(1)})`);
                 });
 
                 document.getElementById('status').textContent =
@@ -463,8 +473,62 @@
         // Initial load
         loadCurrentGameStateAndMap();
 
+        // Function to start polling
+        function startPolling() {
+            if (pollingInterval) {
+                console.log("Polling already running");
+                return; // Already running
+            }
+            // loadCurrentGameStateAndMap(); // Initial load
+            pollingInterval = setInterval(loadCurrentGameStateAndMap, 30000); // Poll every 30 seconds (adjust as needed)
+            console.log("Polling started (ID: " + pollingInterval + ")");
+        }
+
+        // Function to stop polling
+        function stopPolling() {
+            if (pollingInterval) {
+                clearInterval(pollingInterval);
+                console.log("Polling stopped (ID: " + pollingInterval + ")");
+                pollingInterval = null;
+                //console.log("Polling stopped");
+            } else {
+                console.log("Polling already stopped");
+            }
+        }
+
+        // Stop polling when page is hidden (saves resources)
+        document.addEventListener('visibilitychange', () => {
+            if (document.hidden) {
+                console.log("Document hidden");
+                if (pollingEnabled) {
+                    stopPolling();
+                }
+            } else {
+                console.log("Document visible");
+                if (pollingEnabled) {
+                    startPolling();
+                }
+            }
+        });
+
+        // Optional: Add a button to pause/resume polling (in your HTML: <button id="pause-poll">Pause Polling</button>)
+        document.getElementById('pause-poll').addEventListener('click', () => {
+            const button = document.getElementById('pause-poll'); // Or use 'this' with arrow
+            if (pollingInterval) {
+                console.log("Pause polling clicked");
+                stopPolling();
+                button.textContent = 'Resume Polling';
+                pollingEnabled = false;
+            } else {
+                console.log("Resume polling clicked");
+                startPolling();
+                button.textContent = 'Pause Polling';
+                pollingEnabled = true;
+            }
+        });
+
         // Optional: Refresh every 30 seconds
-        // setInterval(loadCurrentGameStateAndMap, 30000);
+        // pollingInterval = setInterval(loadCurrentGameStateAndMap, 30000);
     </script>
 </body>
 </html>

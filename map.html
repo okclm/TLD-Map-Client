@@ -109,7 +109,7 @@
     </div>
 
     <script>
-        const version = '1.0.61';
+        const version = '1.0.62';
         const SERVER_URL = 'http://localhost:8080';
 
         // These are raw GitHub links (uncomment to use raw GitHub hosting).  Not sure about authentication requirements.
@@ -126,6 +126,7 @@
         //let currentDifficulty = 'easy';
         let pollingInterval = null; // To store the interval ID for stopping
         let pollingEnabled = false; // Control flag for polling
+        let mapRefreshSeconds = 30; // Default refresh interval
         let currentScene = null; // Track current scene to detect changes
         let currentDifficulty = null; // Track current difficulty
 
@@ -165,6 +166,7 @@
                 console.log(`TLD Server reports current config: portNumber=${configServerData.portNumber}, ` +
                     `enableTeleport=${configServerData.enableTeleport},  ` +
                     `groundSnappingYoffset=${configServerData.groundSnappingYoffset},  ` +
+                    `mapRefreshSeconds=${configServerData.mapRefreshSeconds},  ` +
                     `poiRadius=${configServerData.poiRadius}`);
 
                 // Use URL params if provided, otherwise use server values
@@ -180,6 +182,7 @@
                 currentScene = finalScene;
                 currentDifficulty = finalDifficulty;
                 poiRadius = configServerData.poiRadius || poiRadius;
+                mapRefreshSeconds = configServerData.mapRefreshSeconds || mapRefreshSeconds;
 
                 //console.log(`Version ${version}: TLD Server reports scene (difficulty)=${currentScene} (${currentDifficulty})`);
                 //console.log("URL override - Scene:", currentScene, "Difficulty:", currentDifficulty);
@@ -480,8 +483,9 @@
                 return; // Already running
             }
             // loadCurrentGameStateAndMap(); // Initial load
-            pollingInterval = setInterval(loadCurrentGameStateAndMap, 30000); // Poll every 30 seconds (adjust as needed)
-            console.log("Polling started (ID: " + pollingInterval + ")");
+            pollingInterval = setInterval(loadCurrentGameStateAndMap, mapRefreshSeconds*1000); // Poll seconds (adjust as needed)
+            //console.log("Polling started (ID: " + pollingInterval + ") every " + mapRefreshSeconds + " seconds");
+            console.log(`Polling started (ID: ${pollingInterval}) every ${mapRefreshSeconds} seconds`);
         }
 
         // Function to stop polling
@@ -528,7 +532,7 @@
         });
 
         // Optional: Refresh every 30 seconds
-        // pollingInterval = setInterval(loadCurrentGameStateAndMap, 30000);
+        // pollingInterval = setInterval(loadCurrentGameStateAndMap, mapRefreshSeconds*1000);
     </script>
 </body>
 </html>

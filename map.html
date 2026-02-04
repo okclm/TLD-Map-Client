@@ -337,7 +337,7 @@
             } catch (err) {
                 document.getElementById('status').textContent =
                     `${version}: POIs not found for ${currentScene}. Using map only.`;
-                console.warn('POI load failed:', err);
+                console.warn(`POI load failed: ${err}`);
             }
         }
 

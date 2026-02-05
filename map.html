@@ -483,7 +483,8 @@
                 return; // Already running
             }
             // loadCurrentGameStateAndMap(); // Initial load
-            pollingInterval = setInterval(loadCurrentGameStateAndMap, mapRefreshSeconds*1000); // Poll seconds (adjust as needed)
+            //pollingInterval = setInterval(loadCurrentGameStateAndMap, mapRefreshSeconds * 1000); // Poll seconds (adjust as needed)
+            pollingInterval = setInterval(processPolling, mapRefreshSeconds * 1000); // Poll seconds (adjust as needed)
             //console.log("Polling started (ID: " + pollingInterval + ") every " + mapRefreshSeconds + " seconds");
             console.log(`Polling started (ID: ${pollingInterval}) every ${mapRefreshSeconds} seconds`);
         }
@@ -530,6 +531,67 @@
                 pollingEnabled = true;
             }
         });
+
+        // Function to process poll event
+        async function processPolling() {
+            if (pollingEnabled && pollingInterval) {
+                //logMessage(`Processing polling function (pollingInterval:${pollingInterval}, pollingEnabled:${pollingEnabled})`);
+                try {
+                    const res = await fetch(`${SERVER_URL}/scene`);
+                    if (!res.ok) throw new Error(`Server returned ${res.status}`);
+                    const serverData = await res.json();
+                    // logMessage(`TLD Server reports scene (difficulty)=${serverData.sceneName} (${serverData.experienceMode})`);
+
+                    const configRes = await fetch(`${SERVER_URL}/getconfig`);
+                    if (!configRes.ok) throw new Error(`Server returned ${configRes.status}`);
+                    const configServerData = await configRes.json();
+                    //logMessage(`TLD Server reports current config: portNumber=${configServerData.portNumber}, ` +
+                    //    `enableTeleport=${configServerData.enableTeleport},  ` +
+                    //    `groundSnappingYoffset=${configServerData.groundSnappingYoffset},  ` +
+                    //    `mapRefreshSeconds=${configServerData.mapRefreshSeconds},  ` +
+                    //    `poiRadius=${configServerData.poiRadius}`);
+
+                    if (serverData.sceneName !== currentScene ||
+                        serverData.experienceMode.toLowerCase() !== currentDifficulty ||
+                        configServerData.mapRefreshSeconds !== mapRefreshSeconds ||
+                        configServerData.poiRadius !== poiRadius) {
+                        //logMessage(`Scene, difficulty, mapRefreshSeconds, or poiRadius changed (scene: ${serverData.sceneName} vs ${currentScene}, ` +
+                        //    `difficulty: ${serverData.experienceMode} vs ${currentDifficulty}, ` +
+                        //    `mapRefreshSeconds: ${configServerData.mapRefreshSeconds} vs ${mapRefreshSeconds}, ` +
+                        //    `poiRadius: ${configServerData.poiRadius} vs ${poiRadius})`);
+                        logMessage(`Reloading map...`);
+                        loadCurrentGameStateAndMap();
+                        if (configServerData.mapRefreshSeconds !== mapRefreshSeconds) {
+                            mapRefreshSeconds = configServerData.mapRefreshSeconds;
+                            if (pollingEnabled) {
+                                stopPolling();
+                                startPolling();
+                                logMessage(`Updated polling interval to ${mapRefreshSeconds} seconds due to config change.`);
+                            }
+                        }
+                    } else {
+                        logMessage(`No changes detected so no reload needed.`);
+                    }
+
+                } catch (err) {
+                    logMessage(`Error during polling: ${err} `);
+                }
+            } else {
+                logMessage(`Polling not enabled(pollingInterval: ${pollingInterval}, pollingEnabled: ${pollingEnabled})`);
+            }
+        }
+
+        // Debugging helper to log function name, line number, and message
+        function logMessage(message) {
+            const err = new Error();
+            const stack = err.stack.split("\n")[2]; // Get the caller's stack line
+            const functionName = stack.match(/at (\w+)/)[1]; // Extract the function name
+            const lineNumber = stack.match(/:(\d+):/)[1]; // Extract the line number
+            const timestamp = new Date().toLocaleString(); // Get the current date/time in local format
+
+            console.log(`[${timestamp}: ${functionName}:${lineNumber}] ${message} `);
+            //console.log(`[${ functionName }:${ lineNumber }] ${ message } `);
+        }
 
         // Optional: Refresh every 30 seconds
         // pollingInterval = setInterval(loadCurrentGameStateAndMap, mapRefreshSeconds*1000);

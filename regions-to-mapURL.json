@@ -228,6 +228,10 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/preppercacheeempty.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/preppercacheeempty.png"
     },
+    "PrepperCacheFEmpty": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/preppercachefempty.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/preppercachefempty.png"
+    },	
     "QuonsetGasStation": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/quonsetgasstation.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/quonsetgasstation.png"

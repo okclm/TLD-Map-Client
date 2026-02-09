@@ -220,6 +220,10 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/ruralregion_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/ruralregion_hard.jpg"
     },
+    "SafeHouseA": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/safehousea.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/safehousea.png"
+    },	
     "TracksRegion": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/tracksregion_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/tracksregion_hard.jpg"

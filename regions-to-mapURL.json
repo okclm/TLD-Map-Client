@@ -47,10 +47,14 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/blackrocktransitionzone_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/blackrocktransitionzone_hard.jpg"
     },
+    "BunkerA": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/bunkera.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/bunkera.png"
+    },
     "CampOffice": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/campoffice.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/campoffice.png"
-    },
+    },	
     "CanneryMarshTransitionCave": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/cannerymarshtransitioncave.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/cannerymarshtransitioncave.png"

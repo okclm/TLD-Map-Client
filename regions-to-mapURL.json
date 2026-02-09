@@ -211,6 +211,10 @@
     "PrepperCacheD": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/preppercached.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/preppercached.png"
+    },
+    "PrepperCacheEEmpty": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/preppercacheeempty.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/preppercacheeempty.png"
     },	
     "RavineTransitionZone": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/ravinetransitionzone_easy.jpg",

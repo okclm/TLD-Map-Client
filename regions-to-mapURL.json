@@ -204,6 +204,10 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/mountaintowncaveb.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/mountaintowncaveb.png"
     },	
+    "PrepperCacheBEmpty": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/preppercachebempty.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/preppercachebempty.png"
+    },
     "RavineTransitionZone": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/ravinetransitionzone_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/ravinetransitionzone_hard.jpg"

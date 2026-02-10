@@ -320,10 +320,14 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/quonsetgasstation.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/quonsetgasstation.png"
     },	
+    "RadioControlHutB": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/radiocontrolhutb.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/radiocontrolhutb.png"
+    },
     "RavineTransitionZone": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/ravinetransitionzone_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/ravinetransitionzone_hard.jpg"
-    },
+    },	
     "RiverValleyRegion": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/rivervalleyregion_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/rivervalleyregion_hard.jpg"

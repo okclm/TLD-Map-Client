@@ -212,10 +212,14 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/mountaintowncaveb.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/mountaintowncaveb.png"
     },	
+    "PrepperCacheA": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/preppercachea.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/preppercachea.png"
+    },
     "PrepperCacheAEmpty": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/preppercacheaempty.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/preppercacheaempty.png"
-    },
+    },	
     "PrepperCacheBEmpty": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/preppercachebempty.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/preppercachebempty.png"

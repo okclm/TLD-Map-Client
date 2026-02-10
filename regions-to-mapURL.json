@@ -227,6 +227,10 @@
     "MountainTownCaveB": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/mountaintowncaveb.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/mountaintowncaveb.png"
+    },
+    "PostOfficeA": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/postofficea.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/postofficea.png"
     },	
     "PrepperCacheA": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/preppercachea.png",

@@ -95,6 +95,10 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/coastalregion_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/coastalregion_hard.jpg"
     },
+    "ConvenienceStoreA": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/conveniencestorea.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/conveniencestorea.png"
+    },	
     "CrashMountainRegion": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/crashmountainregion_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/crashmountainregion_hard.jpg"

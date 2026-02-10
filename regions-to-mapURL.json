@@ -178,7 +178,11 @@
     "MiltonHouseD": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/miltonhoused.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/miltonhoused.png"
-    },    
+    },
+    "MiltonHouseH2": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/miltonhouseh2.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/miltonhouseh2.png"
+    },	
 	"MiltonTrailerB": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/miltontrailerb.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/miltontrailerb.png"

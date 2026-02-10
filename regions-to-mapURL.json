@@ -118,6 +118,10 @@
     "FarmHouseB": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/farmhouseb.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/farmhouseb.png"
+    },
+    "GreyMothersHouseA": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/greymothershousea.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/greymothershousea.png"
     },	
     "HighwayTransitionZone": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/highwaytransitionzone.jpg",

@@ -363,7 +363,8 @@
                     return res.text();
                 })
                 //.then(text => alert('Success: ' + text))
-                .then(text => document.getElementById('status').textContent = `Teleport success: ${text}`)
+                //.then(text => document.getElementById('status').textContent = `Teleport success: ${text}`)
+                .then(text => document.getElementById('status').textContent = `${Date().toLocaleString()}: ${text}`)
                 .catch(err => {
                     if (err.message.includes('Wrong region')) {
                         alert('Game scene has changed.  Let\'s refresh the map...');

@@ -74,6 +74,10 @@
     "CanneryRegion": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/canneryregion_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/canneryregion_hard.jpg"
+    },
+    "CanneryTrailerA": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/cannerytrailera.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/cannerytrailera.png"
     },	
     "CanyonRoadCave": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/canyonroadcave.png",

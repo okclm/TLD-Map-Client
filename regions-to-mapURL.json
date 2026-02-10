@@ -54,6 +54,10 @@
     "BunkerB": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/bunkerb.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/bunkerb.png"
+    },
+    "BunkerC": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/bunkerc.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/bunkerc.png"
     },	
     "CampOffice": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/campoffice.png",

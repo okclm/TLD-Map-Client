@@ -348,6 +348,10 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/tracksregion_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/tracksregion_hard.jpg"
     },
+    "TrailerC": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/trailerc.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/trailerc.png"
+    },
     "TrailerD": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/trailerd.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/trailerd.png"

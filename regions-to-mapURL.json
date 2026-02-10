@@ -175,6 +175,10 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/marshregion_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/marshregion_hard.jpg"
     },
+    "MiltonHouseA": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/miltonhousea.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/miltonhousea.png"
+    },
     "MiltonHouseC": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/miltonhousec.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/miltonhousec.png"

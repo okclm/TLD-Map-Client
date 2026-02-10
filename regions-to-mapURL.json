@@ -348,6 +348,10 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/whalingmine.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/whalingmine.png"
     },
+    "WoodCabinC": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/woodcabinc.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/woodcabinc.png"
+    },	
     "WorldMap": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/worldmap.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/worldmap.jpg"

@@ -109,7 +109,7 @@
     </div>
 
     <script>
-        const version = '1.0.63';
+        const version = '1.0.64';
         const SERVER_URL = 'http://localhost:8080';
 
         // These are raw GitHub links (uncomment to use raw GitHub hosting).  Not sure about authentication requirements.
@@ -364,7 +364,8 @@
                 })
                 //.then(text => alert('Success: ' + text))
                 //.then(text => document.getElementById('status').textContent = `Teleport success: ${text}`)
-                .then(text => document.getElementById('status').textContent = `${Date().toLocaleString()}: ${text}`)
+                //.then(text => document.getElementById('status').textContent = `${Date().toLocaleString()}: ${text}`)
+                .then(text => document.getElementById('status').textContent = `${formatDateTime()}: ${text}`)
                 .catch(err => {
                     if (err.message.includes('Wrong region')) {
                         alert('Game scene has changed.  Let\'s refresh the map...');
@@ -589,10 +590,23 @@
             const stack = err.stack.split("\n")[2]; // Get the caller's stack line
             const functionName = stack.match(/at (\w+)/)[1]; // Extract the function name
             const lineNumber = stack.match(/:(\d+):/)[1]; // Extract the line number
-            const timestamp = new Date().toLocaleString(); // Get the current date/time in local format
+            //const timestamp = new Date().toLocaleString(); // Get the current date/time in local format
+            const timestamp = formatDateTime(); // Get the current date/time in local format
 
             console.log(`[${timestamp}: ${functionName}:${lineNumber}] ${message} `);
             //console.log(`[${ functionName }:${ lineNumber }] ${ message } `);
+        }
+
+        function formatDateTime(date = new Date()) {
+            return date.toLocaleString('en-US', {
+                year: 'numeric',
+                month: '2-digit',
+                day: '2-digit',
+                hour: '2-digit',
+                minute: '2-digit',
+                second: '2-digit',
+                hour12: false
+            }).replace(',', '');
         }
 
         // Optional: Refresh every 30 seconds

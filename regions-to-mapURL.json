@@ -131,6 +131,10 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/farmhouseb.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/farmhouseb.png"
     },
+    "FishingCabinD": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/fishingcabind.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/fishingcabind.png"
+    },	
     "GreyMothersHouseA": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/greymothershousea.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/greymothershousea.png"

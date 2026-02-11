@@ -223,10 +223,14 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/lakecabinf.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/lakecabinf.png"
     },	
-    "LakeRegion": {
+    "LightHouseA": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/lighthousea.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/lighthousea.png"
+    },
+	"LakeRegion": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/lakeregion_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/lakeregion_hard.jpg"
-    },	
+    },
     "LongRailTransitionZone": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/longrailtransitionzone_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/longrailtransitionzone_hard.jpg"

@@ -99,6 +99,10 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/churchb.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/churchb.png"
     },		
+    "CoastalHouseD": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/coastalhoused.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/coastalhoused.png"
+    },
     "CoastalHouseE": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/coastalhousee.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/coastalhousee.png"

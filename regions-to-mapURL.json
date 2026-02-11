@@ -179,6 +179,10 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/hushedrivervalleyicecaves.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/hushedrivervalleyicecaves.jpg"
     },
+    "LakeCabinB": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/lakecabinb.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/lakecabinb.png"
+    },
     "LakeCabinD": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/lakecabind.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/lakecabind.png"

@@ -211,6 +211,10 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/lakecabinb.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/lakecabinb.png"
     },
+    "LakeCabinC": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/lakecabinc.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/lakecabinc.png"
+    },
     "LakeCabinD": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/lakecabind.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/lakecabind.png"

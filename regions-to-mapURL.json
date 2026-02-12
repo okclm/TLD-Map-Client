@@ -435,7 +435,11 @@
     "TrailerD": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/trailerd.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/trailerd.png"
-    },	
+    },
+    "TrailerSShape": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/trailersshape.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/trailersshape.png"
+    },
     "WhalingShipA": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/whalingshipa.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/whalingshipa.png"

@@ -139,15 +139,19 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/damrivertransitionzoneb_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/damrivertransitionzoneb_hard.jpg"
     },
-    "DamRiverTransitionZoneB": {
-        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/damrivertransitionzoneb_easy.jpg",
-        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/damrivertransitionzoneb_hard.jpg"
-    },
     "DamCaveTransitionZone": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/damcavetransitionzone.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/damcavetransitionzone.png"
     },	
-    "DamTransitionZone": {
+    "DamRiverTransitionZoneB": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/damrivertransitionzoneb_easy.jpg",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/damrivertransitionzoneb_hard.jpg"
+    },
+    "DamTrailerB": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/damtrailerb.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/damtrailerb.png"
+    },
+	"DamTransitionZone": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/damrivertransitionzoneb_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/damrivertransitionzoneb_hard.jpg"
     },

@@ -163,6 +163,10 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/farmhousea.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/farmhousea.png"
     },
+    "FarmHouseABasement": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/farmhouseabasement.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/farmhouseabasement.png"
+    },
     "FarmHouseB": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/farmhouseb.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/farmhouseb.png"

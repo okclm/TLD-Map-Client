@@ -127,6 +127,10 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/coastalregion_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/coastalregion_hard.jpg"
     },
+    "CommunityHallA": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/communityhalla.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/communityhalla.png"
+    },
     "ConvenienceStoreA": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/conveniencestorea.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/conveniencestorea.png"

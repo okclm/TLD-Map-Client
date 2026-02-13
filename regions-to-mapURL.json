@@ -203,6 +203,10 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/housebasementc.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/housebasementc.png"
     },
+    "HouseBasementPV": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/housebasementpv.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/housebasementpv.png"
+    },
     "HubCave": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/hubcave.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/hubcave.jpg"

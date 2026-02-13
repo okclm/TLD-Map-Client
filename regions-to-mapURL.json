@@ -115,14 +115,18 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/coastalhoused.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/coastalhoused.png"
     },
+    "CoastalHouseE": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/coastalhousee.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/coastalhousee.png"
+    },
     "CoastalHouseF": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/coastalhousef.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/coastalhousef.png"
     },
-    "CoastalHouseE": {
-        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/coastalhousee.png",
-        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/coastalhousee.png"
-    },	
+    "CoastalHouseH": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/coastalhouseh.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/coastalhouseh.png"
+    },
     "CoastalRegion": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/coastalregion_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/coastalregion_hard.jpg"

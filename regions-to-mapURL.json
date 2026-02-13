@@ -27,6 +27,10 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/banka.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/banka.png"
     },
+    "BarnHouseA": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/barnhousea.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/barnhousea.png"
+    },
     "BlackrockMineA": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/blackrockminea.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/blackrockminea.png"

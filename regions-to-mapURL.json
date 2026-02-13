@@ -98,7 +98,11 @@
     "ChurchB": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/churchb.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/churchb.png"
-    },		
+    },
+    "ChurchC": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/churchc.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/churchc.png"
+    },
     "CoastalHouseA": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/coastalhousea.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/coastalhousea.png"

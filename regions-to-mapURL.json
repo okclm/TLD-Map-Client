@@ -520,6 +520,10 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/woodcabinb.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/woodcabinb.png"
     },
+    "WoodCabinA": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/woodcabina.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/woodcabina.png"
+    },
     "WoodCabinC": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/woodcabinc.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/woodcabinc.png"

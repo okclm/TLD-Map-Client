@@ -43,6 +43,10 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/barnhouseb.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/barnhouseb.png"
     },
+    "BlackrockInteriorASurvival": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/blackrockregion_easy.jpg",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/blackrockregion_hard.jpg"
+    },
     "BlackrockMineA": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/blackrockminea.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/blackrockminea.png"
@@ -51,10 +55,10 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/blackrockregion_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/blackrockregion_hard.jpg"
     },
-    "BlackrockInteriorASurvival": {
+    "BlackrockRegion": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/blackrockregion_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/blackrockregion_hard.jpg"
-    },
+    },	
     "BlackrockSteamTunnelsASurvival": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/blackrocksteamtunnelsasurvival.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/blackrocksteamtunnelsasurvival.png"

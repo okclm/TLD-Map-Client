@@ -95,18 +95,8 @@ Miner's Folly Cabin</desc>
 <title
    id="title4">Miner's Folly Cabin</title>
 </circle>
-<circle
-   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
-   id="circle5"
-   cx="1720.1702"
-   cy="1365.3853"
-   r="25">
-<desc
-   id="desc5">scene=AshCanyonRegion x=54.45 y=77.59 z=178.49
-Angler's Den</desc>
-<title
-   id="title5">Angler's Den</title>
-</circle>
+<circle style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931" id="path6" cx="1741.67" cy="1381.61" r="25"><desc id="desc1">scene=AshCanyonRegion x=57.79 y=72.57 z=179.13
+Angler's Den</desc><title id="title1">Angler's Den</title></circle>
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path5"

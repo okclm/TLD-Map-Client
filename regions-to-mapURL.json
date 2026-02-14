@@ -211,10 +211,6 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/fishingcabina.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/fishingcabina.png"
     },
-    "FishingCabinB": {
-        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/fishingcabinb.png",
-        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/fishingcabinb.png"
-    },
     "FishingCabinC": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/fishingcabinc.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/fishingcabinc.png"

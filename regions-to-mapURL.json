@@ -508,10 +508,14 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/whalingwarehousea.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/whalingwarehousea.png"
     },	
+    "WoodCabinB": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/woodcabinb.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/woodcabinb.png"
+    },
     "WoodCabinC": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/woodcabinc.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/woodcabinc.png"
-    },	
+    },
     "WorldMap": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/worldmap.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/worldmap.jpg"

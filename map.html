@@ -109,7 +109,7 @@
     </div>
 
     <script>
-        const version = '1.0.65';
+        const version = '1.0.66';
         const SERVER_URL = 'http://localhost:8080';
 
         // These are raw GitHub links (uncomment to use raw GitHub hosting).  Not sure about authentication requirements.
@@ -525,7 +525,7 @@
                     stopPolling();
                 }
             } else {
-                console.log("Document visible");
+                logMessage("Document visible");
                 if (pollingEnabled) {
                     startPolling();
                 }

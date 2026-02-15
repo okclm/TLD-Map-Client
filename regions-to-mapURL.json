@@ -10,6 +10,10 @@
     "AirfieldTrailerB": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/airfieldtrailerb.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/airfieldtrailerb.png"
+    },
+    "AirfieldWoodCabinA": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/airfieldwoodcabina.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/airfieldwoodcabina.png"
     },	
     "AshCabinD": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/ashcabind.png",

@@ -475,6 +475,10 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/radiocontrolhutb.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/radiocontrolhutb.png"
     },
+    "RadioControlHutC": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/radiocontrolhutc.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/radiocontrolhutc.png"
+    },
     "RavineTransitionZone": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/ravinetransitionzone_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/ravinetransitionzone_hard.jpg"

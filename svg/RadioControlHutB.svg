@@ -29,7 +29,7 @@
      inkscape:document-units="px"
      inkscape:zoom="0.55322266"
      inkscape:cx="1024"
-     inkscape:cy="1024"
+     inkscape:cy="1025.8076"
      inkscape:window-width="2560"
      inkscape:window-height="1377"
      inkscape:window-x="5112"
@@ -90,7 +90,7 @@
        inkscape:label="Legend Scene Label"><tspan
          x="25.154297"
          y="480.43164"
-         id="tspan1">Bleak Inlet</tspan></text><text
+         id="tspan1">Radio Control Hut B</tspan></text><text
        xml:space="preserve"
        id="text1-2"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:Consolas;-inkscape-font-specification:'Consolas, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1-3);display:inline;fill:#0000ff;stroke:none;stroke-width:2.13543;stroke-miterlimit:0;stroke-dashoffset:2.19931;stroke-opacity:1"
@@ -98,11 +98,15 @@
        inkscape:label="Legend Minor Title Label"><tspan
          x="25.154297"
          y="478.11781"
-         id="tspan2">Radio Control Hut B</tspan></text><image
+         id="tspan2">Echo One Radio Tower
+</tspan><tspan
+         x="25.154297"
+         y="494.78444"
+         id="tspan3">Bleak Inlet</tspan></text><image
        width="1820.9132"
-       height="1481.119"
+       height="1820.9132"
        preserveAspectRatio="xMidYMid"
-       xlink:href="../../../../../okclm2/Desktop/RadioControlHutB.png"
+       xlink:href="RadioControlHutB.png"
        id="image1"
        x="112.14656"
        y="29.097885"

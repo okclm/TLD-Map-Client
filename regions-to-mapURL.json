@@ -7,6 +7,10 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/airfieldregion_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/airfieldregion_hard.jpg"
     },
+    "AirfieldTrailerB": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/airfieldtrailerb.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/airfieldtrailerb.png"
+    },	
     "AshCabinD": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/ashcabind.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/ashcabind.png"

@@ -459,10 +459,14 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/preppercachefempty.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/preppercachefempty.png"
     },	
+    "PumpHouse": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/pumphouse.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/pumphouse.png"
+    },
     "QuonsetGasStation": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/quonsetgasstation.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/quonsetgasstation.png"
-    },	
+    },
     "RadarBuilding": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/radarbuilding.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/radarbuilding.png"

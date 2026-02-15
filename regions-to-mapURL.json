@@ -359,7 +359,11 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/miltontrailerb.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/miltontrailerb.png"
     },
-    "MiningRegionMine": {
+	"MineConcentratorBuilding": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/mineconcentratorbuilding.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/mineconcentratorbuilding.png"
+    },
+	"MiningRegionMine": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/miningregionmine.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/miningregionmine.jpg"
     },

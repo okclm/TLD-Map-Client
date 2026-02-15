@@ -456,6 +456,10 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/quonsetgasstation.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/quonsetgasstation.png"
     },	
+    "RadarBuilding": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/radarbuilding.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/radarbuilding.png"
+    },
     "RadioControlHut": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/radiocontrolhut.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/radiocontrolhut.png"

@@ -1,4 +1,8 @@
 {
+    "AFHangar": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/afhangar.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/afhangar.png"
+    },
     "AirfieldRegion": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/airfieldregion_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/airfieldregion_hard.jpg"

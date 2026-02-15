@@ -29,7 +29,7 @@
      inkscape:document-units="px"
      inkscape:zoom="0.55322266"
      inkscape:cx="1024"
-     inkscape:cy="1024"
+     inkscape:cy="1025.8076"
      inkscape:window-width="2560"
      inkscape:window-height="1377"
      inkscape:window-x="5112"
@@ -91,7 +91,7 @@
        inkscape:label="Legend Scene Label"><tspan
          x="25.154297"
          y="480.43164"
-         id="tspan1">Radar Building
+         id="tspan2">Radar Building
 </tspan></text><text
        xml:space="preserve"
        id="text1-2"
@@ -100,11 +100,11 @@
        inkscape:label="Legend Minor Title Label"><tspan
          x="25.154297"
          y="478.11781"
-         id="tspan2">Station Bunkhouse
+         id="tspan3">Station Bunkhouse
 </tspan><tspan
          x="25.154297"
          y="494.78444"
-         id="tspan3">Sundred Pass</tspan></text><image
+         id="tspan4">Sundered Pass</tspan></text><image
        width="2025.3536"
        height="1324.8369"
        preserveAspectRatio="none"

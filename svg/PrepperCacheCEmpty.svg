@@ -29,7 +29,7 @@
      inkscape:document-units="px"
      inkscape:zoom="0.55322266"
      inkscape:cx="1024"
-     inkscape:cy="1024"
+     inkscape:cy="1025.8076"
      inkscape:window-width="2560"
      inkscape:window-height="1377"
      inkscape:window-x="5112"
@@ -80,8 +80,8 @@
        preserveAspectRatio="none"
        xlink:href="../Mods/TLD-Map-Client/images/LegendExperienceMode.png"
        id="Experience_Mode_Label"
-       x="92.719978"
-       y="1808.9517"
+       x="74.644073"
+       y="1787.2606"
        inkscape:svg-dpi="96" /><text
        xml:space="preserve"
        id="text1"
@@ -90,7 +90,7 @@
        inkscape:label="Legend Scene Label"><tspan
          x="25.154297"
          y="480.43164"
-         id="tspan1">Pleasant Valley</tspan></text><text
+         id="tspan1">Prepper Cache C Empty</tspan></text><text
        xml:space="preserve"
        id="text1-2"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:Consolas;-inkscape-font-specification:'Consolas, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1-3);display:inline;fill:#0000ff;stroke:none;stroke-width:2.13543;stroke-miterlimit:0;stroke-dashoffset:2.19931;stroke-opacity:1"
@@ -98,11 +98,11 @@
        inkscape:label="Legend Minor Title Label"><tspan
          x="25.154297"
          y="478.11781"
-         id="tspan2">Prepper Cache C Empty</tspan></text><image
-       width="880.44458"
+         id="tspan2">Appears in multiple scenes</tspan></text><image
+       width="1475.7928"
        height="1475.7928"
        preserveAspectRatio="xMidYMid"
-       xlink:href="../../../../../okclm2/Desktop/PrepperCacheCEmpty.png"
+       xlink:href="PrepperCacheCEmpty.png"
        id="image1"
        x="551.34296"
        y="14.977921"

@@ -439,6 +439,10 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/preppercacheaempty.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/preppercacheaempty.png"
     },	
+    "PrepperCacheB": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/preppercacheb.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/preppercacheb.png"
+    },
     "PrepperCacheBEmpty": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/preppercachebempty.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/preppercachebempty.png"

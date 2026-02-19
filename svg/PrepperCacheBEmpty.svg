@@ -27,9 +27,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
-     inkscape:zoom="0.55322266"
+     inkscape:zoom="0.83349609"
      inkscape:cx="1024"
-     inkscape:cy="734.78553"
+     inkscape:cy="612.48037"
      inkscape:window-width="2560"
      inkscape:window-height="1377"
      inkscape:window-x="5112"
@@ -90,7 +90,7 @@
        inkscape:label="Legend Scene Label"><tspan
          x="25.154297"
          y="480.43164"
-         id="tspan1">Mystery Lake</tspan></text><text
+         id="tspan1">Prepper Cache B Empty</tspan></text><text
        xml:space="preserve"
        id="text1-2"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:Consolas;-inkscape-font-specification:'Consolas, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1-3);display:inline;fill:#0000ff;stroke:none;stroke-width:2.13543;stroke-miterlimit:0;stroke-dashoffset:2.19931;stroke-opacity:1"
@@ -98,11 +98,11 @@
        inkscape:label="Legend Minor Title Label"><tspan
          x="25.154297"
          y="478.11781"
-         id="tspan2">Prepper's Cache - Empty</tspan></text><image
+         id="tspan2">Appears in multiple scenes</tspan></text><image
        width="2017.4841"
-       height="609.95697"
+       height="1205.762"
        preserveAspectRatio="xMidYMid"
-       xlink:href="../../../../../okclm2/Desktop/PrepperCacheBEmpty.png"
+       xlink:href="PrepperCacheBEmpty.png"
        id="image1"
        x="14.488554"
        y="45.706959"

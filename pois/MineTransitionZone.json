@@ -115,5 +115,50 @@
     "svgX": 1158.025,
     "svgY": 1402.0088,
     "label": "Fenced in storage area"
+  },
+  {
+    "scene": "MineTransitionZone",
+    "x": -172.64,
+    "y": -54.46,
+    "z": 190.83,
+    "svgX": 434.27762,
+    "svgY": 375.1055,
+    "label": "Random loot, toolbox"
+  },
+  {
+    "scene": "MineTransitionZone",
+    "x": -227.16,
+    "y": -48.88,
+    "z": 202.03,
+    "svgX": 165.36377,
+    "svgY": 346.25867,
+    "label": "Random loot"
+  },
+  {
+    "scene": "MineTransitionZone",
+    "x": -126.2,
+    "y": -57.04,
+    "z": 169.9,
+    "svgX": 634.27612,
+    "svgY": 502.28964,
+    "label": "Random loot, supply bin, fire barrel"
+  },
+  {
+    "scene": "MineTransitionZone",
+    "x": -133.31,
+    "y": -57.02,
+    "z": 216.48,
+    "svgX": 614.92834,
+    "svgY": 284.35117,
+    "label": "Random loot, fire barrel, elevator"
+  },
+  {
+    "scene": "MineTransitionZone",
+    "x": -63.1,
+    "y": -49.76,
+    "z": 83.68,
+    "svgX": 933.83679,
+    "svgY": 896.54279,
+    "label": "Random loot"
   }
 ]

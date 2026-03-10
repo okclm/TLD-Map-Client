@@ -79,5 +79,14 @@
     "svgX": 781.42413,
     "svgY": 1128.2633,
     "label": "Random loot"
+  },
+  {
+    "scene": "RavineTransitionZone",
+    "x": -678.5,
+    "y": 19.29,
+    "z": -187.8,
+    "svgX": 887.95032,
+    "svgY": 1085.0211,
+    "label": "Ravine Basin train cart"
   }
 ]

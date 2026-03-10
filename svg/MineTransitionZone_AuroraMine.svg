@@ -25,8 +25,8 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      inkscape:zoom="0.5665"
-     inkscape:cx="1000"
-     inkscape:cy="858.78199"
+     inkscape:cx="998.23477"
+     inkscape:cy="1003.5305"
      inkscape:window-width="2560"
      inkscape:window-height="1377"
      inkscape:window-x="5112"
@@ -95,12 +95,49 @@ Coal spawn #1</desc>
    id="title4">Coal spawn #1</title>
 </circle>
 
-
-
-
-
-
-
-
-
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path5"
+   cx="822.63611"
+   cy="704.22522"
+   r="25"><desc
+     id="desc5">scene=MineTransitionZone_AuroraMine x=-172.64 y=-54.46 z=190.83
+Random loot, toolbox</desc><title
+     id="title5">Random loot, toolbox</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path6"
+   cx="314.95242"
+   cy="656.66425"
+   r="25"><desc
+     id="desc6">scene=MineTransitionZone_AuroraMine x=-227.16 y=-48.88 z=202.03
+Random loot</desc><title
+     id="title6">Random loot</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path7"
+   cx="1204.2745"
+   cy="950.8905"
+   r="25"><desc
+     id="desc7">scene=MineTransitionZone_AuroraMine x=-126.20 y=-57.04 z=169.90
+Random loot, supply bin, fire barrel</desc><title
+     id="title7">Random loot, supply bin, fire barrel</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path8"
+   cx="1156.3046"
+   cy="545.3476"
+   r="25"><desc
+     id="desc8">scene=MineTransitionZone_AuroraMine x=-133.31 y=-57.02 z=216.48
+Random loot, fire barrel, elevator</desc><title
+     id="title8">Random loot, fire barrel, elevator</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path9"
+   cx="1794.8143"
+   cy="1732.5619"
+   r="25"><desc
+     id="desc9">scene=MineTransitionZone_AuroraMine x=-63.10 y=-49.76 z=83.68
+Random loot</desc><title
+     id="title9">Random loot</title></circle>
 	   </g></svg>

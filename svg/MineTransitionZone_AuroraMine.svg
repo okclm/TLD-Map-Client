@@ -101,7 +101,7 @@ Coal spawn #1</desc>
    cx="822.63611"
    cy="704.22522"
    r="25"><desc
-     id="desc5">scene=MineTransitionZone_AuroraMine x=-172.64 y=-54.46 z=190.83
+     id="desc5">scene=MineTransitionZone x=-172.64 y=-54.46 z=190.83
 Random loot, toolbox</desc><title
      id="title5">Random loot, toolbox</title></circle>
 <circle
@@ -110,7 +110,7 @@ Random loot, toolbox</desc><title
    cx="314.95242"
    cy="656.66425"
    r="25"><desc
-     id="desc6">scene=MineTransitionZone_AuroraMine x=-227.16 y=-48.88 z=202.03
+     id="desc6">scene=MineTransitionZone x=-227.16 y=-48.88 z=202.03
 Random loot</desc><title
      id="title6">Random loot</title></circle>
 <circle
@@ -119,7 +119,7 @@ Random loot</desc><title
    cx="1204.2745"
    cy="950.8905"
    r="25"><desc
-     id="desc7">scene=MineTransitionZone_AuroraMine x=-126.20 y=-57.04 z=169.90
+     id="desc7">scene=MineTransitionZone x=-126.20 y=-57.04 z=169.90
 Random loot, supply bin, fire barrel</desc><title
      id="title7">Random loot, supply bin, fire barrel</title></circle>
 <circle
@@ -128,7 +128,7 @@ Random loot, supply bin, fire barrel</desc><title
    cx="1156.3046"
    cy="545.3476"
    r="25"><desc
-     id="desc8">scene=MineTransitionZone_AuroraMine x=-133.31 y=-57.02 z=216.48
+     id="desc8">scene=MineTransitionZone x=-133.31 y=-57.02 z=216.48
 Random loot, fire barrel, elevator</desc><title
      id="title8">Random loot, fire barrel, elevator</title></circle>
 <circle
@@ -137,7 +137,7 @@ Random loot, fire barrel, elevator</desc><title
    cx="1794.8143"
    cy="1732.5619"
    r="25"><desc
-     id="desc9">scene=MineTransitionZone_AuroraMine x=-63.10 y=-49.76 z=83.68
+     id="desc9">scene=MineTransitionZone x=-63.10 y=-49.76 z=83.68
 Random loot</desc><title
      id="title9">Random loot</title></circle>
 	   </g></svg>

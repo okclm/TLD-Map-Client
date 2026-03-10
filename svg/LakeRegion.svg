@@ -24,9 +24,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
-     inkscape:zoom="0.68916298"
-     inkscape:cx="2930.3663"
-     inkscape:cy="2508.115"
+     inkscape:zoom="0.689163"
+     inkscape:cx="1559.1377"
+     inkscape:cy="3831.4593"
      inkscape:window-width="2560"
      inkscape:window-height="1377"
      inkscape:window-x="5112"
@@ -161,7 +161,7 @@ Dave's Quiet Clearing</desc><title
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path11"
    cx="3074.9365"
-   cy="3489.4429"
+   cy="3487.9919"
    r="25"><desc
      id="desc12">scene=LakeRegion x=1307.39 y=16.71 z=288.67
 Ice Fishing Hut - Closest to Camp Office</desc><title
@@ -196,8 +196,8 @@ Hunter's Blind - Unnamed Pond</desc><title
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path15"
-   cx="3757.06"
-   cy="2405.02"
+   cx="3774.4724"
+   cy="2409.373"
    r="25"><desc
      id="desc16">scene=LakeRegion x=1637.87 y=19.98 z=834.36
 Hunter's Blind - Across from Alan's Cave</desc><title
@@ -228,5 +228,104 @@ Clearcut overlook</desc><title
    r="25"><desc
      id="desc19">scene=LakeRegion x=970.52 y=39.02 z=851.19
 Train Cart Derailment</desc><title
-     id="title19">Train Cart Derailment</title></circle>	 
+     id="title19">Train Cart Derailment</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path20"
+   cx="1135.3883"
+   cy="4196.0303"
+   r="25"><desc
+     id="desc20">scene=LakeRegion x=321.05 y=11.19 z=-45.02
+Max's last stand</desc><title
+     id="title20">Max's last stand</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path21"
+   cx="2978.22"
+   cy="1668.2379"
+   r="25"><desc
+     id="desc21">scene=LakeRegion x=1241.32 y=38.52 z=1181.83
+Train loading area train cart</desc><title
+     id="title21">Train loading area train cart</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path22"
+   cx="3002.2546"
+   cy="865.90271"
+   r="25"><desc
+     id="desc22">scene=LakeRegion x=1283.18 y=82.99 z=1577.26
+Random loot Northeast</desc><title
+     id="title22">Random loot Northeast</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path23"
+   cx="520.12372"
+   cy="1004.7832"
+   r="25"><desc
+     id="desc23">scene=LakeRegion x=36.23 y=147.11 z=1600.31
+Old Lookout Northwest</desc><title
+     id="title23">Old Lookout Northwest</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path24"
+   cx="1275.2555"
+   cy="810.39551"
+   r="25"><desc
+     id="desc24">scene=LakeRegion x=377.20 y=109.87 z=1621.61
+Random loot Northwest</desc><title
+     id="title24">Random loot Northwest</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path25"
+   cx="1615.23"
+   cy="3554.51"
+   r="25"><desc
+     id="desc25">scene=LakeRegion x=565.00 y=-1.57 z=266.62
+Deadfall destroyed cabin</desc><title
+     id="title25">Deadfall destroyed cabin</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path26"
+   cx="2420.8423"
+   cy="4521.7925"
+   r="25"><desc
+     id="desc26">scene=LakeRegion x=947.72 y=43.77 z=-240.85
+South cave near prepper cache</desc><title
+     id="title26">South cave near prepper cache</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path27"
+   cx="3615.2871"
+   cy="3227.8127"
+   r="25"><desc
+     id="desc27">scene=LakeRegion x=1579.55 y=16.81 z=423.10
+North ice fishing hut</desc><title
+     id="title27">North ice fishing hut</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path28"
+   cx="3842.665"
+   cy="3487.6016"
+   r="25"><desc
+     id="desc28">scene=LakeRegion x=1674.27 y=19.20 z=293.07
+East cabin</desc><title
+     id="title28">East cabin</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path29"
+   cx="3733.9836"
+   cy="3957.311"
+   r="25"><desc
+     id="desc29">scene=LakeRegion x=1615.34 y=18.15 z=65.99
+Southeast cabins (3)</desc><title
+     id="title29">Southeast cabins (3)</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path30"
+   cx="3481.0815"
+   cy="4151.3701"
+   r="25"><desc
+     id="desc30">scene=LakeRegion x=1469.97 y=19.68 z=-44.83
+South cabins (3)</desc><title
+     id="title30">South cabins (3)</title></circle>	 
 	   </g></svg>

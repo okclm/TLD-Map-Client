@@ -104,7 +104,7 @@
     "y": 16.71,
     "z": 288.67,
     "svgX": 3074.9365,
-    "svgY": 3489.4429,
+    "svgY": 3487.9919,
     "label": "Ice Fishing Hut - Closest to Camp Office"
   },
   {
@@ -139,8 +139,8 @@
     "x": 1637.87,
     "y": 19.98,
     "z": 834.36,
-    "svgX": 3757.06,
-    "svgY": 2405.02,
+    "svgX": 3774.4724,
+    "svgY": 2409.373,
     "label": "Hunter\u0027s Blind - Across from Alan\u0027s Cave"
   },
   {
@@ -169,5 +169,104 @@
     "svgX": 2381.1206,
     "svgY": 2386.6462,
     "label": "Train Cart Derailment"
+  },
+  {
+    "scene": "LakeRegion",
+    "x": 321.05,
+    "y": 11.19,
+    "z": -45.02,
+    "svgX": 1135.3883,
+    "svgY": 4196.0303,
+    "label": "Max\u0027s last stand"
+  },
+  {
+    "scene": "LakeRegion",
+    "x": 1241.32,
+    "y": 38.52,
+    "z": 1181.83,
+    "svgX": 2978.22,
+    "svgY": 1668.2379,
+    "label": "Train loading area train cart"
+  },
+  {
+    "scene": "LakeRegion",
+    "x": 1283.18,
+    "y": 82.99,
+    "z": 1577.26,
+    "svgX": 3002.2546,
+    "svgY": 865.90271,
+    "label": "Random loot Northeast"
+  },
+  {
+    "scene": "LakeRegion",
+    "x": 36.23,
+    "y": 147.11,
+    "z": 1600.31,
+    "svgX": 520.12372,
+    "svgY": 1004.7832,
+    "label": "Old Lookout Northwest"
+  },
+  {
+    "scene": "LakeRegion",
+    "x": 377.2,
+    "y": 109.87,
+    "z": 1621.61,
+    "svgX": 1275.2555,
+    "svgY": 810.39551,
+    "label": "Random loot Northwest"
+  },
+  {
+    "scene": "LakeRegion",
+    "x": 565,
+    "y": -1.57,
+    "z": 266.62,
+    "svgX": 1615.23,
+    "svgY": 3554.51,
+    "label": "Deadfall destroyed cabin"
+  },
+  {
+    "scene": "LakeRegion",
+    "x": 947.72,
+    "y": 43.77,
+    "z": -240.85,
+    "svgX": 2420.8423,
+    "svgY": 4521.7925,
+    "label": "South cave near prepper cache"
+  },
+  {
+    "scene": "LakeRegion",
+    "x": 1579.55,
+    "y": 16.81,
+    "z": 423.1,
+    "svgX": 3615.2871,
+    "svgY": 3227.8127,
+    "label": "North ice fishing hut"
+  },
+  {
+    "scene": "LakeRegion",
+    "x": 1674.27,
+    "y": 19.2,
+    "z": 293.07,
+    "svgX": 3842.665,
+    "svgY": 3487.6016,
+    "label": "East cabin"
+  },
+  {
+    "scene": "LakeRegion",
+    "x": 1615.34,
+    "y": 18.15,
+    "z": 65.99,
+    "svgX": 3733.9836,
+    "svgY": 3957.311,
+    "label": "Southeast cabins (3)"
+  },
+  {
+    "scene": "LakeRegion",
+    "x": 1469.97,
+    "y": 19.68,
+    "z": -44.83,
+    "svgX": 3481.0815,
+    "svgY": 4151.3701,
+    "label": "South cabins (3)"
   }
 ]

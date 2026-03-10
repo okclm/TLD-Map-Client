@@ -125,5 +125,14 @@ Random loot</desc><title
    r="25"><desc
      id="desc10">scene=RavineTransitionZone x=-678.50 y=19.29 z=-187.80
 Ravine Basin train cart</desc><title
-     id="title10">Ravine Basin train cart</title></circle>	 
+     id="title10">Ravine Basin train cart</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path11"
+   cx="180.93541"
+   cy="838.08203"
+   r="25"><desc
+     id="desc11">scene=RavineTransitionZone x=-1150.15 y=127.58 z=-7.79
+Random loot near waterfall</desc><title
+     id="title11">Random loot near waterfall</title></circle>	 
 		 </g></svg>

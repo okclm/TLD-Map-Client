@@ -9,7 +9,7 @@
    id="svg1"
    xml:space="preserve"
    inkscape:version="1.4 (86a8ad7, 2024-10-11)"
-   sodipodi:docname="coastalregion.svg"
+   sodipodi:docname="CoastalRegion.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -24,9 +24,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
-     inkscape:zoom="1.024491"
-     inkscape:cx="3272.3566"
-     inkscape:cy="1281.124"
+     inkscape:zoom="0.72442455"
+     inkscape:cx="1084.3089"
+     inkscape:cy="247.78288"
      inkscape:window-width="2560"
      inkscape:window-height="1377"
      inkscape:window-x="5112"
@@ -233,4 +233,85 @@ Exit cave to Pleasant Valley</desc><title
      id="desc21">scene=CoastalRegion x=688.93 y=34.36 z=-423.61
 Car at Commuter's Lament (memento)</desc><title
      id="title21">Car at Commuter's Lament (memento)</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="circle5"
+   cx="3775.7739"
+   cy="1498.7657"
+   r="25"><desc
+     id="desc5">scene=CoastalRegion x=1057.60 y=121.34 z=370.74
+Airplance crash</desc><title
+     id="title5">Airplance crash</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="circle8"
+   cx="1427.25"
+   cy="501.70"
+   r="25"><desc
+     id="desc8">scene=CoastalRegion x=-492.03 y=99.22 z=1104.80
+Cabin Northwest of the Tooth</desc><title
+     id="title8">Cabin Northwest of the Tooth</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="circle22"
+   cx="932.48352"
+   cy="629.75958"
+   r="25"><desc
+     id="desc22">scene=CoastalRegion x=-805.52 y=124.83 z=1015.59
+Trailer North of the Fishing Cabins</desc><title
+     id="title22">Trailer North of the Fishing Cabins</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path22"
+   cx="1796.1239"
+   cy="433.98755"
+   r="25"><desc
+     id="desc23">scene=CoastalRegion x=-233.63 y=120.85 z=1146.66
+Trailer Southwest of cave exit to PV</desc><title
+     id="title23">Trailer Southwest of cave exit to PV</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path23"
+   cx="2646.2507"
+   cy="588.88239"
+   r="25"><desc
+     id="desc24">scene=CoastalRegion x=337.77 y=86.47 z=1058.47
+Cabins South of the Lookout Tower</desc><title
+     id="title24">Cabins South of the Lookout Tower</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path24"
+   cx="3721.54"
+   cy="1142.66"
+   r="25"><desc
+     id="desc25">scene=CoastalRegion x=1030.45 y=98.30 z=687.31
+Silent Clearing</desc><title
+     id="title25">Silent Clearing</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path25"
+   cx="3411.20"
+   cy="801.02"
+   r="25"><desc
+     id="desc26">scene=CoastalRegion x=824.33 y=85.38 z=914.61
+Trailer near Northeast bear cave</desc><title
+     id="title26">Trailer near Northeast bear cave</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path26"
+   cx="1049.8724"
+   cy="249.15677"
+   r="25"><desc
+     id="desc27">scene=CoastalRegion x=-748.05 y=204.14 z=1264.60
+Trailer at Train Unloading</desc><title
+     id="title27">Trailer at Train Unloading</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path27"
+   cx="775.53918"
+   cy="1194.6906"
+   r="25"><desc
+     id="desc28">scene=CoastalRegion x=-922.09 y=70.94 z=661.10
+Cabin West of Fishing Cabins</desc><title
+     id="title28">Cabin West of Fishing Cabins</title></circle>
 </g></svg>

@@ -169,5 +169,86 @@
     "svgX": 3198.31,
     "svgY": 2793.38,
     "label": "Car at Commuter\u0027s Lament (memento)"
+  },
+  {
+    "scene": "CoastalRegion",
+    "x": 1057.6,
+    "y": 121.34,
+    "z": 370.74,
+    "svgX": 3775.7739,
+    "svgY": 1498.7657,
+    "label": "Airplance crash"
+  },
+  {
+    "scene": "CoastalRegion",
+    "x": -492.03,
+    "y": 99.22,
+    "z": 1104.8,
+    "svgX": 1427.25,
+    "svgY": 501.7,
+    "label": "Cabin Northwest of the Tooth"
+  },
+  {
+    "scene": "CoastalRegion",
+    "x": -805.52,
+    "y": 124.83,
+    "z": 1015.59,
+    "svgX": 932.48352,
+    "svgY": 629.75958,
+    "label": "Trailer North of the Fishing Cabins"
+  },
+  {
+    "scene": "CoastalRegion",
+    "x": -233.63,
+    "y": 120.85,
+    "z": 1146.66,
+    "svgX": 1796.1239,
+    "svgY": 433.98755,
+    "label": "Trailer Southwest of cave exit to PV"
+  },
+  {
+    "scene": "CoastalRegion",
+    "x": 337.77,
+    "y": 86.47,
+    "z": 1058.47,
+    "svgX": 2646.2507,
+    "svgY": 588.88239,
+    "label": "Cabins South of the Lookout Tower"
+  },
+  {
+    "scene": "CoastalRegion",
+    "x": 1030.45,
+    "y": 98.3,
+    "z": 687.31,
+    "svgX": 3721.54,
+    "svgY": 1142.66,
+    "label": "Silent Clearing"
+  },
+  {
+    "scene": "CoastalRegion",
+    "x": 824.33,
+    "y": 85.38,
+    "z": 914.61,
+    "svgX": 3411.2,
+    "svgY": 801.02,
+    "label": "Trailer near Northeast bear cave"
+  },
+  {
+    "scene": "CoastalRegion",
+    "x": -748.05,
+    "y": 204.14,
+    "z": 1264.6,
+    "svgX": 1049.8724,
+    "svgY": 249.15677,
+    "label": "Trailer at Train Unloading"
+  },
+  {
+    "scene": "CoastalRegion",
+    "x": -922.09,
+    "y": 70.94,
+    "z": 661.1,
+    "svgX": 775.53918,
+    "svgY": 1194.6906,
+    "label": "Cabin West of Fishing Cabins"
   }
 ]

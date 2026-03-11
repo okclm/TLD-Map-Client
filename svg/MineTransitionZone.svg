@@ -24,9 +24,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
-     inkscape:zoom="1.3021568"
-     inkscape:cx="676.18584"
-     inkscape:cy="463.46184"
+     inkscape:zoom="0.64928367"
+     inkscape:cx="1023.4356"
+     inkscape:cy="872.5"
      inkscape:window-width="2560"
      inkscape:window-height="1377"
      inkscape:window-x="5112"
@@ -226,4 +226,31 @@ Random loot, fire barrel, elevator</desc><title
      id="desc18">scene=MineTransitionZone x=-63.10 y=-49.76 z=83.68
 Random loot</desc><title
      id="title18">Random loot</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="circle19"
+   cx="921.76874"
+   cy="549.28888"
+   r="25"><desc
+     id="desc19">scene=MineTransitionZone x=-107.08 y=-75.08 z=222.11
+Elevator</desc><title
+     id="title19">Elevator</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="circle20"
+   cx="752.75879"
+   cy="532.74274"
+   r="25"><desc
+     id="desc20">scene=MineTransitionZone x=-107.45 y=-55.96 z=161.28
+Random loot, East of gate</desc><title
+     id="title20">Random loot, East of gate</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="circle21"
+   cx="513.83643"
+   cy="389.96979"
+   r="25"><desc
+     id="desc21">scene=MineTransitionZone x=-157.74 y=-56.72 z=188.88
+Random loot Southwest of elevator</desc><title
+     id="title21">Random loot Southwest of elevator</title></circle>
 	   </g></svg>

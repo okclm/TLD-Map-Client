@@ -160,5 +160,32 @@
     "svgX": 933.83679,
     "svgY": 896.54279,
     "label": "Random loot"
+  },
+  {
+    "scene": "MineTransitionZone",
+    "x": -107.08,
+    "y": -75.08,
+    "z": 222.11,
+    "svgX": 921.76874,
+    "svgY": 549.28888,
+    "label": "Elevator"
+  },
+  {
+    "scene": "MineTransitionZone",
+    "x": -107.45,
+    "y": -55.96,
+    "z": 161.28,
+    "svgX": 752.75879,
+    "svgY": 532.74274,
+    "label": "Random loot, East of gate"
+  },
+  {
+    "scene": "MineTransitionZone",
+    "x": -157.74,
+    "y": -56.72,
+    "z": 188.88,
+    "svgX": 513.83643,
+    "svgY": 389.96979,
+    "label": "Random loot Southwest of elevator"
   }
 ]

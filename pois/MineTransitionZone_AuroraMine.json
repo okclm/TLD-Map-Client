@@ -97,5 +97,14 @@
     "svgX": 985.93842,
     "svgY": 732.09802,
     "label": "Random loot Southwest of elevator"
+  },
+  {
+    "scene": "MineTransitionZone_AuroraMine",
+    "x": -107.08,
+    "y": -75.08,
+    "z": 222.11,
+    "svgX": 1770.8765,
+    "svgY": 1052.2723,
+    "label": "Elevator"
   }
 ]

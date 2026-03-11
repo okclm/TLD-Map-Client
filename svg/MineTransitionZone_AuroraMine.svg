@@ -158,4 +158,13 @@ Random loot, East of gate</desc><title
      id="desc11">scene=MineTransitionZone_AuroraMine x=-157.74 y=-56.72 z=188.88
 Random loot Southwest of elevator</desc><title
      id="title11">Random loot Southwest of elevator</title></circle>
+	 <circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="circle12"
+   cx="1770.8765"
+   cy="1052.2723"
+   r="25"><desc
+     id="desc12">scene=MineTransitionZone_AuroraMine x=-107.08 y=-75.08 z=222.11
+Elevator</desc><title
+     id="title12">Elevator</title></circle>
 	   </g></svg>

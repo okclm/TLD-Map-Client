@@ -1,6 +1,6 @@
 [
   {
-    "scene": "MineTransitionZone",
+    "scene": "MineTransitionZone_CHtoPV",
     "x": 42.61,
     "y": 0.99,
     "z": 73.9,
@@ -9,7 +9,7 @@
     "label": "Exit to Coastal Highway"
   },
   {
-    "scene": "MineTransitionZone",
+    "scene": "MineTransitionZone_CHtoPV",
     "x": -92.54,
     "y": -5.17,
     "z": -63.09,
@@ -18,7 +18,7 @@
     "label": "Exit to Pleasant Valley"
   },
   {
-    "scene": "MineTransitionZone",
+    "scene": "MineTransitionZone_CHtoPV",
     "x": -67.02,
     "y": -15.32,
     "z": -24,
@@ -27,7 +27,7 @@
     "label": "Atrium from tunnel wooden horseshoe platform South"
   },
   {
-    "scene": "MineTransitionZone",
+    "scene": "MineTransitionZone_CHtoPV",
     "x": -63.1,
     "y": -15.32,
     "z": -16.2,
@@ -36,7 +36,7 @@
     "label": "Atrium from tunnel"
   },
   {
-    "scene": "MineTransitionZone",
+    "scene": "MineTransitionZone_CHtoPV",
     "x": -31,
     "y": -20.46,
     "z": -9.83,
@@ -45,7 +45,7 @@
     "label": "Fence coal spawn"
   },
   {
-    "scene": "MineTransitionZone",
+    "scene": "MineTransitionZone_CHtoPV",
     "x": -40.95,
     "y": -16.21,
     "z": 28.72,
@@ -54,7 +54,7 @@
     "label": "Atrium workbench and lockers"
   },
   {
-    "scene": "MineTransitionZone",
+    "scene": "MineTransitionZone_CHtoPV",
     "x": -28.98,
     "y": -14.04,
     "z": 66.42,
@@ -63,7 +63,7 @@
     "label": "Wooden planks"
   },
   {
-    "scene": "MineTransitionZone",
+    "scene": "MineTransitionZone_CHtoPV",
     "x": 2.84,
     "y": -9.31,
     "z": 56.83,
@@ -72,7 +72,7 @@
     "label": "Deadend corpse and coal"
   },
   {
-    "scene": "MineTransitionZone",
+    "scene": "MineTransitionZone_CHtoPV",
     "x": -12.79,
     "y": -5.64,
     "z": 30.01,

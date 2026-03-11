@@ -1,6 +1,6 @@
 [
   {
-    "scene": "MineTransitionZone",
+    "scene": "MineTransitionZone_AuroraMine",
     "x": -119.13,
     "y": -80,
     "z": 281.42,
@@ -9,7 +9,7 @@
     "label": "Salt deposit"
   },
   {
-    "scene": "MineTransitionZone",
+    "scene": "MineTransitionZone_AuroraMine",
     "x": -144.39,
     "y": -80.92,
     "z": 327.06,
@@ -18,7 +18,7 @@
     "label": "Exit to Coastal Highway"
   },
   {
-    "scene": "MineTransitionZone",
+    "scene": "MineTransitionZone_AuroraMine",
     "x": -181.32,
     "y": -56.53,
     "z": 178.35,
@@ -27,7 +27,7 @@
     "label": "Coal spawn #2"
   },
   {
-    "scene": "MineTransitionZone",
+    "scene": "MineTransitionZone_AuroraMine",
     "x": -174.43,
     "y": -47.64,
     "z": 239.99,
@@ -36,7 +36,7 @@
     "label": "Coal spawn #1"
   },
   {
-    "scene": "MineTransitionZone",
+    "scene": "MineTransitionZone_AuroraMine",
     "x": -172.64,
     "y": -54.46,
     "z": 190.83,
@@ -45,16 +45,16 @@
     "label": "Random loot, toolbox"
   },
   {
-    "scene": "MineTransitionZone",
+    "scene": "MineTransitionZone_AuroraMine",
     "x": -227.16,
     "y": -48.88,
     "z": 202.03,
     "svgX": 314.95242,
     "svgY": 656.66425,
-    "label": "Random loot"
+    "label": "Random loot!"
   },
   {
-    "scene": "MineTransitionZone",
+    "scene": "MineTransitionZone_AuroraMine",
     "x": -126.2,
     "y": -57.04,
     "z": 169.9,
@@ -63,7 +63,7 @@
     "label": "Random loot, supply bin, fire barrel"
   },
   {
-    "scene": "MineTransitionZone",
+    "scene": "MineTransitionZone_AuroraMine",
     "x": -133.31,
     "y": -57.02,
     "z": 216.48,
@@ -72,7 +72,7 @@
     "label": "Random loot, fire barrel, elevator"
   },
   {
-    "scene": "MineTransitionZone",
+    "scene": "MineTransitionZone_AuroraMine",
     "x": -63.1,
     "y": -49.76,
     "z": 83.68,

@@ -46,10 +46,6 @@
    x="0"
    y="0"
    sodipodi:insensitive="true" />
-
-
-
-
 <circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path5"
@@ -57,7 +53,7 @@
    cy="227.91817"
    r="25">
 <desc
-   id="desc5">scene=MineTransitionZone x=42.61 y=0.99 z=73.90
+   id="desc5">scene=MineTransitionZone_CHtoPV x=42.61 y=0.99 z=73.90
 Exit to Coastal Highway</desc>
 <title
    id="title5">Exit to Coastal Highway</title>
@@ -69,7 +65,7 @@ Exit to Coastal Highway</desc>
    cy="522.67468"
    r="25">
 <desc
-   id="desc6">scene=MineTransitionZone x=-92.54 y=-5.17 z=-63.09
+   id="desc6">scene=MineTransitionZone_CHtoPV x=-92.54 y=-5.17 z=-63.09
 Exit to Pleasant Valley</desc>
 <title
    id="title6">Exit to Pleasant Valley</title>
@@ -80,7 +76,7 @@ Exit to Pleasant Valley</desc>
    cx="1014.9074"
    cy="540.92426"
    r="25"><desc
-     id="desc7">scene=MineTransitionZone x=-67.02 y=-15.32 z=-24.00
+     id="desc7">scene=MineTransitionZone_CHtoPV x=-67.02 y=-15.32 z=-24.00
 Atrium from tunnel wooden horseshoe platform South</desc><title
      id="title7">Atrium from tunnel wooden horseshoe platform South</title></circle>
 <circle
@@ -89,7 +85,7 @@ Atrium from tunnel wooden horseshoe platform South</desc><title
    cx="958.72479"
    cy="537.44446"
    r="25"><desc
-     id="desc8">scene=MineTransitionZone x=-63.10 y=-15.32 z=-16.20
+     id="desc8">scene=MineTransitionZone_CHtoPV x=-63.10 y=-15.32 z=-16.20
 Atrium from tunnel</desc><title
      id="title8">Atrium from tunnel</title></circle>
 <circle
@@ -98,7 +94,7 @@ Atrium from tunnel</desc><title
    cx="833.4577"
    cy="386.09738"
    r="25"><desc
-     id="desc9">scene=MineTransitionZone x=-31.00 y=-20.46 z=-9.83
+     id="desc9">scene=MineTransitionZone_CHtoPV x=-31.00 y=-20.46 z=-9.83
 Fence coal spawn</desc><title
      id="title9">Fence coal spawn</title></circle>
 <circle
@@ -107,7 +103,7 @@ Fence coal spawn</desc><title
    cx="643.88977"
    cy="532.70459"
    r="25"><desc
-     id="desc10">scene=MineTransitionZone x=-40.95 y=-16.21 z=28.72
+     id="desc10">scene=MineTransitionZone_CHtoPV x=-40.95 y=-16.21 z=28.72
 Atrium workbench and lockers</desc><title
      id="title10">Atrium workbench and lockers</title></circle>
 <circle
@@ -116,7 +112,7 @@ Atrium workbench and lockers</desc><title
    cx="389.28412"
    cy="625.09332"
    r="25"><desc
-     id="desc11">scene=MineTransitionZone x=-28.98 y=-14.04 z=66.42
+     id="desc11">scene=MineTransitionZone_CHtoPV x=-28.98 y=-14.04 z=66.42
 Wooden planks</desc><title
      id="title11">Wooden planks</title></circle>
 <circle
@@ -125,7 +121,7 @@ Wooden planks</desc><title
    cx="335.98697"
    cy="403.50174"
    r="25"><desc
-     id="desc12">scene=MineTransitionZone x=2.84 y=-9.31 z=56.83
+     id="desc12">scene=MineTransitionZone_CHtoPV x=2.84 y=-9.31 z=56.83
 Deadend corpse and coal</desc><title
      id="title12">Deadend corpse and coal</title></circle>
 <circle
@@ -134,7 +130,7 @@ Deadend corpse and coal</desc><title
    cx="541.99573"
    cy="400.96109"
    r="25"><desc
-     id="desc13">scene=MineTransitionZone x=-12.79 y=-5.64 z=30.01
+     id="desc13">scene=MineTransitionZone_CHtoPV x=-12.79 y=-5.64 z=30.01
 Fenced in storage area</desc><title
      id="title13">Fenced in storage area</title></circle>
 	   </g></svg>

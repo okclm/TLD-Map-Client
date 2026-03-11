@@ -51,7 +51,7 @@
     "z": 202.03,
     "svgX": 314.95242,
     "svgY": 656.66425,
-    "label": "Random loot!"
+    "label": "Random loot"
   },
   {
     "scene": "MineTransitionZone_AuroraMine",
@@ -79,5 +79,23 @@
     "svgX": 1794.8143,
     "svgY": 1732.5619,
     "label": "Random loot"
+  },
+  {
+    "scene": "MineTransitionZone_AuroraMine",
+    "x": -107.45,
+    "y": -55.96,
+    "z": 161.28,
+    "svgX": 1426.1687,
+    "svgY": 1009.6201,
+    "label": "Random loot, East of gate"
+  },
+  {
+    "scene": "MineTransitionZone_AuroraMine",
+    "x": -157.74,
+    "y": -56.72,
+    "z": 188.88,
+    "svgX": 985.93842,
+    "svgY": 732.09802,
+    "label": "Random loot Southwest of elevator"
   }
 ]

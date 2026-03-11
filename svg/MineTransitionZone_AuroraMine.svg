@@ -139,5 +139,23 @@ Random loot, fire barrel, elevator</desc><title
    r="25"><desc
      id="desc9">scene=MineTransitionZone_AuroraMine x=-63.10 y=-49.76 z=83.68
 Random loot</desc><title
-     id="title9">Random loot!</title></circle>
+     id="title9">Random loot</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="circle10"
+   cx="1426.1687"
+   cy="1009.6201"
+   r="25"><desc
+     id="desc10">scene=MineTransitionZone_AuroraMine x=-107.45 y=-55.96 z=161.28
+Random loot, East of gate</desc><title
+     id="title10">Random loot, East of gate</title></circle>
+<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path11"
+   cx="985.93842"
+   cy="732.09802"
+   r="25"><desc
+     id="desc11">scene=MineTransitionZone_AuroraMine x=-157.74 y=-56.72 z=188.88
+Random loot Southwest of elevator</desc><title
+     id="title11">Random loot Southwest of elevator</title></circle>
 	   </g></svg>

@@ -131,6 +131,10 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/canyonroadtransitionzone_easy.jpg",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/canyonroadtransitionzone_hard.jpg"
     },	
+    "CaveB": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/caveb.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/caveb.png"
+    },
     "CaveC": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/cavec.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/cavec.png"

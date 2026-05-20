@@ -115,5 +115,14 @@
     "svgX": 496.96771,
     "svgY": 671.12653,
     "label": "Coal West side on way to FA"
+  },
+  {
+    "scene": "HubCave",
+    "x": -133.55,
+    "y": -4.88,
+    "z": 199.18,
+    "svgX": 580.29388,
+    "svgY": 812.7193,
+    "label": "Halfway to FA.  Possible lantern, container, corpse, campfire"
   }
 ]

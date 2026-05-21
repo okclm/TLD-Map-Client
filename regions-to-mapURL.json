@@ -403,6 +403,10 @@
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/mountaincaveb.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/mountaincaveb.png"
     },	
+    "MountainPassBasement": {
+        "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/mountainpassbasement.png",
+        "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/mountainpassbasement.png"
+    },
     "MountainPassBuriedCabin": {
         "easy": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/mountainpassburiedcabin.png",
         "hard": "https://raw.githubusercontent.com/okclm/TLD-Map-Client/master/images/mountainpassburiedcabin.png"

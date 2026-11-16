@@ -14,30 +14,34 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
-     id="namedview1"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:document-units="px"
-     inkscape:zoom="0.96350209"
-     inkscape:cx="1446.2864"
-     inkscape:cy="1386.0894"
-     inkscape:window-width="2560"
-     inkscape:window-height="1377"
-     inkscape:window-x="5112"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="layer1"
-     showgrid="false" /><defs
-     id="defs1" /><g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1"><image
+   xmlns:svg="http://www.w3.org/2000/svg">
+	<sodipodi:namedview
+   id="namedview1"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:document-units="px"
+   inkscape:zoom="1.9133978"
+   inkscape:cx="1277.0476"
+   inkscape:cy="1813.7891"
+   inkscape:window-width="2560"
+   inkscape:window-height="1369"
+   inkscape:window-x="5112"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="layer1"
+   showgrid="false" />
+	<defs
+   id="defs1" />
+	<g
+   inkscape:label="Layer 1"
+   inkscape:groupmode="layer"
+   id="layer1">
+		<image
    width="3025"
    height="3326"
    preserveAspectRatio="xMidYMid"
@@ -46,226 +50,365 @@
    x="0"
    y="0"
    sodipodi:insensitive="true" />
-	   <circle
+		<circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path10"
    cx="2337.3875"
    cy="319.30847"
    r="25">
-<desc
+			<desc
    id="desc1">scene=RiverValleyRegion x=1493.18 y=202.91 z=1752.13
-Lake Cave (Monolith Lake)</desc>
-<title
+Lake Cave (Monolith Lake)			</desc>
+			<title
    id="title1">Lake Cave (Monolith Lake)</title>
-</circle>
-<circle
+		</circle>
+		<circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path1"
    cx="766.12396"
    cy="2608.8044"
    r="25">
-<desc
+			<desc
    id="desc2">scene=RiverValleyRegion x=463.81 y=235.21 z=229.74
-Cave to Mountain Town</desc>
-<title
+Cave to Mountain Town			</desc>
+			<title
    id="title2">Cave to Mountain Town</title>
-</circle>
-<circle
+		</circle>
+		<circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path8"
    cx="315.72906"
    cy="1844.2621"
    r="25">
-<desc
+			<desc
    id="desc3">scene=RiverValleyRegion x=174.20 y=127.54 z=730.38
-Bunker Gamma</desc>
-<title
+Bunker Gamma			</desc>
+			<title
    id="title3">Bunker Gamma</title>
-</circle>
-<circle
+		</circle>
+		<circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path11"
    cx="1416.9873"
    cy="2247.105"
    r="25">
-<desc
+			<desc
    id="desc4">scene=RiverValleyRegion x=889.20 y=223.94 z=462.72
-Ice Cave Entrance (S1)</desc>
-<title
+Ice Cave Entrance (S1)			</desc>
+			<title
    id="title4">Ice Cave Entrance (S1)</title>
-</circle>
-<circle
+		</circle>
+		<circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path16"
    cx="821.35657"
    cy="805.11652"
    r="25">
-<desc
+			<desc
    id="desc5">scene=RiverValleyRegion x=498.19 y=112.34 z=1410.37
-Ice Cave Entrance N2</desc>
-<title
+Ice Cave Entrance N2			</desc>
+			<title
    id="title5">Ice Cave Entrance N2</title>
-</circle>
-<circle
+		</circle>
+		<circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path2"
    cx="620.73505"
    cy="2395.7417"
-   r="25"><desc
-     id="desc6">scene=RiverValleyRegion x=365.52 y=237.61 z=375.14
-Prepper's Cache</desc><title
-     id="title6">Prepper's Cache</title></circle>
-<circle
+   r="25">
+			<desc
+   id="desc6">scene=RiverValleyRegion x=365.52 y=237.61 z=375.14
+Prepper's Cache			</desc>
+			<title
+   id="title6">Prepper's Cache</title>
+		</circle>
+		<circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path3"
    cx="923.65723"
    cy="1645.0365"
-   r="25"><desc
-     id="desc7">scene=RiverValleyRegion x=586.23 y=101.52 z=883.36
-Cave, center, scrub brush restricting entrance, wolves patroling outside</desc><title
-     id="title7">Cave, center, scrub brush restricting entrance, wolves patroling outside</title></circle>
-<circle
+   r="25">
+			<desc
+   id="desc7">scene=RiverValleyRegion x=586.23 y=101.52 z=883.36
+Cave, center, scrub brush restricting entrance, wolves patroling outside			</desc>
+			<title
+   id="title7">Cave, center, scrub brush restricting entrance, wolves patroling outside</title>
+		</circle>
+		<circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path4"
    cx="1878.5969"
    cy="1977.7059"
-   r="25"><desc
-     id="desc8">scene=RiverValleyRegion x=1151.34 y=212.84 z=632.17
-Cave, southeast, near southern mysterious signal fire</desc><title
-     id="title8">Cave, southeast, near southern mysterious signal fire</title></circle>
-<circle
+   r="25">
+			<desc
+   id="desc8">scene=RiverValleyRegion x=1151.34 y=212.84 z=632.17
+Cave, southeast, near southern mysterious signal fire			</desc>
+			<title
+   id="title8">Cave, southeast, near southern mysterious signal fire</title>
+		</circle>
+		<circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path5"
    cx="1725.8533"
    cy="1113.8365"
-   r="25"><desc
-     id="desc9">scene=RiverValleyRegion x=1144.29 y=25.14 z=1230.66
-Valley Cave</desc><title
-     id="title9">Valley Cave</title></circle>
-<circle
+   r="25">
+			<desc
+   id="desc9">scene=RiverValleyRegion x=1144.29 y=25.14 z=1230.66
+Valley Cave			</desc>
+			<title
+   id="title9">Valley Cave</title>
+		</circle>
+		<circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path6"
    cx="1947.0421"
    cy="1003.0286"
-   r="25"><desc
-     id="desc10">scene=RiverValleyRegion x=1246.20 y=229.63 z=1327.59
-Cave (Pensive Vista)</desc><title
-     id="title10">Cave (Pensive Vista)</title></circle>
-<circle
+   r="25">
+			<desc
+   id="desc10">scene=RiverValleyRegion x=1246.20 y=229.63 z=1327.59
+Cave (Pensive Vista)			</desc>
+			<title
+   id="title10">Cave (Pensive Vista)</title>
+		</circle>
+		<circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path7"
    cx="2259.9019"
    cy="934.61084"
-   r="25"><desc
-     id="desc11">scene=RiverValleyRegion x=1422.27 y=288.49 z=1301.71
-Peak Cave</desc><title
-     id="title11">Peak Cave</title></circle>
-<circle
+   r="25">
+			<desc
+   id="desc11">scene=RiverValleyRegion x=1422.27 y=288.49 z=1301.71
+Peak Cave			</desc>
+			<title
+   id="title11">Peak Cave</title>
+		</circle>
+		<circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path9"
    cx="676.69391"
    cy="2328.1868"
-   r="25"><desc
-     id="desc12">scene=RiverValleyRegion x=405.93 y=260.83 z=424.54
-Lonely Cave</desc><title
-     id="title12">Lonely Cave (Main base)</title></circle>
-<circle
+   r="25">
+			<desc
+   id="desc12">scene=RiverValleyRegion x=405.93 y=260.83 z=424.54
+Lonely Cave			</desc>
+			<title
+   id="title12">Lonely Cave (Main base)</title>
+		</circle>
+		<circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path12"
    cx="1399.9082"
    cy="1406.0963"
-   r="25"><desc
-     id="desc13">scene=RiverValleyRegion x=868.91 y=80.77 z=1021.75
-Ice Cave Entrance (S2)</desc><title
-     id="title13">Ice Cave Entrance (S2)</title></circle>
-<circle
+   r="25">
+			<desc
+   id="desc13">scene=RiverValleyRegion x=868.91 y=80.77 z=1021.75
+Ice Cave Entrance (S2)			</desc>
+			<title
+   id="title13">Ice Cave Entrance (S2)</title>
+		</circle>
+		<circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path13"
    cx="1395.90"
    cy="1022.45"
-   r="25"><desc
-     id="desc14">scene=RiverValleyRegion x=876.57 y=106.60 z=1276.98
-Ice Cave Entrance (S3)</desc><title
-     id="title14">Ice Cave Entrance (S3)</title></circle>
-<circle
+   r="25">
+			<desc
+   id="desc14">scene=RiverValleyRegion x=876.57 y=106.60 z=1276.98
+Ice Cave Entrance (S3)			</desc>
+			<title
+   id="title14">Ice Cave Entrance (S3)</title>
+		</circle>
+		<circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path14"
    cx="771.63446"
    cy="1438.3235"
-   r="25"><desc
-     id="desc15">scene=RiverValleyRegion x=461.96 y=76.77 z=1018.04
-Ice Cave Entrance N1</desc><title
-     id="title15">Ice Cave Entrance N1 (outside waterfall!)</title></circle>
-<circle
+   r="25">
+			<desc
+   id="desc15">scene=RiverValleyRegion x=461.96 y=76.77 z=1018.04
+Ice Cave Entrance N1			</desc>
+			<title
+   id="title15">Ice Cave Entrance N1 (outside waterfall!)</title>
+		</circle>
+		<circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="circle16"
    cx="1406.5333"
    cy="565.1355"
-   r="25"><desc
-     id="desc16">scene=RiverValleyRegion x=880.76 y=175.82 z=1571.93
-Ice Cave Entrance N3</desc><title
-     id="title16">Ice Cave Entrance N3</title></circle>
-<circle
+   r="25">
+			<desc
+   id="desc16">scene=RiverValleyRegion x=880.76 y=175.82 z=1571.93
+Ice Cave Entrance N3			</desc>
+			<title
+   id="title16">Ice Cave Entrance N3</title>
+		</circle>
+		<circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path17"
    cx="1848.4973"
    cy="1097.4833"
-   r="25"><desc
-     id="desc17">scene=RiverValleyRegion x=1168.13 y=226.69 z=1229.92
-Pensive Vista for charcoal drawing</desc><title
-     id="title17">Pensive Vista for charcoal drawing</title></circle>
-<circle
+   r="25">
+			<desc
+   id="desc17">scene=RiverValleyRegion x=1168.13 y=226.69 z=1229.92
+Pensive Vista for charcoal drawing			</desc>
+			<title
+   id="title17">Pensive Vista for charcoal drawing</title>
+		</circle>
+		<circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path18"
    cx="2043.1505"
    cy="1244.9349"
-   r="25"><desc
-     id="desc18">scene=RiverValleyRegion x=1301.70 y=88.10 z=1122.19
-At the top of the lower rope climb beneath Pensive Vista (memento)</desc><title
-     id="title18">At the top of the lower rope climb beneath Pensive Vista (memento)</title></circle>
-<circle
+   r="25">
+			<desc
+   id="desc18">scene=RiverValleyRegion x=1301.70 y=88.10 z=1122.19
+At the top of the lower rope climb beneath Pensive Vista (memento)			</desc>
+			<title
+   id="title18">At the top of the lower rope climb beneath Pensive Vista (memento)</title>
+		</circle>
+		<circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path19"
    cx="493.47345"
    cy="640.95789"
-   r="25"><desc
-     id="desc19">scene=RiverValleyRegion x=261.46 y=104.02 z=1538.74
-Northwest Cave, North of bear cave, coal</desc><title
-     id="title19">Northwest Cave, North of bear cave, coal</title></circle>
-<circle
+   r="25">
+			<desc
+   id="desc19">scene=RiverValleyRegion x=261.46 y=104.02 z=1538.74
+Northwest Cave, North of bear cave, coal			</desc>
+			<title
+   id="title19">Northwest Cave, North of bear cave, coal</title>
+		</circle>
+		<circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path20"
    cx="1113.0472"
    cy="373.34946"
-   r="25"><desc
-     id="desc20">scene=RiverValleyRegion x=675.69 y=119.28 z=1738.65
-Cave West of Mammoth Falls, possible prybar, guaranteed matches</desc><title
-     id="title20">Cave West of Mammoth Falls, possible prybar, guaranteed matches</title></circle>
-<circle
+   r="25">
+			<desc
+   id="desc20">scene=RiverValleyRegion x=675.69 y=119.28 z=1738.65
+Cave West of Mammoth Falls, possible prybar, guaranteed matches			</desc>
+			<title
+   id="title20">Cave West of Mammoth Falls, possible prybar, guaranteed matches</title>
+		</circle>
+		<circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path21"
    cx="1627.76"
    cy="2352.84"
-   r="25"><desc
-     id="desc21">scene=RiverValleyRegion x=1027.44 y=252.72 z=392.18
-Southeast corpse, campfire, cache, possible hatchet</desc><title
-     id="title21">Southeast corpse, campfire, cache, possible hatchet</title></circle>
-<circle
+   r="25">
+			<desc
+   id="desc21">scene=RiverValleyRegion x=1027.44 y=252.72 z=392.18
+Southeast corpse, campfire, cache, possible hatchet			</desc>
+			<title
+   id="title21">Southeast corpse, campfire, cache, possible hatchet</title>
+		</circle>
+		<circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path22"
    cx="1800.1918"
    cy="1791.5449"
-   r="25"><desc
-     id="desc22">scene=RiverValleyRegion x=1150.35 y=198.67 z=760.69
-Mystery Signal Fire South</desc><title
-     id="title22">Mystery Signal Fire South</title></circle>
-<circle
+   r="25">
+			<desc
+   id="desc22">scene=RiverValleyRegion x=1150.35 y=198.67 z=760.69
+Mystery Signal Fire South			</desc>
+			<title
+   id="title22">Mystery Signal Fire South</title>
+		</circle>
+		<circle
    style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
    id="path23"
    cx="1496.8224"
    cy="1013.8273"
-   r="25"><desc
-     id="desc23">scene=RiverValleyRegion x=953.96 y=193.34 z=1291.34
-Mystery Signal Fire North</desc><title
-     id="title23">Mystery Signal Fire North</title></circle>	 
-	 </g></svg>
+   r="25">
+			<desc
+   id="desc23">scene=RiverValleyRegion x=953.96 y=193.34 z=1291.34
+Mystery Signal Fire North			</desc>
+			<title
+   id="title23">Mystery Signal Fire North</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path24"
+   cx="1203.3052"
+   cy="1872.0973"
+   r="25">
+			<desc
+   id="desc24">scene=RiverValleyRegion x=755.19 y=104.23 z=749.05
+Possible hidden cache, behind scrub brushes, North of bear cave			</desc>
+			<title
+   id="title24">Possible hidden cache, behind scrub brushes, North of bear cave</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path25"
+   cx="1509.6548"
+   cy="1966.1022"
+   r="25">
+			<desc
+   id="desc25">scene=RiverValleyRegion x=958.10 y=148.74 z=636.58
+Backpack, campfire, possible revolver			</desc>
+			<title
+   id="title25">Backpack, campfire, possible revolver</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path26"
+   cx="1329.8458"
+   cy="1690.5505"
+   r="25">
+			<desc
+   id="desc26">scene=RiverValleyRegion x=836.87 y=100.30 z=831.28
+Possible human corpse, possible knife			</desc>
+			<title
+   id="title26">Possible human corpse, possible knife</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path27"
+   cx="1398.9833"
+   cy="1635.3126"
+   r="25">
+			<desc
+   id="desc27">scene=RiverValleyRegion x=882.60 y=77.65 z=866.58
+Possible human corpse, possible improvised hatchet, possible hidden cache			</desc>
+			<title
+   id="title27">Possible human corpse, possible improvised hatchet, possible hidden cache</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path28"
+   cx="2035.3748"
+   cy="1547.5839"
+   r="25">
+			<desc
+   id="desc28">scene=RiverValleyRegion x=1271.21 y=70.95 z=930.14
+Moose overlook human corpse, possible bow, possible backpack			</desc>
+			<title
+   id="title28">Moose overlook human corpse, possible bow, possible backpack</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path29"
+   cx="2668.6252"
+   cy="1411.7531"
+   r="25">
+			<desc
+   id="desc29">scene=RiverValleyRegion x=1717.92 y=19.06 z=1020.31
+Possible metal container, possible vista polaroid, firewood, just South of the landslide on the far East end			</desc>
+			<title
+   id="title29">Possible metal container, possible vista polaroid, firewood, just South of the landslide on the far East end</title>
+		</circle>
+		<circle
+   style="fill:#00ffff;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:0;stroke-dashoffset:2.19931"
+   id="path30"
+   cx="1140.3779"
+   cy="1053.3962"
+   r="25">
+			<desc
+   id="desc30">scene=RiverValleyRegion x=719.22 y=80.93 z=1273.85
+Hushed River Cave			</desc>
+			<title
+   id="title30">Hushed River Cave</title>
+		</circle>
+	</g>
+</svg>

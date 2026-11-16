@@ -205,5 +205,68 @@
     "svgX": 1496.8224,
     "svgY": 1013.8273,
     "label": "Mystery Signal Fire North"
+  },
+  {
+    "scene": "RiverValleyRegion",
+    "x": 755.19,
+    "y": 104.23,
+    "z": 749.05,
+    "svgX": 1203.3052,
+    "svgY": 1872.0973,
+    "label": "Possible hidden cache, behind scrub brushes, North of bear cave"
+  },
+  {
+    "scene": "RiverValleyRegion",
+    "x": 958.1,
+    "y": 148.74,
+    "z": 636.58,
+    "svgX": 1509.6548,
+    "svgY": 1966.1022,
+    "label": "Backpack, campfire, possible revolver"
+  },
+  {
+    "scene": "RiverValleyRegion",
+    "x": 836.87,
+    "y": 100.3,
+    "z": 831.28,
+    "svgX": 1329.8458,
+    "svgY": 1690.5505,
+    "label": "Possible human corpse, possible knife"
+  },
+  {
+    "scene": "RiverValleyRegion",
+    "x": 882.6,
+    "y": 77.65,
+    "z": 866.58,
+    "svgX": 1398.9833,
+    "svgY": 1635.3126,
+    "label": "Possible human corpse, possible improvised hatchet, possible hidden cache"
+  },
+  {
+    "scene": "RiverValleyRegion",
+    "x": 1271.21,
+    "y": 70.95,
+    "z": 930.14,
+    "svgX": 2035.3748,
+    "svgY": 1547.5839,
+    "label": "Moose overlook human corpse, possible bow, possible backpack"
+  },
+  {
+    "scene": "RiverValleyRegion",
+    "x": 1717.92,
+    "y": 19.06,
+    "z": 1020.31,
+    "svgX": 2668.6252,
+    "svgY": 1411.7531,
+    "label": "Possible metal container, possible vista polaroid, firewood, just South of the landslide on the far East end"
+  },
+  {
+    "scene": "RiverValleyRegion",
+    "x": 719.22,
+    "y": 80.93,
+    "z": 1273.85,
+    "svgX": 1140.3779,
+    "svgY": 1053.3962,
+    "label": "Hushed River Cave"
   }
 ]
